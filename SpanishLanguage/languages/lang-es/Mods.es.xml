@@ -1,62 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <mods Lang="es" Encoding="utf-8">
-  <mod Part="ModLacquered" TinkerCategory="utilidad" TinkerDisplayName="barnizado" Description="Barnizado: Este objeto no puede oxidarse." />
-  <mod Part="ModSturdy" TinkerCategory="utilidad" TinkerDisplayName="robusto" Description="Robusto: Este objeto no puede romperse." />
-  <mod Part="ModSlender" TinkerCategory="utilidad" TinkerDisplayName="delgado" Description="Delgado: Este objeto pesa menos de lo normal." />
-  <mod Part="ModWillowy" TinkerCategory="utilidad" TinkerDisplayName="alargado" Description="Alargado: Este objeto pesa mucho menos de lo normal." />
+  <mod Part="ModLacquered" TinkerCategory="utilidad" TinkerDisplayName="barnizado" Description="Barnizado: Este artículo no puede oxidarse." />
+  <mod Part="ModSturdy" TinkerCategory="utilidad" TinkerDisplayName="sólido" Description="Sólido: Este artículo no puede romperse." />
+  <mod Part="ModSlender" TinkerCategory="utilidad" TinkerDisplayName="delgado" Description="Delgado: Este artículo pesa menos de lo normal." />
+  <mod Part="ModWillowy" TinkerCategory="utilidad" TinkerDisplayName="esbelto" Description="Esbelto: Este artículo pesa mucho menos de lo normal." />
   <mod Part="ModSuspensor" TinkerCategory="utilidad" TinkerDisplayName="provisto de suspensores" />
-  <mod Part="ModJewelEncrusted" TinkerCategory="utilidad" TinkerDisplayName="incrustado de joyas" Description="Incrustado de Joyas: Este objeto es mucho más valioso que lo habitual y otorga +100 reputación al portador con los barones del agua." />
-  <mod Part="ModDrumLoaded" TinkerCategory="rifles" TinkerDisplayName="recargado en tambor" Description="Recargado en Tambor: Esta arma puede contener un 20% adicional de munición." />
-  <mod Part="ModScoped" TinkerCategory="rifles" TinkerDisplayName="ametralladora" Description="Ametralladora: Esta arma tiene una precisión aumentada." />
+  <mod Part="ModJewelEncrusted" TinkerCategory="utilidad" TinkerDisplayName="incrustado de joyas" Description="Joyel-engastado: Este artículo es mucho más valioso de lo habitual y otorga al portador +100 reputación con los barones del agua." />
+  <mod Part="ModDrumLoaded" TinkerCategory="rifles" TinkerDisplayName="cargado por tambor" Description="Cargado por tambor: Esta arma puede contener un 20% adicional de munición." />
+  <mod Part="ModScoped" TinkerCategory="rifles" TinkerDisplayName="con mira" Description="Con mira: Esta arma tiene mayor precisión." />
   <mod Part="ModLiquidCooled" TinkerCategory="rifles" TinkerDisplayName="enfriado con líquido" />
   <mod Part="ModBeamsplitter" TinkerCategory="rifles" TinkerDisplayName="provisto de un divisor de haz" />
-  <mod Part="ModNanon" TinkerCategory="rifles" TinkerDisplayName="nanón" />
-  <mod Part="ModSharp" TinkerCategory="armas cuerpo a cuerpo" TinkerDisplayName="afilado" Description="Afilado: +1 a los lanzamientos de penetración" />
-  <mod Part="ModMasterwork" TinkerCategory="armas cuerpo a cuerpo" TinkerDisplayName="maestro" Description="Maestro: Esta arma logra aciertos críticos el doble de seguido." />
-  <mod Part="ModDisplacer" TinkerCategory="armas cuerpo a cuerpo" TinkerDisplayName="desviador" />
+  <mod Part="ModNanon" TinkerCategory="rifles" TinkerDisplayName="nanon" />
+  <mod Part="ModSharp" TinkerCategory="armas cuerpo a cuerpo" TinkerDisplayName="afilado" Description="Afilado: +1 al lanzamiento de penetración" />
+  <mod Part="ModMasterwork" TinkerCategory="armas cuerpo a cuerpo" TinkerDisplayName="obra maestra" Description="Obra maestra: Esta arma alcanza aciertos críticos el doble de a menudo." />
+  <mod Part="ModDisplacer" TinkerCategory="armas cuerpo a cuerpo" TinkerDisplayName="desplazador" />
   <mod Part="ModMorphogenetic" TinkerCategory="armas cuerpo a cuerpo" TinkerDisplayName="morfogénico" />
-  <mod Part="ModSerrated" TinkerCategory="armas cuerpo a cuerpo" TinkerDisplayName="dentado" Description="Dentado: Esta arma tiene un 3% de probabilidad de desmembrar a los oponentes." />
+  <mod Part="ModSerrated" TinkerCategory="armas cuerpo a cuerpo" TinkerDisplayName="serrado" Description="Serrado: Esta arma tiene un 3% de probabilidad de desmembrar a los oponentes." />
   <mod Part="ModGigantic" TinkerCategory="utilidad" TinkerDisplayName="gigantesco" />
   <mod Part="ModElectrified" TinkerCategory="armas cuerpo a cuerpo" TinkerDisplayName="electrizado" />
   <mod Part="ModFreezing" TinkerCategory="armas cuerpo a cuerpo" TinkerDisplayName="congelante" />
-  <mod Part="ModFlaming" TinkerCategory="armas cuerpo a cuerpo" TinkerDisplayName="ardiendo" />
+  <mod Part="ModFlaming" TinkerCategory="armas cuerpo a cuerpo" TinkerDisplayName="incandescente" />
   <mod Part="ModCounterweighted" TinkerCategory="armas cuerpo a cuerpo" TinkerDisplayName="contrapesado" />
   <mod Part="ModReinforced" TinkerCategory="armadura" TinkerDisplayName="reforzado" Description="Reforzado: +1 AV" />
   <mod Part="ModFlexiweaved" TinkerCategory="armadura" TinkerDisplayName="tejido flexible" />
-  <mod Part="ModRecycling" TinkerCategory="armadura" TinkerDisplayName="reciclaje" Description="Reciclaje: Este objeto recolecta, purifica y almacena hasta 8 drams de las aguas residuales del portador." />
+  <mod Part="ModRecycling" TinkerCategory="armadura" TinkerDisplayName="reciclaje" Description="Reciclaje: Este artículo recolecta, purifica y almacena hasta 8 drams de las aguas residuales del portador." />
   <mod Part="ModDisguise" TinkerCategory="armadura" TinkerDisplayName="disfraz" />
-  <mod Part="ModVisored" TinkerCategory="armadura" TinkerDisplayName="con visera" Description="Con visera: +1 DV" />
-  <mod Part="ModPadded" TinkerCategory="armadura" TinkerDisplayName="acolchado" />
+  <mod Part="ModVisored" TinkerCategory="armadura" TinkerDisplayName="con visera" Description="Visera: +1 DV" />
+  <mod Part="ModPadded" TinkerCategory="armadura" TinkerDisplayName="relleno" />
   <mod Part="ModLanterned" TinkerCategory="armadura" TinkerDisplayName="con linterna" Description="Con linterna: Este objeto proporciona luz." />
-  <mod Part="ModFilters" TinkerCategory="armadura" TinkerDisplayName="provisto de filtros" />
-  <mod Part="ModTwoFaced" TinkerCategory="armadura" TinkerDisplayName="de doble faz" Description="Doble faz: Este objeto concede un segundo hueco para la cara." />
-  <mod Part="ModTerrifyingVisage" TinkerCategory="armadura" TinkerDisplayName="de aspecto terrorífico" Description="Aspecto terrorífico: Este objeto reduce en 10 turnos los tiempos de enfriamiento de Reñir, Intimidar y Mirada Amenazante. Además, ocupa tanto un hueco de cabeza como uno de cara." />
-  <mod Part="ModSereneVisage" TinkerCategory="armadura" TinkerDisplayName="de aspecto sereno" Description="Visaje sereno: +1 Voluntad y reduce el enfriamiento de Meditar en 40 rondas. Además, este objeto ocupa tanto un slot de cabeza como uno facial." />
+  <mod Part="ModFilters" TinkerCategory="armadura" TinkerDisplayName="equipado con filtros" />
+  <mod Part="ModTwoFaced" TinkerCategory="armadura" TinkerDisplayName="de dos caras" Description="Dos caras: Este objeto otorga un segundo slot para el rostro." />
+  <mod Part="ModTerrifyingVisage" TinkerCategory="armadura" TinkerDisplayName="de aspecto terrorífico" Description="Aspecto terrorífico: Este objeto reduce en 10 turnos los tiempos de recarga de Berate, Intimidar y Mirada amenazadora. Además, ocupa tanto un slot de cabeza como uno de rostro." />
+  <mod Part="ModSereneVisage" TinkerCategory="armadura" TinkerDisplayName="de serena faz" Description="Serena faz: +1 Voluntad y reduce el tiempo de enfriamiento de Meditar en 40 rondas. Además, este objeto ocupa tanto un slot de cabeza como uno de rostro." />
   <mod Part="ModCoProcessor" TinkerCategory="armadura" TinkerDisplayName="coprocesador" />
-  <mod Part="ModSpiked" TinkerCategory="armadura" TinkerDisplayName="espinado" />
+  <mod Part="ModSpiked" TinkerCategory="armadura" TinkerDisplayName="espicado" />
   <mod Part="ModRefractive" TinkerCategory="armadura" TinkerDisplayName="refractario" />
   <mod Part="ModSixFingered" TinkerCategory="armadura" TinkerDisplayName="de seis dedos" Description="De seis dedos: +1 Agilidad" />
-  <mod Part="ModGesticulating" TinkerCategory="armadura" TinkerDisplayName="gestułante" />
-  <mod Part="ModFeathered" TinkerCategory="armadura" TinkerDisplayName="plumado" Description="Plumado: Este objeto confiere al portador +250 reputación con las aves." />
-  <mod Part="ModScaled" TinkerCategory="armadura" TinkerDisplayName="escamado" Description="Escamado: Este objeto confiere al portador +250 reputación con los reptiles desprovistos de concha." />
-  <mod Part="ModWooly" TinkerCategory="armadura" TinkerDisplayName="lanudo" Description="Lanoso: Este artículo otorga resistencia al calor y al frío." />
-  <mod Part="ModSnailEncrusted" TinkerCategory="armadura" TinkerDisplayName="encrustado de caracoles" Description="Escamado: Este artículo otorga al portador +250 reputación con moluscos." />
-  <mod Part="ModSpringLoaded" TinkerCategory="armadura" TinkerDisplayName="accionado por muelle" Description="Accionado por muelle: +5-10 velocidad de movimiento" />
-  <mod Part="ModCleated" TinkerCategory="armadura" TinkerDisplayName="provisto de calzadores" />
+  <mod Part="ModGesticulating" TinkerCategory="armadura" TinkerDisplayName="gestuante" />
+  <mod Part="ModFeathered" TinkerCategory="armadura" TinkerDisplayName="plumoso" Description="Plumoso: Este objeto otorga al portador +250 reputación con aves." />
+  <mod Part="ModScaled" TinkerCategory="armadura" TinkerDisplayName="escamado" Description="Escamado: Este objeto otorga al portador +250 reputación con reptiles no descaparzados." />
+  <mod Part="ModWooly" TinkerCategory="armadura" TinkerDisplayName="lanudo" Description="Lanudo: Este objeto otorga resistencia al calor y al frío." />
+  <mod Part="ModSnailEncrusted" TinkerCategory="armadura" TinkerDisplayName="cubierto de caracoles" Description="Escamado: Este objeto otorga al portador +250 reputación con moluscos." />
+  <mod Part="ModSpringLoaded" TinkerCategory="armadura" TinkerDisplayName="de muelle" Description="De muelle: +5-10 velocidad de movimiento" />
+  <mod Part="ModCleated" TinkerCategory="armadura" TinkerDisplayName="provisto de garras" />
   <mod Part="ModPolarized" TinkerCategory="armadura" TinkerDisplayName="polarizado" />
   <mod Part="ModNav" TinkerCategory="armadura" TinkerDisplayName="navegación" />
-  <mod Part="ModNulling" TinkerCategory="utilidad" TinkerDisplayName="anulando" />
+  <mod Part="ModNulling" TinkerCategory="utilidad" TinkerDisplayName="anulación" />
   <mod Part="ModHighCapacity" TinkerCategory="munición y células de energía" TinkerDisplayName="de alta capacidad" />
-  <mod Part="ModMetered" TinkerCategory="munición y células de energía" TinkerDisplayName="dosificado" />
+  <mod Part="ModMetered" TinkerCategory="munición y células de energía" TinkerDisplayName="medido" />
   <mod Part="ModRadioPowered" TinkerCategory="munición y células de energía" TinkerDisplayName="alimentado por radio" />
-  <mod Part="ModIlluminated" TinkerCategory="utilidad" TinkerDisplayName="iluminado" Description="Iluminado: Este libro está adornado con marginalia decorativa e ilustraciones. Tiene un 30% más de valor." />
+  <mod Part="ModIlluminated" TinkerCategory="utilidad" TinkerDisplayName="iluminado" Description="Iluminado: Este libro está adornado con marginalia decorativa e ilustraciones. Tiene un valor un 30% mayor." />
   <mod Part="ModExtradimensional" TinkerCategory="utilidad" TinkerDisplayName="extradimensional" Description="Extradimensional: Este objeto ha materializado recientemente, heredando algunas propiedades de su dimensión de origen." />
   <mod Part="ModAirfoil" TinkerCategory="granadas" TinkerDisplayName="ala aerodinámica" />
   <mod Part="ModPhaseConjugate" TinkerCategory="granadas" TinkerDisplayName="conjugado en fase" />
   <mod Part="ModHardened" TinkerCategory="utilidad" TinkerDisplayName="electromagnéticamente blindado" />
-  <mod Part="ModJacked" TinkerCategory="utilidad" TinkerDisplayName="conectado (en el sentido de hackeado o vinculado)" />
+  <mod Part="ModJacked" TinkerCategory="utilidad" TinkerDisplayName="jodido" />
   <mod Part="ModOverloaded" TinkerCategory="utilidad" TinkerDisplayName="sobrecargado" />
   <mod Part="ModPhaseHarmonic" TinkerCategory="utilidad" TinkerDisplayName="armónico en fase" />
   <mod Part="ModEngraved" TinkerCategory="utilidad" TinkerDisplayName="grabado" Description="Grabado: Este objeto está grabado con una representación de un acontecimiento histórico." />
-  <mod Part="ModPainted" TinkerCategory="utilidad" TinkerDisplayName="pintado" Description="Pintado: Este objeto está pintado con una representación de un acontecimiento histórico." />
+  <mod Part="ModPainted" TinkerCategory="utilidad" TinkerDisplayName="pintado" Description="Pintado: Este artículo está pintado con una representación de un acontecimiento histórico." />
 </mods>

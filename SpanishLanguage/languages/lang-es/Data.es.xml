@@ -2,126 +2,126 @@
 <objects Lang="es" Encoding="utf-8">
   <object Name="BaseUnknown" Load="Merge">
     <part Name="Render" DisplayName="artefacto extraño" />
-    <part Name="Description" Short="El polvo se posa sobre el dispositivo enigmático." />
+    <part Name="Description" Short="El polvo pule el dispositivo enigmático." />
   </object>
   <object Name="UnknownGigantic" Load="Merge">
-    <part Name="Description" Short="El polvo se posa sobre el dispositivo gigantesco." />
-    <part Name="SizeAdjective" Adjective="gigantesco" />
+    <part Name="Description" Short="El polvo recubre el dispositivo gigantesco." />
+    <part Name="SizeAdjective" Adjective="colosal" />
   </object>
   <object Name="UnknownOddTrinket" Load="Merge">
-    <part Name="Render" DisplayName="objeto raro" />
-    <part Name="Description" Short="La luz resplandece en el borde de un pequeño curiosidad." />
+    <part Name="Render" DisplayName="extraño adorno" />
+    <part Name="Description" Short="La luz resplandece sobre el borde de un pequeño objeto curioso." />
   </object>
   <object Name="UnknownStrangeTubes" Load="Merge">
     <part Name="Render" DisplayName="tubos extraños" />
-    <part Name="Description" Short="Tubos de propósito desconocido se extienden en uniones soldadas." />
+    <part Name="Description" Short="Tubos de propósito desconocido se ramifican en uniones soldadas." />
   </object>
   <object Name="UnknownStrangeFurniture" Load="Merge">
-    <part Name="Render" DisplayName="mobiliario singular" />
-    <part Name="Description" Short="Un objeto para sentarse, con intención vacía, recoge polvo y destellos apagados." />
+    <part Name="Render" DisplayName="mobiliario extraño" />
+    <part Name="Description" Short="Un objeto para sentarse, vacío de intención, recoge el polvo y la luz difusa." />
     <xtagGrammar adjunctNoun="ejemplo" massNoun="verdadero" />
   </object>
   <object Name="UnknownBizarreContraption" Load="Merge">
-    <part Name="Render" DisplayName="artefacto extraño y singular" />
-    <part Name="Description" Short="Manubrios y remaches se cruzan en la máquina inescrutable." />
+    <part Name="Render" DisplayName="máquina extraña" />
+    <part Name="Description" Short="Manillas y remaches se cruzan sobre la máquina incomprensible." />
   </object>
   <object Name="UnknownMed" Load="Merge">
     <part Name="Render" DisplayName="tubo" />
-    <part Name="Description" Short="Una sustancia peculiar llena un canal de vidrio." />
+    <part Name="Description" Short="Una sustancia extraña llena un canal de vidrio." />
     <part Name="SizeAdjective" Adjective="pequeño" />
   </object>
   <object Name="UnknownStrangeMeat" Load="Merge">
-    <part Name="Render" DisplayName="pedazo de carne insólito" />
+    <part Name="Render" DisplayName="pieza extraña de carne" />
     <part Name="Description" Short="Un órgano desconocido balbucea con la desesperación de la vida." />
   </object>
   <object Name="UnknownStrangePlant" Load="Merge">
     <part Name="Render" DisplayName="planta extraña" />
-    <part Name="Description" Short="Un conocido tentáculo verde se enrolla en círculos de vainas de hojas." />
+    <part Name="Description" Short="Un tentáculo ajeno de verde en vaina foliada se enrosca a sí mismo." />
   </object>
   <object Name="UnknownPistol" Load="Merge">
     <part Name="Render" DisplayName="pistola" />
-    <part Name="Description" Short="Manchas cruzan el corto cañón de una arma desconocida." />
+    <part Name="Description" Short="Manchas cruzan el corto cañón de una arma no identificada." />
   </object>
   <object Name="UnknownRifle" Load="Merge">
-    <part Name="Render" DisplayName="fusil" />
-    <part Name="Description" Short="Manchas cruzan el largo cañón de una arma desconocida." />
+    <part Name="Render" DisplayName="rifle" />
+    <part Name="Description" Short="Manchas cruzan el largo cañón de una arma no identificada." />
   </object>
   <object Name="UnknownCannon" Load="Merge">
     <part Name="Render" DisplayName="cañón" />
-    <part Name="Description" Short="La marca de humo oscurece la mira de hierro y se extiende por el canal principal de la gran arma." />
+    <part Name="Description" Short="El Smokescar oscurece la mira de hierro y se extiende por el canal principal del gran arma." />
   </object>
   <object Name="UnknownBow" Load="Merge">
     <part Name="Render" DisplayName="arco" />
-    <part Name="Description" Short="Un hilo estirado conecta los extremos de una cuerda de un arco desconocido." />
+    <part Name="Description" Short="Un alambre estirado conecta los nudos de un arco indeterminado." />
   </object>
   <object Name="UnknownGrenade" Load="Merge">
     <part Name="Render" DisplayName="granada" />
-    <part Name="Description" Short="Una cápsula de explosivo está envainada en metal indescifrable." />
+    <part Name="Description" Short="Una cápsula de explosión está envainada en metal indecifrado." />
   </object>
   <object Name="UnknownClub" Load="Merge">
     <part Name="Render" DisplayName="mazo" />
-    <part Name="Description" Short="Un trozo de material fusionado hace un bastón que golpea." />
+    <part Name="Description" Short="Un trozo de material fundido forma un bastón que golpea con fuerza." />
   </object>
   <object Name="UnknownKnife" Load="Merge">
     <part Name="Render" DisplayName="cuchillo" />
-    <part Name="Description" Short="Una afilada hoja coronaba una empuñadura extraña." />
+    <part Name="Description" Short="Una afilada punta coronan un mango extraño." />
   </object>
   <object Name="UnknownSword" Load="Merge">
     <part Name="Render" DisplayName="espada" />
-    <part Name="Description" Short="Una hoja de considerable longitud atraviesa una empuñadura extraña." />
+    <part Name="Description" Short="Una hoja de considerable longitud atraviesa un mango extraño." />
   </object>
   <object Name="UnknownAxe" Load="Merge">
     <part Name="Render" DisplayName="hacha" />
-    <part Name="Description" Short="Una hoja con filo cuelga sobre un mango manchado por dedos." />
+    <part Name="Description" Short="Un filo afilado cuelga sobre un mangual manchado por los dedos." />
   </object>
   <object Name="UnknownShield" Load="Merge">
     <part Name="Render" DisplayName="escudo" />
-    <part Name="Description" Short="Una pantalla curva de material de superficie bang-hard es sostenida por un agarre soldado." />
+    <part Name="Description" Short="Una pantalla curva hecha de material de superficie bang-dura es empuñada por un agarre soldado." />
   </object>
   <object Name="UnknownArmor" Load="Merge">
     <part Name="Render" DisplayName="armadura" />
-    <part Name="Description" Short="Un coraza moldeada de origen desconocido protege la buena parte de un cuerpo." />
+    <part Name="Description" Short="Un corazas moldeado de origen desconocido protege la parte buena de un cuerpo." />
     <xtagGrammar massNoun="verdadero" />
   </object>
   <object Name="UnknownHelmet" Load="Merge">
     <part Name="Render" DisplayName="yelmo" />
-    <part Name="Description" Short="Se fabricó una pieza para la cabeza con propósito desconocido." />
+    <part Name="Description" Short="Una prenda para la cabeza fue forjada con propósito desconocido." />
   </object>
   <object Name="UnknownMask" Load="Merge">
     <part Name="Render" DisplayName="máscara" />
-    <part Name="Description" Short="Una cara falsa fue moldeada y cosida con intención desconocida." />
+    <part Name="Description" Short="Una cara falsa fue moldeada con intención desconocida y cosida con fines no revelados." />
   </object>
   <object Name="UnknownGoggles" Load="Merge">
     <part Name="Render" DisplayName="gafas" />
-    <part Name="Description" Short="Se sostienen con correa los seeres redondos." />
+    <part Name="Description" Short="Los adivinos redondos se sostienen mediante una correa." />
     <xtagGrammar adjunctNoun="par" />
   </object>
   <object Name="UnknownGloves" Load="Merge">
     <part Name="Render" DisplayName="guantes" />
-    <part Name="Description" Short="Extrañas mangas se ajustarán a la mayoría de muñecas y dedos." />
+    <part Name="Description" Short="Guantes extraños se ajustarán a la mayoría de muñecas y dedos." />
     <xtagGrammar adjunctNoun="par" />
   </object>
   <object Name="UnknownJewelry" Load="Merge">
     <part Name="Render" DisplayName="joyas" />
-    <part Name="Description" Short="Un torc redondeado brilla para ojos no deseados." />
+    <part Name="Description" Short="Un torc redondo resplandece para ojos no deseados." />
     <xtagGrammar adjunctNoun="pieza" />
   </object>
   <object Name="UnknownCloak" Load="Merge">
     <part Name="Render" DisplayName="capa" />
-    <part Name="Description" Short="Una tela de algún tipo fue cosida a un extremo desconocido." />
+    <part Name="Description" Short="Un tejido de algún tipo fue cosido a un extremo desconocido." />
   </object>
   <object Name="UnknownBackpack" Load="Merge">
     <part Name="Render" DisplayName="mochila" />
-    <part Name="Description" Short="Una bolsa ceñida fue cosida para el porte de algo." />
+    <part Name="Description" Short="Una bolsa sujeta fue cosida para transportar algo." />
   </object>
   <object Name="UnknownBoots" Load="Merge">
     <part Name="Render" DisplayName="botas" />
-    <part Name="Description" Short="Manchas de uso prolongado cruzan la superficie del calzado." />
+    <part Name="Description" Short="Marcas de uso prolongado cruzan la superficie del calzado." />
     <xtagGrammar adjunctNoun="par" />
   </object>
   <object Name="UnknownBottle" Load="Merge">
     <part Name="Render" DisplayName="botella" />
-    <part Name="Description" Short="Es un recipiente de fabricación bien hecha y singular." />
+    <part Name="Description" Short="Es un recipiente de fabricación bien hecha y extraordinaria." />
   </object>
   <object Name="UnknownDataDisk" Load="Merge">
     <part Name="Render" DisplayName="disco de datos" />
@@ -129,7 +129,7 @@
   </object>
   <object Name="UnknownTool" Load="Merge">
     <part Name="Render" DisplayName="herramienta" />
-    <part Name="Description" Short="La colección de partes extrañas se suma en conjunto como una especie de herramienta." />
+    <part Name="Description" Short="El conjunto de piezas extrañas se suman como si fueran una especie de herramienta." />
   </object>
   <object Name="UnknownEmptyMed" Load="Merge">
     <part Name="Render" DisplayName="tubo" />
@@ -148,16 +148,16 @@
     <part Name="Render" DisplayName="{{C|turquesa}} tubería" />
   </object>
   <object Name="UnknownSmallCobaltTube" Load="Merge">
-    <part Name="Render" DisplayName="{{b|azul cobalto}} tubería" />
+    <part Name="Render" DisplayName="{{b|cobalto}} tubería" />
   </object>
   <object Name="UnknownSmallMossyTube" Load="Merge">
     <part Name="Render" DisplayName="{{g|musgosa}} tubería" />
   </object>
   <object Name="UnknownSmallGoldFleckedTube" Load="Merge">
-    <part Name="Render" DisplayName="{{W|dorada en manchas}} tubería" />
+    <part Name="Render" DisplayName="{{W|punteada de oro}} tubería" />
   </object>
   <object Name="UnknownSmallMuddyTube" Load="Merge">
-    <part Name="Render" DisplayName="{{w|barrosa}} tubería" />
+    <part Name="Render" DisplayName="tubo {{w|mudoso}}" />
   </object>
   <object Name="UnknownSmallVioletTube" Load="Merge">
     <part Name="Render" DisplayName="tubo {{m|violeta}}" />
@@ -187,28 +187,28 @@
     <tag Name="Description" Value="basado en planta poderosa" />
   </object>
   <object Name="ProceduralCookingIngredient_electric" Load="Merge">
-    <tag Name="Description" Value="basado en electricidad" />
+    <tag Name="Description" Value="basado en eléctrico" />
   </object>
   <object Name="ProceduralCookingIngredient_cold" Load="Merge">
-    <tag Name="Description" Value="basado en el frío" />
+    <tag Name="Description" Value="basado en frío" />
   </object>
   <object Name="ProceduralCookingIngredient_heat" Load="Merge">
-    <tag Name="Description" Value="basado en el calor y el fuego" />
+    <tag Name="Description" Value="basado en calor y fuego" />
   </object>
   <object Name="ProceduralCookingIngredient_love" Load="Merge">
-    <tag Name="Description" Value="basado en el amor y la lealtad" />
+    <tag Name="Description" Value="basado en amor y lealtad" />
   </object>
   <object Name="ProceduralCookingIngredient_teleport" Load="Merge">
-    <tag Name="Description" Value="basado en el teletransporte" />
+    <tag Name="Description" Value="basado en teleportación" />
   </object>
   <object Name="ProceduralCookingIngredient_regenLowtier" Load="Merge">
-    <tag Name="Description" Value="basado en la regeneración y la curación" />
+    <tag Name="Description" Value="basado en regeneración y sanación" />
   </object>
   <object Name="ProceduralCookingIngredient_regenHightier" Load="Merge">
-    <tag Name="Description" Value="basado en una poderosa regeneración y curación" />
+    <tag Name="Description" Value="basado en poderosa regeneración y sanación" />
   </object>
   <object Name="ProceduralCookingIngredient_medicinal" Load="Merge">
-    <tag Name="Description" Value="basado en la prevención y cura de enfermedades" />
+    <tag Name="Description" Value="basado en prevención y cura de enfermedades" />
   </object>
   <object Name="ProceduralCookingIngredient_acid" Load="Merge">
     <tag Name="Description" Value="basado en ácido" />
@@ -217,7 +217,7 @@
     <tag Name="Description" Value="basado en hongos" />
   </object>
   <object Name="ProceduralCookingIngredient_phase" Load="Merge">
-    <tag Name="Description" Value="basado en el desfase" />
+    <tag Name="Description" Value="basado en la faseo" />
   </object>
   <object Name="ProceduralCookingIngredient_HP" Load="Merge">
     <tag Name="Description" Value="basado en puntos de vida" />
@@ -229,13 +229,13 @@
     <tag Name="Description" Value="basado en reflejo de daño" />
   </object>
   <object Name="ProceduralCookingIngredient_willpower" Load="Merge">
-    <tag Name="Description" Value="simple, basado en voluntad" />
+    <tag Name="Description" Value="basado en un simple voluntarismo" />
   </object>
   <object Name="ProceduralCookingIngredient_strength" Load="Merge">
     <tag Name="Description" Value="basado en fuerza" />
   </object>
   <object Name="ProceduralCookingIngredient_burrowing" Load="Merge">
-    <tag Name="Description" Value="basado en excavación" />
+    <tag Name="Description" Value="basado en tunelación" />
   </object>
   <object Name="ProceduralCookingIngredient_agility" Load="Merge">
     <tag Name="Description" Value="basado en agilidad" />
@@ -244,34 +244,34 @@
     <tag Name="Description" Value="basado en miedo" />
   </object>
   <object Name="ProceduralCookingIngredient_fireBreath" Load="Merge">
-    <tag Name="Description" Value="respirador de fuego" />
+    <tag Name="Description" Value="basado en respiración de fuego" />
   </object>
   <object Name="ProceduralCookingIngredient_elderFireBreath" Load="Merge">
-    <tag Name="Description" Value="respirador de fuego poderoso" />
+    <tag Name="Description" Value="poderoso respirador de fuego" />
   </object>
   <object Name="ProceduralCookingIngredient_iceBreath" Load="Merge">
     <tag Name="Description" Value="respirador de hielo" />
   </object>
   <object Name="ProceduralCookingIngredient_elderIceBreath" Load="Merge">
-    <tag Name="Description" Value="respirador de hielo poderoso" />
+    <tag Name="Description" Value="poderoso respirador de hielo" />
   </object>
   <object Name="ProceduralCookingIngredient_corrosiveGasBreath" Load="Merge">
     <tag Name="Description" Value="respirador de gas corrosivo" />
   </object>
   <object Name="ProceduralCookingIngredient_elderCorrosiveGasBreath" Load="Merge">
-    <tag Name="Description" Value="respirador de gas corrosivo poderoso" />
+    <tag Name="Description" Value="poderoso respirador de gas corrosivo" />
   </object>
   <object Name="ProceduralCookingIngredient_sleepGasBreath" Load="Merge">
     <tag Name="Description" Value="respirador de gas dormitivo" />
   </object>
   <object Name="ProceduralCookingIngredient_elderSleepGasBreath" Load="Merge">
-    <tag Name="Description" Value="respirador de gas dormitivo poderoso" />
+    <tag Name="Description" Value="poderoso respirador de gas dormitivo" />
   </object>
   <object Name="ProceduralCookingIngredient_normalityGasBreath" Load="Merge">
     <tag Name="Description" Value="respirador de gas de normalidad" />
   </object>
   <object Name="ProceduralCookingIngredient_elderNormalityGasBreath" Load="Merge">
-    <tag Name="Description" Value="respirador de gas de normalidad poderoso" />
+    <tag Name="Description" Value="poderoso respirador de gas de normalidad" />
   </object>
   <object Name="ProceduralCookingIngredient_poisonGasBreath" Load="Merge">
     <tag Name="Description" Value="respirador de gas venenoso" />
@@ -280,25 +280,25 @@
     <tag Name="Description" Value="respirador de gas venenoso poderoso" />
   </object>
   <object Name="ProceduralCookingIngredient_stunGasBreath" Load="Merge">
-    <tag Name="Description" Value="respirador de gas de aturdimiento" />
+    <tag Name="Description" Value="respirador de gas aturdidor" />
   </object>
   <object Name="ProceduralCookingIngredient_elderStunGasBreath" Load="Merge">
-    <tag Name="Description" Value="respirador potente de gas de aturdimiento" />
+    <tag Name="Description" Value="respirador de gas aturdidor poderoso" />
   </object>
   <object Name="ProceduralCookingIngredient_confusionGasBreath" Load="Merge">
-    <tag Name="Description" Value="respirador de gas de confusión" />
+    <tag Name="Description" Value="respirador de gas confundidor" />
   </object>
   <object Name="ProceduralCookingIngredient_elderConfusionGasBreath" Load="Merge">
-    <tag Name="Description" Value="respirador potente de gas de confusión" />
+    <tag Name="Description" Value="respirador de gas confundidor poderoso" />
   </object>
   <object Name="ProceduralCookingIngredient_starch" Load="Merge">
-    <tag Name="Description" Value="basado en la Velocidad especial" />
+    <tag Name="Description" Value="basado en Agilidad especial" />
   </object>
   <object Name="ProceduralCookingIngredient_lignin" Load="Merge">
-    <tag Name="Description" Value="basado en la regeneración especial" />
+    <tag Name="Description" Value="basado en regeneración especial" />
   </object>
   <object Name="ProceduralCookingIngredient_quicknessMinor" Load="Merge">
-    <tag Name="Description" Value="basado en la Velocidad simple" />
+    <tag Name="Description" Value="basado en Agilidad simple" />
   </object>
   <object Name="ProceduralCookingIngredient_density" Load="Merge">
     <tag Name="Description" Value="basado en densidad volátil" />
@@ -307,22 +307,22 @@
     <tag Name="Description" Value="basado en disociación" />
   </object>
   <object Name="ProceduralCookingIngredient_attributes" Load="Merge">
-    <tag Name="Description" Value="basado en atributo incierto" />
+    <tag Name="Description" Value="atributo incierto basado" />
   </object>
   <object Name="ProceduralCookingIngredient_slimeSpitting" Load="Merge">
-    <tag Name="Description" Value="basado en la expulsión de slime" />
+    <tag Name="Description" Value="que escupe slime" />
   </object>
   <object Name="ProceduralCookingIngredient_regenLowtierMinor" Load="Merge">
-    <tag Name="Description" Value="basado en regeneración y sanación simples" />
+    <tag Name="Description" Value="regeneración y sanación simples basadas" />
   </object>
   <object Name="ProceduralCookingIngredient_coldMinor" Load="Merge">
     <tag Name="Description" Value="basado en el frío simple" />
   </object>
   <object Name="ProceduralCookingIngredient_heatMinor" Load="Merge">
-    <tag Name="Description" Value="basado en calor y fuego simples" />
+    <tag Name="Description" Value="basado en el calor y el fuego simples" />
   </object>
   <object Name="ProceduralCookingIngredient_medicinalMinor" Load="Merge">
-    <tag Name="Description" Value="basado en prevención de enfermedades simple" />
+    <tag Name="Description" Value="prevención de enfermedades simple basada" />
   </object>
   <object Name="ProceduralCookingIngredient_acidMinor" Load="Merge">
     <tag Name="Description" Value="basado en ácido simple" />
@@ -334,22 +334,22 @@
     <tag Name="Description" Value="clonación simple" />
   </object>
   <object Name="ProceduralCookingIngredient_stabilityMinor" Load="Merge">
-    <tag Name="Description" Value="basado en estabilidad simple" />
+    <tag Name="Description" Value="estabilidad simple basada" />
   </object>
   <object Name="ProceduralCookingIngredient_selfPoison" Load="Merge">
-    <tag Name="Description" Value="autoenvenenamiento" />
+    <tag Name="Description" Value="autointoxicación" />
   </object>
   <object Name="ProceduralCookingIngredient_selfGlotrot" Load="Merge">
-    <tag Name="Description" Value="autodesechante" />
+    <tag Name="Description" Value="autodesecación" />
   </object>
   <object Name="ProceduralCookingIngredient_rubberLowTier" Load="Merge">
-    <tag Name="Description" Value="basado en goma" />
+    <tag Name="Description" Value="basado en caucho" />
   </object>
   <object Name="ProceduralCookingIngredient_rubberHighTier" Load="Merge">
-    <tag Name="Description" Value="potente y basado en goma" />
+    <tag Name="Description" Value="poderoso, basado en caucho" />
   </object>
   <object Name="ProceduralCookingIngredient_tongue" Load="Merge">
-    <tag Name="Description" Value="basado en la lengua" />
+    <tag Name="Description" Value="basado en lengua" />
   </object>
   <object Name="ProceduralCookingIngredient_dissociation" Load="Merge">
     <tag Name="Description" Value="disociativo" />
@@ -358,13 +358,13 @@
     <tag Name="Description" Value="aleatorio" />
   </object>
   <object Name="ProceduralCookingIngredient_randomHighTier" Load="Merge">
-    <tag Name="Description" Value="aleatorio, usualmente poderoso" />
+    <tag Name="Description" Value="aleatorio, generalmente poderoso" />
   </object>
   <object Name="ProceduralCookingIngredient_ego" Load="Merge">
     <tag Name="Description" Value="basado en el yo" />
   </object>
   <object Name="BitType_0_R_Data" Load="Merge">
-    <tag Name="DisplayName" Value="{{R|sistemas de potencia reciclados}}" />
+    <tag Name="DisplayName" Value="{{R|sistemas de potencia de chatarras}}" />
     <tag Name="DisplayCharacter" Value="A" />
   </object>
   <object Name="BitType_0_G_Data" Load="Merge">
@@ -372,11 +372,11 @@
     <tag Name="DisplayCharacter" Value="B" />
   </object>
   <object Name="BitType_0_B_Data" Load="Merge">
-    <tag Name="DisplayName" Value="{{B|chatarrería metálica}}" />
+    <tag Name="DisplayName" Value="{{B|metal de chatarra}}" />
     <tag Name="DisplayCharacter" Value="C" />
   </object>
   <object Name="BitType_0_C_Data" Load="Merge">
-    <tag Name="DisplayName" Value="{{C|electrónicos desechables}}" />
+    <tag Name="DisplayName" Value="{{C|electrónicos de chatarra}}" />
     <tag Name="DisplayCharacter" Value="D" />
   </object>
   <object Name="BitType_1_r_Data" Load="Merge">
@@ -392,11 +392,11 @@
     <tag Name="DisplayCharacter" Value="3" />
   </object>
   <object Name="BitType_4_c_Data" Load="Merge">
-    <tag Name="DisplayName" Value="{{c|electrónica impecable}}" />
+    <tag Name="DisplayName" Value="{{c|electrónicos impecables}}" />
     <tag Name="DisplayCharacter" Value="4" />
   </object>
   <object Name="BitType_5_K_Data" Load="Merge">
-    <tag Name="DisplayName" Value="{{K|materiales nanotecnológicos}}" />
+    <tag Name="DisplayName" Value="{{K|materiales nanoscópicos}}" />
     <tag Name="DisplayCharacter" Value="5" />
   </object>
   <object Name="BitType_6_W_Data" Load="Merge">
@@ -408,7 +408,7 @@
     <tag Name="DisplayCharacter" Value="7" />
   </object>
   <object Name="BitType_8_M_Data" Load="Merge">
-    <tag Name="DisplayName" Value="{{M|metacristal}}" />
+    <tag Name="DisplayName" Value="{{M|metacrystal}}" />
     <tag Name="DisplayCharacter" Value="8" />
   </object>
 </objects>

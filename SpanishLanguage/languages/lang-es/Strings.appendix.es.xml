@@ -3,15 +3,15 @@
   <string Context="genotype.Mutated Human.extrainfo" ID="Mutations">Mutaciones</string>
   <string Context="genotype.Mutated Human.extrainfo" ID="Moderate starting attributes">Atributos iniciales moderados</string>
   <string Context="genotype.Mutated Human.extrainfo" ID="-600 reputation with {{C|the Putus Templar}}">-600 reputación con {{C|los Templarios Putus}}</string>
-  <string Context="genotype.True Kin.extrainfo" ID="High starting attributes">Atributos iniciales elevados</string>
+  <string Context="genotype.True Kin.extrainfo" ID="High starting attributes">Atributos iniciales altos</string>
   <string Context="genotype.True Kin.extrainfo" ID="Access to cybernetics">Acceso a cibernéticos</string>
-  <string Context="genotype.True Kin.extrainfo" ID="{{C|20}} bonus skill points each level">{{C|20}} puntos adicionales de habilidad por nivel</string>
+  <string Context="genotype.True Kin.extrainfo" ID="{{C|20}} bonus skill points each level">{{C|20}} puntos de habilidad bonus por nivel</string>
   <string Context="genotype.True Kin.extrainfo" ID="Bonus resistances based on arcology of origin">Resistencias bonus basadas en la arquitectura de origen</string>
-  <string Context="genotype.True Kin.extrainfo" ID="May rebuke robots">Puede rechazar a los robots</string>
-  <string Context="subtype.Arconaut.extrainfo" ID="Starts with random junk and artifacts">Comienza con chatarra y artefactos aleatorios</string>
-  <string Context="subtype.Nomad.extrainfo" ID="Starts with a {{B|recycling suit}}">Comienza con un {{B|traje de reciclaje}}</string>
-  <string Context="subtype.Tinker.extrainfo" ID="Begins with a number of random artifacts and scrap">Comienza con una cantidad aleatoria de artefactos y escombros</string>
-  <string Context="subtype.Water Merchant.extrainfo" ID="Allowed entrance to many settlements for purposes of trade">Permite el acceso a muchas asentamientos con fines comerciales</string>
-  <string Context="subtype.Water Merchant.extrainfo" ID="Starts with trade goods">Inicia con mercancías para intercambiar</string>
-  <string Context="subtype.Watervine Farmer.extrainfo" ID="Starts with random cooking ingredients">Inicia con ingredientes culinarios aleatorios</string>
+  <string Context="genotype.True Kin.extrainfo" ID="May rebuke robots">Puede reprender a los robots</string>
+  <string Context="subtype.Arconaut.extrainfo" ID="Starts with random junk and artifacts">Comienza con basura aleatoria y artefactos</string>
+  <string Context="subtype.Nomad.extrainfo" ID="Starts with a {{B|recycling suit}}">Empieza con un {{B|traje de reciclaje}}</string>
+  <string Context="subtype.Tinker.extrainfo" ID="Begins with a number of random artifacts and scrap">Comienza con un número aleatorio de artefactos y escombros</string>
+  <string Context="subtype.Water Merchant.extrainfo" ID="Allowed entrance to many settlements for purposes of trade">Permiso para acceder a muchas asentaciones con fines comerciales</string>
+  <string Context="subtype.Water Merchant.extrainfo" ID="Starts with trade goods">Comienza con mercancías de comercio</string>
+  <string Context="subtype.Watervine Farmer.extrainfo" ID="Starts with random cooking ingredients">Comienza con ingredientes culinarios aleatorios</string>
 </strings>

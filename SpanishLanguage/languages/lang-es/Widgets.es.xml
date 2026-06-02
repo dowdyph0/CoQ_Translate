@@ -10,29 +10,29 @@
     <part Name="ZoneLandmarkBox" DisplayName="tienda de campaña" Preposition="en" />
   </object>
   <object Name="LandmarkJoppaWatervine" Load="Merge">
-    <part Name="ZoneLandmarkGroup" DisplayName="manchón de vidaviña" Preposition="junto a" />
+    <part Name="ZoneLandmarkGroup" DisplayName="mancha de vidaviña" Preposition="junto a" />
   </object>
   <object Name="LandmarkJoppaMill" Load="Merge">
     <part Name="ZoneLandmarkBox" DisplayName="molino del pueblo" Preposition="junto a" />
   </object>
   <object Name="CoralPolypSpawner" Load="Merge">
-    <part Name="Render" DisplayName="polipo de corales" />
+    <part Name="Render" DisplayName="pólipos de corales" />
   </object>
   <object Name="CoralAndPalladiumSpawner" Load="Merge">
-    <part Name="Render" DisplayName="viga de paladio con crecimiento coralino" />
+    <part Name="Render" DisplayName="travesaño de paladio con crecimiento coralino" />
   </object>
   <object Name="PalladiumStrutSpawner" Load="Merge">
-    <part Name="Render" DisplayName="viga de paladio" />
+    <part Name="Render" DisplayName="travesaño de paladio" />
   </object>
   <object Name="ArspliceHyphaeSpawner" Load="Merge">
-    <part Name="Render" DisplayName="hifas arsplice" />
+    <part Name="Render" DisplayName="hifa de arsplice" />
   </object>
   <object Name="PistonPressController" Load="Merge">
     <part Name="Render" DisplayName="prensa mecánica" />
   </object>
   <object Name="PistonPressElement" Load="Merge">
     <part Name="Render" DisplayName="prensa mecánica" />
-    <part Name="Description" Short="La luz resplandece sobre las minúsculas marcas arrancadas a la superficie cromada del vasto tubo, donde el metal aplastó huesos hasta reducirlos a una sumisión rayada." />
+    <part Name="Description" Short="La luz resplandece sobre las minúsculas marcas arrancadas a la superficie cromada del vasto tubo, donde el metal aplastó huesos hasta reducirlos a una rendición triturada." />
   </object>
   <object Name="DummyTinkerScreenObject" Load="Merge">
     <part Name="Render" DisplayName="{{C|Modificaciones Conocidas}}" />

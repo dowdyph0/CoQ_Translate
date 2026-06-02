@@ -5,7 +5,7 @@
       <noun>mancha fúngica</noun>
     </variant>
     <variant Name="Medium">
-      <noun>bosque de hongos</noun>
+      <noun>arboleda de hongos</noun>
     </variant>
     <variant Name="Strong">
       <noun>bosque fúngico</noun>
@@ -32,7 +32,7 @@
       <adjective>demorarse</adjective>
     </variant>
     <variant Name="Medium">
-      <noun>pozos de brea</noun>
+      <noun>charcos de brea</noun>
     </variant>
     <variant Name="Strong">
       <noun>fosas de brea ardiendo</noun>
@@ -41,16 +41,16 @@
   </biome>
   <biome Name="Rusty">
     <variant Name="Weak">
-      <noun>parche de óxido</noun>
+      <noun>mancha de óxido</noun>
       <adjective>oxidado</adjective>
     </variant>
     <variant Name="Medium">
       <noun>campo de óxido</noun>
-      <adjective>envuelto en óxido</adjective>
+      <adjective>cubierto de óxido</adjective>
     </variant>
     <variant Name="Strong">
       <noun>pantano de óxido</noun>
-      <journalSecret>un {{herrumbroso|herrumbe}} pantano</journalSecret>
+      <journalSecret>un {{rust|oxidado}} pantano</journalSecret>
     </variant>
   </biome>
 </biomes>

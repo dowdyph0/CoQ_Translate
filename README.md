@@ -1,6 +1,10 @@
 # Caves of Qud — Translation Pipeline
 
+![Spanish language preview](SpanishLanguage/preview.png)
+
 Automated XML translation pipeline for [Caves of Qud](https://www.cavesofqud.com/) using a local LLM via [llama.cpp](https://github.com/ggerganov/llama.cpp). Translates every `▶`-marked string in `ExampleLanguage/*.example.xml` and writes the results as a ready-to-install language mod.
+
+Currently focused on **Spanish**, but the pipeline is language-agnostic — a `.env` file lets you point it at any target language and it will generate the corresponding mod folder and XML files automatically.
 
 Tested with **Qwen3-14B-UD-Q4_K_XL** on an NVIDIA RTX 5060 Ti 16 GB.
 
@@ -10,143 +14,134 @@ Tested with **Qwen3-14B-UD-Q4_K_XL** on an NVIDIA RTX 5060 Ti 16 GB.
 
 ## Requirements
 
-- Python 3.11+ (or 3.10 with `pip install tomli`)
-- A running [llama.cpp](https://github.com/ggml-org/llama.cpp) or any inference server with an OpenAI-compatible endpoint
+- Docker + Docker Compose (recommended)
+- Or: Python 3.10+ and a running [llama.cpp](https://github.com/ggml-org/llama.cpp) server
 
 ---
 
 ## Setup
 
-### 1. llama.cpp server
+### 1. Configure environment
+
+Copy `.env.example` to `.env` and fill in your values:
 
 ```bash
-llama-server -m Qwen3-14B-UD-Q4_K_XL.gguf --port 9090 \
-    -ngl 99 -np 4 --ctx-size 16384 --batch-size 512 \
-    --flash-attn --cache-type-k q8_0 --cache-type-v q8_0 \
-    --reasoning-budget 0 --no-warmup
+cp .env.example .env
 ```
 
-### 2. Python dependencies
+Key variables:
+
+| Variable | Description |
+| -------- | ----------- |
+| `STREAMING_ASSETS_DIR` | Path to the game's `StreamingAssets/` folder |
+| `TARGET_LANGUAGE` | Language name used in prompts (e.g. `Spanish`) |
+| `LANG_CODE` | File suffix and `languages.xml` code (e.g. `es`) |
+| `MOD_NAME` | Output folder and mod name (e.g. `SpanishLanguage`) |
+| `MOD_DISPLAY_NAME` | Language name shown in the in-game picker |
+| `LLM_ENDPOINT` | llama.cpp or compatible OpenAI endpoint |
+| `BATCH_SIZE` | Strings per LLM call |
+| `WORKERS` | Parallel threads — match llama.cpp `-np` |
+
+### 2. Start services
 
 ```bash
-pip install requests
+docker compose up
 ```
+
+This starts:
+- `translation-editor` — Django web editor at <http://localhost:8000>
+- `llama-server` — llama.cpp inference server at <http://localhost:9090>
+
+Default credentials: **admin / admin** — change after first login.
 
 ### 3. Project layout
 
 ```text
 CoQ_Translate/
-├── translate.py
-├── config.toml
-├── prompts.toml
+├── .env                                ← your local config (not committed)
+├── .env.example                        ← template
+├── compose.yml
+├── prompts/
+│   ├── tone_rules.txt                  ← literary style guide
+│   ├── sys_single.txt                  ← single-string system prompt
+│   └── sys_batch.txt                   ← batch system prompt
+├── editor/
+│   ├── db.sqlite3                      ← translation database
+│   └── translations/
+│       └── pipeline.py                 ← shared XML/LLM helpers
 └── SpanishLanguage/                    ← generated mod (auto-created)
     ├── manifest.json
-    ├── translation_cache.json
-    ├── translation_memory.json
-    ├── translation_failures.json
     └── languages/
-        ├── languages.xml               ← language declaration for the game
+        ├── languages.xml
         └── lang-es/
             ├── Strings.es.xml
-            ├── Books.es.xml
             └── ...
 ```
 
 ---
 
-## Configuration (`config.toml`)
+## Usage
 
-```toml
-llm_endpoint = "http://localhost:9090/v1"
-model        = "local-model"
+All commands are run from the `editor/` directory (or via `docker compose exec translation-editor`):
 
-target_language = "Spanish"
-lang_code       = "es"
+```bash
+cd editor
 
-mod_name         = "SpanishLanguage"
-mod_display_name = "Español"
-mod_author       = ""
+# 1. Scan all .example.xml and create pending entries in the DB
+python manage.py scan_xml
 
-temperature    = 0.6
-top_k          = 20
-top_p          = 0.95
-repeat_penalty = 1.1
-max_tokens     = 256
+# 2. Fill in translations from the JSON memory cache (fast, no LLM)
+python manage.py import_memory
 
-batch_size = 10
-workers    = 4
+# 3. LLM-translate whatever is still pending
+python manage.py translate_pending
 
-streaming_assets_dir = 'C:\Program Files (x86)\Steam\steamapps\common\Caves of Qud\CoQ_Data\StreamingAssets'
+# 4. Export final .es.xml files from the DB
+python manage.py export_xml
 ```
 
-| Key | Description |
-| --- | ----------- |
-| `lang_code` | Language code used in file names (`*.es.xml`) and `languages.xml` |
-| `mod_name` | Output folder name — also the mod folder installed in `Mods/` |
-| `mod_display_name` | Language name shown in the in-game language picker |
-| `mod_author` | Optional — added to `manifest.json` if non-empty |
-| `workers` | Parallel file workers — match llama.cpp `-np` value |
-| `batch_size` | Strings per LLM call |
-| `max_tokens` | Max tokens per LLM response |
-| `streaming_assets_dir` | Path to the game's `StreamingAssets/` folder |
+Each step is safe to interrupt and resume. You can also target a single language:
 
-### Prompt tuning (`prompts.toml`)
+```bash
+python manage.py scan_xml --language Spanish
+python manage.py import_memory --language Spanish
+python manage.py translate_pending --language Spanish --batch-size 10
+python manage.py export_xml --language Spanish
+```
 
-Edit `prompts.toml` to adjust tone, add canonical glossary terms, or rewrite the system prompt — no need to touch `translate.py`. Keys: `tone_rules`, `sys_single`, `sys_batch`. `{lang}` is replaced at runtime with `target_language`.
+Pass `--help` to any command for full options.
 
 ---
 
-## Usage
+## Prompt tuning
 
-```bash
-# Generate manifest.json and languages.xml only (no translation)
-python translate.py --init-mod
+Edit `prompts/tone_rules.txt` to adjust the literary style guide, or `prompts/sys_single.txt` / `prompts/sys_batch.txt` to rewrite the system prompts. `{lang}` is substituted at runtime with `TARGET_LANGUAGE`. Restart the editor container after changes.
 
-# Translate all files
-python translate.py
+---
 
-# Translate a single file
-python translate.py --file Mutations
+## Web Editor
 
-# Dry run — count strings without calling the LLM
-python translate.py --dry-run
+The Django editor at <http://localhost:8000> lets you review, search, and edit translations without touching any files.
 
-# Parallel workers
-python translate.py --workers 4
+### Features
 
-# Build translation memory only, no XML output (safe to interrupt)
-python translate.py --no-xml --workers 4
-
-# Reconstruct XML files from translation_memory.json (no LLM calls)
-python translate.py --rebuild
-
-# Clear cache and retranslate everything
-python translate.py --clear-cache
-```
-
-### Recommended workflow
-
-```bash
-# 1. Build translation memory (safe to interrupt and resume)
-python translate.py --no-xml --workers 4
-
-# 2. Review / edit translation_memory.json manually if needed
-
-# 3. Generate all XML files from memory (fast, no LLM)
-python translate.py --rebuild
-```
+- Browse all translated strings filtered by file, language, or status
+- Inline status workflow: `auto` (LLM) → `reviewed` (human-approved) → `failed`
+- Edit translations in the browser; reviewed entries are **never overwritten** by the pipeline
+- Full-text search on source and translation fields
 
 ---
 
 ## How it works
 
-1. **Collect** — walks each `ExampleLanguage/*.example.xml` file and collects every `▶`-prefixed string (attributes, text nodes, rich text blocks)
-2. **Cache check** — skips strings already translated using a scope-aware MD5 key (`lang:file:element:text`)
-3. **Batch translate** — sends up to `batch_size` strings per LLM call; falls back to individual calls if the response is malformed
-4. **Write** — updates the XML and saves cache and memory incrementally after each file
-5. **Mod files** — generates `manifest.json` and `languages/languages.xml` automatically at the end of a full run
+1. **Scan** (`scan_xml`) — walks each `ExampleLanguage/*.example.xml` and creates a pending DB entry for every `▶`-prefixed string
+2. **Import** (`import_memory`) — fills entries from any existing JSON translation cache (no LLM calls)
+3. **Translate** (`translate_pending`) — sends pending strings to the LLM in batches; falls back to individual calls on malformed responses
+4. **Export** (`export_xml`) — rebuilds the `.es.xml` files from the DB, substituting reviewed and auto translations
 
-**Variable protection**: game variables (`=variable=`) and XML entities are replaced with `[[P0]]`, `[[P1]]`, … placeholders before the LLM call and restored afterwards.
+**Variable protection**: game variables and XML entities are replaced with `[[P0]]`, `[[P1]]`, … before the LLM call and restored afterwards.
+
+> **Backup**: `editor/db.sqlite3` contains all your translations. Back it up before bulk operations.
 
 ---
 
@@ -157,9 +152,6 @@ python translate.py --rebuild
 | `SpanishLanguage/languages/lang-es/*.es.xml` | Translated XML files |
 | `SpanishLanguage/languages/languages.xml` | Language declaration read by the game |
 | `SpanishLanguage/manifest.json` | Mod metadata |
-| `SpanishLanguage/translation_cache.json` | MD5-keyed cache — skips already-translated strings on reruns |
-| `SpanishLanguage/translation_memory.json` | Human-readable source↔translation pairs — edit then use `--rebuild` |
-| `SpanishLanguage/translation_failures.json` | Strings that failed translation — review and retry |
 
 ---
 
@@ -171,10 +163,21 @@ Copy the generated mod folder into the game's Mods directory:
 C:\Program Files (x86)\Steam\steamapps\common\Caves of Qud\CoQ_Data\StreamingAssets\Mods\SpanishLanguage\
 ```
 
-Then launch the game (on the `lang-experimental` branch), select the Spanish language in the language selector, the game will restart and enjoy!.
+Then launch the game (on the `lang-experimental` branch), select the language in the language selector, the game will restart and enjoy!
+
+---
+
+## Screenshots
+
+![Character creation](screenshots/character_creation.png)
+
+![In-game](screenshots/ingame.png)
 
 ---
 
 ## License
 
 This project is a fan tool and is not affiliated with Freehold Games.
+
+Code released under the [MIT License](LICENSE).
+

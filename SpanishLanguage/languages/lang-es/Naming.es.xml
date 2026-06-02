@@ -78,7 +78,7 @@
         <postfix Name="ur" />
         <postfix Name="uun" />
         <postfix Name="guerra" />
-        <postfix Name="ser" />
+        <postfix Name="hermano" />
         <postfix Name="urdor" />
       </postfixes>
     </namestyle>
@@ -95,9 +95,9 @@
         <prefix Name="ka" />
         <prefix Name="ki" />
         <prefix Name="ma" />
-        <prefix Name="mi" />
+        <prefix Name="mí" />
         <prefix Name="na" />
-        <prefix Name="qa" />
+        <prefix Name="ca" />
         <prefix Name="sa" />
         <prefix Name="sha" />
         <prefix Name="ella" />
@@ -112,7 +112,7 @@
         <infix Name="arra" />
         <infix Name="azo" />
         <infix Name="ba" />
-        <infix Name="por" />
+        <infix Name="by" />
         <infix Name="ga" />
         <infix Name="gga" />
         <infix Name="ili" />
@@ -162,32 +162,32 @@
     </namestyle>
     <namestyle Name="Qudish Banana Grove Site" Load="Merge">
       <templates Load="Replace">
-        <template Name="{W|Bosque de Plátanos} =name=" />
+        <template Name="Bosque de Plátanos =name=" />
       </templates>
     </namestyle>
     <namestyle Name="Qudish Baroque Ruins Site" Load="Merge">
       <templates Load="Replace">
-        <template Name="{W|Ruinas Barrocas} =name=" />
+        <template Name="Ruinas Barrocas =name=" />
       </templates>
     </namestyle>
     <namestyle Name="Qudish Deep Jungle Site" Load="Merge">
       <templates Load="Replace">
-        <template Name="{W|Jungla Profunda} =name=" />
+        <template Name="Cañón del Desierto =name=" />
       </templates>
     </namestyle>
     <namestyle Name="Qudish Desert Canyon Site" Load="Merge">
       <templates Load="Replace">
-        <template Name="{W|Cañón del Desierto} =name=" />
+        <template Name="Selva Profunda =name=" />
       </templates>
     </namestyle>
     <namestyle Name="Qudish Flower Fields Site" Load="Merge">
       <templates Load="Replace">
-        <template Name="{W|Campos de Flores} =name=" />
+        <template Name="Campos Florales =name=" />
       </templates>
     </namestyle>
     <namestyle Name="Qudish Fungal Site" Load="Merge">
       <templates Load="Replace">
-        <template Name="{W|Fúngico} =name=" />
+        <template Name="Fúngico =name=" />
       </templates>
     </namestyle>
     <namestyle Name="Qudish Hills Site" Load="Merge">
@@ -232,7 +232,7 @@
     </namestyle>
     <namestyle Name="Qudish Salt Marsh Site" Load="Merge">
       <templates Load="Replace">
-        <template Name="Marisma Salada =name=" />
+        <template Name="Marisma Salina =name=" />
       </templates>
     </namestyle>
     <namestyle Name="Qudish Spindle Site" Load="Merge">
@@ -247,7 +247,7 @@
     </namestyle>
     <namestyle Name="Eater" Format="TitleCase" Load="Merge">
       <prefixes Load="Replace" Amount="1">
-        <prefix Name="anatante" />
+        <prefix Name="anti" />
         <prefix Name="arta" />
         <prefix Name="ba" />
         <prefix Name="da" />
@@ -258,12 +258,12 @@
         <prefix Name="kho" />
         <prefix Name="khu" />
         <prefix Name="meh" />
-        <prefix Name="mi" />
+        <prefix Name="mí" />
         <prefix Name="mu" />
         <prefix Name="na" />
         <prefix Name="o" />
         <prefix Name="oro" />
-        <prefix Name="poli" />
+        <prefix Name="poly" />
         <prefix Name="q" />
         <prefix Name="sha" />
         <prefix Name="su" />
@@ -278,17 +278,17 @@
       <infixes Load="Replace" Amount="0-1">
         <infix Name="le" />
         <infix Name="ra" />
-        <infix Name="tri" />
-        <infix Name="ser" />
+        <infix Name="trhi" />
+        <infix Name="xer" />
         <infix Name="yu" />
       </infixes>
       <postfixes Load="Replace" Amount="1">
         <postfix Name="fechas" />
-        <postfix Name="docta" />
-        <postfix Name="duqta" />
+        <postfix Name="dokht" />
+        <postfix Name="dukht" />
         <postfix Name="él" />
-        <postfix Name="mazp" />
-        <postfix Name="méd" />
+        <postfix Name="masp" />
+        <postfix Name="med" />
         <postfix Name="padre" />
         <postfix Name="pur" />
         <postfix Name="rad" />
@@ -405,7 +405,7 @@
         <postfix Name="le" />
         <postfix Name="mbe" />
         <postfix Name="me" />
-        <postfix Name="mí" />
+        <postfix Name="mi" />
         <postfix Name="mu" />
         <postfix Name="nde" />
         <postfix Name="nti" />
@@ -416,8 +416,8 @@
         <postfix Name="re" />
         <postfix Name="ri" />
         <postfix Name="sa" />
-        <postfix Name="to" />
-        <postfix Name="wale" />
+        <postfix Name="a" />
+        <postfix Name="balu" />
         <postfix Name="ya" Weight="2" />
         <postfix Name="yo" />
         <postfix Name="za" />
@@ -431,7 +431,7 @@
         <prefix Name="an" />
         <prefix Name="au" />
         <prefix Name="ba" />
-        <prefix Name="bla" />
+        <prefix Name="blá" />
         <prefix Name="bru" />
         <prefix Name="cae" />
         <prefix Name="cai" />
@@ -553,20 +553,20 @@
         <postfix Name="sius" />
         <postfix Name="sta" />
         <postfix Name="stus" />
-        <postfix Name="to" />
-        <postfix Name="tú" />
+        <postfix Name="a" />
+        <postfix Name="tus" />
       </postfixes>
     </namestyle>
     <namestyle Name="Yawningmoon" Format="TitleCase" Load="Merge">
       <prefixes Load="Replace" Amount="1">
-        <prefix Name="agua" />
-        <prefix Name="¿dónde?" />
-        <prefix Name="gruta" />
-        <prefix Name="juan" />
-        <prefix Name="casa" />
-        <prefix Name="casa" />
-        <prefix Name="casa" />
-        <prefix Name="mi" />
+        <prefix Name="apa" />
+        <prefix Name="dya" />
+        <prefix Name="ghrta" />
+        <prefix Name="jna" />
+        <prefix Name="ksa" />
+        <prefix Name="kse" />
+        <prefix Name="kso" />
+        <prefix Name="mí" />
         <prefix Name="nir" />
         <prefix Name="pri" />
         <prefix Name="pu" />
@@ -607,12 +607,12 @@
         <prefix Name="ado" />
         <prefix Name="ae" />
         <prefix Name="ba" />
-        <prefix Name="chi" />
+        <prefix Name="chri" />
         <prefix Name="clau" />
         <prefix Name="cleo" />
         <prefix Name="co" />
         <prefix Name="cro" />
-        <prefix Name="ci" />
+        <prefix Name="cy" />
         <prefix Name="da" />
         <prefix Name="de" />
         <prefix Name="di" />
@@ -626,22 +626,22 @@
         <prefix Name="he" />
         <prefix Name="hie" />
         <prefix Name="ho" />
-        <prefix Name="hia" />
+        <prefix Name="hya" />
         <prefix Name="i" />
         <prefix Name="ja" />
         <prefix Name="je" />
         <prefix Name="ju" />
         <prefix Name="ka" />
-        <prefix Name="khlo" />
-        <prefix Name="klau" />
-        <prefix Name="kri" />
-        <prefix Name="kyra" />
+        <prefix Name="kho" />
+        <prefix Name="claú" />
+        <prefix Name="cri" />
+        <prefix Name="quir" />
         <prefix Name="la" />
         <prefix Name="lea" />
-        <prefix Name="león" />
+        <prefix Name="leó" />
         <prefix Name="li" />
         <prefix Name="ma" />
-        <prefix Name="mi" />
+        <prefix Name="mí" />
         <prefix Name="ne" />
         <prefix Name="ni" />
         <prefix Name="o" />
@@ -652,16 +652,16 @@
         <prefix Name="pla" />
         <prefix Name="pro" />
         <prefix Name="pto" />
-        <prefix Name="pi" />
+        <prefix Name="py" />
         <prefix Name="ra" />
         <prefix Name="sa" />
         <prefix Name="se" />
-        <prefix Name="así" />
+        <prefix Name="so" />
         <prefix Name="sta" />
         <prefix Name="ste" />
         <prefix Name="tha" />
         <prefix Name="el" />
-        <prefix Name="teo" />
+        <prefix Name="el teórico" />
         <prefix Name="ti" />
         <prefix Name="xa" />
         <prefix Name="ze" />
@@ -729,19 +729,19 @@
         <infix Name="ya" />
       </infixes>
       <postfixes Load="Replace" Amount="1">
-        <postfix Name="un" />
-        <postfix Name="una" />
+        <postfix Name="a" />
+        <postfix Name="an" />
         <postfix Name="ser" />
         <postfix Name="bil" />
         <postfix Name="bius" />
         <postfix Name="ce" />
-        <postfix Name="chia" />
+        <postfix Name="chía" />
         <postfix Name="chus" />
         <postfix Name="cla" />
         <postfix Name="cles" Weight="2" />
         <postfix Name="clid" />
         <postfix Name="ctra" />
-        <postfix Name="cy" />
+        <postfix Name="ci" />
         <postfix Name="da" />
         <postfix Name="dace" />
         <postfix Name="das" />
@@ -766,12 +766,12 @@
         <postfix Name="lin" />
         <postfix Name="línea" />
         <postfix Name="labio" />
-        <postfix Name="lipp" />
+        <postfix Name="labios" />
         <postfix Name="lius" />
         <postfix Name="lla" />
-        <postfix Name="llen" />
+        <postfix Name="lleno" />
         <postfix Name="mas" />
-        <postfix Name="mia" />
+        <postfix Name="mía" />
         <postfix Name="mis" />
         <postfix Name="mon" Weight="2" />
         <postfix Name="mus" Weight="3" />
@@ -795,10 +795,10 @@
         <postfix Name="nthe" Weight="2" />
         <postfix Name="nys" />
         <postfix Name="fen" />
-        <postfix Name="fér" Weight="2" />
-        <postfix Name="feu̇s" />
+        <postfix Name="fer" Weight="2" />
+        <postfix Name="feus" />
         <postfix Name="fne" />
-        <postfix Name="fōnē" />
+        <postfix Name="foné" />
         <postfix Name="r" />
         <postfix Name="ras" />
         <postfix Name="rcas" />
@@ -828,22 +828,22 @@
         <postfix Name="sta" />
         <postfix Name="stor" />
         <postfix Name="sus" />
-        <postfix Name="syne" />
+        <postfix Name="síne" />
         <postfix Name="ta" Weight="2" />
         <postfix Name="ter" />
         <postfix Name="tes" Weight="2" />
         <postfix Name="tha" />
-        <postfix Name="thea" Weight="2" />
+        <postfix Name="teá" Weight="2" />
         <postfix Name="theus" />
-        <postfix Name="thia" />
+        <postfix Name="thía" />
         <postfix Name="thy" />
         <postfix Name="tian" Weight="2" />
         <postfix Name="tius" />
-        <postfix Name="to" />
+        <postfix Name="a" />
         <postfix Name="tor" />
         <postfix Name="tre" />
         <postfix Name="tta" Weight="2" />
-        <postfix Name="tú" Weight="4" />
+        <postfix Name="tus" Weight="4" />
         <postfix Name="tyche" />
         <postfix Name="us" Weight="2" />
         <postfix Name="ven" />
@@ -856,7 +856,7 @@
         <prefix Name="ooo" />
         <prefix Name="o" />
         <prefix Name="oh" />
-        <prefix Name="ooh" />
+        <prefix Name="oooh" />
         <prefix Name="ho" />
         <prefix Name="hoo" />
       </prefixes>
@@ -915,13 +915,13 @@
         <prefix Name="di" />
         <prefix Name="gi" />
         <prefix Name="ha" Weight="2" />
-        <prefix Name="hola" />
+        <prefix Name="hi" />
         <prefix Name="ja" />
         <prefix Name="ma" />
         <prefix Name="mu" />
         <prefix Name="rho" />
         <prefix Name="sa" />
-        <prefix Name="así" />
+        <prefix Name="so" />
         <prefix Name="te" />
         <prefix Name="y" />
         <prefix Name="za" />
@@ -959,13 +959,13 @@
         <prefix Name="di" />
         <prefix Name="gi" />
         <prefix Name="ha" Weight="2" />
-        <prefix Name="hola" />
+        <prefix Name="hi" />
         <prefix Name="ja" />
         <prefix Name="ma" />
         <prefix Name="mu" />
         <prefix Name="rho" />
         <prefix Name="sa" />
-        <prefix Name="así" />
+        <prefix Name="so" />
         <prefix Name="te" />
         <prefix Name="y" />
         <prefix Name="za" />
@@ -1000,20 +1000,20 @@
       <templatevars Load="Replace">
         
         <templatevar Name="adjective">
-          <value Name="ecoseño" />
+          <value Name="ecoante" />
           <value Name="frenético" />
           <value Name="de muchas patas" />
-          <value Name="masivo" />
-          <value Name="de un solo garra" />
+          <value Name="enorme" />
+          <value Name="de un solo garfio" />
           <value Name="con concha agrietada" />
         </templatevar>
         <templatevar Name="position">
           <value Name="Antiguo" />
-          <value Name="Escarabajo Profundo" />
+          <value Name="Escarbadeprofundidades" />
           <value Name="Goliat" />
           <value Name="Señor" />
           <value Name="Patriarca" />
-          <value Name="Skuttler" />
+          <value Name="Escarabajo" />
         </templatevar>
       </templatevars>
     </namestyle>
@@ -1034,9 +1034,9 @@
         <infix Name="raa" />
       </infixes>
       <postfixes Load="Replace" Amount="1-2">
-        <postfix Name="un" />
+        <postfix Name="a" />
         <postfix Name="aaa" />
-        <postfix Name="aaaaaaah" />
+        <postfix Name="aaaaah" />
         <postfix Name="aaah" />
         <postfix Name="aah" />
         <postfix Name="ah" />
@@ -1055,18 +1055,18 @@
         
         <templatevar Name="epithet">
           <value Name="Observador de Estrellas" />
-          <value Name="Mordedora de Corazones" />
-          <value Name="Duplicilengua" />
-          <value Name="Bebedor de almas" />
-          <value Name="Dedo blanco" />
-          <value Name="Cuerno hendido" />
+          <value Name="Devorador del Corazón" />
+          <value Name="Hablador Doble" />
+          <value Name="Bebedor de Almas" />
+          <value Name="Dedosblancos" />
+          <value Name="Cuernoescindido" />
         </templatevar>
       </templatevars>
     </namestyle>
     <namestyle Name="Goatfolk Hero Title" Load="Merge">
       <templates Load="Replace">
         
-        <template Name="el chamán de los Cabreros de la tribu =clan=" />
+        <template Name="el Sá满 de los Cabreros del Clan =clan=" />
       </templates>
       <templatevars Load="Replace">
         
@@ -1074,7 +1074,7 @@
           <value Name="Hotur" />
           <value Name="Carnero" />
           <value Name="Sol" />
-          <value Name="Lengua blanca" />
+          <value Name="LenguaBlanca" />
           <value Name="Yr" />
           <value Name="Mnim" />
         </templatevar>
@@ -1098,13 +1098,13 @@
           <value Name="Negro" />
           <value Name="Sangre" />
           <value Name="Hueso" />
-          <value Name="Clavado" />
+          <value Name="Clivado" />
           <value Name="Helecho" />
           <value Name="Corazón" />
           <value Name="Luna" />
           <value Name="Musgo" />
           <value Name="Lluvia" />
-          <value Name="Sapo" />
+          <value Name="Savia" />
           <value Name="Cráneo" />
           <value Name="Estrella" />
           <value Name="Blanco" />
@@ -1118,12 +1118,12 @@
           <value Name="baaaaah" Weight="3" />
           <value Name="baaaah" Weight="3" />
           <value Name="baaah" Weight="3" />
-          <value Name="baaah" Weight="2" />
+          <value Name="baah" Weight="2" />
           <value Name="naaa" />
-          <value Name="naaaaaah" />
-          <value Name="naaaaah" />
-          <value Name="naaaah" />
-          <value Name="naaah" />
+          <value Name="náaaaah" />
+          <value Name="náaaaah" />
+          <value Name="náaaaah" />
+          <value Name="náaah" />
           <value Name="raa" Weight="2" />
           <value Name="raaaaaah" />
           <value Name="raaaaah" Weight="3" />
@@ -1132,26 +1132,26 @@
           <value Name="raah" Weight="2" />
         </templatevar>
         <templatevar Name="forest">
-          <value Name="bosk" />
-          <value Name="dale" />
-          <value Name="dell" />
-          <value Name="glade" />
-          <value Name="glen" />
-          <value Name="gorge" />
-          <value Name="grove" />
+          <value Name="bosque" />
+          <value Name="valle" />
+          <value Name="hondonada" />
+          <value Name="clarete" />
+          <value Name="garganta" />
+          <value Name="desfiladero" />
+          <value Name="arboleda" />
           <value Name="pradera" />
           <value Name="raíz" />
-          <value Name="valle" />
-          <value Name="bosque antiguo" />
+          <value Name="llanura" />
+          <value Name="bosque" />
           <value Name="llorar" />
           <value Name="madera" />
         </templatevar>
         <templatevar Name="location">
           <value Name="doblar" />
-          <value Name="mordida" />
+          <value Name="morder" />
           <value Name="arco" />
           <value Name="hendidura" />
-          <value Name="cuarto de luna" />
+          <value Name="creciente" />
           <value Name="profundo" />
           <value Name="charco" />
           <value Name="estrella" />
@@ -1189,15 +1189,15 @@
           <value Name="Negro" />
           <value Name="Fantasma" />
           <value Name="Polvo" />
-          <value Name="Sombrapectral" />
+          <value Name="Espectro" />
           <value Name="Luna" />
           <value Name="Sueño" />
           <value Name="Estrella" />
           <value Name="Blanco" />
           <value Name="Gris" />
-          <value Name="Tiniebla" />
-          <value Name="Tenebroso" />
-          <value Name="Crepúsculo" />
+          <value Name="Oscuridad" />
+          <value Name="Tenebrosidad" />
+          <value Name="Anoch" />
           <value Name="Eterno" />
           <value Name="Nada" />
         </templatevar>
@@ -1210,12 +1210,12 @@
           <value Name="baaaaah" Weight="3" />
           <value Name="baaaah" Weight="3" />
           <value Name="baaah" Weight="3" />
-          <value Name="baaah" Weight="2" />
+          <value Name="baah" Weight="2" />
           <value Name="naaa" />
-          <value Name="naaaaaah" />
-          <value Name="naaaaah" />
-          <value Name="naaaah" />
-          <value Name="naaah" />
+          <value Name="náaaaah" />
+          <value Name="náaaaah" />
+          <value Name="náaaaah" />
+          <value Name="náaah" />
           <value Name="raa" Weight="2" />
           <value Name="raaaaaah" />
           <value Name="raaaaah" Weight="3" />
@@ -1224,23 +1224,23 @@
           <value Name="raah" Weight="2" />
         </templatevar>
         <templatevar Name="forest">
-          <value Name="bosk" />
-          <value Name="dale" />
-          <value Name="dell" />
-          <value Name="glade" />
-          <value Name="glen" />
-          <value Name="gorge" />
-          <value Name="grove" />
+          <value Name="bosque" />
+          <value Name="valle" />
+          <value Name="hondonada" />
+          <value Name="clarete" />
+          <value Name="garganta" />
+          <value Name="desfiladero" />
+          <value Name="arboleda" />
           <value Name="pradera" />
           <value Name="raíz" />
-          <value Name="valle" />
-          <value Name="bosque antiguo" />
+          <value Name="llanura" />
+          <value Name="bosque" />
           <value Name="llorar" />
           <value Name="madera" />
           <value Name="hueco" />
         </templatevar>
         <templatevar Name="location">
-          <value Name="cuarto de luna" />
+          <value Name="creciente" />
           <value Name="profundo" />
           <value Name="charco" />
           <value Name="estrella" />
@@ -1278,7 +1278,7 @@
         <prefix Name="el" />
         <prefix Name="ga" />
         <prefix Name="ir" />
-        <prefix Name="¡hau!" />
+        <prefix Name="hau" />
         <prefix Name="i" />
         <prefix Name="y" />
         <prefix Name="ma" />
@@ -1339,7 +1339,7 @@
       </templates>
       <templatevars Load="Replace">
         <templatevar Name="honorific">
-          <value Name="especias.adj.!aleatorio" />
+          <value Name="especias.adjetivos.!aleatorio" />
           <value Name="especias.sustantivos.!aleatorio" />
         </templatevar>
       </templatevars>
@@ -1350,15 +1350,15 @@
       </templates>
       <templatevars Load="Replace">
         <templatevar Name="adjective">
-          <value Name="especias.adj.!aleatorio" />
+          <value Name="especias.adjetivos.!aleatorio" />
         </templatevar>
       </templatevars>
     </namestyle>
     <namestyle Name="Godhed Hero Title" Load="Merge">
       <templates Load="Replace">
-        <template Name="Godhed de =noun1=" />
-        <template Name="Godhed de =noun1=-=noun2=" Weight="2" />
-        <template Name="Godhed de =adj=-=noun1=" Weight="2" />
+        <template Name="Godhed de la =noun1=" />
+        <template Name="Godhed de la =noun1=-=noun2=" Weight="2" />
+        <template Name="Godhed de la =adj=-=noun1=" Weight="2" />
         <template Name="Godhed de =noun1|pluralize=" />
       </templates>
       <templatevars Load="Replace">
@@ -1369,7 +1369,7 @@
           <value Name="especias.sustantivos.!aleatorio" />
         </templatevar>
         <templatevar Name="adj">
-          <value Name="especias.adj.!aleatorio" />
+          <value Name="especias.adjetivos.!aleatorio" />
         </templatevar>
       </templatevars>
     </namestyle>
@@ -1381,11 +1381,11 @@
     <namestyle Name="Snapjaw" Format="TitleCase" Load="Merge">
       <prefixes Load="Replace" Amount="0-2">
         <prefix Name="bar" />
-        <prefix Name="bawl" />
+        <prefix Name="baldear" />
         <prefix Name="bor" />
         <prefix Name="cuenco" />
-        <prefix Name="bur" />
-        <prefix Name="buwl" />
+        <prefix Name="bolo" />
+        <prefix Name="bole" />
         <prefix Name="da" />
         <prefix Name="do" />
         <prefix Name="du" />
@@ -1398,24 +1398,24 @@
         <prefix Name="raf" />
         <prefix Name="rof" />
         <prefix Name="ruf" />
-        <prefix Name="scar" />
-        <prefix Name="scor" />
-        <prefix Name="scur" />
+        <prefix Name="cicatriz" />
+        <prefix Name="escarcha" />
+        <prefix Name="escurre" />
       </prefixes>
       <infixes Load="Replace" Amount="1-4">
         <infix Name="afo" />
-        <infix Name="hace" />
+        <infix Name="ago" />
         <infix Name="aho" />
-        <infix Name="obo" />
-        <infix Name="ofo" />
-        <infix Name="ogo" />
-        <infix Name="oho" />
-        <infix Name="su" />
-        <infix Name="ubu" />
-        <infix Name="ufo" />
-        <infix Name="ugo" />
-        <infix Name="uho" />
-        <infix Name="ulu" />
+        <infix Name="obō" />
+        <infix Name="ófo" />
+        <infix Name="ògo" />
+        <infix Name="óho" />
+        <infix Name="sù" />
+        <infix Name="úbu" />
+        <infix Name="úfo" />
+        <infix Name="úgo" />
+        <infix Name="úho" />
+        <infix Name="úlu" />
         <infix Name="wof" />
       </infixes>
       <postfixes Load="Replace" Amount="0-2">
@@ -1431,8 +1431,8 @@
         <postfix Name="mo" />
         <postfix Name="mu" />
         <postfix Name="ob" />
-        <postfix Name="of" />
-        <postfix Name="ow" />
+        <postfix Name="de" />
+        <postfix Name="oh" />
         <postfix Name="oz" />
         <postfix Name="ub" />
         <postfix Name="uf" />
@@ -1442,26 +1442,26 @@
     </namestyle>
     <namestyle Name="Snapjaw Hero Title" Load="Merge">
       <templates Load="Replace">
-        <template Name="el =adjective= Snapjaw =occupation=" />
+        <template Name="la =adjective= Mordiboca =occupation=" />
       </templates>
       <templatevars Load="Replace">
         
         <templatevar Name="adjective">
-          <value Name="curtido" />
+          <value Name="endurecido" />
           <value Name="temible" />
           <value Name="ágil de pies" />
           <value Name="fornido" />
           <value Name="erudito" />
           <value Name="ágil" />
-          <value Name="firme y valiente" />
+          <value Name="firme" />
         </templatevar>
         <templatevar Name="occupation">
-          <value Name="Lanzabrujos" />
-          <value Name="Llamafurioso" />
-          <value Name="Desgarradentro" />
+          <value Name="Destripador de osos" />
+          <value Name="Ladrón de fuego" />
+          <value Name="Juguete de tripas" />
           <value Name="Rey" />
-          <value Name="Parteocéfalo" />
-          <value Name="Comedor de muertos" />
+          <value Name="Rompedor de cráneos" />
+          <value Name="Devorador de Tots" />
         </templatevar>
       </templatevars>
     </namestyle>
@@ -1471,7 +1471,7 @@
         <prefix Name="ala" />
         <prefix Name="ammu" />
         <prefix Name="amo" />
-        <prefix Name="afho" />
+        <prefix Name="apho" />
         <prefix Name="apo" />
         <prefix Name="arwa" />
         <prefix Name="atla" />
@@ -1568,10 +1568,10 @@
         <infix Name="tse" />
         <infix Name="n-" />
         <infix Name="om-" />
-        <infix Name="colo" />
+        <infix Name="color" />
         <infix Name="ch-" />
         <infix Name="tli" />
-        <infix Name="a" />
+        <infix Name="una" />
         <infix Name="ggha" />
         <infix Name="tho" />
         <infix Name="pse" />
@@ -1588,17 +1588,17 @@
         <infix Name="rrthi" />
         <infix Name="cra" />
         <infix Name="gtha" />
-        <infix Name="r-a" />
-        <infix Name="pha" />
+        <infix Name="ra" />
+        <infix Name="fa" />
         <infix Name="na" />
-        <infix Name="thne" />
+        <infix Name="tne" />
       </infixes>
       <postfixes Load="Replace" Amount="1">
         <postfix Name="los" />
         <postfix Name="ba" />
         <postfix Name="th" Weight="4" />
         <postfix Name="ssa" />
-        <postfix Name="cha" />
+        <postfix Name="ca" />
         <postfix Name="g" Weight="3" />
         <postfix Name="gg" Weight="3" />
         <postfix Name="sh" />
@@ -1666,16 +1666,16 @@
           <value Name="fornido" />
           <value Name="bestial" />
           <value Name="frenético" />
-          <value Name="piel de goma" />
+          <value Name="de piel elástica" />
           <value Name="sanguinario" />
           <value Name="de dos cabezas" />
         </templatevar>
         <templatevar Name="occupation">
-          <value Name="Coleccionista de cráneos" />
-          <value Name="Comedor de corazones" />
-          <value Name="Maestro de la Caza" />
-          <value Name="Devorador de hombres" />
-          <value Name="Rey de las Cuevas" />
+          <value Name="Recolector de cráneos" />
+          <value Name="Devorador de corazones" />
+          <value Name="Maestro de la caza" />
+          <value Name="Comedor de hombres" />
+          <value Name="Rey de la Caverna" />
         </templatevar>
       </templatevars>
     </namestyle>
@@ -1687,7 +1687,7 @@
         <prefix Name="ag" />
         <prefix Name="alexa" />
         <prefix Name="ceniza" />
-        <prefix Name="bartha" />
+        <prefix Name="bartla" />
         <prefix Name="bartho" />
         <prefix Name="benja" />
         <prefix Name="benju" />
@@ -1698,42 +1698,42 @@
         <prefix Name="che" />
         <prefix Name="cor" />
         <prefix Name="damasca" />
-        <prefix Name="debó" />
-        <prefix Name="dórca" />
-        <prefix Name="ében" />
-        <prefix Name="éli" />
-        <prefix Name="élo" />
-        <prefix Name="éfra" />
+        <prefix Name="debo" />
+        <prefix Name="dorca" />
+        <prefix Name="eben" />
+        <prefix Name="eli" />
+        <prefix Name="elō" />
+        <prefix Name="éfrā" />
         <prefix Name="éfri" />
-        <prefix Name="gabrí" />
+        <prefix Name="gábrī" />
         <prefix Name="ha" />
         <prefix Name="hága" />
-        <prefix Name="héroe" />
+        <prefix Name="hērō" />
         <prefix Name="ho" />
-        <prefix Name="hu" />
-        <prefix Name="icha" />
-        <prefix Name="jedi" />
-        <prefix Name="jeha" />
-        <prefix Name="jeho" />
-        <prefix Name="jodi" />
-        <prefix Name="laza" />
-        <prefix Name="matthi" />
-        <prefix Name="memfi" />
-        <prefix Name="meno" />
-        <prefix Name="mordé" />
-        <prefix Name="natha" />
-        <prefix Name="noa" />
-        <prefix Name="odé" />
+        <prefix Name="hū" />
+        <prefix Name="ícha" />
+        <prefix Name="jédi" />
+        <prefix Name="jehā" />
+        <prefix Name="Jeho" />
+        <prefix Name="Jodi" />
+        <prefix Name="Laza" />
+        <prefix Name="Matthi" />
+        <prefix Name="Memphi" />
+        <prefix Name="Meno" />
+        <prefix Name="Morde" />
+        <prefix Name="Natha" />
+        <prefix Name="Noa" />
+        <prefix Name="Ode" />
         <prefix Name="pha" />
         <prefix Name="fhe" />
         <prefix Name="fi" />
         <prefix Name="fho" />
         <prefix Name="rache" />
-        <prefix Name="rhea" />
+        <prefix Name="rea" />
         <prefix Name="ru" />
         <prefix Name="sala" />
-        <prefix Name="sapha" />
-        <prefix Name="sephe" />
+        <prefix Name="safa" />
+        <prefix Name="sefe" />
         <prefix Name="sethe" />
         <prefix Name="solo" />
         <prefix Name="stephe" />
@@ -1742,42 +1742,42 @@
       </prefixes>
       <postfixes Load="Replace" Amount="1">
         <postfix Name="cai" />
-        <postfix Name="di ah" />
-        <postfix Name="di as" />
+        <postfix Name="diah" />
+        <postfix Name="dias" />
         <postfix Name="dius" />
         <postfix Name="ham" />
-        <postfix Name="ken ah" />
-        <postfix Name="kuna h" />
+        <postfix Name="kenah" />
+        <postfix Name="kunah" />
         <postfix Name="min" />
         <postfix Name="mon" />
-        <postfix Name="polilla" />
+        <postfix Name="moth" />
         <postfix Name="mun" />
-        <postfix Name="mut" />
-        <postfix Name="no" />
-        <postfix Name="ninguna" />
-        <postfix Name="nueva" />
+        <postfix Name="muth" />
+        <postfix Name="nae" />
+        <postfix Name="noe" />
+        <postfix Name="nue" />
         <postfix Name="ny" />
         <postfix Name="rael" />
-        <postfix Name="ruta" />
+        <postfix Name="rath" />
         <postfix Name="roth" />
-        <postfix Name="saída" />
-        <postfix Name="safir" />
+        <postfix Name="saida" />
+        <postfix Name="saf" />
         <postfix Name="sep" />
         <postfix Name="shafat" />
         <postfix Name="shar" />
-        <postfix Name="saba" />
+        <postfix Name="seba" />
         <postfix Name="sem" />
         <postfix Name="siá" />
         <postfix Name="shió" />
         <postfix Name="shiu" />
-        <postfix Name="tienda" />
-        <postfix Name="siáh" />
+        <postfix Name="sho" />
+        <postfix Name="siah" />
         <postfix Name="sioh" />
         <postfix Name="siuh" />
-        <postfix Name="sof" />
-        <postfix Name="thél" />
+        <postfix Name="soph" />
+        <postfix Name="thel" />
         <postfix Name="thesda" />
-        <postfix Name="til" />
+        <postfix Name="tyl" />
       </postfixes>
     </namestyle>
     <namestyle Name="Mechanimist Hero Title" Load="Merge">
@@ -1787,9 +1787,9 @@
       <templatevars Load="Replace">
         <templatevar Name="cognomen">
           <value Name="elegido por Shekhinah" />
-          <value Name="Tachicrudo" />
+          <value Name="{C|Tensado en Cromo}" />
           <value Name="Favorito de los Padres Argénticos" />
-          <value Name="Chico del Baeilo" />
+          <value Name="Niño Baetyl" />
         </templatevar>
       </templatevars>
     </namestyle>
@@ -1811,11 +1811,11 @@
         <prefix Name="na" />
         <prefix Name="naf" />
         <prefix Name="ne" />
-        <prefix Name="qa" />
+        <prefix Name="ca" />
         <prefix Name="qe" />
         <prefix Name="sa" />
         <prefix Name="sha" />
-        <prefix Name="así" />
+        <prefix Name="so" />
         <prefix Name="su" />
         <prefix Name="ta" Weight="2" />
         <prefix Name="te" />
@@ -1827,9 +1827,9 @@
         <prefix Name="za" />
       </prefixes>
       <infixes Load="Replace" Amount="0-3">
-        <infix Name="" />
+        <infix Name="'" />
         <infix Name="ba" />
-        <infix Name="¡Viva y bebe!" />
+        <infix Name="hi" />
         <infix Name="la" />
         <infix Name="lho" />
         <infix Name="ma" />
@@ -1847,13 +1847,13 @@
       <postfixes Load="Replace" Amount="1">
         <postfix Name="ah" />
         <postfix Name="ayl" />
-        <postfix Name="carác" />
+        <postfix Name="char" />
         <postfix Name="faat" />
         <postfix Name="fah" />
-        <postfix Name="fan" />
+        <postfix Name="abanico" />
         <postfix Name="ghaa" />
         <postfix Name="ki" />
-        <postfix Name="lb" Weight="2" />
+        <postfix Name="libra" Weight="2" />
         <postfix Name="lef" />
         <postfix Name="li" />
         <postfix Name="maar" />
@@ -1893,26 +1893,26 @@
         <prefix Name="boko" />
         <prefix Name="bomo" />
         <prefix Name="boo" />
-        <prefix Name="boyo" />
+        <prefix Name="muchacho" />
         <prefix Name="bu" />
-        <prefix Name="buku" />
-        <prefix Name="bumu" />
-        <prefix Name="buyu" />
+        <prefix Name="libro" />
+        <prefix Name="bumbo" />
+        <prefix Name="brujo" />
       </prefixes>
       <postfixes Load="Replace" Amount="0-1">
         <postfix Name="ba" />
         <postfix Name="bam" />
-        <postfix Name="bat" />
+        <postfix Name="murciélago" />
         <postfix Name="ser" />
         <postfix Name="abeja" />
         <postfix Name="bo" />
-        <postfix Name="bóm" />
-        <postfix Name="buh" />
-        <postfix Name="buey" />
+        <postfix Name="bomba" />
+        <postfix Name="hoo (como en &quot;hoo-ha&quot;)" />
+        <postfix Name="bumbo" />
         <postfix Name="bim" />
         <postfix Name="ge" />
         <postfix Name="gi" />
-        <postfix Name="gei" />
+        <postfix Name="gié" />
       </postfixes>
     </namestyle>
     <namestyle Name="Bear Hero Title" Load="Merge">
@@ -1976,12 +1976,12 @@
       </templates>
       <templatevars Load="Replace">
         <templatevar Name="adjective">
-          <value Name="{C|colorido}" />
-          <value Name="{C|elegante}" />
-          <value Name="{C|moderno}" />
-          <value Name="{C|prismático}" />
+          <value Name="{C|Colorido}" />
+          <value Name="{C|Elegante}" />
+          <value Name="{C|Moderno}" />
+          <value Name="Prismático" />
           <value Name="Estiloso" />
-          <value Name="Airoso" />
+          <value Name="Aduroso" />
           <value Name="Bien vestido" />
           <value Name="Bien ataviado" />
         </templatevar>
@@ -1998,16 +1998,16 @@
         <prefix Name="0" Weight="2" />
         <prefix Name="1" Weight="2" />
         <prefix Name="2" Weight="2" />
-        <prefix Name="3" Weight="2" />
-        <prefix Name="4" Weight="2" />
-        <prefix Name="5" Weight="2" />
-        <prefix Name="6" Weight="2" />
-        <prefix Name="7" Weight="2" />
-        <prefix Name="8" Weight="2" />
-        <prefix Name="9" Weight="2" />
-        <prefix Name="A" Weight="2" />
-        <prefix Name="B" Weight="2" />
-        <prefix Name="C" Weight="2" />
+        <prefix Name="Tres" Weight="2" />
+        <prefix Name="Cuatro" Weight="2" />
+        <prefix Name="Cinco" Weight="2" />
+        <prefix Name="Seis" Weight="2" />
+        <prefix Name="Siete" Weight="2" />
+        <prefix Name="Ocho" Weight="2" />
+        <prefix Name="Nueve" Weight="2" />
+        <prefix Name="Una" Weight="2" />
+        <prefix Name="Breve" Weight="2" />
+        <prefix Name="Ce" Weight="2" />
         <prefix Name="D" Weight="2" />
         <prefix Name="E" Weight="2" />
         <prefix Name="F" Weight="2" />
@@ -2055,7 +2055,7 @@
       <prefixes Load="Replace" Amount="1">
         <prefix Name="un" />
         <prefix Name="ac" />
-        <prefix Name="agua" />
+        <prefix Name="apa" />
         <prefix Name="ar" Weight="2" />
         <prefix Name="ata" />
         <prefix Name="au" />
@@ -2080,12 +2080,12 @@
         <prefix Name="pha" />
         <prefix Name="ple" />
         <prefix Name="pte" />
-        <prefix Name="pyrrh" />
+        <prefix Name="pirro" />
         <prefix Name="ra" />
         <prefix Name="re" />
         <prefix Name="sti" />
         <prefix Name="te" />
-        <prefix Name="thy" />
+        <prefix Name="ti" />
         <prefix Name="va" />
       </prefixes>
       <infixes Load="Replace" Amount="1-2">
@@ -2095,12 +2095,12 @@
         <infix Name="chae" />
         <infix Name="co" />
         <infix Name="cto" />
-        <infix Name="cy" />
-        <infix Name="cyo" />
+        <infix Name="ci" />
+        <infix Name="ciyo" />
         <infix Name="da" />
         <infix Name="ga" />
         <infix Name="gi" />
-        <infix Name="gio" />
+        <infix Name="gío" />
         <infix Name="ha" />
         <infix Name="la" Weight="2" />
         <infix Name="li" />
@@ -2111,7 +2111,7 @@
         <infix Name="ne" />
         <infix Name="no" />
         <infix Name="nthu" />
-        <infix Name="pha" />
+        <infix Name="fa" />
         <infix Name="phy" />
         <infix Name="pi" />
         <infix Name="rgy" />
@@ -2141,7 +2141,7 @@
         <postfix Name="nis" />
         <postfix Name="pae" />
         <postfix Name="pe" />
-        <postfix Name="fha" />
+        <postfix Name="pha" />
         <postfix Name="más" />
         <postfix Name="ppus" />
         <postfix Name="ra" />
@@ -2151,52 +2151,52 @@
         <postfix Name="rus" />
         <postfix Name="sis" Weight="2" />
         <postfix Name="ssa" />
-        <postfix Name="así pues" />
-        <postfix Name="tía" />
-        <postfix Name="esto es" />
+        <postfix Name="así" />
+        <postfix Name="tia" />
+        <postfix Name="tís" />
         <postfix Name="tor" />
-        <postfix Name="tú" />
+        <postfix Name="tus" />
       </postfixes>
     </namestyle>
     <namestyle Name="Ooze" Format="TitleCase" Load="Merge">
       <prefixes Load="Replace" Amount="1">
-        <prefix Name="anu" />
-        <prefix Name="astroi" />
-        <prefix Name="cúbicos" />
-        <prefix Name="cubo" />
-        <prefix Name="ciclos" />
-        <prefix Name="cicloí" />
-        <prefix Name="deca" />
+        <prefix Name="anū" />
+        <prefix Name="astrōi" />
+        <prefix Name="cūbi" />
+        <prefix Name="cūbō" />
+        <prefix Name="cycli" />
+        <prefix Name="cyclōi" />
+        <prefix Name="decā" />
         <prefix Name="di" />
-        <prefix Name="discói" />
-        <prefix Name="dodé" />
-        <prefix Name="élli" />
+        <prefix Name="discōi" />
+        <prefix Name="dōde" />
+        <prefix Name="elli" />
         <prefix Name="fusi" />
-        <prefix Name="eptá" />
+        <prefix Name="hepta" />
         <prefix Name="hexa" />
         <prefix Name="iso" />
-        <prefix Name="k-gonio" />
-        <prefix Name="m-gonio" />
-        <prefix Name="n-gonio" />
+        <prefix Name="k-goni" />
+        <prefix Name="m-goni" />
+        <prefix Name="n-goni" />
         <prefix Name="octa" />
-        <prefix Name="octa" />
-        <prefix Name="óvula" />
-        <prefix Name="óvulo" />
+        <prefix Name="okta" />
+        <prefix Name="ova" />
+        <prefix Name="óvolo" />
         <prefix Name="paralelo" />
-        <prefix Name="poli" />
-        <prefix Name="cuadrípedo" />
-        <prefix Name="recta" />
-        <prefix Name="rombo" />
-        <prefix Name="esfera" />
+        <prefix Name="poly" />
         <prefix Name="cuadrado" />
+        <prefix Name="recto" />
+        <prefix Name="rómbico" />
+        <prefix Name="esférico" />
+        <prefix Name="cuadrado (en sentido de cuadrilátero)" />
         <prefix Name="trapecio" />
         <prefix Name="trípedo" />
       </prefixes>
       <infixes Load="Replace" Amount="0-1">
         <infix Name="crisólito" />
-        <infix Name="drón" />
-        <infix Name="clepsidra" />
-        <infix Name="cripta" />
+        <infix Name="dromada" />
+        <infix Name="kle" />
+        <infix Name="kri" />
         <infix Name="kto" />
         <infix Name="mem" />
         <infix Name="nu" />
@@ -2222,47 +2222,47 @@
         <postfix Name="aios" />
         <postfix Name="aster" />
         <postfix Name="bion" />
-        <postfix Name="cajas" />
+        <postfix Name="crates" />
         <postfix Name="dios" />
         <postfix Name="dros" />
         <postfix Name="eón" />
-        <postfix Name="hud" />
+        <postfix Name="húd" />
         <postfix Name="io" />
         <postfix Name="ios" />
-        <postfix Name="es" />
+        <postfix Name="is" />
         <postfix Name="ius" />
-        <postfix Name="kratas" />
-        <postfix Name="lemy" />
+        <postfix Name="kratés" />
+        <postfix Name="lémy" />
         <postfix Name="león" />
         <postfix Name="lléus" />
         <postfix Name="los" />
         <postfix Name="lítos" />
-        <postfix Name="medianos" />
+        <postfix Name="médés" />
         <postfix Name="mon" />
         <postfix Name="mus" />
         <postfix Name="nis" />
-        <postfix Name="no" />
-        <postfix Name="ntinos" />
-        <postfix Name="fase" />
-        <postfix Name="fisis" />
-        <postfix Name="phokles" />
+        <postfix Name="non" />
+        <postfix Name="ntilós" />
+        <postfix Name="fás" />
+        <postfix Name="fís" />
+        <postfix Name="fókles" />
         <postfix Name="rgo" />
         <postfix Name="rgos" />
-        <postfix Name="ron" />
+        <postfix Name="rón" />
         <postfix Name="ses" />
         <postfix Name="sop" />
         <postfix Name="stos" />
         <postfix Name="estrato" />
         <postfix Name="stus" />
-        <postfix Name="teles" />
+        <postfix Name="telés" />
         <postfix Name="taddeo" />
         <postfix Name="teneas" />
-        <postfix Name="tenis" />
-        <postfix Name="ther" />
+        <postfix Name="tenís" />
+        <postfix Name="ter" />
         <postfix Name="theus" />
         <postfix Name="thon" />
         <postfix Name="tos" />
-        <postfix Name="trios" />
+        <postfix Name="tríos" />
         <postfix Name="xis" />
       </postfixes>
     </namestyle>
@@ -2275,16 +2275,16 @@
         <prefix Name="ci" />
         <prefix Name="co" />
         <prefix Name="e" />
-        <prefix Name="hu" />
-        <prefix Name="tonalidad" />
-        <prefix Name="tonalidad vibrante" />
+        <prefix Name="hū" />
+        <prefix Name="hueso" />
+        <prefix Name="hui" />
         <prefix Name="i" />
         <prefix Name="ku" />
         <prefix Name="ma" />
         <prefix Name="o" />
         <prefix Name="pa" Weight="2" />
         <prefix Name="pi" />
-        <prefix Name="que" />
+        <prefix Name="qué" />
         <prefix Name="te" />
         <prefix Name="tla" />
         <prefix Name="to" />
@@ -2352,9 +2352,9 @@
         <prefix Name="myr" />
         <prefix Name="nar" />
         <prefix Name="nir" />
-        <prefix Name="ni" />
+        <prefix Name="nor" />
         <prefix Name="nur" />
-        <prefix Name="nyrd" />
+        <prefix Name="nyr" />
       </prefixes>
       <infixes Load="Replace" Amount="1-2">
         <infix Name="la" />
@@ -2363,15 +2363,15 @@
         <infix Name="lu" />
       </infixes>
       <postfixes Load="Replace" Amount="0-1">
-        <postfix Name="laboratorio" />
+        <postfix Name="lab" />
         <postfix Name="leb" />
-        <postfix Name="lób" />
-        <postfix Name="lúb" />
-        <postfix Name="máb" />
-        <postfix Name="méb" />
-        <postfix Name="míb" />
-        <postfix Name="mób" />
-        <postfix Name="múb" />
+        <postfix Name="lob" />
+        <postfix Name="lub" />
+        <postfix Name="mab" />
+        <postfix Name="meb" />
+        <postfix Name="mib" />
+        <postfix Name="mob" />
+        <postfix Name="mub" />
       </postfixes>
     </namestyle>
     <namestyle Name="Tortoise Hero Epithet" Load="Merge">
@@ -2380,9 +2380,9 @@
       </templates>
       <templatevars Load="Replace">
         <templatevar Name="disposition">
-          <value Name="Iracundo" />
+          <value Name="Irascible" />
           <value Name="Colérico" />
-          <value Name="Grumboso" />
+          <value Name="Molesto" />
           <value Name="Melancólico" />
           <value Name="Quejumbroso" />
           <value Name="Desabrido" />
@@ -2398,8 +2398,8 @@
       <prefixes Load="Replace" Amount="1">
         <prefix Name="un" Weight="5" />
         <prefix Name="ser" />
-        <prefix Name="Boa" />
-        <prefix Name="Bri" />
+        <prefix Name="boá" />
+        <prefix Name="bri" />
         <prefix Name="ci" />
         <prefix Name="co" />
         <prefix Name="dy" />
@@ -2480,14 +2480,14 @@
         <postfix Name="rrum" />
         <postfix Name="stres" />
         <postfix Name="sus" />
-        <postfix Name="así pues" />
-        <postfix Name="esto es" Weight="2" />
-        <postfix Name="trios" />
+        <postfix Name="así" />
+        <postfix Name="tís" Weight="2" />
+        <postfix Name="tríos" />
       </postfixes>
     </namestyle>
     <namestyle Name="Arachnid" Format="TitleCase" Load="Merge">
       <prefixes Load="Replace" Amount="1">
-        <prefix Name="phthis" />
+        <prefix Name="fthis" />
         <prefix Name="sheb" />
         <prefix Name="shob" />
         <prefix Name="shyb" />
@@ -2497,7 +2497,7 @@
         <prefix Name="yith" />
       </prefixes>
       <postfixes Load="Replace" Amount="1-3">
-        <postfix Name="es" />
+        <postfix Name="is" />
         <postfix Name="ith" />
         <postfix Name="os" />
         <postfix Name="oth" />
@@ -2536,7 +2536,7 @@
         <templatevar Name="singer">
           <value Name="Bard" />
           <value Name="Minstrel" />
-          <value Name="Cantor" />
+          <value Name="Songster" />
           <value Name="Cantora" />
           <value Name="Trovador" />
         </templatevar>
@@ -2565,7 +2565,7 @@
         <prefix Name="ga" />
         <prefix Name="glau" />
         <prefix Name="ha" />
-        <prefix Name="hola" />
+        <prefix Name="hi" />
         <prefix Name="jor" />
         <prefix Name="la" />
         <prefix Name="li" />
@@ -2630,25 +2630,25 @@
         <prefix Name="hil" />
         <prefix Name="ja" />
         <prefix Name="jo" />
-        <prefix Name="león" />
+        <prefix Name="leó" />
         <prefix Name="ma" />
         <prefix Name="nie" />
         <prefix Name="o" />
         <prefix Name="fi" />
         <prefix Name="ri" />
         <prefix Name="ru" Weight="2" />
-        <prefix Name="nosotros" />
-        <prefix Name="vosotros" Weight="2" />
+        <prefix Name="we" />
+        <prefix Name="wi" Weight="2" />
       </prefixes>
       <infixes Load="Replace" Amount="1-2">
-        <infix Name="cartas" />
+        <infix Name="chardi" />
         <infix Name="de" />
         <infix Name="degge" />
-        <infix Name="deletrear" />
-        <infix Name="dolfín" />
-        <infix Name="éter" />
+        <infix Name="dele" />
+        <infix Name="dolfo" />
+        <infix Name="ethe" />
         <infix Name="gel" />
-        <infix Name="gelido" />
+        <infix Name="gelse" />
         <infix Name="lbe" />
         <infix Name="lhe" />
         <infix Name="li" />
@@ -2659,7 +2659,7 @@
         <infix Name="nsteine" />
         <infix Name="nthe" />
         <infix Name="perta" />
-        <infix Name="fi" />
+        <infix Name="phi" />
         <infix Name="poldo" />
         <infix Name="rdi" />
         <infix Name="rle" />
@@ -2676,32 +2676,32 @@
       </infixes>
       <postfixes Load="Replace" Amount="1">
         <postfix Name="haya" />
-        <postfix Name="bert" />
+        <postfix Name="bertrán" />
         <postfix Name="boldt" />
-        <postfix Name="bombilla" />
+        <postfix Name="bulbo" />
         <postfix Name="arbusto" />
         <postfix Name="helecho" />
         <postfix Name="fronda" />
         <postfix Name="arboleda" />
-        <postfix Name="refugio" />
+        <postfix Name="posesión" />
         <postfix Name="hoja" />
-        <postfix Name="cerrojo" />
+        <postfix Name="cerradura" />
         <postfix Name="lotze" />
         <postfix Name="musgo" />
         <postfix Name="roble" />
         <postfix Name="pino" />
-        <postfix Name="cerezo" />
+        <postfix Name="ciruela" />
         <postfix Name="raíz" />
-        <postfix Name="rastro" />
+        <postfix Name="ruto" />
         <postfix Name="arbusto" />
-        <postfix Name="ramita" />
+        <postfix Name="ramillete" />
         <postfix Name="abeto" />
-        <postfix Name="tronco hueco" />
-        <postfix Name="tarch (invariable)" />
+        <postfix Name="tronco torcido" />
+        <postfix Name="tarcho" />
         <postfix Name="vid" />
         <postfix Name="sauce" />
-        <postfix Name="madera" />
-        <postfix Name="hierba" />
+        <postfix Name="leña" />
+        <postfix Name="raíz medicinal" />
       </postfixes>
     </namestyle>
     <namestyle Name="Fungus" Format="TitleCase" Load="Merge">
@@ -2709,22 +2709,22 @@
         <prefix Name="ama" />
         <prefix Name="amán" />
         <prefix Name="b" />
-        <prefix Name="bola" />
+        <prefix Name="bol" />
         <prefix Name="canto" />
-        <prefix Name="clavija" />
+        <prefix Name="clav" />
         <prefix Name="co" />
-        <prefix Name="cordeya" />
-        <prefix Name="crea" />
+        <prefix Name="cordy" />
+        <prefix Name="cre" />
         <prefix Name="ento" />
         <prefix Name="giro" />
         <prefix Name="ino" />
         <prefix Name="lep" />
         <prefix Name="m" />
         <prefix Name="mn" />
-        <prefix Name="ómpha" />
-        <prefix Name="falo" />
-        <prefix Name="pléu" />
-        <prefix Name="escu" />
+        <prefix Name="ompha" />
+        <prefix Name="phall" />
+        <prefix Name="pleu" />
+        <prefix Name="scu" />
         <prefix Name="trípedo" />
         <prefix Name="um" />
         <prefix Name="vir" />
@@ -2741,42 +2741,42 @@
         <infix Name="era" />
         <infix Name="erelle" />
         <infix Name="gano" />
-        <infix Name="icus" />
+        <infix Name="icos" />
         <infix Name="inar" />
         <infix Name="ini" />
         <infix Name="ita" />
         <infix Name="loma" />
         <infix Name="oki" />
         <infix Name="oma" />
-        <infix Name="visión" />
-        <infix Name="oreja" />
+        <infix Name="opsis" />
+        <infix Name="orel" />
         <infix Name="osa" />
         <infix Name="zhi" />
       </infixes>
       <postfixes Load="Replace" Amount="1">
         <postfix Name="aecio" />
         <postfix Name="ágaro" />
-        <postfix Name="bolita" />
+        <postfix Name="boléto" />
         <postfix Name="sombrero" />
-        <postfix Name="carp" />
+        <postfix Name="carne" />
         <postfix Name="colonia" />
-        <postfix Name="crosier" />
-        <postfix Name="pluma" />
+        <postfix Name="cetro" />
+        <postfix Name="pliegue" />
         <postfix Name="hifa" />
         <postfix Name="líquen" />
         <postfix Name="moho" />
-        <postfix Name="moreta" />
-        <postfix Name="pélvis" />
+        <postfix Name="morrón" />
+        <postfix Name="péllice" />
         <postfix Name="fóreo" />
         <postfix Name="poro" />
-        <postfix Name="protista" />
+        <postfix Name="protozoario" />
         <postfix Name="hongo" />
-        <postfix Name="apareamiento" />
+        <postfix Name="esporas" />
         <postfix Name="espora" />
-        <postfix Name="excremento" />
+        <postfix Name="asiento" />
         <postfix Name="tallo" />
         <postfix Name="grupo" />
-        <postfix Name="umbo" />
+        <postfix Name="umbón" />
       </postfixes>
     </namestyle>
     <namestyle Name="Antelope" Format="TitleCase" Load="Merge">
@@ -2832,7 +2832,7 @@
         <postfix Name="goo" />
         <postfix Name="gum" />
         <postfix Name="gi" />
-        <postfix Name="gei" />
+        <postfix Name="gié" />
         <postfix Name="gym" />
       </postfixes>
     </namestyle>
@@ -2842,12 +2842,12 @@
       </templates>
       <templatevars Load="Replace">
         <templatevar Name="adjective">
-          <value Name="Velozcornu" />
-          <value Name="Saltamontes" />
-          <value Name="Juglar" />
-          <value Name="Escarabajoalado" />
-          <value Name="Danzadordelviento" />
-          <value Name="Bailarín del cazador" />
+          <value Name="Hojafeliz" />
+          <value Name="Saltamarchas" />
+          <value Name="Juguetón" />
+          <value Name="Pataalibrota" />
+          <value Name="Danzabailote" />
+          <value Name="Bailadescorrida" />
         </templatevar>
       </templatevars>
     </namestyle>
@@ -2866,7 +2866,7 @@
         <prefix Name="mna" />
         <prefix Name="mni" />
         <prefix Name="mnu" />
-        <prefix Name="qa" />
+        <prefix Name="ca" />
         <prefix Name="qi" />
         <prefix Name="qqa" />
         <prefix Name="qqi" />
@@ -2895,7 +2895,7 @@
         <prefix Name="ga" />
         <prefix Name="glau" />
         <prefix Name="ha" />
-        <prefix Name="hola" />
+        <prefix Name="hi" />
         <prefix Name="jor" />
         <prefix Name="la" />
         <prefix Name="li" />
@@ -2944,16 +2944,16 @@
     </namestyle>
     <namestyle Name="Issachari" Load="Merge">
       <prefixes Load="Replace" Amount="1">
-        <prefix Name="Baþes" />
-        <prefix Name="Mastica" />
-        <prefix Name="Asfixia" />
-        <prefix Name="Bebe a grandes tragos" />
-        <prefix Name="Llora" />
+        <prefix Name="Bañes" />
+        <prefix Name="Muerde" />
+        <prefix Name="Ahoga" />
+        <prefix Name="Traga" />
+        <prefix Name="Clama" />
         <prefix Name="Bebe" />
-        <prefix Name="Desgarrar (carnífico)" />
+        <prefix Name="Descarne" />
       </prefixes>
       <infixes Load="Replace" Amount="1">
-        <infix Name="por" />
+        <infix Name="by" />
         <infix Name="en" />
         <infix Name="cerca de" />
         <infix Name="sobre" />
@@ -2963,7 +2963,7 @@
         <postfix Name="Asfalto" />
         <postfix Name="Fuego" />
         <postfix Name="Aceite" />
-        <postfix Name="Sal ácida" />
+        <postfix Name="Sal rápida" />
         <postfix Name="Sal" />
         <postfix Name="Serpientes" />
         <postfix Name="el-Serpiente-Aplumada" />
@@ -2977,23 +2977,23 @@
         <prefix Name="ser" />
         <prefix Name="ca" />
         <prefix Name="cha" />
-        <prefix Name="chi" />
-        <prefix Name="ci" />
+        <prefix Name="chri" />
+        <prefix Name="cy" />
         <prefix Name="da" />
         <prefix Name="ed" />
-        <prefix Name="éli" />
+        <prefix Name="eli" />
         <prefix Name="em" />
-        <prefix Name="efe" />
+        <prefix Name="eve" />
         <prefix Name="fa" />
         <prefix Name="flo" />
         <prefix Name="ga" />
         <prefix Name="ge" />
-        <prefix Name="tipo" />
+        <prefix Name="guy" />
         <prefix Name="gwi" />
         <prefix Name="ha" />
         <prefix Name="ho" />
-        <prefix Name="hu" />
-        <prefix Name="hia" />
+        <prefix Name="hū" />
+        <prefix Name="hya" />
         <prefix Name="i" />
         <prefix Name="ja" />
         <prefix Name="jo" />
@@ -3040,17 +3040,17 @@
       </infixes>
       <postfixes Load="Replace" Amount="1">
         <postfix Name="belle" />
-        <postfix Name="bert" />
-        <postfix Name="beth" />
-        <postfix Name="c" />
-        <postfix Name="chim" />
-        <postfix Name="dam" />
-        <postfix Name="dicte" />
-        <postfix Name="doc" />
-        <postfix Name="dolf" />
-        <postfix Name="dore" />
-        <postfix Name="drig" />
-        <postfix Name="rostro" />
+        <postfix Name="bertrán" />
+        <postfix Name="bethe" />
+        <postfix Name="ce" />
+        <postfix Name="chime" />
+        <postfix Name="daño" />
+        <postfix Name="dicta" />
+        <postfix Name="docto" />
+        <postfix Name="dolfo" />
+        <postfix Name="dora" />
+        <postfix Name="drigo" />
+        <postfix Name="fachada" />
         <postfix Name="ffrey" />
         <postfix Name="ffroy" />
         <postfix Name="gathe" />
@@ -3063,41 +3063,41 @@
         <postfix Name="nand" />
         <postfix Name="no" />
         <postfix Name="nuel" />
-        <postfix Name="phine" />
+        <postfix Name="fín" />
         <postfix Name="fne" />
         <postfix Name="pold" />
         <postfix Name="raza" />
         <postfix Name="rard" />
-        <postfix Name="rent" />
+        <postfix Name="rente" />
         <postfix Name="rian" />
-        <postfix Name="ric" />
+        <postfix Name="rico" />
         <postfix Name="ril" />
         <postfix Name="rine" Weight="2" />
         <postfix Name="rth" />
         <postfix Name="spard" />
         <postfix Name="postura" />
         <postfix Name="bastón" />
-        <postfix Name="Strid" />
-        <postfix Name="ther" />
-        <postfix Name="Thur" />
+        <postfix Name="estrid" />
+        <postfix Name="ter" />
+        <postfix Name="thur" />
         <postfix Name="tor" />
-        <postfix Name="Vis" />
-        <postfix Name="Y" />
+        <postfix Name="vis" />
+        <postfix Name="y" />
       </postfixes>
     </namestyle>
     <namestyle Name="Templar Hero Title" Load="Merge">
       <templates Load="Replace">
-        <template Name="Califa de la Guerra entre los de la Verdadera Estirpe" />
+        <template Name="Guerrer@ de la Verdadera Estirpe" />
       </templates>
     </namestyle>
     <namestyle Name="Templar Commander Title" Load="Merge">
       <templates Load="Replace">
-        <template Name="Caballero Comandante del Santo Templo" />
+        <template Name="Comandante Caballero del Santuario Sagrado" />
       </templates>
     </namestyle>
     <namestyle Name="Templar Wraith Title" Load="Merge">
       <templates Load="Replace">
-        <template Name="Templario Caballero Fantasma del Honorum Binario" />
+        <template Name="Templario Caballero de las Sombras del Honorum Binario" />
       </templates>
     </namestyle>
     <namestyle Name="Templar Grand Newfather Title" Load="Merge">
@@ -3130,7 +3130,7 @@
         <prefix Name="resplandeciente" />
         <prefix Name="perla" />
         <prefix Name="puro" />
-        <prefix Name="honra" />
+        <prefix Name="honor" />
         <prefix Name="libre" />
         <prefix Name="fe" />
         <prefix Name="pálido" />
@@ -3146,8 +3146,8 @@
         <prefix Name="joya" />
         <prefix Name="roca" />
         <prefix Name="cromo" />
-        <prefix Name="justo" />
-        <prefix Name="alto" />
+        <prefix Name="justicia" />
+        <prefix Name="elevado" />
       </prefixes>
       <infixes Load="Replace" Amount="1">
         <infix Name="bso" />
@@ -3178,17 +3178,17 @@
       </infixes>
       <postfixes Load="Replace" Amount="1">
         <postfix Name="belle" />
-        <postfix Name="bert" />
-        <postfix Name="beth" />
-        <postfix Name="c" />
-        <postfix Name="chim" />
-        <postfix Name="dam" />
-        <postfix Name="dicte" />
-        <postfix Name="doc" />
-        <postfix Name="dolf" />
-        <postfix Name="dore" />
-        <postfix Name="drig" />
-        <postfix Name="rostro" />
+        <postfix Name="bertrán" />
+        <postfix Name="bethe" />
+        <postfix Name="ce" />
+        <postfix Name="chime" />
+        <postfix Name="daño" />
+        <postfix Name="dicta" />
+        <postfix Name="docto" />
+        <postfix Name="dolfo" />
+        <postfix Name="dora" />
+        <postfix Name="drigo" />
+        <postfix Name="fachada" />
         <postfix Name="ffrey" />
         <postfix Name="ffroy" />
         <postfix Name="gathe" />
@@ -3201,26 +3201,26 @@
         <postfix Name="nand" />
         <postfix Name="no" />
         <postfix Name="nuel" />
-        <postfix Name="phine" />
+        <postfix Name="fín" />
         <postfix Name="fne" />
         <postfix Name="pold" />
         <postfix Name="raza" />
         <postfix Name="rard" />
-        <postfix Name="rent" />
+        <postfix Name="rente" />
         <postfix Name="rian" />
-        <postfix Name="ric" />
+        <postfix Name="rico" />
         <postfix Name="ril" />
         <postfix Name="rine" Weight="2" />
         <postfix Name="rth" />
         <postfix Name="spard" />
         <postfix Name="postura" />
         <postfix Name="bastón" />
-        <postfix Name="Strid" />
-        <postfix Name="ther" />
-        <postfix Name="Thur" />
+        <postfix Name="estrid" />
+        <postfix Name="ter" />
+        <postfix Name="thur" />
         <postfix Name="tor" />
-        <postfix Name="Vis" />
-        <postfix Name="Y" />
+        <postfix Name="vis" />
+        <postfix Name="y" />
       </postfixes>
     </namestyle>
     <namestyle Name="Templar Mecha 2" Format="TitleCase" Load="Merge">
@@ -3230,23 +3230,23 @@
         <prefix Name="ser" />
         <prefix Name="ca" />
         <prefix Name="cha" />
-        <prefix Name="chi" />
-        <prefix Name="ci" />
+        <prefix Name="chri" />
+        <prefix Name="cy" />
         <prefix Name="da" />
         <prefix Name="ed" />
-        <prefix Name="éli" />
+        <prefix Name="eli" />
         <prefix Name="em" />
-        <prefix Name="efe" />
+        <prefix Name="eve" />
         <prefix Name="fa" />
         <prefix Name="flo" />
         <prefix Name="ga" />
         <prefix Name="ge" />
-        <prefix Name="tipo" />
+        <prefix Name="guy" />
         <prefix Name="gwi" />
         <prefix Name="ha" />
         <prefix Name="ho" />
-        <prefix Name="hu" />
-        <prefix Name="hia" />
+        <prefix Name="hū" />
+        <prefix Name="hya" />
         <prefix Name="i" />
         <prefix Name="ja" />
         <prefix Name="jo" />
@@ -3295,8 +3295,8 @@
         <postfix Name="belle" Weight="2" />
         <postfix Name="hijo" />
         <postfix Name="hija" />
-        <postfix Name="parientes" />
-        <postfix Name="criatura" />
+        <postfix Name="parentesco" />
+        <postfix Name="cría" />
         <postfix Name="día" />
         <postfix Name="noche" />
         <postfix Name="caída" />
@@ -3306,7 +3306,7 @@
         <postfix Name="agrupación" Weight="2" />
         <postfix Name="devorador" />
         <postfix Name="cerdo" />
-        <postfix Name="montura" />
+        <postfix Name="caballo" />
         <postfix Name="yegua" />
         <postfix Name="sha" />
         <postfix Name="jefe" />
@@ -3322,7 +3322,7 @@
         <prefix Name="l" />
         <prefix Name="m" />
         <prefix Name="n" />
-        <prefix Name="oth" />
+        <prefix Name="otro" />
         <prefix Name="p" />
         <prefix Name="sh" />
         <prefix Name="sp" />
@@ -3341,7 +3341,7 @@
         <infix Name="oca" />
         <infix Name="oco" />
         <infix Name="ofe" />
-        <infix Name="ofo" />
+        <infix Name="ófo" />
         <infix Name="ona" />
         <infix Name="ono" />
         <infix Name="oro" />
@@ -3368,7 +3368,7 @@
     </namestyle>
     <namestyle Name="Barathrumite Hero Title" Load="Merge">
       <templates Load="Replace">
-        <template Name="=adjective= baratrumita =role=" />
+        <template Name="=adjective= barathrumita =role=" />
       </templates>
       <templatevars Load="Replace">
         <templatevar Name="adjective">
@@ -3378,8 +3378,8 @@
         </templatevar>
         <templatevar Name="role">
           <value Name="arconauta" />
-          <value Name="conferencista" />
-          <value Name="curioso" />
+          <value Name="conferenciante" />
+          <value Name="artesano" />
           <value Name="preceptor" />
         </templatevar>
       </templatevars>
@@ -3446,8 +3446,8 @@
       </infixes>
       <postfixes Load="Replace" Amount="1">
         <postfix Name="" />
-        <postfix Name="el corazón" Weight="2" />
-        <postfix Name="la parte posterior" Weight="11" />
+        <postfix Name="hart" Weight="2" />
+        <postfix Name="hind" Weight="11" />
       </postfixes>
     </namestyle>
     <namestyle Name="Mopango" Format="TitleCase" Load="Merge">
@@ -3480,7 +3480,7 @@
         <infix Name="ba" />
         <infix Name="chra" />
         <infix Name="chre" />
-        <infix Name="chrō" />
+        <infix Name="chro" />
         <infix Name="da" />
         <infix Name="de" />
         <infix Name="do" />
@@ -3495,7 +3495,7 @@
         <infix Name="la" />
         <infix Name="me" />
         <infix Name="mya" />
-        <infix Name="myo" />
+        <infix Name="mió" />
         <infix Name="ne" />
         <infix Name="pa" />
         <infix Name="ra" />
@@ -3508,7 +3508,7 @@
         <infix Name="zo" />
       </infixes>
       <postfixes Load="Replace" Amount="1">
-        <postfix Name="b" />
+        <postfix Name="be" />
         <postfix Name="ba" />
         <postfix Name="ch" />
         <postfix Name="d" />
@@ -3521,7 +3521,7 @@
         <postfix Name="na" />
         <postfix Name="ra" />
         <postfix Name="ta" />
-        <postfix Name="El tono — Caves of Qud tiene un estilo único de prosa ornamental y literario. Reprodúcelo fielmente:&#10;- Registro: extremadamente elevado, barroco, a veces arcaico. Inspirado en la obra de Gene Wolfe &quot;Book of the New Sun&quot; (vocabulario quasi-medieval del futuro lejano), Jack Vance's Dying Earth (agudeza y ironía floridas), Frank Herbert's Dune (mitología de desierto, terminología inventada) y poesía en inglés medio (registro chauceriano para textos históricos in-world).&#10;- Vocabulario: preferir palabras raras, precisas o arcaicas sobre sus equivalentes comunes. El juego emplea libremente palabras como &quot;gravens&quot;, &quot;evanesced&quot;, &quot;lathe&quot; (como verbo), &quot;facile&quot;, &quot;imago&quot;, &quot;phenomenic&quot;, &quot;meyvn&quot;. Mantén esta densidad en el idioma objetivo.&#10;- Nombres propios e invenciones no traducibles (copia literal): Qud, Joppa, Barathrum, Hindren, Moghra'yi, Ekuemekiyye" />
+        <postfix Name="vi" />
         <postfix Name="vo" />
         <postfix Name="vya" />
         <postfix Name="yo" />
@@ -3616,8 +3616,8 @@
     </namestyle>
     <namestyle Name="Mayor Title" Load="Merge">
       <templates Load="Replace">
-        <template Name="el pueblo =mayorSyn=" />
-        <template Name="el pueblo =mayorSyn=" />
+        <template Name="aldea =mayorSyn=" />
+        <template Name="la aldea =mayorSyn=" />
       </templates>
       <templatevars Load="Replace">
         <templatevar Name="mayorSyn">
@@ -3724,52 +3724,52 @@
       <templatevars Load="Replace">
         <templatevar Name="wiseAdjective">
           <value Name="Erudito" />
-          <value Name="Juezimiental" />
+          <value Name="Juzgado" />
           <value Name="Sabio" />
-          <value Name="Prudente" />
+          <value Name="Razonable" />
           <value Name="Astuto" />
           <value Name="Sofístico" />
           <value Name="Cauteloso" />
-          <value Name="Sabio" />
+          <value Name="Sapiente" />
         </templatevar>
       </templatevars>
     </namestyle>
     <namestyle Name="Warden Honorific" Load="Merge">
       <templates Load="Replace">
-        <template Name="Guardian" />
+        <template Name="Guardián" />
       </templates>
     </namestyle>
     <namestyle Name="Warden Two-Headed Honorific" Load="Merge">
       <templates Load="Replace">
-        <template Name="Guardians" />
+        <template Name="Guardianes" />
       </templates>
     </namestyle>
     <namestyle Name="Warden Plural Honorific" Load="Merge">
       <templates Load="Replace">
-        <template Name="Guardians" />
+        <template Name="Guardianes" />
       </templates>
     </namestyle>
     <namestyle Name="Merchant Title" Load="Merge">
       <templates Load="Replace">
-        <template Name="mercader de aldea" Weight="2" />
-        <template Name="el mercader de la aldea" />
+        <template Name="mercader del pueblo" Weight="2" />
+        <template Name="el mercader del pueblo" />
       </templates>
     </namestyle>
     <namestyle Name="Dromad Merchant Title" Load="Merge">
       <templates Load="Replace">
-        <template Name="el mercader dromada" />
+        <template Name="mercader dromada" />
       </templates>
     </namestyle>
     <namestyle Name="Tinker Title" Load="Merge">
       <templates Load="Replace">
-        <template Name="el retoñador de la aldea" Weight="2" />
-        <template Name="el retoñador de la aldea" />
+        <template Name="artesano del pueblo" Weight="2" />
+        <template Name="el artesano del pueblo" />
       </templates>
     </namestyle>
     <namestyle Name="Apothecary Title" Load="Merge">
       <templates Load="Replace">
-        <template Name="la boticaria de la aldea" Weight="2" />
-        <template Name="la boticaria de la aldea" />
+        <template Name="boticario del pueblo" Weight="2" />
+        <template Name="el boticario del pueblo" />
       </templates>
     </namestyle>
     <namestyle Name="GeneralGenderName" Format="TitleCase" Load="Merge">
@@ -3788,19 +3788,19 @@
         <prefix Name="nu" />
         <prefix Name="o" />
         <prefix Name="sin" />
-        <prefix Name="in" />
-        <prefix Name="xenia" />
-        <prefix Name="xénico" />
+        <prefix Name="un" />
+        <prefix Name="xen" />
+        <prefix Name="xyn" />
       </prefixes>
       <infixes Load="Replace" Amount="1">
-        <infix Name="claustro" />
+        <infix Name="cla" />
         <infix Name="dre" />
         <infix Name="fa" />
-        <infix Name="fiera" />
-        <infix Name="frágil" />
+        <infix Name="fi" />
+        <infix Name="fra" />
         <infix Name="ge" />
-        <infix Name="globo" />
-        <infix Name="grave" />
+        <infix Name="glo" />
+        <infix Name="gra" />
         <infix Name="ma" />
         <infix Name="me" />
         <infix Name="mu" />
@@ -3829,7 +3829,7 @@
         <postfix Name="rge" />
         <postfix Name="rine" />
         <postfix Name="te" />
-        <postfix Name="tine" />
+        <postfix Name="tina" />
         <postfix Name="ve" />
         <postfix Name="x" />
       </postfixes>
@@ -3840,13 +3840,13 @@
         <prefix Name="exm" />
         <prefix Name="gl" />
         <prefix Name="m" />
-        <prefix Name="neom" />
+        <prefix Name="neo" />
         <prefix Name="st" />
         <prefix Name="wom" />
       </prefixes>
       <infixes Load="Replace" Amount="1">
         <infix Name="aa" />
-        <infix Name="a" Weight="3" />
+        <infix Name="una" Weight="3" />
         <infix Name="ada" />
         <infix Name="ay" />
         <infix Name="au" />
@@ -3874,7 +3874,7 @@
         <prefix Name="zh" />
       </prefixes>
       <infixes Load="Replace" Amount="1">
-        <infix Name="a" />
+        <infix Name="una" />
         <infix Name="e" />
         <infix Name="i" />
         <infix Name="o" />
@@ -3883,12 +3883,12 @@
       </infixes>
       <postfixes Load="Replace" Amount="1">
         <postfix Name="dy" />
-        <postfix Name="ld" />
+        <postfix Name="id" />
         <postfix Name="li" />
-        <postfix Name="lli" />
-        <postfix Name="ndy" />
+        <postfix Name="li" />
+        <postfix Name="nyd" />
         <postfix Name="rl" />
-        <postfix Name="Y" />
+        <postfix Name="y" />
       </postfixes>
     </namestyle>
     <namestyle Name="GeneralGenderFormalAddressTerm" Load="Merge">
@@ -3896,13 +3896,13 @@
         <prefix Name="fr" />
         <prefix Name="gr" />
         <prefix Name="m" />
-        <prefix Name="mad" />
+        <prefix Name="madd" />
         <prefix Name="pl" />
         <prefix Name="s" />
         <prefix Name="v" />
       </prefixes>
       <infixes Load="Replace" Amount="1">
-        <infix Name="a" />
+        <infix Name="una" />
         <infix Name="e" />
         <infix Name="i" />
         <infix Name="ie" />
@@ -3933,7 +3933,7 @@
         <prefix Name="zh" />
       </prefixes>
       <infixes Load="Replace" Amount="1">
-        <infix Name="a" />
+        <infix Name="una" />
         <infix Name="au" />
         <infix Name="e" />
         <infix Name="i" />
@@ -3944,16 +3944,16 @@
       <postfixes Load="Replace" Amount="1">
         <postfix Name="por" />
         <postfix Name="dy" />
-        <postfix Name="guerrera" />
-        <postfix Name="ld" />
+        <postfix Name="ghter" />
+        <postfix Name="id" />
         <postfix Name="li" />
-        <postfix Name="lli" />
+        <postfix Name="li" />
         <postfix Name="n" />
-        <postfix Name="ndy" />
+        <postfix Name="nyd" />
         <postfix Name="rl" />
         <postfix Name="tt" />
         <postfix Name="tter" />
-        <postfix Name="Y" />
+        <postfix Name="y" />
       </postfixes>
     </namestyle>
     <namestyle Name="GeneralGenderSiblingTerm" Load="Merge">
@@ -3970,7 +3970,7 @@
         <prefix Name="zh" />
       </prefixes>
       <infixes Load="Replace" Amount="1">
-        <infix Name="a" />
+        <infix Name="una" />
         <infix Name="au" />
         <infix Name="e" />
         <infix Name="i" />
@@ -3979,18 +3979,18 @@
         <infix Name="y" />
       </infixes>
       <postfixes Load="Replace" Amount="1">
-        <postfix Name="b" />
+        <postfix Name="be" />
         <postfix Name="bby" />
         <postfix Name="dy" />
-        <postfix Name="ld" />
+        <postfix Name="id" />
         <postfix Name="li" />
-        <postfix Name="lli" />
+        <postfix Name="li" />
         <postfix Name="n" />
-        <postfix Name="ndy" />
+        <postfix Name="nyd" />
         <postfix Name="rl" />
         <postfix Name="ster" />
-        <postfix Name="ther" />
-        <postfix Name="Y" />
+        <postfix Name="ter" />
+        <postfix Name="y" />
       </postfixes>
     </namestyle>
     <namestyle Name="GeneralGenderParentTerm" Load="Merge">
@@ -4009,7 +4009,7 @@
         <prefix Name="zh" />
       </prefixes>
       <infixes Load="Replace" Amount="1">
-        <infix Name="a" />
+        <infix Name="una" />
         <infix Name="au" />
         <infix Name="e" />
         <infix Name="i" />
@@ -4018,33 +4018,33 @@
         <infix Name="y" />
       </infixes>
       <postfixes Load="Replace" Amount="1">
-        <postfix Name="b" />
+        <postfix Name="be" />
         <postfix Name="d" />
         <postfix Name="ddy" />
         <postfix Name="dy" />
-        <postfix Name="ld" />
+        <postfix Name="id" />
         <postfix Name="ler" />
         <postfix Name="lo" />
         <postfix Name="m" />
         <postfix Name="mmy" />
         <postfix Name="n" />
-        <postfix Name="ndy" />
+        <postfix Name="nyd" />
         <postfix Name="rl" />
         <postfix Name="ster" />
-        <postfix Name="ther" />
-        <postfix Name="Y" />
+        <postfix Name="ter" />
+        <postfix Name="y" />
       </postfixes>
     </namestyle>
     <namestyle Name="Confused" Format="TitleCase" Load="Merge">
       <prefixes Load="Replace" Amount="1-2">
-        <prefix Name="ah" />
-        <prefix Name="eh" />
-        <prefix Name="hu" />
-        <prefix Name="hum" />
+        <prefix Name="duh" />
+        <prefix Name="er" />
+        <prefix Name="hū" />
+        <prefix Name="uh" />
         <prefix Name="um" />
-        <prefix Name="hmm" />
-        <prefix Name="ahh" />
-        <prefix Name="¿qué?" />
+        <prefix Name="umm" />
+        <prefix Name="wah" />
+        <prefix Name="wuh" />
       </prefixes>
       <infixes Load="Replace" Amount="1-2">
         <infix Name="cal" />
@@ -4057,7 +4057,7 @@
       </infixes>
       <postfixes Load="Replace" Amount="1-2">
         <postfix Name="cal" />
-        <postfix Name="cha" />
+        <postfix Name="ca" />
         <postfix Name="chu" />
         <postfix Name="er" />
         <postfix Name="it" />
@@ -4073,13 +4073,13 @@
         <prefix Name="BAH" />
         <prefix Name="GAR" />
         <prefix Name="MGH" />
-        <prefix Name="Bruto" />
+        <prefix Name="RAW" />
         <prefix Name="RG" />
         <prefix Name="Ur" />
         <prefix Name="UR" />
       </prefixes>
       <infixes Load="Replace" Amount="1-2">
-        <infix Name="Triple A" />
+        <infix Name="AAA" />
         <infix Name="AHH" />
         <infix Name="ARG" />
         <infix Name="GAA" />
@@ -4089,15 +4089,15 @@
         <infix Name="RGH" />
       </infixes>
       <postfixes Load="Replace" Amount="1-2">
-        <postfix Name="¡¡¡" />
-        <postfix Name="¡¡" />
-        <postfix Name="¡¡1¡" />
-        <postfix Name="¡" />
-        <postfix Name="AA¡" />
-        <postfix Name="OO¡" />
+        <postfix Name="!!!" />
+        <postfix Name="!!" />
+        <postfix Name="!!1!" />
+        <postfix Name="!" />
+        <postfix Name="AA!" />
+        <postfix Name="OO!" />
         <postfix Name="RAW!!!" />
-        <postfix Name="RG¡" />
-        <postfix Name="¡RGH!!" />
+        <postfix Name="RG!" />
+        <postfix Name="RGH!!" />
       </postfixes>
     </namestyle>
     <namestyle Name="Gyre Wight" Format="TitleCase" Load="Merge">
@@ -4177,7 +4177,7 @@
         <postfix Name="ur" />
         <postfix Name="uun" />
         <postfix Name="guerra" />
-        <postfix Name="ser" />
+        <postfix Name="hermano" />
         <postfix Name="urdor" />
       </postfixes>
     </namestyle>
@@ -4188,7 +4188,7 @@
     </namestyle>
     <namestyle Name="Agolgot Gyre Wight Honorific" Load="Merge">
       <templates Load="Replace">
-        <template Name="Tuber de Vientre" />
+        <template Name="Pipe Milker" />
       </templates>
     </namestyle>
     <namestyle Name="Agolgot Gyre Wight Epithet" Load="Merge">
@@ -4203,12 +4203,12 @@
     </namestyle>
     <namestyle Name="Bethsaida Gyre Wight Honorific" Load="Merge">
       <templates Load="Replace">
-        <template Name="Gemelo del Girador" />
+        <template Name="Gemelo del Giro" />
       </templates>
     </namestyle>
     <namestyle Name="Bethsaida Gyre Wight Epithet" Load="Merge">
       <templates Load="Replace">
-        <template Name="de Betesdaíl" />
+        <template Name="de Betesda" />
       </templates>
     </namestyle>
     <namestyle Name="Bethsaida Gyre Wight Title" Load="Merge">
@@ -4223,7 +4223,7 @@
     </namestyle>
     <namestyle Name="Shug'ruith Gyre Wight Epithet" Load="Merge">
       <templates Load="Replace">
-        <template Name="de Shug’ruith" />
+        <template Name="de Shug'ruith" />
       </templates>
     </namestyle>
     <namestyle Name="Shug'ruith Gyre Wight Title" Load="Merge">
@@ -4233,7 +4233,7 @@
     </namestyle>
     <namestyle Name="Rermadon Gyre Wight Honorific" Load="Merge">
       <templates Load="Replace">
-        <template Name="Luminoso de gas" />
+        <template Name="Luminoso de Gas" />
       </templates>
     </namestyle>
     <namestyle Name="Rermadon Gyre Wight Epithet" Load="Merge">
@@ -4248,12 +4248,12 @@
     </namestyle>
     <namestyle Name="Qas Gyre Wight Title" Load="Merge">
       <templates Load="Replace">
-        <template Name="Dama de la boda de Qas" />
+        <template Name="Dama de la Boda de Qas" />
       </templates>
     </namestyle>
     <namestyle Name="Qon Gyre Wight Title" Load="Merge">
       <templates Load="Replace">
-        <template Name="Dama de la boda de Qon" />
+        <template Name="Dama de la Boda de Qon" />
       </templates>
     </namestyle>
     <namestyle Name="Chiliad Qudish" Format="TitleCase" Load="Merge">
@@ -4261,7 +4261,7 @@
         <prefix Name="fa" />
         <prefix Name="ha" />
         <prefix Name="y" Weight="2" />
-        <prefix Name="qa" />
+        <prefix Name="ca" />
         <prefix Name="qi" />
         <prefix Name="qu" />
         <prefix Name="ma" />
@@ -4332,16 +4332,16 @@
       <prefixes Load="Replace" Amount="1">
         <prefix Name="un" />
         <prefix Name="ala" />
-        <prefix Name="por" />
+        <prefix Name="by" />
         <prefix Name="da" />
         <prefix Name="du" />
         <prefix Name="eka" />
         <prefix Name="ha" />
         <prefix Name="y" />
-        <prefix Name="qa" />
+        <prefix Name="ca" />
         <prefix Name="qy" />
         <prefix Name="ma" />
-        <prefix Name="mi" />
+        <prefix Name="mí" />
         <prefix Name="na" />
         <prefix Name="sa" />
         <prefix Name="sva" />
@@ -4357,7 +4357,7 @@
         <infix Name="arra" />
         <infix Name="azo" />
         <infix Name="ba" />
-        <infix Name="por" />
+        <infix Name="by" />
         <infix Name="ga" />
         <infix Name="gga" />
         <infix Name="yly" />

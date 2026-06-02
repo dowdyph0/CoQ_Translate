@@ -1,4 +1,24 @@
 services:
+  translation-editor:
+    image: python:3.12-slim
+    container_name: translation-editor
+    restart: unless-stopped
+    working_dir: /app/editor
+    env_file: .env
+    volumes:
+      - .:/app
+      - "${STREAMING_ASSETS_DIR}/Base/ExampleLanguage:/example-language:ro"
+    ports:
+      - "8000:8000"
+    environment:
+      - DJANGO_SETTINGS_MODULE=editor_project.settings
+      - PYTHONPATH=/app/editor
+      - EXAMPLE_LANGUAGE_DIR=/example-language
+    command: >
+      sh -c "pip install django --quiet &&
+             python manage.py migrate --run-syncdb &&
+             python manage.py runserver 0.0.0.0:8000"
+
   llama-server:
     image: dexogen/atomic-llama-cpp-turboquant:cuda13
     container_name: llama-server

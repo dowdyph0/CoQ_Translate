@@ -18,7 +18,7 @@
     <shortName>AGI</shortName>
     <shortTitle>Agi</shortTitle>
     <narrationName>agilidad</narrationName>
-    <helpText>Tu {{W|Agilidad}} determina tu precisión con armas cuerpo a cuerpo y a distancia, así como tus posibilidades de esquivar ataques.</helpText>
+    <helpText>Tu {{W|Agilidad}} determina tu precisión con armas de combate cercano y a distancia, así como tus probabilidades de esquivar ataques.</helpText>
   </statistic>
   <statistic Name="Toughness">
     <displayName>resistencia</displayName>
@@ -28,7 +28,7 @@
     <shortName>TOU</shortName>
     <shortTitle>Tou</shortTitle>
     <narrationName>fortaleza</narrationName>
-    <helpText>Tu {{W|Fortaleza}} determina tu número de puntos de vida, tu tasa de regeneración de puntos de vida y tu capacidad para resistir venenos y enfermedades.</helpText>
+    <helpText>Tu {{W|Fortaleza}} determina el número de puntos de vida que posees, la velocidad de regeneración de tus puntos de vida y tu capacidad para resistir el veneno y las enfermedades.</helpText>
   </statistic>
   <statistic Name="Intelligence">
     <displayName>inteligencia</displayName>
@@ -45,20 +45,20 @@
     <displayNameSingular>voluntad</displayNameSingular>
     <displayTitle>Voluntad</displayTitle>
     <displayTitleSingular>Voluntad</displayTitleSingular>
-    <shortName>VOL</shortName>
-    <shortTitle>Vil</shortTitle>
+    <shortName>WIL</shortName>
+    <shortTitle>Wil</shortTitle>
     <narrationName>voluntad</narrationName>
     <helpText>Tu {{W|Voluntad}} modifica los tiempos de enfriamiento de tus habilidades activadas, determina tu capacidad para resistir ataques mentales y modifica la tasa de regeneración de tus puntos de vida.</helpText>
   </statistic>
   <statistic Name="Ego">
-    <displayName>yo</displayName>
-    <displayNameSingular>yo</displayNameSingular>
-    <displayTitle>Yo</displayTitle>
-    <displayTitleSingular>Yo</displayTitleSingular>
-    <shortName>YO</shortName>
-    <shortTitle>yo</shortTitle>
-    <narrationName>yo</narrationName>
-    <helpText>Tu {{W|Yo}} determina la potencia de tus mutaciones mentales, tu capacidad para regatear con los mercaderes y tu habilidad para dominar las voluntades de otras criaturas vivas.</helpText>
+    <displayName>ego</displayName>
+    <displayNameSingular>ego</displayNameSingular>
+    <displayTitle>Ego</displayTitle>
+    <displayTitleSingular>Ego</displayTitleSingular>
+    <shortName>EGO</shortName>
+    <shortTitle>Ego</shortTitle>
+    <narrationName>ego</narrationName>
+    <helpText>Tu {{W|Ego}} determina la potencia de tus mutaciones mentales, tu capacidad para regatear con mercaderes, y tu habilidad para dominar las voluntades de otras criaturas vivas.</helpText>
   </statistic>
   <statistic Name="AV">
     <displayName>AV</displayName>
@@ -68,7 +68,7 @@
     <shortName>AV</shortName>
     <shortTitle>AV</shortTitle>
     <narrationName>AV</narrationName>
-    <helpText>Tu {{W|Valor de Armadura (AV)}} mide cuán bien protegido estás contra ataques físicos que te impacten. Cuanto más alto sea tu puntuación, menos veces un ataque enemigo penetrará tu armadura y causará daño a ti.</helpText>
+    <helpText>Tu {{W|Valor de Armadura (AV)}} mide cuán bien protegido estás contra ataques físicos que te impacten. Cuanto más alto sea tu puntuación, menos veces un ataque enemigo traspasará tu armadura y te causará daño.</helpText>
   </statistic>
   <statistic Name="DV">
     <displayName>DV</displayName>
@@ -78,17 +78,17 @@
     <shortName>DV</shortName>
     <shortTitle>DV</shortTitle>
     <narrationName>DV</narrationName>
-    <helpText>Tu {{W|Valor de Esquive (DV)}} mide la probabilidad de que te alcance un ataque físico. Cuanto más alto sea tu puntuación, menos probable será que un ataque enemigo te haga daño. Tu DV se ve modificado por el multiplicador de Agilidad.</helpText>
+    <helpText>Su {{W|Valor de Esquive (DV)}} mide la probabilidad de que le alcancen los ataques físicos. Cuanto más alto sea su puntuación, menos probable será que un ataque enemigo lo haga daño. Su DV se ve modificado por su modificador de Agilidad.</helpText>
   </statistic>
   <statistic Name="MA">
-    <displayName>MA</displayName>
-    <displayNameSingular>MA</displayNameSingular>
-    <displayTitle>MA</displayTitle>
-    <displayTitleSingular>MA</displayTitleSingular>
-    <shortName>MA</shortName>
-    <shortTitle>MA</shortTitle>
-    <narrationName>MA</narrationName>
-    <helpText>Su {{W|Armadura Mental (MA)}} mide en qué medida está protegido contra ataques mentales. Cuanto mayor sea su puntuación, menos probable será que un ataque mental de un oponente penetre sus defensas y le haga daño. Su MA se ve modificado por su modificador de Voluntad.</helpText>
+    <displayName>AM</displayName>
+    <displayNameSingular>AM</displayNameSingular>
+    <displayTitle>AM</displayTitle>
+    <displayTitleSingular>AM</displayTitleSingular>
+    <shortName>AM</shortName>
+    <shortTitle>AM</shortTitle>
+    <narrationName>AM</narrationName>
+    <helpText>Su {{W|Armadura Mental (AM)}} mide cuán bien está protegido contra ataques mentales. Cuanto más alto sea su puntuación, menos probable será que un ataque mental enemigo penetre sus defensas y le haga daño. Su AM se ve modificado por su modificador de Voluntad.</helpText>
   </statistic>
   <statistic Name="Speed">
     <displayName>agilidad</displayName>
@@ -98,7 +98,7 @@
     <shortName>QN</shortName>
     <shortTitle>QN</shortTitle>
     <narrationName>agilidad</narrationName>
-    <helpText>Su {{W|Agilidad}} mide la velocidad con que ejecuta cada acción que toma.</helpText>
+    <helpText>Tu {{W|Agilidad}} mide la velocidad con que ejecutas cada acción que tomas.</helpText>
   </statistic>
   <statistic Name="MoveSpeed">
     <displayName>velocidad de movimiento</displayName>
@@ -118,17 +118,17 @@
     <shortName>T</shortName>
     <shortTitle>T</shortTitle>
     <narrationName>temperatura</narrationName>
-    <helpText>Tu {{W|Temperatura}} mide cuán caliente o frío estás. Estar demasiado frío puede reducir tu Velocidad y evitar que tomes acciones físicas. Estar demasiado caliente puede incendiarte y causarte daño en cada turno.</helpText>
+    <helpText>Tu {{W|Temperatura}} mide cuán caliente o frío estás. Estar demasiado frío puede reducir tu Velocidad y impedirte tomar acciones físicas. Estar demasiado caliente puede incendiarte y causarte daño cada ronda.</helpText>
   </statistic>
   <statistic Name="AcidResistance">
     <displayName>resistencia al ácido</displayName>
     <displayNameSingular>resistencia al ácido</displayNameSingular>
     <displayTitle>Resistencia al Ácido</displayTitle>
     <displayTitleSingular>Resistencia al Ácido</displayTitleSingular>
-    <shortName>AR</shortName>
-    <shortTitle>AR</shortTitle>
-    <narrationName>resistencia a ácidos</narrationName>
-    <helpText>Tu {{W|Resistencia a Ácidos}} determina cuánto daño por ácido puedes anular. A 100, eres inmune al daño por ácido.</helpText>
+    <shortName>RA</shortName>
+    <shortTitle>RA</shortTitle>
+    <narrationName>resistencia al ácido</narrationName>
+    <helpText>Tu {{W|Resistencia al Ácido}} determina cuánto daño por ácido puedes anular. A 100, eres inmune al daño por ácido.</helpText>
   </statistic>
   <statistic Name="ColdResistance">
     <displayName>resistencia al frío</displayName>
@@ -138,45 +138,45 @@
     <shortName>CR</shortName>
     <shortTitle>CR</shortTitle>
     <narrationName>resistencia al frío</narrationName>
-    <helpText>Tu {{W|Resistencia al Frío}} determina cuánto daño por frío puedes absorber y qué tan aislado estás frente a efectos que reduzcan tu temperatura. A 100, eres inmune al daño por frío y tu temperatura no puede ser reducida.</helpText>
+    <helpText>Tu {{W|Resistencia al Frío}} determina cuánto daño por frío puedes anular y hasta qué punto estás aislado de efectos que reduzcan tu temperatura. A 100, eres inmune al daño por frío y tu temperatura no puede ser reducida.</helpText>
   </statistic>
   <statistic Name="ElectricResistance">
     <displayName>resistencia eléctrica</displayName>
     <displayNameSingular>resistencia eléctrica</displayNameSingular>
     <displayTitle>Resistencia Eléctrica</displayTitle>
     <displayTitleSingular>Resistencia Eléctrica</displayTitleSingular>
-    <shortName>RE</shortName>
-    <shortTitle>RE</shortTitle>
+    <shortName>ER</shortName>
+    <shortTitle>ER</shortTitle>
     <narrationName>resistencia eléctrica</narrationName>
-    <helpText>Tu {{W|Resistencia Eléctrica}} determina cuánto daño eléctrico puedes absorber y qué tan resistente eres a la corriente eléctrica. A 100, eres inmune al daño eléctrico y no conduces electricidad.</helpText>
+    <helpText>Tu {{W|Resistencia Eléctrica}} determina cuánto daño eléctrico puedes anular y qué tan resistente eres a la corriente eléctrica. A 100, estás inmune al daño eléctrico y no conduces electricidad.</helpText>
   </statistic>
   <statistic Name="HeatResistance">
-    <displayName>resistencia al calor</displayName>
-    <displayNameSingular>resistencia al calor</displayNameSingular>
-    <displayTitle>Resistencia al Calor</displayTitle>
-    <displayTitleSingular>Resistencia al Calor</displayTitleSingular>
+    <displayName>resistencia térmica</displayName>
+    <displayNameSingular>resistencia térmica</displayNameSingular>
+    <displayTitle>Resistencia al calor</displayTitle>
+    <displayTitleSingular>Resistencia al calor</displayTitleSingular>
     <shortName>RC</shortName>
     <shortTitle>RC</shortTitle>
     <narrationName>resistencia al calor</narrationName>
-    <helpText>Tu {{W|Resistencia al Calor}} determina cuánto daño por calor puedes anular y qué tan aislado estás de efectos que incrementan tu temperatura. A 100, eres inmune al daño por calor y tu temperatura no puede aumentarse.</helpText>
+    <helpText>Tu {{W|Resistencia al Calor}} determina cuánto daño por calor puedes absorber y cuán aislado estás de efectos que incrementan tu temperatura. A 100, eres inmune al daño por calor y no se puede aumentar tu temperatura.</helpText>
   </statistic>
   <statistic Name="Hitpoints">
     <displayName>puntos de vida</displayName>
     <displayNameSingular>punto de vida</displayNameSingular>
-    <displayTitle>Puntos de golpe</displayTitle>
-    <displayTitleSingular>Punto de golpe</displayTitleSingular>
-    <shortName>PG</shortName>
-    <shortTitle>PG</shortTitle>
+    <displayTitle>Puntos de Vida</displayTitle>
+    <displayTitleSingular>Punto de Vida</displayTitleSingular>
+    <shortName>Puntos de vida</shortName>
+    <shortTitle>Puntos de vida</shortTitle>
     <narrationName>vida</narrationName>
   </statistic>
   <statistic Name="AP">
-    <displayName>puntos de atributo</displayName>
+    <displayName>puntos de atributos</displayName>
     <displayNameSingular>punto de atributo</displayNameSingular>
-    <displayTitle>Puntos de Atributo</displayTitle>
+    <displayTitle>Puntos de Atributos</displayTitle>
     <displayTitleSingular>Punto de Atributo</displayTitleSingular>
-    <shortName>PA</shortName>
-    <shortTitle>Puntos de atributo</shortTitle>
-    <narrationName>puntos de atributo</narrationName>
+    <shortName>Puntos de Acción</shortName>
+    <shortTitle>Puntos de Acción</shortTitle>
+    <narrationName>puntos de atributos</narrationName>
   </statistic>
   <statistic Name="MP">
     <displayName>puntos de mutación</displayName>
@@ -192,8 +192,8 @@
     <displayNameSingular>punto de habilidad</displayNameSingular>
     <displayTitle>Puntos de Habilidad</displayTitle>
     <displayTitleSingular>Punto de Habilidad</displayTitleSingular>
-    <shortName>PH</shortName>
-    <shortTitle>PH</shortTitle>
+    <shortName>Puntos de Habilidad</shortName>
+    <shortTitle>Puntos de Habilidad</shortTitle>
     <narrationName>puntos de habilidad</narrationName>
   </statistic>
   <statistic Name="XP">
@@ -201,8 +201,8 @@
     <displayNameSingular>punto de experiencia</displayNameSingular>
     <displayTitle>Puntos de Experiencia</displayTitle>
     <displayTitleSingular>Punto de Experiencia</displayTitleSingular>
-    <shortName>Puntos de experiencia</shortName>
-    <shortTitle>Puntos de experiencia</shortTitle>
+    <shortName>PX</shortName>
+    <shortTitle>PX</shortTitle>
     <narrationName>puntos de experiencia</narrationName>
   </statistic>
   <statistic Name="XPValue">
@@ -229,7 +229,10 @@
     <displayTitle>Energía</displayTitle>
     <displayTitleSingular>Energía</displayTitleSingular>
     <shortName>EN</shortName>
-    <shortTitle>EN</shortTitle>
+    <shortTitle>El tono — las Cavernas de Qud poseen un estilo único y ornamental de prosa literaria. Repróducelo con fidelidad:
+- Registro: extremadamente elevado, barroco, a veces arcaico. Inspirado en la "Historia del nuevo sol" de Gene Wolfe (vocabulario quasi-medieval de futuro lejano), la Tierra Muriendo de Jack Vance (aguda ironía y retórica floreada), Dune de Frank Herbert (mitología del desierto, terminología inventada) y la poesía en inglés medio (registro chauceriano para textos históricos in situ).
+- Vocabulario: preferir palabras raras, precisas o arcaicas sobre sus equivalentes simples. El juego utiliza libremente palabras como "gravens", "evanesced", "lathe" (como verbo), "facile", "imago", "phenomenic", "meyvn". Logra la misma densidad en el idioma objetivo.
+- Nombres propios e invenciones no traducibles (copiar textualmente): Qud, Joppa, Barathrum, Hindren,</shortTitle>
     <narrationName>energía</narrationName>
   </statistic>
 </statistics>

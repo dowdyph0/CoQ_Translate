@@ -2,15 +2,15 @@
 <inventoryActions Lang="es" Encoding="utf-8">
   <inventoryAction Name="InterfaceWithGritGateMainframe">
     <display>interfaz</display>
-    <key>yo</key>
+    <key>i</key>
   </inventoryAction>
   <inventoryAction Name="InterfaceWithBecomingNook">
     <display>interfaz</display>
-    <key>yo</key>
+    <key>i</key>
   </inventoryAction>
   <inventoryAction Name="InterfaceWithTerminal">
     <display>interfaz</display>
-    <key>yo</key>
+    <key>i</key>
   </inventoryAction>
   <inventoryAction Name="WakeSleeper">
     <display>despertar</display>
@@ -21,11 +21,11 @@
     <key>d</key>
   </inventoryAction>
   <inventoryAction Name="DismissServitor">
-    <display>desestimar</display>
+    <display>despedir</display>
     <key>d</key>
   </inventoryAction>
   <inventoryAction Name="CompanionStopFlying">
-    <display>dirigir para que deje de volar</display>
+    <display>dirigir para detener el vuelo</display>
     <key>_</key>
   </inventoryAction>
   <inventoryAction Name="Read">
@@ -37,26 +37,26 @@
     <key>r</key>
   </inventoryAction>
   <inventoryAction Name="CancelLifeDrain">
-    <display>anular el agotamiento vital</display>
+    <display>cancelar drenaje de vida</display>
     <key>c</key>
   </inventoryAction>
   <inventoryAction Name="CompanionAttackTarget">
-    <display>dirigir hacia el objetivo de ataque</display>
+    <display>dirigir para atacar objetivo</display>
     <preferToHighlight>atacar</preferToHighlight>
     <key>a</key>
   </inventoryAction>
   <inventoryAction Name="CompanionToggleEngagementAggressive">
-    <display>dirigir hacia el ataque agresivo</display>
+    <display>dirigir para atacar con agresividad</display>
     <preferToHighlight>atacar</preferToHighlight>
     <key>e</key>
   </inventoryAction>
   <inventoryAction Name="CompanionToggleEngagementDefensive">
-    <display>dirigir hacia la defensa activa</display>
+    <display>dirigir para atacar defensivamente</display>
     <preferToHighlight>atacar</preferToHighlight>
     <key>e</key>
   </inventoryAction>
   <inventoryAction Name="CompanionCome">
-    <display>dirigir para seguir junto</display>
+    <display>dirigir para acompañar</display>
     <preferToHighlight>venir</preferToHighlight>
     <key>c</key>
   </inventoryAction>
@@ -77,7 +77,7 @@
     <key>s</key>
   </inventoryAction>
   <inventoryAction Name="CompanionAbilityUse">
-    <display>uso directo de habilidad</display>
+    <display>dirigir uso de habilidad</display>
     <key>u</key>
   </inventoryAction>
   <inventoryAction Name="CompanionRename">
@@ -85,11 +85,11 @@
     <key>r</key>
   </inventoryAction>
   <inventoryAction Name="Untarget">
-    <display>dejar de apuntar</display>
+    <display>desmarcar</display>
     <key>t</key>
   </inventoryAction>
   <inventoryAction Name="Target">
-    <display>apuntar</display>
+    <display>marcar</display>
     <key>t</key>
   </inventoryAction>
   <inventoryAction Name="ShowEffects">
@@ -98,11 +98,11 @@
   </inventoryAction>
   <inventoryAction Name="Apply">
     <display>aplicar</display>
-    <key>un</key>
+    <key>a</key>
   </inventoryAction>
   <inventoryAction Name="ApplyTo">
     <display>aplicar a</display>
-    <key>Un</key>
+    <key>A</key>
   </inventoryAction>
   <inventoryAction Name="ApplyEat">
     <display>comer</display>
@@ -114,7 +114,7 @@
   </inventoryAction>
   <inventoryAction Name="ApplyImportant">
     <display>aplicar</display>
-    <key>un</key>
+    <key>a</key>
   </inventoryAction>
   <inventoryAction Name="ApplyDefault">
     <display>aplicar</display>
@@ -141,7 +141,7 @@
     <key>d</key>
   </inventoryAction>
   <inventoryAction Name="ResupplyForCloning">
-    <display>recargar [1 dram de bebida de clonación]</display>
+    <display>recargar [1 dragma de bebida de clonación]</display>
     <key>r</key>
   </inventoryAction>
   <inventoryAction Name="CmdCustomAbilityAdd">
@@ -177,11 +177,11 @@
     <key>j</key>
   </inventoryAction>
   <inventoryAction Name="LoadTonic">
-    <display>cargar en el módulo de asistencia médica</display>
+    <display>cargar en módulo de asistencia médica</display>
     <key>m</key>
   </inventoryAction>
   <inventoryAction Name="ImprintRecoiler">
-    <display>grabar</display>
+    <display>huella</display>
     <key>i</key>
   </inventoryAction>
   <inventoryAction Name="ActivateRecoilerTeleporter">
@@ -189,7 +189,7 @@
     <key>a</key>
   </inventoryAction>
   <inventoryAction Name="Look">
-    <display>observar</display>
+    <display>mirar</display>
     <key>l</key>
   </inventoryAction>
   <inventoryAction Name="ReadStory">
@@ -218,30 +218,30 @@
   </inventoryAction>
   <inventoryAction Name="Ascend">
     <display>ascender</display>
-    <key>un</key>
+    <key>a</key>
   </inventoryAction>
   <inventoryAction Name="AscendCable">
     <display>ascender</display>
-    <key>un</key>
+    <key>a</key>
   </inventoryAction>
   <inventoryAction Name="Descend">
     <display>descender</display>
-    <key>un</key>
+    <key>a</key>
   </inventoryAction>
   <inventoryAction Name="DescendCable">
     <display>descender</display>
-    <key>un</key>
+    <key>a</key>
   </inventoryAction>
   <inventoryAction Name="SleepOnBed">
     <display>dormir</display>
     <key>s</key>
   </inventoryAction>
   <inventoryAction Name="StandUpFromChair">
-    <display>permanecer de pie</display>
+    <display>pararse</display>
     <key>s</key>
   </inventoryAction>
   <inventoryAction Name="SitOnChair">
-    <display>sentarse</display>
+    <display>sentar</display>
     <key>s</key>
   </inventoryAction>
   <inventoryAction Name="Close">
@@ -273,7 +273,7 @@
     <key>a</key>
   </inventoryAction>
   <inventoryAction Name="Pray">
-    <display>rezar</display>
+    <display>orar</display>
     <key>y</key>
   </inventoryAction>
   <inventoryAction Name="Desecrate">
@@ -297,7 +297,7 @@
     <key>a</key>
   </inventoryAction>
   <inventoryAction Name="RaiseBanner">
-    <display>elevar</display>
+    <display>alzar</display>
     <key>r</key>
   </inventoryAction>
   <inventoryAction Name="BubbleLevel">
@@ -365,7 +365,7 @@
     <key>b</key>
   </inventoryAction>
   <inventoryAction Name="Harvest">
-    <display>recoger</display>
+    <display>cosecha</display>
     <key>h</key>
   </inventoryAction>
   <inventoryAction Name="SmokeHookah">
@@ -409,11 +409,11 @@
     <key>a</key>
   </inventoryAction>
   <inventoryAction Name="Disassemble">
-    <display>desarmar</display>
+    <display>desensamblar</display>
     <key>m</key>
   </inventoryAction>
   <inventoryAction Name="DisassembleAll">
-    <display>desarmar todo</display>
+    <display>desensamblar todo</display>
     <key>M</key>
   </inventoryAction>
   <inventoryAction Name="Repair">
@@ -425,7 +425,7 @@
     <key>R</key>
   </inventoryAction>
   <inventoryAction Name="PressIron">
-    <display>pulsar</display>
+    <display>presionar</display>
     <key>p</key>
   </inventoryAction>
   <inventoryAction Name="DeactivateStopsvalinn">
@@ -449,7 +449,7 @@
     <key>a</key>
   </inventoryAction>
   <inventoryAction Name="ActivateTeleporterPairCooldown">
-    <display>activar [{{C|=turns=}} turno de enfriamiento]</display>
+    <display>a [{{C|=turns=}} turno de enfriamiento]</display>
     <key>a</key>
   </inventoryAction>
   <inventoryAction Name="ConfigureTemperatureController">
@@ -458,26 +458,26 @@
   </inventoryAction>
   <inventoryAction Name="SmokeThurible">
     <display>incienso</display>
-    <key>yo</key>
+    <key>i</key>
   </inventoryAction>
   <inventoryAction Name="ActivateTimeCube">
     <display>activar</display>
-    <key>un</key>
+    <key>a</key>
   </inventoryAction>
   <inventoryAction Name="TorchLight">
     <display>luz</display>
-    <key>yo</key>
+    <key>i</key>
   </inventoryAction>
   <inventoryAction Name="TorchExtinguish">
     <display>apagar</display>
-    <key>equis</key>
+    <key>x</key>
   </inventoryAction>
   <inventoryAction Name="FillSlotted">
     <display>llenar =subject.basename|strip=</display>
-    <key>efе</key>
+    <key>f</key>
   </inventoryAction>
   <inventoryAction Name="Unseal">
-    <display>desellar</display>
+    <display>desbloquear</display>
     <key>u</key>
   </inventoryAction>
   <inventoryAction Name="Seal">
@@ -501,7 +501,7 @@
     <key>p</key>
   </inventoryAction>
   <inventoryAction Name="AutoCollectLiquidOn">
-    <display>recolección automática de líquido</display>
+    <display>recolectar líquido automáticamente</display>
     <key>a</key>
   </inventoryAction>
   <inventoryAction Name="AutoCollectLiquidOff">
@@ -509,15 +509,15 @@
     <key>a</key>
   </inventoryAction>
   <inventoryAction Name="CollectLiquid">
-    <display>recoger líquido</display>
+    <display>recolectar líquido</display>
     <key>c</key>
   </inventoryAction>
   <inventoryAction Name="CleanWithLiquid">
-    <display>limpiar todos tus objetos [1 dram]</display>
+    <display>limpiar todos tus artículos [1 dram]</display>
     <key>n</key>
   </inventoryAction>
   <inventoryAction Name="CommandChangeGrip">
-    <display>cambiar de agarre</display>
+    <display>cambiar el agarre</display>
     <key>c</key>
   </inventoryAction>
   <inventoryAction Name="LoadMagazineAmmo">
@@ -537,7 +537,7 @@
     <key>k</key>
   </inventoryAction>
   <inventoryAction Name="Unequip">
-    <display>eliminar</display>
+    <display>quitar</display>
     <key>r</key>
   </inventoryAction>
   <inventoryAction Name="CommandTakeObject">
@@ -557,7 +557,7 @@
     <key>e</key>
   </inventoryAction>
   <inventoryAction Name="CommandEquipObject">
-    <display>equiptar (manual)</display>
+    <display>equipar (manual)</display>
     <key>E</key>
   </inventoryAction>
   <inventoryAction Name="FightFire">
@@ -569,7 +569,7 @@
     <key>k</key>
   </inventoryAction>
   <inventoryAction Name="Mod">
-    <display>modular con ajustes manuales</display>
+    <display>modificar con ajustes manuales</display>
     <preferToHighlight>ajustes manuales</preferToHighlight>
     <key>t</key>
   </inventoryAction>
@@ -595,7 +595,7 @@
   </inventoryAction>
   <inventoryAction Name="ShowInternals">
     <display>mostrar internos {{K|[debug]}}</display>
-    <key>W</key>
+    <key>{W|W}</key>
   </inventoryAction>
   <inventoryAction Name="RechargeCapacitor">
     <display>recargar</display>
@@ -648,31 +648,31 @@
     <key>x</key>
   </inventoryAction>
   <inventoryAction Name="CookWhipUp">
-    <display>Prepara una comida.</display>
+    <display>Preparar una comida.</display>
     <key>m</key>
   </inventoryAction>
   <inventoryAction Name="CookChooseIngredients">
-    <display>Elige ingredientes para cocinar.</display>
+    <display>Elegir ingredientes para cocinar.</display>
     <key>i</key>
   </inventoryAction>
   <inventoryAction Name="CookFromRecipe">
-    <display>Cocina según una receta.</display>
+    <display>Cocinar según una receta.</display>
     <key>r</key>
   </inventoryAction>
   <inventoryAction Name="CookPreserve">
-    <display>Conserva tus alimentos frescos.</display>
+    <display>Conservar tus alimentos frescos.</display>
     <key>f</key>
   </inventoryAction>
   <inventoryAction Name="CookPreserveExotic">
-    <display>Conserva tus alimentos exóticos.</display>
+    <display>Conservar tus alimentos exóticos.</display>
     <key>x</key>
   </inventoryAction>
   <inventoryAction Name="CookStopBleeding">
-    <display>Detén la hemorragia.</display>
+    <display>Detener la hemorragia.</display>
     <key>b</key>
   </inventoryAction>
   <inventoryAction Name="CookTreatPoison">
-    <display>Trata el veneno.</display>
+    <display>Tratar el veneno.</display>
     <key>p</key>
   </inventoryAction>
   <inventoryAction Name="CookTreatIllness">
@@ -714,7 +714,7 @@
     <key>p</key>
   </inventoryAction>
   <inventoryAction Name="Sacrifice">
-    <display>sacrificio</display>
+    <display>sacrificar</display>
     <key>s</key>
   </inventoryAction>
   <inventoryAction Name="FlipSwitch">
@@ -722,7 +722,7 @@
     <key>f</key>
   </inventoryAction>
   <inventoryAction Name="VehicleControl">
-    <display>control</display>
+    <display>controlar</display>
     <key>c</key>
   </inventoryAction>
   <inventoryAction Name="ReleaseVehicle">
@@ -754,20 +754,20 @@
     <key>c</key>
   </inventoryAction>
   <inventoryAction Name="TelekineticPull">
-    <display>arrastrar telecinéticamente hacia ti</display>
+    <display>atraer telecinéticamente hacia ti</display>
     <key>p</key>
   </inventoryAction>
   <inventoryAction Name="TelekineticPullOne">
-    <display>arrastrar uno telecinéticamente hacia ti</display>
+    <display>atraer telecinéticamente uno hacia ti</display>
     <key>P</key>
   </inventoryAction>
   <inventoryAction Name="TelekineticPullAndTake">
-    <display>arrastrar telecinéticamente hacia ti y tomar</display>
+    <display>atraer telecinéticamente hacia ti y tomar</display>
     <preferToHighlight>tomar</preferToHighlight>
     <key>t</key>
   </inventoryAction>
   <inventoryAction Name="TelekineticPullAndTakeOne">
-    <display>arrastrar uno telecinéticamente hacia ti y tomar</display>
+    <display>atraer telecinéticamente uno hacia ti y tomar</display>
     <preferToHighlight>tomar</preferToHighlight>
     <key>T</key>
   </inventoryAction>

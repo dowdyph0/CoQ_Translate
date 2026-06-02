@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<biomes Lang="es" Encoding="utf-8">
+  <biome Name="Fungal">
+    <variant Name="Weak">
+      <noun>mancha fúngica</noun>
+    </variant>
+    <variant Name="Medium">
+      <noun>bosque de hongos</noun>
+    </variant>
+    <variant Name="Strong">
+      <noun>bosque fúngico</noun>
+      <journalSecret>un {{m|fungus}} bosque</journalSecret>
+    </variant>
+  </biome>
+  <biome Name="Slimy">
+    <variant Name="Weak">
+      <noun>mancha de slime</noun>
+      <adjective>resbaladizo</adjective>
+    </variant>
+    <variant Name="Medium">
+      <noun>campo de slime</noun>
+      <adjective>empapado de slime</adjective>
+    </variant>
+    <variant Name="Strong">
+      <noun>pantano de slime</noun>
+      <journalSecret>un {{g|slime}} pantano</journalSecret>
+    </variant>
+  </biome>
+  <biome Name="Tarry">
+    <variant Name="Weak">
+      <noun>parche de brea</noun>
+      <adjective>demorarse</adjective>
+    </variant>
+    <variant Name="Medium">
+      <noun>pozos de brea</noun>
+    </variant>
+    <variant Name="Strong">
+      <noun>fosas de brea ardiendo</noun>
+      <journalSecret>algunos {{fiery|ardientes}} {{K|brea}} pits</journalSecret>
+    </variant>
+  </biome>
+  <biome Name="Rusty">
+    <variant Name="Weak">
+      <noun>parche de óxido</noun>
+      <adjective>oxidado</adjective>
+    </variant>
+    <variant Name="Medium">
+      <noun>campo de óxido</noun>
+      <adjective>envuelto en óxido</adjective>
+    </variant>
+    <variant Name="Strong">
+      <noun>pantano de óxido</noun>
+      <journalSecret>un {{herrumbroso|herrumbe}} pantano</journalSecret>
+    </variant>
+  </biome>
+</biomes>

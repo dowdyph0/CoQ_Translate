@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sparkingbaetyls Lang="es" Encoding="utf-8">
   <rewards>
-    <reward Name="MeleeWeapon" Description="UNA PODEROSA ARMADURA" />
-    <reward Name="Armor" Description="UNA ESPLÉNDIDA VESTIDURA" />
+    <reward Name="MeleeWeapon" Description="UNA PODEROSA ARMA" />
+    <reward Name="Armor" Description="UNA PRECIOSA VESTIDURA" />
     <reward Name="MissileWeapon" Description="UN CAÑÓN ARDIENTE" />
     <reward Name="Artifact" Description="UNA EXTRAÑA MAQUINARIA" />
     <reward Name="AttributePoints" Description="HABILIDAD MEJORADA" />
     <reward Name="MutationPoints" Description="HABILIDAD MEJORADA" />
     <reward Name="SkillPoints" Description="HABILIDAD AUMENTADA" />
-    <reward Name="Reputation" Description="GRAN REPUTACIÓN" />
+    <reward Name="Reputation" Description="GRAN FAMA" />
   </rewards>
 </sparkingbaetyls>

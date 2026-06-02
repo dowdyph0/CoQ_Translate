@@ -1,131 +1,131 @@
 <?xml version="1.0" encoding="utf-8"?>
 <quests Lang="es" Encoding="utf-8">
-  <quest ID="What's Eating the Watervine?" Name="¿Qué devora la vid del agua?" Accomplishment="Resolviste el misterio de la vid del agua mordida y advirtiste a los habitantes de Joppa sobre los Girsh." Hagiograph="En el mes de =month= de =year=, =name= caminó bajo las arcos cromados, rechazó la multitud de girshlings y sanó las cosechas marchitadas." Gospel="En la sangrienta Batalla de Roca Roja, =name= luchó contra las fuerzas combinadas de girshlings y monos para liberar a los habitantes de Joppa. En honor a =player.t's=, ellos =spice:history.gospels.Celebration.LateSultanate.!random=.">
-    <step ID="Travel to Red Rock" Name="Viajar a Roca Roja">
-      <text>Viaja dos parasangues al norte de Joppa hacia la Piedra Roja.</text>
+  <quest ID="What's Eating the Watervine?" Name="¿Qué está comiendo la vid del agua?" Accomplishment="Resolviste el misterio de la vid del agua masticada y advirtiste a los aldeanos de Joppa sobre el Girsh." Hagiograph="En el mes de =month= de =year=, =name= caminó bajo las arcos cromados, rechazó a la multitud de girshlings y sanó las cultivos marchitos." Gospel="En la sangrienta Batalla de Red Rock, =name= luchó contra las fuerzas combinadas de girshlings y monos para liberar a los aldeanos de Joppa. En honor a =player.t's=, ellos =spice:history.gospels.Celebration.LateSultanate.!random=.">
+    <step ID="Travel to Red Rock" Name="Viaja hasta Red Rock">
+      <text>Viaja dos parasangues al norte de Joppa hacia la Roca Roja.</text>
     </step>
-    <step ID="Find the Vermin" Name="Buscar a los parias">
-      <text>Busca a las criaturas que devoran la watervine de Joppa.</text>
+    <step ID="Find the Vermin" Name="Busca a la bestia">
+      <text>Halla a las criaturas que devoran la watervine de Joppa.</text>
     </step>
-    <step ID="Get a Corpse" Name="Conseguir un cadáver">
+    <step ID="Get a Corpse" Name="Consigue un cadáver">
       <text>Recoge un cadáver de una de esas criaturas.</text>
     </step>
-    <step ID="Return with the Corpse" Name="Regresar con el cadáver">
-      <text>Regresa a Joppa con el cadáver del vermin que come watervine.</text>
+    <step ID="Return with the Corpse" Name="Regresa con el cadáver">
+      <text>Regresa a Joppa con el cadáver del vermin de la watervine.</text>
     </step>
   </quest>
-  <quest ID="Raising Indrix" Name="Elevando a Indrix" Hagiograph="¡Oh gracia! =name= recuperó una pieza de vidrio negro de una jungla bulliciente y se la devolvió al cabrito mecánico cuyos circuitos" Gospel="Mientras erraba por la selva cerca de Kyakukya, =name= soñó que =player.subjective= orbitaba una estrella oscura y en su vasto disco de acreción apilaba los bloques constructivos del yo. Desde entonces, =name= llevaba un prisma triangular sin estrellas sobre =player.possessive= persona.">
+  <quest ID="Raising Indrix" Name="Elevando a Indrix" Hagiograph="¡Oh gracia! =name= recuperó un fragmento de vidrio negro de una jungla bulliciosa y lo devolvió al caballo mecánico cuyos circuitos lo alimentan." Gospel="Mientras erraba por la jungla cerca de Kyakukya, =name= soñó que =player.subjective= orbitaba una estrella oscura y en su vasto disco de acreción apilaba los bloques constructivos del yo. Desde entonces, =name= lleva un prisma triangular sin estrellas en =player.possessive= persona.">
     <step ID="Find Mamon Souldrinker" Name="Busca a Mamon Souldrinker">
-      <text>Viaja al pueblo de los goatfolk y busca a Mamon Souldrinker.</text>
+      <text>Viaja hacia el pueblo de los goatfolk y busca a Mamon Souldrinker.</text>
     </step>
     <step ID="Recover the Amaranthine Prism" Name="Recupera el Prisma Amarnthino">
-      <text>Devuelve la prisma amarantina al Guardián Indrix.</text>
+      <text>Devuelve al prisma amarantino al Guardián Indrix.</text>
     </step>
   </quest>
-  <quest ID="Fetch Argyve a Knickknack" Name="Trae a Argyve un recuerdo" Accomplishment="Has traído un adorno para un anciano." Hagiograph="Dentro de un templo de agua y vid, =name= enseñó a un viejo el valor del cromo." Gospel="=spice:elements.entity@elements[random].weddingConditions.!random.capitalize=, =name= consolidó =player.possessive= amistad con la Gremio de los Artesanos casándose con Argyve.">
-    <step ID="Find a Knickknack" Name="Encuentra un recuerdo">
-      <text>Explora las regiones circundantes de Joppa en busca de un artefacto.</text>
+  <quest ID="Fetch Argyve a Knickknack" Name="Trae para Argyve un recuerdo trivial" Accomplishment="Has traído un objeto insignificante para un anciano." Hagiograph="Dentro de un templo de agua y vid, =name= enseñó a un anciano el valor del cromo." Gospel="=spice:elements.entity@elements[random].weddingConditions.!random.capitalize=, =name= consolidaron =player.possessive= amistad con la Gremio de los Artesanos casándose con Argyve.">
+    <step ID="Find a Knickknack" Name="Busca un Knickknack">
+      <text>Busca en las regiones que rodean a Joppa un artefacto.</text>
     </step>
-    <step ID="Return to Argyve" Name="Regresa a Argyve">
+    <step ID="Return to Argyve" Name="Regresa ante Argyve">
       <text>Lleva el artefacto a Argyve.</text>
     </step>
   </quest>
-  <quest ID="Fetch Argyve Another Knickknack" Name="Trae a Argyve otro recuerdo" Accomplishment="Has trajado otro adorno para un anciano." Hagiograph="En la sombra del acero bajo el Alto Sol Salino, =name= enseñó a un anciano el valor del cromo." Gospel="=spice:elements.entity@elements[random].weddingConditions.!random.capitalize=, =name= consolidaron =player.possessive= amistad con la Gremio de los Artesanos casándose por segunda vez con Argyve.">
-    <step ID="Find Another Knickknack" Name="Busca Otro Objeto Raro">
-      <text>Busca otro artefacto en las regiones que rodean a Joppa.</text>
+  <quest ID="Fetch Argyve Another Knickknack" Name="Trae otro Knickknack a Argyve" Accomplishment="Has traído otro objeto insignificante para un anciano." Hagiograph="En la sombra del acero bajo el Alto Sol Salino, =name= enseñó a un anciano el valor del cromo." Gospel="=spice:elements.entity@elements[random].weddingConditions.!random.capitalize=, =name= consolidaron =player.possessive= amistad con el Gremio de los Artesanos casándose con Argyve por segunda vez.">
+    <step ID="Find Another Knickknack" Name="Busca otro Knickknack">
+      <text>Busca en las regiones que rodean a Joppa otro artefacto.</text>
     </step>
-    <step ID="Return to Argyve" Name="Regresa a Argyve">
+    <step ID="Return to Argyve" Name="Regresa ante Argyve">
       <text>Regresa a Argyve con el artefacto.</text>
     </step>
   </quest>
-  <quest ID="Weirdwire Conduit... Eureka!" Name="Conducción de Alambre Extraño... ¡Eureka!" Accomplishment="Gracias a tu ayuda, Argyve detectó una señal extraña." Hagiograph="Por las bendiciones del pantano, =name= inventó la Conducción de Alambre Extraño y detectó una señal oculta." Gospel="En un taller remoto cerca del poblado oasis de Joppa, =name= y =player.possessive= aprendiz Argyve inventaron un aparato que evocaba la presencia de tambores sonoros y alambres ardientes. Lo llamaron Conducción de Alambre Extraño.">
-    <step ID="Find 200 Feet of Wire" Name="Busca 200 Pies de Alambre">
-      <text>Busca en los pozos de la ferrugineidad, al este de Joppa, veinte pies de cable.</text>
+  <quest ID="Weirdwire Conduit... Eureka!" Name="Conducto de Weirdwire... ¡Eureka!" Accomplishment="Con tu ayuda, Argyve detectó una señal extraña." Hagiograph="Por los auspicios de la marisma, =name= inventó el Conducto del Alambre Extraño y detectó una señal oculta." Gospel="En un taller remoto cercano al oasis-pueblo de Joppa, =name= y =player.possessive= el aprendiz Argyve inventaron un aparato que evocaba la presencia de tambores golpeados y alambres ardientes. Lo llamaron Conducto del Alambre Extraño.">
+    <step ID="Find 200 Feet of Wire" Name="Encuentra doscientos pies de alambre">
+      <text>Busca en los pozos oxidados, al este de Joppa, veinte pies de alambre.</text>
     </step>
-    <step ID="Return to Argyve" Name="Regresa a Argyve">
-      <text>Entrega el cable a Argyve.</text>
-    </step>
-  </quest>
-  <quest ID="A Canticle for Barathrum" Name="Un Cántico para Barathrum" Accomplishment="Hablaste con los barathrimitas en su enclauve en la Puerta de la Arena." Hagiograph="=name= compuso y cantó un cántico para los pacíficos portaescrituras que habitan bajo la tierra." Gospel="Mientras erraba por el jungla orientada al oeste, =name= topó con una tribu de urshiib llevando a cabo un ritual secreto. Debido a los ojos disco-like de =player.t's=, aceptaron a =name= en su seno y enseñaron a =player.objective= sus secretos.">
-    <step ID="Travel to Grit Gate" Name="Viaja hasta la Puerta de la Arena">
-      <text>Viaja hasta la puerta subterránea en ruinas situada al noreste de Joppa.</text>
-    </step>
-    <step ID="Locate the Barathrumite Enclave" Name="Localiza el Enclauve Barathrimita">
-      <text>Localiza el enclave barathrumita dentro de la Puerta Grit.</text>
-    </step>
-    <step ID="Speak with the Barathrumites" Name="Habla con los barathrimitas">
-      <text>Pregunta a los Barathrumitas acerca de la señal extraña de Argyve.</text>
+    <step ID="Return to Argyve" Name="Regresa ante Argyve">
+      <text>Entrega el alambre a Argyve.</text>
     </step>
   </quest>
-  <quest ID="A Signal in the Noise" Name="Una Señal en el Ruido" Accomplishment="Hablaste con los barathrimitas en su enclauve en la Puerta de la Arena." Hagiograph="=name= compuso y cantó un cántico para los pacíficos portaescrituras que habitan bajo la tierra." Gospel="Mientras erraba por la jungla occidental, =name= tropezó con una tribu de urshiib realizando un ritual secreto. Debido a los ojos en forma de disco de =player.t's=, aceptaron a =name= entre sus filas y enseñaron a =player.objective= sus secretos.">
-    <step ID="Travel to Grit Gate" Name="Viaja hasta la Puerta de la Arena">
-      <text>Viaja hasta la puerta subterránea en ruinas en el jungla occidental.</text>
+  <quest ID="A Canticle for Barathrum" Name="Un Cántico por Barathrum" Accomplishment="Hablaste con los baratrumitas en su enclave en la Puerta de Grano." Hagiograph="=name= compuso y cantó un cántico para los pacíficos portaescrituras que habitan bajo la tierra." Gospel="Mientras erraba por la jungla orientada hacia el oeste, =name= topó con una tribu de urshiib realizando un ritual secreto. Debido a los ojos en forma de disco de =player.t's=, aceptaron a =name= entre sus filas y enseñaron a =player.objective= sus secretos.">
+    <step ID="Travel to Grit Gate" Name="Viaja a la Puerta de la Arena">
+      <text>Viaja hasta la puerta subterránea en ruinas al noreste de Joppa.</text>
     </step>
-    <step ID="Locate the Barathrumite Enclave" Name="Localiza el Enclauve Barathrimita">
-      <text>Localiza el enclave barathrumita dentro de la Puerta Grit.</text>
+    <step ID="Locate the Barathrumite Enclave" Name="Localiza el enclave barathrúmico">
+      <text>Localiza el enclave barathrumita dentro de Grit Gate.</text>
     </step>
-    <step ID="Speak with the Barathrumites" Name="Habla con los barathrimitas">
-      <text>Pregunta a los Barathrumitas acerca de la señal extraña.</text>
+    <step ID="Speak with the Barathrumites" Name="Habla con los Barathrimitas">
+      <text>Pregunta a los Barathrumites acerca de la extraña señal de Argyve.</text>
     </step>
   </quest>
-  <quest ID="More Than a Willing Spirit" Name="Más que un Espíritu Dispuesto" Accomplishment="Os atrevisteis a Golgota y mostrasteis vuestro poder ante los barathrimitas." Hagiograph="En el mes de =month= de =year=, =name= emergió de los conductos de basura de Golgotha, victorioso y bañado en slime." Gospel="Mientras erraba por la jungla occidental, =name= topó con una tribu de urshiib realizando un ritual secreto. Debido al recubrimiento de viscosa sustancia repugnante de =player.t's=, aceptaron a =name= en su seno y enseñaron a =player.objective= sus secretos.">
+  <quest ID="A Signal in the Noise" Name="Una Señal en el Ruido" Accomplishment="Hablaste con los baratrumitas en su enclave en la Puerta de Grano." Hagiograph="=name= compuso y cantó un cántico por los pacíficos portaescrituras que habitan bajo la tierra." Gospel="Mientras erraba por la jungla occidental, =name= tropezó con una tribu de urshiib llevando a cabo un ritual secreto. Debido a los ojos en forma de disco de =player.t's=, aceptaron a =name= entre sus filas y enseñaron a =player.objective= sus secretos.">
+    <step ID="Travel to Grit Gate" Name="Viaja a la Puerta de la Arena">
+      <text>Viaja hasta la puerta subterránea en ruinas en la jungla occidental.</text>
+    </step>
+    <step ID="Locate the Barathrumite Enclave" Name="Localiza el enclave barathrúmico">
+      <text>Localiza el enclave barathrumita dentro de Grit Gate.</text>
+    </step>
+    <step ID="Speak with the Barathrumites" Name="Habla con los Barathrimitas">
+      <text>Pregunta a los Barathrumites acerca de la señal extraña.</text>
+    </step>
+  </quest>
+  <quest ID="More Than a Willing Spirit" Name="Más que un Espíritu Dispuesto" Accomplishment="Os atrevisteis a Golgota y mostrasteis vuestro poder ante los baratrumitas." Hagiograph="En el mes de =month= de =year=, =name= emergió de los conductos de basura de Golgotha, victorioso y bañado en slime." Gospel="Mientras erraba por la jungla occidental, =name= topó con una tribu de urshiib realizando un ritual secreto. Debido a la =player.t's= cubierta de viscosa goma, aceptaron a =name= en su seno y enseñaron a =player.objective= sus secretos.">
     <step ID="Travel to Golgotha" Name="Viaja a Golgota">
-      <text>Viaja hacia la gran cueva Golgotha, al norte de la Puerta Grit.</text>
+      <text>Viaja hasta la gran cueva Golgotha al norte de Grit Gate.</text>
     </step>
     <step ID="Find a Dysfunctional Waydroid" Name="Hallar una Waydroid disfuncional">
-      <text>Halla un androide vía defectuoso entre las ruinas de Golgotha.</text>
+      <text>Encuentra un waydroid inoperante entre las ruinas de Golgotha.</text>
     </step>
     <step ID="Repair the Waydroid" Name="Reparar la Waydroid">
-      <text>Arregla al waydroid.</text>
+      <text>Repare al waydroid.</text>
     </step>
-    <step ID="Return to Grit Gate" Name="Regresar a la Puerta de Grít">
+    <step ID="Return to Grit Gate" Name="Regresar a la Puerta de Grit">
       <text>Regresa a la Puerta de Grano con el waydroid y habla con los Barathrumitas.</text>
     </step>
   </quest>
-  <quest ID="Decoding the Signal" Name="Decodificar la señal" Accomplishment="Hablaste con el baetyl en el Templo de la Roca y descifraste la misteriosa señal." Hagiograph="Valentía! =name= se lanzó al interior de un estante de hielo abierto y conversó con un baetyl en la lengua sagrada." Gospel="Dentro de un inmenso bloque de hielo, =name= consolidó =player.possessive= amistad con los Mechanimistas intercambiando votos susurrados con un baetyl chisporroteante.">
-    <step ID="Get Q Girl's Instructions onto the Data Disk" Name="Introducir las instrucciones de Q Girl en el Disco de Datos">
+  <quest ID="Decoding the Signal" Name="Decodificar la señal" Accomplishment="Hablaste con el baetyl en el Templo de la Roca y descifráste la señal misteriosa." Hagiograph="Valentía! =name= se lanzó a la boca de un desfiladero de hielo abierto y conversó con un baetyl en la lengua sagrada." Gospel="Dentro de un gigantesco bloque de hielo, =name= selló una amistad con los Mechanimistas intercambiando votos susurrados con un baetyl chisporroteante.">
+    <step ID="Get Q Girl's Instructions onto the Data Disk" Name="Colocar las instrucciones de Q Girl en el Disco de Datos">
       <text>Habla con Q Girl en el taller y pídele que codifique sus instrucciones para el baetyl en el disco.</text>
     </step>
     <step ID="Locate the Mechanimist Compound at Bethesda Susa" Name="Localizar el Compuesto de los Mechanimistas en Bethesda Susa">
-      <text>Viaja hacia el norte hasta la gran cueva Bethesda Susa y localiza el templo de los Mecanimistas.</text>
+      <text>Viaja hacia el norte hasta la gran caverna Bethesda Susa y localiza el templo de los Mecanimistas.</text>
     </step>
-    <step ID="Decode the Signal" Name="Descifrar la señal">
-      <text>Infiltra el complejo de los Mecanimistas, activa al baetyl y descifra la señal.</text>
+    <step ID="Decode the Signal" Name="Decodificar la señal">
+      <text>Infiltra el compuesto de los Mecanimistas, activa al baetyl y descifra la señal.</text>
     </step>
-    <step ID="Return to Grit Gate" Name="Regresar a la Puerta de Grít">
+    <step ID="Return to Grit Gate" Name="Regresar a la Puerta de Grit">
       <text>Regresa a la Puerta de Grano y habla con Otho.</text>
     </step>
   </quest>
-  <quest ID="O Glorious Shekhinah!" Name="¡Oh gloriosa Shekhinah!" Accomplishment="A la recomendación de un prosélito, visitaste el mercado del comerciante y la gran catedral en el Stilt de los Seis Días." Hagiograph="=name= recorrió las salinas hacia el norte y el oeste, hasta el mercado mercantil y la gran catedral de los seis días de estaca. Allí, los estacanos cantaron himnos en honor del sultán." Gospel="Después de recorrer las llanuras vacías, =name= emprendió el viaje hacia el mercado y la catedral del Pilar de los Seis Días. Allí =player.subjective= se hizo amigo de los Mecanimistas y lanzó un artefacto al Pozo Sagrado.">
-    <step ID="Make a Pilgrimage to the Six Day Stilt" Name="Hacer una peregrinación a los seis días de talón">
-      <text>Viaja a través del Gran Desierto Salino para visitar el mercado mercantil y la catedral de los Mecanimistas, donde un prosélito te pidió que hicieras una ofrenda de un adorno.</text>
+  <quest ID="O Glorious Shekhinah!" Name="¡Oh gloriosa Shekhinah!" Accomplishment="Sobre la recomendación de un prosélito, visitaste el mercado del comerciante y la gran catedral en el Stilt de los Seis Días." Hagiograph="=name= recorrió las salinas hacia el norte y el oeste, hasta llegar al mercado mercantil y la gran catedral del Pilar de los Seis Días. Allí, los habitantes del pilar cantaron himnos en honor del sultán." Gospel="Después de recorrer las llanuras vacías, =name= emprendió el viaje hacia el mercado y la catedral del Stilt de los Seis Días. Allí =player.subjective= se hizo amigo de los Mecanimistas y lanzó un artefacto al Pozo Sagrado.">
+    <step ID="Make a Pilgrimage to the Six Day Stilt" Name="Haz un Pelerinaje a los seis días de estilón">
+      <text>Viaja por el Gran Desierto Salino para visitar el mercado mercantil y la catedral de los Mecanimistas, donde un prosélito te pidió que hicieras una ofrenda de un adorno.</text>
     </step>
   </quest>
-  <quest ID="The Earl of Omonporch" Name="El Conde de Omonporch" Accomplishment="Has tratado con el Asfodelo y asegurado los terrenos a la base de la Aguja." Hagiograph="En el mes de =month= de =year=, =name= nombró a Asfodel la Bella conde de Omonporch y Guardián de la Aguja Gjaus." Gospel="En =year=, =name= nombró al administrador corrupto Asphodel como conde y ministro de Omonporch. Allí se impuso la práctica de =spice:elements.entity@elements[random].practices.!random= en nombre de =player.t's=.">
-    <step ID="Travel to Omonporch" Name="Viaja hacia Omonporch">
+  <quest ID="The Earl of Omonporch" Name="El Conde de Omonporch" Accomplishment="Has tratado con la Asfodel y asegurado los terrenos en las inmediaciones de la base de la Aguja." Hagiograph="En el mes de =month= de =year=, =name= nombró a Asfodel la Bella conde de Omonporch y Guardián de la Aguja Gjaus." Gospel="En =year=, =name= nombró al administrador corrupto Asphodel como conde y ministro de Omonporch. Allí se impuso la práctica de =spice:elements.entity@elements[random].practices.!random= en nombre de =player.t's=.">
+    <step ID="Travel to Omonporch" Name="Viaja a Omonporch">
       <text>Viaja hacia el norte hasta la Aguja en Omonporch.</text>
     </step>
     <step ID="Secure the Spindle" Name="Asegura la Aguja">
-      <text>Toma el control de las tierras situadas bajo la Aguja.</text>
+      <text>Toma control de las tierras situadas bajo la Aguja.</text>
     </step>
-    <step ID="Return to Grit Gate" Name="Regresar a la Puerta de Grít">
-      <text>Regresa a la Puerta de Grano</text>
+    <step ID="Return to Grit Gate" Name="Regresar a la Puerta de Grit">
+      <text>Regresa a la Puerta de Grano para reportar</text>
     </step>
   </quest>
-  <quest ID="Grave Thoughts" Name="Pensamientos Graves">
-    <step ID="Investigate the Rumbling" Name="Investiga el Ruido">
+  <quest ID="Grave Thoughts" Name="Ponderaciones funestas">
+    <step ID="Investigate the Rumbling" Name="Investiga el rumor">
       <text>Accede al mainframe y escanea la arcilla que rodea el enclave.</text>
     </step>
     <step ID="Speak to Otho" Name="Habla con Otho">
       <text>Habla con Otho a través del intercomunicador de la sala del mainframe o en persona.</text>
     </step>
   </quest>
-  <quest ID="A Call to Arms" Name="Una Llamada a las Armas" Accomplishment="Valientemente defendiste Grit Gate contra un ataque de los Templarios Putus." Hagiograph="=name= destruyó una batallón de Hijos y Hijas a través de un gran mainframe, cubriendo el templo circundante con vidrio y galio." Gospel="En el mes de =month= de =year=, =name= obtuvo una victoria decisiva contra las fuerzas combinadas de los Templarios en la sangrienta Batalla de Grit Gate. Grit Gate fue tan devastado por el caliente galio y el vidrio roto que se le cambió el nombre a Cementerio de Otho.">
-    <step ID="Prepare Defenses" Name="Prepara las Defensas">
+  <quest ID="A Call to Arms" Name="Un llamado a las armas" Accomplishment="Valientemente defendiste la Puerta de Grit contra un ataque por parte de los Templares Putus." Hagiograph="=name= destrozó una batallón de Hijos y Hijas a través de un gran mainframe, cubriendo el templo circundante con vidrio y galio." Gospel="En el mes de =month= de =year=, =name= obtuvo una victoria decisiva contra las fuerzas combinadas de los Templares en la sangrienta Batalla de la Puerta de Grit. La Puerta de Grit fue tan devastada por el galio caliente y el vidrio roto que se renombró Cementerio de Otho.">
+    <step ID="Prepare Defenses" Name="Prepara las defensas">
       <text>Suministra energía a las emplazamientos láser, activa los proyectores de fuerza, sobrecarga los cromelings y activa el Rodanis Y en preparación para el ataque de los Templarios Putus.</text>
     </step>
     <step ID="Defend Grit Gate" Name="Defiende la Puerta de Grit">
-      <text>Defiende la Puerta Grit de sus agresores.</text>
+      <text>Defiende la Puerta Grit de sus asaltantes.</text>
     </step>
   </quest>
   <quest ID="The Assessment" Name="La Evaluación">
@@ -133,125 +133,125 @@
       <text>Habla con Otho para evaluar las pérdidas sufridas en el ataque.</text>
     </step>
   </quest>
-  <quest ID="Pax Klanq, I Presume?" Name="¿Pax Klanq, supongo?" Accomplishment="Caminaste por el Camino de Coral y convenciste a Pax Klanq, prodigio de los hongos, para que fabricara una batería diseñada por Q Girl." Hagiograph="En el vacío del espacio, =name= el Albañil construyó un Camino de Coral hecho de piedra estelar y conversó con un hongo en la lengua sagrada." Gospel="En una catedral extradimensional hecha de coral y carne fúngica, =name= cementó =player.possessive= relación con los hongos al casarse con Pax Klanq.">
-    <step ID="Get Q Girl's Blueprints for the Climber" Name="Obten los Planos Azules de Q Girl para el Escalador">
-      <text>Consigue los planos del escalador para entregárselos a Pax Klanq.</text>
+  <quest ID="Pax Klanq, I Presume?" Name="¿Pax Klanq, supongo?" Accomplishment="Caminaste por el Camino de Corales y convenciste a Pax Klanq, prodigio del hongo, para que fabricara una batería diseñada por Q Girl." Hagiograph="En el vacío del espacio, =name= el Albañil construyó un Camino de Corales hecho de piedra estelar y conversó con un hongo en la lengua sagrada." Gospel="En una catedral extradimensional hecha de corales y carne fúngica, =name= consolidó =player.possessive= relación con los hongos al casarse con Pax Klanq.">
+    <step ID="Get Q Girl's Blueprints for the Climber" Name="Obten los Planos de Q Girl para el Escalador">
+      <text>Obten los planos del escalador para entregárselos a Pax Klanq.</text>
     </step>
     <step ID="Seek the Heart of the Rainbow" Name="Busca el Corazón del Arcoíris">
       <text>Decifra la primera parte del enigma.</text>
     </step>
-    <step ID="Eat the God's Flesh" Name="Coma la Carne del Dios">
+    <step ID="Eat the God's Flesh" Name="Come la Carne del Dios">
       <text>Decifra la segunda parte del enigma.</text>
     </step>
-    <step ID="Follow the Coral Path" Name="Sigue el Camino de Coral">
+    <step ID="Follow the Coral Path" Name="Sigue el Camino de Corales">
       <text>Decifra la tercera parte del enigma.</text>
     </step>
-    <step ID="Convince Pax Klanq to Construct the Climber" Name="Convence a Pax Klanq para que Construya al Escalador">
+    <step ID="Convince Pax Klanq to Construct the Climber" Name="Convence a Pax Klanq para que Construya el Escalador">
       <text>Haz que Pax Klanq se comprometa a fabricar el escalador según el diseño de Q Girl.</text>
     </step>
-    <step ID="Return to Grit Gate" Name="Regresar a la Puerta de Grít">
-      <text>Regresa a la Puerta de Grano y habla con Barathrum.</text>
+    <step ID="Return to Grit Gate" Name="Regresar a la Puerta de Grit">
+      <text>Regresa a la Puerta de Grit y habla con Barathrum.</text>
     </step>
   </quest>
-  <quest ID="Petals on the Wind" Name="Pétalos sobre el Viento" Accomplishment="A instancias de un paria hindren, viajaste hasta el pueblo oculto de Bey Lah para investigar un misterio." Hagiograph="El =name= benévolo accedió a intervenir en los asuntos del prado a instancias de un paria cervatino. ¡El sultan reinaba con bondad!" Gospel="Bajo un =spice:commonPhrases.strange.!random.article= y cielo cubierto de praderas, los hindren de Bey Lah vieron una imagen en el horizonte que parecía un gran espejo. Era =name=, y una vez que =player.subjective= llegó, los hindren construyeron un monumento a =player.objective= y desde entonces llamaron a =player.objective= el Espejo Kendren.">
-    <step ID="Investigate Bey Lah" Name="Investiga Bey Lah">
+  <quest ID="Petals on the Wind" Name="Pétalos sobre el Viento" Accomplishment="A instigación de un paria hindren, viajaste a la oculta aldea de Bey Lah para investigar un misterio." Hagiograph="El benévolo =name= accedió a intervenir en los asuntos del prado a instancia de un paria de la tribu de los ciervos. El sultán reinaba con bondad!" Gospel="En =spice:time.partsOfDay.!random= bajo un =spice:commonPhrases.strange.!random.article= y cielo meadowado, los hindren de Bey Lah vieron una imagen en el horizonte que parecía un gran espejo. Era =name=, y una vez que =player.subjective= llegó, los hindren edificaron un monumento a =player.objective= y desde entonces llamaron a =player.objective= el Kendren Espejo.">
+    <step ID="Investigate Bey Lah" Name="Investiga a Bey Lah">
       <text>Viaja hasta el pueblo oculto de Bey Lah e investiga los problemas que allí se presentan.</text>
     </step>
   </quest>
-  <quest ID="Find Eskhind" Name="Encuentra a Eskhind" Accomplishment="Hallaste al paria hindren Eskhind y sus hermanas dentro de un árbol hueco." Hagiograph="Recuerda! =name= reprendió a la paria Eskhind por huir de su destino. De allí en adelante fue conocida como Eskhind la Cautelosa." Gospel="En el mes de =month= de =year=, =name= fue desafiado por la acusada Eskhind a una duela sobre la ubicación del antiguo tesoro hindren Kindrish. =name= ganó y reprendió a Eskhind para que regresara a Bey Lah.">
+  <quest ID="Find Eskhind" Name="Encuentra a Eskhind" Accomplishment="Hallaste a la paria hindren Eskhind y sus hermanas dentro de un árbol hueco." Hagiograph="¡Recuerda! =name= reprendió a la paria Eskhind por huir de su destino. Desde entonces se la conoció como Eskhind la Cautelosa." Gospel="En el mes de =month= de =year=, =name= fue desafiado por el acusado Eskhind a una duela sobre la ubicación del antiguo tesoro hindren Kindrish. =name= ganó y reprendió a Eskhind para que regresara a Bey Lah.">
     <step ID="Find Eskhind" Name="Busca a Eskhind">
-      <text>Halla a Eskhind y recupera Kindrish.</text>
+      <text>Localiza a Eskhind y recupera Kindrish.</text>
     </step>
-    <step ID="Speak to Warden Neelahind" Name="Habla con el Alguacil Neelahind">
-      <text>Habla con la Guardiana Neelahind, quien fue amiga íntima de Eskhind.</text>
+    <step ID="Speak to Warden Neelahind" Name="Habla con la Guardiana Neelahind">
+      <text>Habla con la Guardiana Neelahind, quien fue muy amiga de Eskhind.</text>
     </step>
-    <step ID="Deliver News of Eskhind" Name="Entrega las Noticias sobre Eskhind">
-      <text>Habla con Keh trayéndole noticias acerca de Eskhind.</text>
+    <step ID="Deliver News of Eskhind" Name="Entrega las noticias de Eskhind">
+      <text>Habla con Keh trayéndole noticias sobre Eskhind.</text>
     </step>
   </quest>
-  <quest ID="Love and Fear" Name="Amor y Temor" Accomplishment="Hallaste y devolviste un poema de amor descartado." Hagiograph="¡Qué inspiradora es la presencia de =name=, quien tanto redimió a Eskhind la Cautelosa que buscó la mano del mayor campeón de Bey Lah!" Gospel="En el núcleo">
-    <step ID="Rescue an Imperiled Love" Name="Rescatar un amor en peligro">
+  <quest ID="Love and Fear" Name="Amor y Temor" Accomplishment="Hallaste y devolviste un poema de amor descartado." Hagiograph="¡Qué inspirador es el presencia de =name=, quien tanto redimió a Eskhind la Cautelosa que buscó la mano del mayor campeón de Bey Lah!" Gospel="En el núcleo carbonizado de un tronco caído, =name= consolidó =player.possessive= amistad con los hindren de Bey Lah al casar a Eskhind y a la Guardiana Neelahind.">
+    <step ID="Rescue an Imperiled Love" Name="Rescata un Amor en Apuros">
       <text>Intervén antes de que el destino de los amantes quede sellado.</text>
     </step>
-    <step ID="Return the Love Sonnet" Name="Devolver el soneto de amor">
-      <text>Entrega la hoja arrugada de papel a su autor o destinatario pretendido.</text>
+    <step ID="Return the Love Sonnet" Name="Devuelve el Soneto de Amor">
+      <text>Entrega la hoja arrugada de papel a su autor o destinatario intencionado.</text>
     </step>
   </quest>
-  <quest ID="Kith and Kin" Name="Parentesco y afinidad" Accomplishment="Por mejor o peor, respecto al destino de Bey Lah, resolviste el misterio de la desaparición de Kindrish y ayudaste a la Guardiana Neelahind a administrar justicia." Hagiograph="¡Santificado salvador! =name= trajo paz y prosperidad a los deerfolk afligidos del prado de Bey Lah." Gospel="Actuando contra ladrones y las autoridades que los respaldan, =name= lideró una investigación en el pueblo de Bey Lah. Gracias al ingenio de =player.t's= =spice:elements.entity@elements[random].adjectives.!random=, la Guardiana Neelahind pudo administrar justicia adecuadamente.">
-    <step ID="Brief Warden Neelahind" Name="Informar a la Guardiana Neelahind">
-      <text>Di a la Guardiana de Bey Lah sobre la naturaleza disputada del robo de Kindrish.</text>
+  <quest ID="Kith and Kin" Name="Parentela y Sangre" Accomplishment="Por mejor o peor, respecto al destino de Bey Lah, resolviste el misterio de la desaparición de Kindrish y ayudaste a la Guardiana Neelahind a administrar justicia." Hagiograph="Santificado salvador ¡=name= trajo paz y prosperidad a los pueblos de ciervos atribulados de la pradera de Bey Lah!" Gospel="Accionándose contra los ladrones y las autoridades que los empoderan, =name= condujo una investigación en el pueblo de Bey Lah. Debido a la sagacidad de =player.t's= =spice:elements.entity@elements[random].adjectives.!random=, la Guardiana Neelahind fue capaz de administrar adecuadamente la justicia.">
+    <step ID="Brief Warden Neelahind" Name="Guardiana Neelahind">
+      <text>Informa a la Guardiana de Bey Lah sobre la naturaleza disputada del robo de Kindrish.</text>
     </step>
-    <step ID="Discover all the evidence" Name="Descubrir toda la evidencia">
+    <step ID="Discover all the evidence" Name="Descubre toda la evidencia">
       <text>Descubre toda evidencia que pueda conducir al ladrón.</text>
     </step>
     <step ID="Accuse the thief" Name="Acusar al ladrón">
-      <text>Habla con la Guardiana Neelahind presentándole pruebas del acontecimiento y acusando al ladrón que tomó Kindrish.</text>
+      <text>Habla con la Guardiana Neelahind presentándole pruebas del acontecimiento y acusando al ladrón que se llevó a Kindrish.</text>
     </step>
   </quest>
-  <quest ID="The Buried Watchers" Name="Los vigías enterrados" Accomplishment="Has visitado una cotería de mopango que habitan en tumbas." Hagiograph="Profundo dentro de la Tumba de los Devoradores en Omonporch, =name= tropezó con una clan de mopango realizando un ritual secreto. Ey aceptó al sultán en su seno y enseñó a =player.objective= sus secretos." Gospel="Profundo dentro de la Tumba de los Devoradores en Omonporch, =name= tropezó con una clan de mopango realizando un ritual secreto. Ey aceptó al =sultanTerm= en su seno y enseñó a =player.objective= sus secretos.">
-    <step ID="Visit the Mopango Settlement in the Tomb of the Eaters" Name="Visita el Asentamiento Mopango en la Tumba de los Devoradores">
-      <text>Busca a Vivira, una torreta amigable en las catacumbas del Noroeste, y dile que Zothom te envió.</text>
+  <quest ID="The Buried Watchers" Name="Los Vigilantes Enterrados&#10;&#10;En una tierra donde el tiempo se dobla sobre sí mismo y la historia susurra desde las sombras de las cuevas profundas, yace oculta una antigua vigilancia, más vieja que los reinos que han venido y caído. Los Vigilantes Enterrados, cuyos ojos no son ojos, sino esferas de cristal que reflejan la verdad de lo que observan; sus manos, no manos, sino hilos de luz que tejen el destino con una precisión implacable.&#10;&#10;Su propósito, gravado en piedra y en sangre, ha sido olvidado por los mortales, pero nunca por ellos mismos. Son guardianes sin reino, vigilantes sin causa, cuya lealtad es al orden cósmico invisible que sostiene el tejido de la existencia. Sus formas, talladas en la roca por manos ya desaparecidas, permanecen inmóviles, aunque sus mentes siguen activas, observando, recordando, esperando.&#10;&#10;Y si uno escucha con atención, entre los ecos del viento que atraviesa" Accomplishment="Has visitado una cofradía de mopango que habitan en tumbas." Hagiograph="Profundo en la Tumba de los Devoradores en Omonporch, =name= tropezó con una tribu de mopango llevando a cabo un ritual secreto. Ey aceptó al sultán en su seno y enseñó a =player.objective= sus secretos." Gospel="Profundo en la Tumba de los Devoradores en Omonporch, =name= tropezó con una tribu de mopango realizando un ritual secreto. Ey aceptó al =sultanTerm= dentro de su clan y enseñó a =player.objective= sus secretos.">
+    <step ID="Visit the Mopango Settlement in the Tomb of the Eaters" Name="Visita el asentamiento de Mopango en la Tumba de los Devoradores">
+      <text>Busca a Vivira, una torreta amistosa en las catacumbas del Noroeste, y dile que Zothom te envió.</text>
     </step>
   </quest>
-  <quest ID="Fraying Favorites" Name="Favoritos Desgastados">
+  <quest ID="Fraying Favorites" Name="Favoritos deshilachados">
     <step ID="Talk to Lebah" Name="Habla con Lebah">
       <text>Pregunta a Lebah sobre su encuentro con el dispositivo repulsivo.</text>
     </step>
     <step ID="Recover the Repulsive Device" Name="Recupera el Dispositivo Repulsivo">
-      <text>Localiza a k-Goninon en las Catacumbas de la Gente y recupera el dispositivo repulsivo.</text>
+      <text>Localiza a k-Goninon en las Catacumbas del Pueblo y recupera el dispositivo repulsivo.</text>
     </step>
-    <step ID="Speak with the Watchers" Name="Habla con los Vigilantes">
-      <text>Pregúntale a los guardias del mopango Dadogom, Doyoba, Gyamyo y Yona sobre el dispositivo repulsivo.</text>
+    <step ID="Speak with the Watchers" Name="Hablar con los Guardianes">
+      <text>Pregúntale a los guardianes mopango Dadogom, Doyoba, Gyamyo y Yona acerca del dispositivo repulsivo.</text>
     </step>
     <step ID="Use the Repulsive Device" Name="Usa el Dispositivo Repulsivo">
-      <text>Elige cómo aplicar mejor el dispositivo repulsivo.</text>
+      <text>Elige la mejor manera de aplicar el dispositivo repulsivo.</text>
     </step>
   </quest>
-  <quest ID="Tomb of the Eaters" Name="Tumba de los Devoradores" Accomplishment="Regresaste del Tumba de los Devoradores tras haber desactivado con éxito el campo magnético de la Aguja.">
-    <step ID="Recover the Mark of Death" Name="Recupera laMarca de la Muerte">
-      <text>Recupera el sello perdido usado por los Devoradores para marcar a sus muertos.</text>
+  <quest ID="Tomb of the Eaters" Name="Tumba de los Devoradores" Accomplishment="Regresaste de la Tumba de los Devoradores después de haber desactivado con éxito el campo magnético de la Aguja.">
+    <step ID="Recover the Mark of Death" Name="Recupera la Marca de la Muerte">
+      <text>Recupera el sello perdido utilizado por los Devoradores para marcar a sus muertos.</text>
     </step>
     <step ID="Inscribe the Mark" Name="Inscribe la Marca">
-      <text>Tatuaje la marca en tu cuerpo.</text>
+      <text>Tatuaje esa marca en tu cuerpo.</text>
     </step>
     <step ID="Enter the Tomb of the Eaters" Name="Entra en la Tumba de los Devoradores">
-      <text>Gana acceso a la tumba sellada.</text>
+      <text>Gana acceso al Sepulcro sellado.</text>
     </step>
-    <step ID="Ascend the Tomb and Cross into Brightsheol" Name="Ascende la Tumba y Cruza hacia Brightsheol">
-      <text>Ascende la tumba y busca la cámara funeraria de Resheph. Desde allí, descubre una manera de viajar a Brightsheol.</text>
+    <step ID="Ascend the Tomb and Cross into Brightsheol" Name="Ascender al Túmulo y Cruzar hacia Brightsheol">
+      <text>Ascende al Sepulcro y encuentra la cámara funeraria de Resheph. Desde allí, descubre una manera de viajar a Brightsheol.</text>
     </step>
-    <step ID="Disable the Spindle's Magnetic Field" Name="Desactiva el Campo Magnético de la Aguja">
+    <step ID="Disable the Spindle's Magnetic Field" Name="Deshabilitar el Campo Magnético de la Aguja">
       <text>Accede a la unidad de control de la Aguja y apaga el campo.</text>
     </step>
-    <step ID="Return to Grit Gate" Name="Regresar a la Puerta de Grít">
-      <text>Regresa a la Puerta de Grano y habla con Barathrum.</text>
+    <step ID="Return to Grit Gate" Name="Regresar a la Puerta de Grit">
+      <text>Regresa a la Puerta de Grit y habla con Barathrum.</text>
     </step>
   </quest>
-  <quest ID="Landing Pads" Name="Plataformas de Aterrizaje">
-    <step ID="Consult Settlements" Name="Consulta las Asentaciones">
-      <text>Convierte a los líderes de al menos tres asentamientos para que ofrezcan refugio a los slynth.</text>
+  <quest ID="Landing Pads" Name="Pistas de Aterrizaje">
+    <step ID="Consult Settlements" Name="Consultar Asentamientos">
+      <text>Convence a los líderes de al menos tres asentamientos para que proporcionen refugio a los slynth.</text>
     </step>
     <step ID="Sanctuary Candidates" Name="Candidatos para el Santuario">
       <text>Estas facciones han acordado alojar a los slynth.</text>
     </step>
-    <step ID="Bid the Slynth to Choose" Name="Haced que el Slynth elija">
-      <text>Di a Thah que reúna a los slynth y tome una decisión.</text>
+    <step ID="Bid the Slynth to Choose" Name="Hacer que los Slynth Elijan">
+      <text>Di a Thah que convoque a los slynth y tome una decisión.</text>
     </step>
   </quest>
-  <quest ID="Return to the Hydropon" Name="Regresa al Hidropón">
-    <step ID="Return to the Hydropon" Name="Regresa al Hidropón">
-      <text>Una vez que los slynth hayan llegado a su nuevo hogar, habla con Thah en la hidropón.</text>
+  <quest ID="Return to the Hydropon" Name="Regresar al Hidropón">
+    <step ID="Return to the Hydropon" Name="Regresar al Hidropón">
+      <text>Una vez que los slynth hayan llegado a su nuevo hogar, habla con Thah en la hidroponía.</text>
     </step>
   </quest>
-  <quest ID="If, Then, Else" Name="Si, Entonces, De Otro Modo" Accomplishment="Ayudaste a Chavvah, el Árbol de la Vida, a completar el ritual del -de-otromodo y seccionar para siempre uno de sus campanas entitarias." Hagiograph="La belleza en la substracción! El podador =name= cortó al Árbol de la Vida para darle una forma más estética." Gospel="Actuando conforme a las múltiples voluntades del Árbol de la Vida, =name= condujo una piedra de tránsito hasta la suave Luz que brillaba bajo el tronco de Chavvah. Allí =player.subjective= realizó un ritual secreto y regresó a la superficie para siempre transformado.">
+  <quest ID="If, Then, Else" Name="Si, Entonces, Sino" Accomplishment="Ayudaste a Chavvah, el Árbol de la Vida, a completar el ritual del -sino y separar para siempre uno de sus campanas-entidad." Hagiograph="Belleza en la sustracción! El podador =name= cortó el Árbol de la Vida para darle una forma más estética." Gospel="Actuando conforme a las múltiples voluntades del Árbol de la Vida, =name= llevó una roca de tránsito hasta la suave Luz bajo el tronco de Chavvah. Allí =player.subjective= realizó un ritual secreto y regresó a la superficie para siempre transformado.">
     <step ID="Gather Tau's Chime" Name="Reúne la Campana de Tau">
       <text>Recupera el campanillo de Tau de su rama en el keter.</text>
     </step>
     <step ID="Go to the Bottom of Taproot" Name="Ve al Fondo del Taproot">
-      <text>Viaja por la raíz principal de Chavvah hasta su extremo, 40 estratos más abajo.</text>
+      <text>Viaja por el tapiz raíz de Chavvah hasta su extremo, 40 estratos más abajo.</text>
     </step>
-    <step ID="Reunite Tau with Her Chime" Name="Reúnete con la Campana de Tau">
-      <text>Toca su campanillo contra la Raíz Principal y termina el ritual del -elsear.</text>
+    <step ID="Reunite Tau with Her Chime" Name="Reúne a Tau con Su Campana">
+      <text>Toca su campanillo contra el Taproot y termina el ritual del -elseing.</text>
     </step>
     <step ID="Return to the Keter" Name="Regresa al Keter">
       <text>Regresa al keter y habla con Dyvvrach.</text>
@@ -259,7 +259,7 @@
   </quest>
   <quest ID="The Golem" Name="El Golem" Accomplishment="">
     <step ID="Soup" Name="Adquiere el Líquido Sanguíneo">
-      <text>Lleva 20 dramas de sopa primordial a Pax Klanq.</text>
+      <text>Lleva 20 drams de sopa primordial a Pax Klanq.</text>
     </step>
     <step ID="Body" Name="Elige un Cuerpo">
       <text>Proporciona un seguidor de nivel 30 o superior.</text>
@@ -270,37 +270,37 @@
     <step ID="Atzmus" Name="Elige un Atzmus">
       <text>Proporciona el miembro de una criatura.</text>
     </step>
-    <step ID="Armament" Name="Elige un Armamento">
-      <text>Proporciona una arma zetacromática.</text>
+    <step ID="Armament" Name="Elige una Armadura">
+      <text>Proporciona una arma zetachrome.</text>
     </step>
     <step ID="Incantation" Name="Elige una Invocación">
       <text>Proporciona una entrada de tu cronología.</text>
     </step>
     <step ID="Hamsa" Name="Elige una Hamsa">
-      <text>Proporciona un artículo que pese 5 libras o menos.</text>
+      <text>Proporcione un objeto que pese 5 libras o menos.</text>
     </step>
     <step ID="Power" Name="Adquiere una Fuente de Ascensión">
-      <text>Proporciona tres dramas de flujo neutrónicos o busca otro medio de energía.</text>
+      <text>Proporciona tres dramas de flujo neutrónico o busca otra fuente de energía.</text>
     </step>
   </quest>
   <quest ID="We Are Starfreight" Name="Somos Starfreight">
-    <step ID="Barathrum" Name="Prepara tu alma para Ascender">
-      <text>Consigue a Barathrum en el golem.</text>
+    <step ID="Barathrum" Name="Prepárate para Ascender">
+      <text>Consigue Barathrum en el golem.</text>
     </step>
     <step ID="Ascend" Name="Ascender">
       <text>Activa los mecanismos de ascensión de la Aguja.</text>
     </step>
   </quest>
-  <quest ID="Reclamation" Name="Recuperación">
-    <property Name="MessageLeaving">Abandonar el campo de batalla podría dar al Templario tiempo para reagruparse y provocar mayores bajas entre los baratrumitas. ¿Proceder?</property>
+  <quest ID="Reclamation" Name="Reclamación">
+    <property Name="MessageLeaving">Alejarse del campo de batalla podría conceder al Templario tiempo para reagruparse y provocar mayores bajas entre los barathrimitas. ¿Proceder?</property>
     <property Name="MessageArrival">{{m|ULLLLLLLLLLLLQ!}}
       
-      El angustioso gemido del mundo de los Nephilim resuena, y tu cuerpo palpita en el aire eléctrico!
+      El doloroso mundo-gemido de los Nefilim resuena, y tu cuerpo palpita en el aire eléctrico!
       
       Ha llegado, {{R|=direction=}}.</property>
     <property Name="MessageArrivalSuper">{{m|QQQYQQQYQQQYQQQYQQQ!}}
 
-      Eyecta estelar llueve en ribbons ardientes, y tu cuerpo casi es anulado en nada por los inefables gemidos del universo primitivo!
+      Ejecta estelar cae en ribbons ardiendo, y tu cuerpo casi es anulado en nada por los inefables gemidos del universo primitivo!
 
       =name= desciende, {{R|=direction=}}.</property>
     <step ID="Warleader1" Name="Derrota a =name=">
@@ -315,8 +315,8 @@
     <step ID="Warleader4" Name="Derrota a =name=">
       <text>Elimina la amenaza del líder de guerra templario del perímetro de Omonporch.</text>
     </step>
-    <step ID="Nephal" Name="Bestia Arrastrante">
-      <text>Quita la amenaza de =name=.</text>
+    <step ID="Nephal" Name="Bestia Afligida">
+      <text>Eliminar la amenaza de =name=.</text>
     </step>
   </quest>
 </quests>

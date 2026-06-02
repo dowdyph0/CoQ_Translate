@@ -6,23 +6,23 @@
       <name>Modos de Juego</name>
     </window>
     <modes>
-      <mode ID="Tutorial" Title="Tutoriales">
+      <mode ID="Tutorial" Title="Bienvenido a las Cavernas de Qud, donde el tiempo se enreda como un hilo de seda y la muerte es tan cotidiana como el alba. Aquí, cada paso puede ser tu último, y cada decisión una danza con lo desconocido.&#10;&#10;Este mundo está tejido de misterios antiguos y leyendas que susurran entre las grietas del tiempo. Las Cavernas son un laberinto de realidades donde los sueños se convierten en realidad, y la verdad es solo una sombra de lo que podría ser.&#10;&#10;Te encontrarás ante desafíos que probarán tu ingenio, tu valor y tu alma. Aprenderás a navegar por esta tierra hostil, donde el conocimiento es poder y cada objeto tiene un propósito oculto.&#10;&#10;En este camino, conocerás criaturas que hablan en acertijos, reinos cuyas leyes son tan antiguas como las estrellas, y magias que desafían la lógica misma del universo. Pero recuerda: en Qud, el destino no es un camino trazado, sino una elección hecha con">
         <description>Aprende los fundamentos de las Cuevas de Qud.</description>
       </mode>
       <mode ID="Classic" Title="Clásico">
-        <description>Permacaída: pierdes a tu personaje cuando mueres.</description>
+        <description>Muerte permanente: pierdes a tu personaje cuando mueres.</description>
       </mode>
-      <mode ID="Roleplay" Title="Rol">
+      <mode ID="Roleplay" Title="Rol de actuación">
         <description>Chequeo en asentamientos.</description>
       </mode>
-      <mode ID="Wander" Title="Errar">
-        <description>{{c|∙}} La mayor parte de las criaturas comienzan neutrales ante ti.  
-          {{c|∙}} Ningún XP por matar.  
-          {{c|∙}} Más XP por descubrimientos y al realizar el ritual del agua.  
-          {{c|∙}} Puntos de control en asentamientos.</description>
+      <mode ID="Wander" Title="Vagar">
+        <description>{{c|∙}} La mayoría de las criaturas comienzan neutrales contigo.
+          {{c|∙}} Ninguna experiencia por matar.
+          {{c|∙}} Más experiencia por descubrimientos y realizar el ritual del agua.
+          {{c|∙}} Puntos de control en los asentamientos.</description>
       </mode>
       <mode ID="Daily" Title="Diario">
-        <description>{{c|∙}} Una oportunidad con un personaje fijo y una semilla del mundo establecida.  
+        <description>{{c|∙}} Una sola oportunidad con un personaje fijo y una semilla del mundo establecida.  
           {{c|∙}} Actualmente en el día {{W|=now.dayOfYear=}} de {{W|=now.year=}}.</description>
       </mode>
     </modes>
@@ -40,13 +40,13 @@
         <description>Crea un nuevo personaje.</description>
       </type>
       <type ID="Random" Title="Aleatorio">
-        <description>Lanza un personaje aleatorio.</description>
+        <description>Genera un personaje aleatorio.</description>
       </type>
       <type ID="Library" Title="Biblioteca">
         <description>Elige un personaje de tu biblioteca de construcciones.</description>
       </type>
       <type ID="Last" Title="Último">
-        <description>Repite la última partida que jugaste.</description>
+        <description>Vuelve a jugar al último personaje que jugaste.</description>
       </type>
     </types>
   </module>
@@ -65,44 +65,44 @@
   <module Class="XRL.CharacterBuilds.Qud.QudPregenModule">
     <window ID="Chargen/Pregens">
       <name>Personajes pregenerados</name>
-      <title>:elige configuración predeterminada:</title>
+      <title>:Elija configuración predeterminada:</title>
     </window>
     <pregens>
-      <pregen ID="Praetorian Prime" Name="Príncipe Primero">
+      <pregen ID="Praetorian Prime" Name="Príncipe Pretoriano">
         <description>{{c|∙}} Luchador cuerpo a cuerpo basado en carga  
 {{c|∙}} Comienza con visión nocturna  
-{{c|∙}} {{W|Construcción más viable para sobrevivir}} al inicio</description>
+{{c|∙}} {{W|La construcción de inicio más viable}}</description>
       </pregen>
-      <pregen ID="First Gardener" Name="Primer Jardiner">
-        <description>{{c|∙}} Luchador híbrido de combate cuerpo a cuerpo y a distancia  
+      <pregen ID="First Gardener" Name="Primer Jardinero">
+        <description>{{c|∙}} Luchador híbrido a distancia y cuerpo a cuerpo  
 {{c|∙}} Comienza con cocina y recolección  
 {{c|∙}} {{W|Altamente viable}} como construcción inicial</description>
       </pregen>
       <pregen ID="First Child of the Hearth" Name="Primogénito de la Chimenea">
-        <description>{{c|∙}} Luchador cuerpo a cuerpo y extremo destrozar
-{{c|∙}} Comienza con huesos de mano de carburo
-{{c|∙}} {{W|Altamente supervivable}} construcción inicial</description>
+        <description>{{c|∙}} Luchador cuerpo a cuerpo y brutalista extremo  
+{{c|∙}} Comienza con huesos de mano de carburo  
+{{c|∙}} {{W|Altamente superviviente}} construcción inicial</description>
       </pregen>
-      <pregen ID="Marsh Taur" Name="Taur del Pantano">
+      <pregen ID="Marsh Taur" Name="Tauri de los Pantanos">
         <description>{{c|∙}} Luchador cuerpo a cuerpo basado en carga  
-{{c|∙}} Habilidad para congelar enemigos  
+{{c|∙}} Capacidad para congelar enemigos  
 {{c|∙}} Muy maniobrable  
-{{c|∙}} {{W|La más sobrevivable}} construcción de inicio</description>
+{{c|∙}} {{W|La más viable}} configuración de inicio</description>
       </pregen>
-      <pregen ID="Dream Tortoise" Name="Tortuga Soñadora">
+      <pregen ID="Dream Tortoise" Name="Tortuga de los Sueños">
         <description>{{c|∙}} Luchador cuerpo a cuerpo  
-{{c|∙}} Extremadamente armado  
-{{c|∙}} Emite gas dormitivo para inutilizar enemigos  
-{{c|∙}} {{W|Altamente sobrevivable}} construcción inicial</description>
+{{c|∙}} Muy bien armado  
+{{c|∙}} Emite gas dormitivo para incapacitar enemigos  
+{{c|∙}} {{W|Altamente superviviente}} construcción inicial</description>
       </pregen>
-      <pregen ID="Gunwing" Name="Ala de Fuego">
-        <description>{{c|∙}} Principalmente luchador a distancia  
+      <pregen ID="Gunwing" Name="Ala de cañón">
+        <description>{{c|∙}} Principalmente combatiente a distancia  
 {{c|∙}} Ágil y maniobrero  
 {{c|∙}} Vuela  
-{{c|∙}} {{W|Altamente superviviente}} configuración inicial</description>
+{{c|∙}} {{W|Altamente sobrevivible}} construcción inicial</description>
       </pregen>
-      <pregen ID="Star-Eye Esper" Name="Espero con Ojo Estelar">
-        <description>{{c|∙}} Luchador a distancia basado en la mente  
+      <pregen ID="Star-Eye Esper" Name="Ojo de Estrella Esperanza">
+        <description>{{c|∙}} Luchador a distancia basado en mentalidad  
 {{c|∙}} Control efectivo de multitudes y visión del mapa  
 {{c|∙}} {{W|Medio supervivible}} construcción inicial</description>
       </pregen>
@@ -162,7 +162,7 @@
   </module>
   <module Class="XRL.CharacterBuilds.Qud.QudChooseStartingLocationModule">
     <window ID="Chargen/ChooseStartingLocation">
-      <name>Lugar de Inicio</name>
+      <name>Ubicación de inicio</name>
       <title>:elige ubicación de inicio:</title>
     </window>
     <locations>
@@ -175,22 +175,22 @@
           {{c|∙}} +50 reputación con insectos y peces.
           {{c|∙}} Comienza con un par de {{g|crocc{{G|a}}sins}}.</description>
       </location>
-      <location ID="SaltDuneVillage" Name="{{Y|dunas salinas}}  &#10;aldea">
+      <location ID="SaltDuneVillage" Name="{{Y|dunas salinas}}&#10;aldea">
         <description>{{c|∙}} Aldea aleatoria en las dunas salinas.
           {{c|∙}} La aldea enseña la Vía del Ayuno.
           {{c|∙}} +100 reputación con los reptiles.
           {{c|∙}} Comienza con un estandarte {{Y|Issach{{r|a}}ri}}.</description>
       </location>
       <location ID="DesertCanyonsVillage" Name="cañón desértico  &#10;aldea">
-        <description>{{c|∙}} Aldea aleatoria en las cañadas desérticas.  
-          {{c|∙}} La aldea enseña el Viajero.  
-          {{c|∙}} +50 reputación con equinos, tortugas y vides.</description>
+        <description>{{c|∙}} Aldea aleatoria en las gargantas del desierto.
+          {{c|∙}} La aldea enseña la Errancia.
+          {{c|∙}} +50 reputación con equinos, tortugas y vidáceas.</description>
       </location>
-      <location ID="HillsVillage" Name="{{Y|colina}}  &#10;aldea">
+      <location ID="HillsVillage" Name="{{Y|colina}}&#10;aldea">
         <description>{{c|∙}} Aldea aleatoria en las colinas.  
-          {{c|∙}} La aldea enseña el despiece.  
+          {{c|∙}} La aldea enseña el desmembramiento.  
           {{c|∙}} +100 reputación con los ermitaños.  
-          {{c|∙}} Comienza con un {{r|manchado de sangre}} anillo para el cuello</description>
+          {{c|∙}} Comienza con un collar de cuello {{r|manchado de sangre}}</description>
       </location>
       <location ID="JoppaTutorial" Name="una caravansera hundida">
         <description>Llegas a los confines de Qud.</description>

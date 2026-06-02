@@ -1,0 +1,50 @@
+{% extends "admin/change_form.html" %}
+
+{% block extrahead %}
+{{ block.super }}
+<style>
+/* ── Side-by-side source / translation layout ───────────────────────────── */
+
+/* The fieldset row that contains both columns */
+.form-row:has(.field-source_display) {
+    display: flex;
+    gap: 1.5em;
+    align-items: flex-start;
+}
+
+.field-source_display,
+.field-translation {
+    flex: 1 1 0;
+    min-width: 0;
+    box-sizing: border-box;
+}
+
+/* Source read-only block — styled to match a textarea visually */
+.te-source-readonly {
+    display: block;
+    white-space: pre-wrap;
+    word-break: break-word;
+    font-size: 13px;
+    line-height: 1.6;
+    background: #f8f9fa;
+    color: #333;
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    min-height: 200px;
+    overflow-y: auto;
+}
+
+/* Make the translation textarea fill the same height */
+.field-translation textarea {
+    min-height: 200px;
+    box-sizing: border-box;
+}
+
+/* Column labels */
+.field-source_display label,
+.field-translation label {
+    font-weight: 600;
+}
+</style>
+{% endblock %}

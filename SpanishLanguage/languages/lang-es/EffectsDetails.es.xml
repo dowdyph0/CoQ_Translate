@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <templates Lang="es" Encoding="utf-8">
   <template ID="Effect.AdrenalControl2Boosted.Details"><p>+<stat Name="QuicknessBonus" /> Velocidad</p>
-        <p>+<stat Name="MutationBonus" Unit="grado" /> a mutaciones físicas</p>
+        <p>+<stat Name="MutationBonus" Unit="rango" /> a mutaciones físicas</p>
     </template>
   <template ID="Effect.AnemoneEffect.Details"><switch Name="DamageBonus">
             <case Value="0" />
@@ -15,7 +15,7 @@
             <case Value="true"><p>In power conservation mode.</p></case>
             <default><p>Unconscious.</p></default>
         </switch>
-        <p>-12 DV.</p>
+        <p>-12 de DA.</p>
         <p>Los atacantes reciben +4 a sus tiradas de penetración.</p>
         <switch Name="UsesSleepMode">
             <case Value="true"><p>Will return to normal operations dazed if damage is taken.</p></case>
@@ -24,13 +24,13 @@
     </template>
   <template ID="Effect.AxonsDeflated.Details"><p><stat Name="QuicknessPenalty" Filters="signed" /> Velocidad</p>
     </template>
-  <template ID="Effect.AxonsInflated.Details"><p><stat Name="QuicknessBonus" Filters="signed" /> Agilidad</p>
+  <template ID="Effect.AxonsInflated.Details"><p><stat Name="QuicknessBonus" Filters="signed" /> Rapidez</p>
         <p>Pronto se volverá lenta.</p>
     </template>
-  <template ID="Effect.BasiliskPoison.Details"><p>-1d6 Velocidad de Movimiento por turno durante 14 a 18 turnos.</p>
+  <template ID="Effect.BasiliskPoison.Details"><p>-1d6 Velocidad de Movimiento por turno durante 14-18 turnos.</p>
         <p>[total:<stat Name="MovementDebuff" Filters="signed" /> Velocidad de Movimiento]</p>
     </template>
-  <template ID="Effect.Beguiled.Details"><p>Encantado por otra criatura para seguirle.</p>
+  <template ID="Effect.Beguiled.Details"><p>Encantado por otra criatura para que lo siguiera.</p>
         <switch Name="HitpointBonus">
             <case Value="0" />
             <default><p><stat Name="HitpointBonus" Filters="signed" /> hit points.</p></default>
@@ -38,20 +38,20 @@
     </template>
   <template ID="Effect.Berserk.Details"><p>100% de probabilidad de desmembrar con hachas.</p>
     </template>
-  <template ID="Effect.Blaze_Tonic.Details"><p>+100 Resistencia al Calor</p>
+  <template ID="Effect.Blaze_Tonic.Details"><p>+100 Resistencia al calor</p>
         <p>No puede congelarse.</p>
         <p>+25% daño de calor infligido.</p>
-        <p>-50 Resistencia al Frío</p>
+        <p>-50 Resistencia al frío</p>
         <switch Name="IsTrueKin">
             <case Value="true"><p>+20 Quickness</p></case>
             <default><p>+10 Quickness</p></default>
         </switch>
-        <p>La temperatura no puede incrementarse por fuentes externas de calor.</p>
-        <p>Debe moverse para evitar incendiarse y perder los efectos de esta poción.</p>
+        <p>La temperatura no puede aumentar por fuentes externas de calor.</p>
+        <p>Debe moverse constantemente para evitar incendiarse y perder los efectos de esta poción.</p>
     </template>
   <template ID="Effect.Blind.Details"><p>No puedo ver.</p>
     </template>
-  <template ID="Effect.BlinkingTicSickness.Details"><p>Hay una pequeña posibilidad cada ronda en que estés en combate de que te teletransportes aleatoriamente a una ubicación cercana.</p>
+  <template ID="Effect.BlinkingTicSickness.Details"><p>Hay una pequeña probabilidad cada ronda en la que estés en combate de que te teletransportes aleatoriamente a una ubicación cercana.</p>
     </template>
   <template ID="Effect.BoostStatistic.Details"><p><stat Name="Bonus" Filters="signed" /> <gametext>=stat.title=</gametext></p>
     </template>
@@ -59,7 +59,7 @@
     </template>
   <template ID="Effect.Broken.Details"><p>No puede equiparse ni usarse.</p>
     </template>
-  <template ID="Effect.Budding.Details"><p>Pronto surgirá una clon.</p>
+  <template ID="Effect.Budding.Details"><p>Próximamente se generará un clon.</p>
     </template>
   <template ID="Effect.Burning.Details"><p><stat Name="BurningDamage" /> daño por turno.</p>
     </template>
@@ -70,7 +70,7 @@
           <default><p>Has the appearance of <stat Name="Appearance" />.</p></default>
         </switch>
     </template>
-  <template ID="Effect.Inspired.Details"><p>La próxima vez que cocines una comida eligiendo ingredientes, obtendrás la elección de tres efectos generados dinámicamente para aplicar. Crearás una receta para el efecto elegido.</p>
+  <template ID="Effect.Inspired.Details"><p>La próxima vez que cocines una comida eligiendo ingredientes, tendrás la opción de elegir entre tres efectos generados dinámicamente para aplicar. Crearás una receta para el efecto elegido.</p>
     </template>
   <template ID="Effect.Lovesick.Details"><p>-6 Inteligencia</p>
         <p>-6 Voluntad</p>
@@ -84,9 +84,9 @@
   <template ID="Effect.Phased.Details"><p>No puede interactuar físicamente con criaturas y objetos a menos que también estén faseados.</p>
         <p>Puede atravesar sólidos.</p>
     </template>
-  <template ID="Effect.Rebuked.Details"><p>Reprendido a la obediencia por otra criatura.</p>
+  <template ID="Effect.Rebuked.Details"><p>Reprendido a la obediencia por otro ser.</p>
     </template>
-  <template ID="Effect.WakingDream.Details"><p>Gana un nivel al convertirte en esta criatura para despertar con placidez.</p>
-        <p>Muere o abandona al personaje para despertar inquietamente.</p>
+  <template ID="Effect.WakingDream.Details"><p>Gana un nivel al convertirte en esta criatura para despertar agradablemente.</p>
+        <p>Muere o abandona al personaje para despertar con pesadillas.</p>
     </template>
 </templates>

@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment — contains secrets, never commit
+.env
+
+# Django
+editor/db.sqlite3
+editor/staticfiles/
+
+# Translation pipeline artifacts
+db_backup*.sqlite3
+db_backup*.json
+SpanishLanguage/translation_cache.json
+SpanishLanguage/translation_failures.json
+SpanishLanguage/translation_memory.json
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+.DS_Store

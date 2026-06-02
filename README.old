@@ -1,0 +1,212 @@
+# Caves of Qud — Translation Pipeline
+
+Automated XML translation pipeline for [Caves of Qud](https://www.cavesofqud.com/) using a local LLM via [llama.cpp](https://github.com/ggerganov/llama.cpp). Translates every `▶`-marked string in `ExampleLanguage/*.example.xml` and writes the results as a ready-to-install language mod.
+
+Tested with **Qwen3-14B** on an NVIDIA RTX 5060 Ti 16 GB.
+
+> **Requires the `lang-experimental` Steam branch** — right-click the game in Steam → Properties → Betas → select `lang-experimental`.
+
+---
+
+## Requirements
+
+- Python 3.11+ (or 3.10 with `pip install tomli`)
+- Docker + Docker Compose (with [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html))
+- A GGUF model file (e.g. `Qwen3-14B-UD-Q4_K_XL.gguf`)
+
+---
+
+## Setup
+
+### 1. LLM server (Docker)
+
+```bash
+# Place your model in the models/ folder
+mkdir models
+cp /path/to/Qwen3-14B-UD-Q4_K_XL.gguf models/
+
+# Start the server
+MODEL_FILE=Qwen3-14B-UD-Q4_K_XL.gguf docker compose up -d
+
+# Verify it's running
+curl http://localhost:9090/health
+```
+
+### 2. Python dependencies
+
+```bash
+pip install requests
+```
+
+### 3. Project layout
+
+Keep `translate.py`, `config.toml`, and `prompts.toml` in their own folder (the repo). All generated files land in whichever directory you run the script from (`cwd`), not inside the game folder.
+
+```text
+~/CoQ_Translate/                        â† run the script from here
+â”œâ”€â”€ translate.py
+â”œâ”€â”€ config.toml
+â”œâ”€â”€ prompts.toml
+â””â”€â”€ SpanishLanguage/                    â† mod output (auto-created)
+    â”œâ”€â”€ manifest.json
+    â”œâ”€â”€ translation_cache.json
+    â”œâ”€â”€ translation_memory.json
+    â”œâ”€â”€ translation_failures.json
+    â””â”€â”€ languages/
+        â”œâ”€â”€ languages.xml               â† declares the language to the game
+        â””â”€â”€ lang-es/
+            â”œâ”€â”€ Strings.es.xml
+            â”œâ”€â”€ Books.es.xml
+            â””â”€â”€ ...                     â† one *.es.xml per source file
+
+StreamingAssets/                        â† game install (read-only source)
+â””â”€â”€ Base/
+    â””â”€â”€ ExampleLanguage/                â† source XML files
+```
+
+Set `streaming_assets_dir` in `config.toml` to point at the game's `StreamingAssets/` folder. When you want to play in Spanish, copy (or symlink) the `SpanishLanguage/` folder into the game's Mods directory â€” see [Installation](#installation).
+
+---
+
+## Configuration (`config.toml`)
+
+```toml
+llm_endpoint = "http://localhost:9090/v1"
+model        = "local-model"
+
+target_language = "Spanish"
+lang_code       = "es"
+
+mod_name         = "SpanishLanguage"
+mod_display_name = "Español"
+mod_author       = ""
+
+temperature    = 0.6
+top_k          = 20
+top_p          = 0.95
+repeat_penalty = 1.1
+max_tokens     = 256
+
+batch_size = 10
+workers    = 4
+
+streaming_assets_dir = 'C:\Program Files (x86)\Steam\steamapps\common\Caves of Qud\CoQ_Data\StreamingAssets'
+```
+
+| Key | Description |
+| ---- | ---------- |
+| `lang_code` | Language code used in file names (`*.es.xml`) and `languages.xml` |
+| `mod_name` | Output folder name â€” also the mod folder name in Mods/ |
+| `mod_display_name` | Language name shown in the in-game language picker |
+| `mod_author` | Optional â€” added to `manifest.json` if non-empty |
+| `workers` | Parallel file workers â€” match llama.cpp `-np` value |
+| `batch_size` | Strings per LLM call |
+| `max_tokens` | Max tokens per response |
+| `streaming_assets_dir` | Absolute path to the game's `StreamingAssets/` folder â€” source XMLs are read from here |
+
+### Prompt tuning (`prompts.toml`)
+
+Edit `prompts.toml` to adjust the LLM tone, add canonical translations, or change the system prompt â€” no need to touch `translate.py`. It contains three keys: `tone_rules`, `sys_single` (single-string prompt), and `sys_batch` (batch prompt). `{lang}` is replaced at runtime with `target_language`.
+
+---
+
+## Usage
+
+```bash
+# Create manifest.json and languages.xml only (no translation)
+python translate.py --init-mod
+
+# Translate all files
+python translate.py
+
+# Translate a single file
+python translate.py --file Mutations
+
+# Dry run â€” count strings without calling the LLM
+python translate.py --dry-run
+
+# Use N parallel workers
+python translate.py --workers 4
+
+# Translate and write only translation_memory.json (no XML output)
+python translate.py --no-xml
+
+# Reconstruct XML files from translation_memory.json (no LLM calls)
+python translate.py --rebuild
+
+# Clear the translation cache and retranslate everything
+python translate.py --clear-cache
+```
+
+### Recommended two-phase workflow
+
+```bash
+# Phase 1: translate â†’ build memory (safe to interrupt)
+python translate.py --no-xml --workers 4
+
+# Phase 2: review/edit translation_memory.json manually if needed
+
+# Phase 3: generate all XML files from memory (fast, no LLM)
+python translate.py --rebuild
+```
+
+---
+
+## How it works
+
+1. **Collect** â€” walks each XML file and collects every `â–¶`-prefixed string (attributes, text nodes, rich text blocks)
+2. **Cache check** â€” skips strings already translated (MD5 key: `lang:scope:text`)
+3. **Batch translate** â€” sends up to `batch_size` strings per LLM call; falls back to individual calls if the response is malformed
+4. **Write** â€” updates the XML file and saves the translation cache and memory incrementally after each file
+5. **Mod files** â€” at the end of a full run, generates `manifest.json` and `languages/languages.xml` automatically
+
+**Variable protection**: game variables (`=variable=`) and XML entities are replaced with `[[P0]]`, `[[P1]]`, ... placeholders before sending to the LLM and restored afterwards.
+
+---
+
+## Output files
+
+All output lands in `cwd/<mod_name>/` (e.g. `SpanishLanguage/`):
+
+| File | Description |
+| ---- | ----------- |
+| `SpanishLanguage/languages/lang-es/*.es.xml` | Translated XML files |
+| `SpanishLanguage/languages/languages.xml` | Language declaration read by the game |
+| `SpanishLanguage/manifest.json` | Mod metadata |
+| `SpanishLanguage/translation_cache.json` | MD5-keyed cache â€” skip already-translated strings on reruns |
+| `SpanishLanguage/translation_memory.json` | Human-readable sourceâ†”translation pairs â€” edit and use `--rebuild` to apply corrections |
+| `SpanishLanguage/translation_failures.json` | Strings that failed translation â€” review and retry |
+
+---
+
+## Installation
+
+Copy (or move) the generated mod folder into the game's Mods directory:
+
+```text
+C:\Program Files (x86)\Steam\steamapps\common\Caves of Qud\CoQ_Data\StreamingAssets\Mods\SpanishLanguage\
+```
+
+Then launch the game (on the `lang-experimental` branch), go to **Mods**, enable **SpanishLanguage** and **C# Scripting**, restart when prompted, and the language will appear in the language picker on the main menu.
+
+---
+
+## llama.cpp server parameters
+
+```text
+-ngl 99              # offload all layers to GPU
+-np 4                # 4 parallel slots (match --workers)
+--ctx-size 16384     # total KV cache across all slots
+--batch-size 512     # prompt processing batch size
+--flash-attn         # Flash Attention (reduces VRAM)
+--cache-type-k q8_0  # KV cache quantization (saves VRAM)
+--cache-type-v q8_0
+--reasoning-budget 0 # disable Qwen3 thinking tokens
+--no-warmup          # skip startup warmup pass
+```
+
+---
+
+## License
+
+This project is a fan tool and is not affiliated with Freehold Games.

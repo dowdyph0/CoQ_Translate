@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <subtypes Lang="es" Encoding="utf-8">
-  <class ID="Castes" ChargenTitle="elegir casta" SingularTitle="casta">
+  <class ID="Castes" ChargenTitle="elige casta" SingularTitle="casta">
     <category Name="Ekuemekiyye" DisplayName="{{G|Los Arboreta Tóxicos de Ekuemekiyye, la Ciudad Santa}}">
-      <subtype Name="Horticulturist" DisplayName="Horticultor" />
+      <subtype Name="Horticulturist" DisplayName="Horticultorista" />
       <subtype Name="Priest of All Suns" DisplayName="Sacerdote de Todos los Soles" />
       <subtype Name="Priest of All Moons" DisplayName="Sacerdote de Todas las Lunas" />
-      <subtype Name="Syzygyrior" DisplayName="Síziguorio" />
+      <subtype Name="Syzygyrior" DisplayName="Sizigiorio" />
     </category>
     <category Name="Ibul" DisplayName="{{C|La Arcología Cubierta de Hielo de Ibul}}">
-      <subtype Name="Artifex" DisplayName="Artefex" />
+      <subtype Name="Artifex" DisplayName="Artífice" />
       <subtype Name="Consul" DisplayName="Consejero" />
       <subtype Name="Praetorian" DisplayName="Pretoriano" />
       <subtype Name="Eunuch" DisplayName="Eunuco" />
     </category>
-    <category Name="Yawningmoon" DisplayName="{{R|Las Morteras Crustales de Yawningmoon}}">
-      <subtype Name="Child of the Hearth" DisplayName="Hijo de la Hoguera" />
+    <category Name="Yawningmoon" DisplayName="{{R|Las Mortandades Crustales de Yawningmoon}}">
+      <subtype Name="Child of the Hearth" DisplayName="Hijo de la Lumbre" />
       <subtype Name="Child of the Wheel" DisplayName="Hijo de la Rueda" />
       <subtype Name="Child of the Deep" DisplayName="Hijo de lo Profundo" />
-      <subtype Name="Fuming God-Child" DisplayName="Dios-Hijo Fumante" />
+      <subtype Name="Fuming God-Child" DisplayName="Dioscrito Airado" />
     </category>
   </class>
   <class ID="Callings" ChargenTitle="elegir vocación" SingularTitle="vocación">
@@ -33,7 +33,7 @@
       
     </subtype>
     <subtype Name="Scholar" DisplayName="Erudito" />
-    <subtype Name="Tinker" DisplayName="Artesano">
+    <subtype Name="Tinker" DisplayName="Tallerista">
       
     </subtype>
     <subtype Name="Warden" DisplayName="Guardián" />
@@ -41,7 +41,7 @@
       
       
     </subtype>
-    <subtype Name="Watervine Farmer" DisplayName="Cultivador de Vinedelagua">
+    <subtype Name="Watervine Farmer" DisplayName="Agricultor de la Vid del Agua">
       
     </subtype>
   </class>
