@@ -1,0 +1,1865 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objects Lang="es_ES" Encoding="utf-8">
+  <object Name="GritGateCommPanel" Load="Merge">
+    <part Name="Render" DisplayName="panel de comunicaciones" />
+    <part Name="Description" Short="Las láminas metálicas difunden el volumen de un altavoz de dos vías. Un pequeño botón sobresale desde la esquina inferior." />
+    <part Name="ChargeSink" NameForStatus="Intercomunicador" />
+  </object>
+  <object Name="GritGateMainframeRoomCommPanel" Load="Merge">
+    <part Name="Render" DisplayName="panel de comunicaciones" />
+    <part Name="Description" Short="Las láminas metálicas difunden el volumen de un altavoz de dos vías. Un pequeño botón sobresale desde la esquina inferior." />
+    <part Name="ChargeSink" NameForStatus="Intercomunicador" />
+  </object>
+  <object Name="Bell of Rest" Load="Merge">
+    <part Name="Render" DisplayName="Campana del Descanso" />
+  </object>
+  <object Name="Switch" Load="Merge">
+    <part Name="Render" DisplayName="interruptor" />
+  </object>
+  <object Name="DoorSwitch" Load="Merge">
+    <part Name="Render" DisplayName="interruptor de control" />
+    <part Name="Description" Short="Los botones están colocados en un par vertical a través de un rectángulo de metal escrito a mano." />
+  </object>
+  <object Name="ElevatorSwitch" Load="Merge">
+    <part Name="Render" DisplayName="interruptor de control" />
+    <part Name="Description" Short="Los botones están colocados en un par vertical a través de un rectángulo de metal escrito a mano." />
+  </object>
+  <object Name="TempleSwitch" Load="Merge">
+    <part Name="Render" DisplayName="interruptor de control" />
+    <part Name="Description" Short="Un solo botón está centrado en un rectángulo de metal escrito a mano." />
+  </object>
+  <object Name="Platform" Load="Merge">
+    <part Name="Render" DisplayName="plataforma cromada" />
+    <part Name="Description" Short="Una plataforma de metal negro y ajurada está alfombrada con el polvo del tiempo. Está cruzada por las huellas de seres vivos diminutos." />
+  </object>
+  <object Name="StiltWell" Load="Merge">
+    <part Name="Description" Short="Escenas esfingicas de glamour post-Edificación están dispuestas en oro y relieve hundido alrededor del borde de la fuente de mármol negro. La trama de sus venas brillantes hiere la vista, pero, al descender, se retira hacia una profundidad sin estrellas." />
+    <part Name="Render" DisplayName="pozo sagrado" />
+  </object>
+  <object Name="Marble Dais" Load="Merge">
+    <part Name="Render" DisplayName="dais de mármol" />
+    <part Name="Description" Short="Mármol ceruleano liso parece luz holográfica fundida en roca sólida. Está orlado y esquinas con oro." />
+  </object>
+  <object Name="NW Marble Dais" Load="Merge">
+    <part Name="Render" DisplayName="dais de mármol" />
+  </object>
+  <object Name="N Marble Dais" Load="Merge">
+    <part Name="Render" DisplayName="dais de mármol" />
+  </object>
+  <object Name="NE Marble Dais" Load="Merge">
+    <part Name="Render" DisplayName="dais de mármol" />
+  </object>
+  <object Name="W Marble Dais" Load="Merge">
+    <part Name="Render" DisplayName="dais de mármol" />
+  </object>
+  <object Name="W1 Marble Dais" Load="Merge">
+    <part Name="Render" DisplayName="dais de mármol" />
+  </object>
+  <object Name="W2 Marble Dais" Load="Merge">
+    <part Name="Render" DisplayName="dais de mármol" />
+  </object>
+  <object Name="W3 Marble Dais" Load="Merge">
+    <part Name="Render" DisplayName="dais de mármol" />
+  </object>
+  <object Name="E1 Marble Dais" Load="Merge">
+    <part Name="Render" DisplayName="dais de mármol" />
+  </object>
+  <object Name="E2 Marble Dais" Load="Merge">
+    <part Name="Render" DisplayName="dais de mármol" />
+  </object>
+  <object Name="E3 Marble Dais" Load="Merge">
+    <part Name="Render" DisplayName="dais de mármol" />
+  </object>
+  <object Name="S1 Marble Dais" Load="Merge">
+    <part Name="Render" DisplayName="dais de mármol" />
+  </object>
+  <object Name="S2 Marble Dais" Load="Merge">
+    <part Name="Render" DisplayName="dais de mármol" />
+  </object>
+  <object Name="E Marble Dais" Load="Merge">
+    <part Name="Render" DisplayName="dais de mármol" />
+  </object>
+  <object Name="SW Marble Dais" Load="Merge">
+    <part Name="Render" DisplayName="dais de mármol" />
+  </object>
+  <object Name="SE Marble Dais" Load="Merge">
+    <part Name="Render" DisplayName="dais de mármol" />
+  </object>
+  <object Name="Archway" Load="Merge">
+    <part Name="Render" DisplayName="arco" />
+    <part Name="Description" Short="Es un portal abierto de piedra apilada." />
+  </object>
+  <object Name="Door" Load="Merge">
+    <part Name="Render" DisplayName="puerta" />
+    <part Name="Description" Short="La losa está marcada por años de huellas humanas, y una hilera de chispas de óxido cae del tope de las bisagras. La puerta persiste, no obstante, en su obstinada afirmación de 'dentro' y 'fuera'." />
+    <tag Name="HeroNameTitleDescriptor" Value="Abierta,Cerrada,Trancada,Buscada,Cerrada,Abrida dos veces,Abrida tres veces,No se puede tocar,No tocada,Desbloqueada" />
+    <xtagTextFragments Skin="panel" PoeticFeatures="moldura encantadora, goznes untados de aceite, manilla acogedora" />
+    <tag Name="QuestableVerb" Value="abrir,cerrar" />
+  </object>
+  <object Name="Windowed Door" Load="Merge">
+    <part Name="Render" DisplayName="puerta" />
+    <part Name="Description" Short="En algún momento del pasado de la puerta, un habitante desenrolló su voluntad hacia la curiosidad y cortó una abertura para la visión a través del límite." />
+  </object>
+  <object Name="Striped Door" Load="Merge">
+    <part Name="Render" DisplayName="puerta" />
+    <part Name="Description" Short="Paneles de extremo a extremo están protegidos por una barra transversal para reforzar el margen de entrada y salida." />
+  </object>
+  <object Name="Wavy Door" Load="Merge">
+    <part Name="Render" DisplayName="puerta" />
+    <part Name="Description" Short="Los metales cortados con la sierra coseno fueron soldados ajustadamente y colocados en un marco de acero. El dintel de la cerradura está recubierto de cromo." />
+  </object>
+  <object Name="Metal Door" Load="Merge">
+    <part Name="Render" DisplayName="puerta" />
+    <part Name="Description" Short="Una placa metálica surcada se adapta al arco de la puerta, y una placa deslizante es cortada desde su centro." />
+  </object>
+  <object Name="Double Door" Load="Merge">
+    <part Name="Description" Short="Las dos placas están marcadas con años de huellas dactilares, y un anillo de escamas de óxido cae del tope de todos sus goznes. Las puertas continúan, no obstante, en su obstinada afirmación de 'dentro' y 'fuera'." />
+  </object>
+  <object Name="Double Windowed Door" Load="Merge">
+    <part Name="Description" Short="En algún momento del pasado de la puerta doble, un habitante desenrolló su voluntad hacia la curiosidad y cortó una abertura para la visión a través del límite." />
+  </object>
+  <object Name="Double Striped Door N" Load="Merge">
+    <part Name="Description" Short="Paneles de extremo a extremo están protegidos por una barra transversal para reforzar el margen de entrada y salida." />
+  </object>
+  <object Name="Double Striped Door S" Load="Merge">
+    <part Name="Description" Short="Paneles de extremo a extremo están protegidos por una barra transversal para reforzar el margen de entrada y salida." />
+  </object>
+  <object Name="Double Striped Door E" Load="Merge">
+    <part Name="Description" Short="Paneles de extremo a extremo están protegidos por una barra transversal para reforzar el margen de entrada y salida." />
+  </object>
+  <object Name="Double Striped Door W" Load="Merge">
+    <part Name="Description" Short="Paneles de extremo a extremo están protegidos por una barra transversal para reforzar el margen de entrada y salida." />
+  </object>
+  <object Name="BaseDoubleWavyDoor" Load="Merge">
+    <part Name="Description" Short="Los metales cortados con la sierra coseno fueron soldados ajustadamente y colocados en un marco de acero doble. Los dintel de las cerraduras están recubiertos de cromo." />
+  </object>
+  <object Name="BaseDoubleMetalDoor" Load="Merge">
+    <part Name="Description" Short="Un par de placas metálicas surcadas se ajustan al arco de la puerta doble, y una placa deslizante ha sido cortada desde sus centros." />
+  </object>
+  <object Name="Glass Door" Load="Merge">
+    <part Name="Render" DisplayName="puerta de vidrio" />
+    <part Name="Description" Short="Cristales transparentes y pulidos se ajustan a un carril deslizante." />
+  </object>
+  <object Name="Tinted Glass Door W" Load="Merge">
+    <part Name="Render" DisplayName="puerta de vidrio teñido" />
+    <part Name="Description" Short="Una lámina de vidrio transparente." />
+  </object>
+  <object Name="Tinted Glass Door E" Load="Merge">
+    <part Name="Render" DisplayName="puerta de vidrio teñido" />
+    <part Name="Description" Short="Cristales pulidos fueron empañados en oscuro y ajustados sobre un carril deslizante." />
+  </object>
+  <object Name="Security Door" Load="Merge">
+    <part Name="Render" DisplayName="puerta de seguridad" />
+    <part Name="Description" Short="Una placa metálica surcada se ajusta al arco de la puerta, y una placa deslizante reposa hundida en el centro. La placa está estampada con el molde de una tarjeta llave." />
+  </object>
+  <object Name="Fused Security Door" Load="Merge">
+    <part Name="Render" DisplayName="puerta de seguridad fusionada" />
+    <part Name="Description" Short="Una placa metálica surcada se ajusta al arco de la puerta. Sus bisagras y carriles fueron derretidos y fundidos a la estructura de la pared." />
+  </object>
+  <object Name="Troll Door" Load="Merge">
+    <part Name="Render" DisplayName="puerta de metal desmoronada" />
+  </object>
+  <object Name="Troll Door 1" Load="Merge">
+    <part Name="Description" Short="Una masa elefántica de metal pintado de cobre se derrumba fuera de su antiguo marco de puerta. El manillón permanece inmóvil debido a un complejo y ornamental mecanismo de cerradura." />
+  </object>
+  <object Name="Troll Door 2" Load="Merge">
+    <part Name="Description" Short="Una masa elefántica de metal pintado de plata se derrumba fuera de su antiguo marco de puerta. El manillón permanece inmóvil debido a un complejo y ornamental mecanismo de cerradura." />
+  </object>
+  <object Name="Troll Door 3" Load="Merge">
+    <part Name="Description" Short="Una masa elefántica de metal pintado de oro se derrumba fuera de su antiguo marco de puerta. El manillón permanece inmóvil debido a un complejo y ornamental mecanismo de cerradura." />
+  </object>
+  <object Name="Door_GritGateRank1" Load="Merge">
+    <part Name="Render" DisplayName="puerta" />
+  </object>
+  <object Name="Door_GritGateRank2" Load="Merge">
+    <part Name="Render" DisplayName="puerta" />
+  </object>
+  <object Name="Death Gate W" Load="Merge">
+    <part Name="Render" DisplayName="Puerta de la Muerte" />
+    <part Name="Description" Short="Las patinae han transformado las puertas de bronce ciclopicas en grandes estanterías de espuma marina y corales. En los paneles, se representa con alto relieve una muerte lúdica: cables encadenados elevan pirámides invertidas a través de un pueblo calcificado, fuego gaseoso y bóvedas de salmuera. Harpistas esqueléticos pasean por el friso, y cabras mastican huesos de cobre en las cornisas." />
+    <xtagGrammar iArticle="la" />
+  </object>
+  <object Name="Death Gate E" Load="Merge">
+    <part Name="Render" DisplayName="Puerta de la Muerte" />
+    <part Name="Description" Short="Las patinae han transformado las puertas de bronce ciclopicas en grandes estanterías de espuma marina y corales. En los paneles, se representa con alto relieve una muerte lúdica: cables encadenados elevan pirámides invertidas a través de un pueblo calcificado, fuego gaseoso y bóvedas de salmuera. Harpistas esqueléticos pasean por el friso, y cabras mastican huesos de cobre en las cornisas." />
+    <xtagGrammar iArticle="la" />
+  </object>
+  <object Name="Life Gate W" Load="Merge">
+    <part Name="Render" DisplayName="Puerta de la Vida" />
+    <part Name="Description" Short="Las patinae han transformado las puertas de bronce ciclopicas en grandes estanterías de espuma marina y corales. En los paneles, se representa con alto relieve el teatro de la vida: hojas de palma elevan pirámides hacia el cielo ribeteado de estrellas, y el agua fluye por el borde de una oinochoe. Amantes se atan a través del friso, y cabras mastican bocado de cobre en las cornisas." />
+    <xtagGrammar iArticle="la" />
+  </object>
+  <object Name="Life Gate E" Load="Merge">
+    <part Name="Render" DisplayName="Puerta de la Vida" />
+    <part Name="Description" Short="Las patinae han transformado las puertas de bronce ciclopicas en grandes estanterías de espuma marina y corales. En los paneles, se representa con alto relieve el teatro de la vida: hojas de palma elevan pirámides hacia el cielo ribeteado de estrellas, y el agua fluye por el borde de una oinochoe. Amantes se atan a través del friso, y cabras mastican bocado de cobre en las cornisas." />
+    <xtagGrammar iArticle="la" />
+  </object>
+  <object Name="Crypt Door" Load="Merge">
+    <part Name="Render" DisplayName="puerta de mármol tallada con elegancia y placas grabadas" />
+    <part Name="Description" Short="Brillante tracera dibuja una vida llena de significado sobre el vacío negro de la superficie de la puerta. Un nombre familiar está inscrito en una placa conmemorativa." />
+  </object>
+  <object Name="Crypt Double Door N" Load="Merge">
+    <part Name="Render" DisplayName="puerta" />
+    <part Name="Description" Short="Brillante tracera dibuja una vida llena de significado sobre el vacío negro de la superficie de la puerta. Un nombre familiar está inscrito en una placa conmemorativa." />
+  </object>
+  <object Name="Crypt Double Door S" Load="Merge">
+    <part Name="Render" DisplayName="puerta" />
+    <part Name="Description" Short="Brillante tracera dibuja una vida llena de significado sobre el vacío negro de la superficie de la puerta. Un nombre familiar está inscrito en una placa conmemorativa." />
+  </object>
+  <object Name="Brightsheol Gate W" Load="Merge">
+    <part Name="Render" DisplayName="Puerta al Brightsheol" />
+  </object>
+  <object Name="Brightsheol Gate E" Load="Merge">
+    <part Name="Render" DisplayName="Puerta al Brightsheol" />
+  </object>
+  <object Name="Recoming Nook Door" Load="Merge">
+    <part Name="Render" DisplayName="puerta de mármol tallada con elegancia y placas grabadas" />
+    <part Name="Description" Short="Brillante tracera dibuja una vida llena de significado sobre el vacío negro de la superficie de la puerta. Un nombre familiar está inscrito en una placa conmemorativa." />
+  </object>
+  <object Name="Brinestalk Gate" Load="Merge">
+    <part Name="Render" DisplayName="puerta de brinestalk" />
+    <part Name="Description" Short="El brinestalk se talla en postes y se coloca sobre un raíl cerrado con llave de hierro." />
+  </object>
+  <object Name="Iron Gate" Load="Merge">
+    <part Name="Render" DisplayName="puerta de hierro" />
+    <part Name="Description" Short="Postes de hierro están dispuestos sobre un raíl cerrado con llave." />
+  </object>
+  <object Name="PowerLine" Load="Merge">
+    <part Name="Render" DisplayName="línea eléctrica" />
+    <part Name="Description" Short="Cobre, aluminio y fibra de vidrio se redondearon para formar una conducción eléctrica." />
+  </object>
+  <object Name="HeavyPowerLine" Load="Merge">
+    <part Name="Render" DisplayName="línea eléctrica de alta tensión" />
+    <part Name="Description" Short="Cobre, carbono y fibra de vidrio se redondearon para formar una conducción eléctrica robusta." />
+  </object>
+  <object Name="GlassHydraulicPipe" Load="Merge">
+    <part Name="Render" DisplayName="tubo hidráulico de vidrio" />
+    <part Name="Description" Short="El vidrio fue soplado dentro de una arteria mecánica." />
+  </object>
+  <object Name="YdFreeholdGlassHydraulicPipe1" Load="Merge">
+    <part Name="Description" Short="El vidrio fue soplado dentro de una arteria mecánica y teñido con iones para adquirir un tono fluorescente verde-amarillo, mediante uranio." />
+  </object>
+  <object Name="WoodenMechanicalTransmission" Load="Merge">
+    <part Name="Render" DisplayName="maquinaria de madera" />
+    <part Name="Description" Short="La madera fue lijada, cortada en ejes suaves y voluminosos, y ajustada dentro de cajas de engranajes para transmitir movimiento con continuidad." />
+    <xtagGrammar massNoun="verdadero" />
+  </object>
+  <object Name="HighTechInstallation" Load="Merge">
+    <xtagTextFragments Skin="maquinaria" PoeticFeatures="estatura colosal, postura mecánica, tuberías rítmicas" />
+  </object>
+  <object Name="Wooden Wind Turbine" Load="Merge">
+    <part Name="Render" DisplayName="{{w|de madera}} turbina eólica" />
+    <part Name="Description" Short="El velamen está atado a brazos de madera salinizada que giran por el canto del viento y hacen girar el eje central." />
+    <part Name="Circuitry" NameForStatus="Caja de engranajes" />
+    <tag Name="HeroNameTitleDescriptor" Value="Cíclico, Generoso, Rotado, Alabeado" />
+    <tag Name="HeroNameTitleClientele" Value="Molineros" />
+  </object>
+  <object Name="Millstone" Load="Merge">
+    <part Name="Render" DisplayName="Piedra de molino" />
+    <part Name="Description" Short="Círculos de caliza, porosos y grises como ostras, con las conchas de cosas antiguas, están dispuestos en placas verticales y se giran entre sí para moler granos fibrosos en harinas." />
+    <tag Name="HeroNameTitleDescriptor" Value="Molinero, Molinillo, Proveedor" />
+    <tag Name="HeroNameTitleClientele" Value="Cocineros, Cocinillas, Granos, los Hambrientos" />
+  </object>
+  <object Name="Wooden Water Wheel" Load="Merge">
+    <part Name="Render" DisplayName="{{w|de madera}} rueda de agua" />
+    <part Name="Description" Short="Paletas de madera negras por la putrefacción húmeda capturan la fuerza del arroyo murmurante y ponen en movimiento la rueda con el lento ritmo de los siglos." />
+    <part Name="Circuitry" NameForStatus="Caja de engranajes" />
+    <tag Name="HeroNameTitleDescriptor" Value="Cíclico, Generoso, Hidrológico, Lavado, Profligado, Replenecedor, Girador" />
+    <tag Name="HeroNameTitleClientele" Value="Relojería, Ingenieros, Molineros" />
+  </object>
+  <object Name="Powered Orrery" Load="Merge">
+    <part Name="Render" DisplayName="esfera armilar mecanizada" />
+    <part Name="ChargeSink" NameForStatus="Motores Servo" />
+  </object>
+  <object Name="Kiln" Load="Merge">
+    <part Name="Render" DisplayName="horno" />
+    <part Name="Description" Short="Un jubón de acero pulido abraza una fogata ardiendo. Marcas de quemadura de diversos materiales se acumulan en sus costados." />
+    <part Name="ChargeSink" NameForStatus="Calentamiento" />
+  </object>
+  <object Name="Electric Generator" Load="Merge">
+    <part Name="Render" DisplayName="generador eléctrico" />
+    <part Name="Description" Short="Un rotor encapsulado recibe carga a través de un manivela y es complementado por calor solar. Sus superficies metálicas rayadas vibran a la frecuencia terrestre." />
+    <tag Name="HeroNameTitleDescriptor" Value="Generoso, Generoso, Microestrella, Abundante, Potente, Profligado, Recargador" />
+    <tag Name="HeroNameTitleClientele" Value="Electrodomésticos, Celdas de Energía, Redes Eléctricas, los Agotados, los Enchufados, los Obsesionados con la Energía, Tallereros" />
+  </object>
+  <object Name="Induction Charging Station" Load="Merge">
+    <part Name="Render" DisplayName="estación de carga por inducción" />
+    <part Name="Description" Short="bobinas de inducción están arraigadas bajo un tapete de corcho, donde el jugo eléctrico se transfiere a celdas de batería." />
+    <part Name="Container" Preposition="en" />
+    <tag Name="HeroNameTitleDescriptor" Value="Gaussiano,Inductante,Potente,Replenidor,Restaurador" />
+    <tag Name="HeroNameTitleClientele" Value="Células de Energía,los Agotados,los Cerebros Láser,los Avidos de Poder,Torceros" />
+  </object>
+  <object Name="Hydraulic Irrigator" Load="Merge">
+    <part Name="Render" DisplayName="{{B|hidráulico}} regador" />
+    <part Name="Description" Short="Acero magnetizado impulsa una diafragma hacia arriba y el agua de la vida es impulsada a través de tuberías de cromo hacia plantas sedientas." />
+    <part Name="RadiusEventSender" NameForStatus="Sistema de Riego" />
+    <part Name="ChargeSink" NameForStatus="Motores Servo" />
+    <tag Name="HeroNameTitleDescriptor" Value="Aquéo,Generoso,Lavado,Nurturante,Pleno,Portador del Agua" />
+    <tag Name="HeroNameTitleClientele" Value="cultivos,agricultores,plantas,la granja" />
+  </object>
+  <object Name="Clockthing_QGirl" Load="Merge">
+    <part Name="Render" DisplayName="reloj de Barathrum con {{M|Q Girl}} {{Y|péndulo}}" />
+    <part Name="Description" Short="Q Girl sustituyó el antiguo oscilador de este reloj de Barathrum por un péndulo que balancea. Ahora las varias horas diarias que el Tiempo engaña a sus observadores se reducen a simples minutos." />
+    <part Name="ChargeSink" NameForStatus="Motores Servo" />
+  </object>
+  <object Name="Hydraulic Bubblething" Load="Merge">
+    <part Name="Render" DisplayName="foaminador de bronce hidráulico" />
+    <part Name="Description" Short="Durante la empresa de inventar, a veces requieres el uso de una espuma gris sin forma. O, al menos, podrías requerirla un día, y así algún artesano prudente se anticipó al problema e inventó el foaminador de bronce. Grabado en su base: 'Toda la espuma, ninguna de la tristeza de tal vez necesitar espuma un día y no tenerla'." />
+    <part Name="ChargeSink" NameForStatus="FoamSystems" />
+  </object>
+  <object Name="Gas Burner" Load="Merge">
+    <part Name="Render" DisplayName="quemador de gas" />
+    <part Name="Description" Short="El gas es empujado a través de una manguera e incendiado en llama. La roció le da textura a los barbotes de la manguera." />
+    <part Name="ChargeSink" NameForStatus="PilotLight" />
+  </object>
+  <object Name="Powered Telescope" Load="Merge">
+    <part Name="Render" DisplayName="telescopio alimentado" />
+    <part Name="ChargeSink" NameForStatus="Motores Servo" />
+  </object>
+  <object Name="Rock Tumbler" Load="Merge">
+    <part Name="Render" DisplayName="moleradora de piedra" />
+    <part Name="Description" Short="Goma se adhiere a la topología interna de un cilindro motorizado. Una caldera llena de granos de carburo ébano reposa en la cámara inferior, lista para abrasar." />
+    <part Name="ItemConvertor" NameForStatus="Tumbado" />
+  </object>
+  <object Name="Lathe" Load="Merge">
+    <part Name="Render" DisplayName="tornear" />
+    <part Name="Description" Short="La manivela y el husillo giran para desgastar materia y regalar al mundo con espirales y cosas redondas. El polvo metálico se acumula en el suelo debajo." />
+    <part Name="ChargeSink" NameForStatus="Rotación" />
+  </object>
+  <object Name="Solar Power Station" Load="Merge">
+    <part Name="Render" DisplayName="{{W|solar}} estación de energía" />
+    <part Name="Description" Short="Los paneles fotovoltaicos están dispuestos a través de dos lunas con tomas. Giran para alcanzar un rango óptimo y transfieren la energía solar a una rueda volante encerrada en vacío." />
+    <part Name="ChargeSink" NameForStatus="GestorDePérdidaCinética" />
+    <tag Name="HeroNameTitleDescriptor" Value="Basker,Fototrópico,Fotovoltaico,Abundante,Recargador" />
+    <tag Name="HeroNameTitleClientele" Value="aparatos,baterías,redes eléctricas,los agotados,los enchufados,reparadores" />
+  </object>
+  <object Name="Solar Pumping Station" Load="Merge">
+    <part Name="Render" DisplayName="{{W|solar}} {{c|estación de bombeo}}" />
+    <part Name="Description" Short="Los rayos solares son capturados por fotovoltaicos a lo largo de la base alrededor de un cilindro cromado, y el calor se utiliza para bombear agua hacia tuberías destinadas a su dispersión." />
+    <part Name="ChargeSink" NameForStatus="Administrador de Pérdidas Hidráulicas" />
+    <tag Name="HeroNameTitleDescriptor" Value="Linfático, Fluyente, Recargador, Bañista, Fototrópico, Fotovoltaico, Abundante" />
+    <tag Name="HeroNameTitleClientele" Value="hidráulica, flujo, fluido, artesanos" />
+  </object>
+  <object Name="Food Processor" Load="Merge">
+    <part Name="Render" DisplayName="procesador de alimentos" />
+    <part Name="Description" Short="Cuadrados metálicos entrelazados forman un armario provisto de cajones y quemadores para tostar, encurar y secar al vacío." />
+    <tag Name="HeroNameTitleDescriptor" Value="Carneiro, Encurador, Conservador" />
+    <tag Name="HeroNameTitleClientele" Value="cocineros, los hambrientos" />
+  </object>
+  <object Name="Universal Charging Station" Load="Merge">
+    <part Name="Render" DisplayName="estación universal de carga" />
+    <part Name="Description" Short="Estanterías, almohadillas, tablas y soportes se forjan del metal como un panal de cromo. La energía eléctrica se concentra en jugo de batería y se vierte en sus células conectadas." />
+    <part Name="Container" Preposition="en" />
+    <tag Name="HeroNameTitleDescriptor" Value="Católico,Potente,Reponedor,Restaurador" />
+    <tag Name="HeroNameTitleClientele" Value="Células de Energía,los Agotados,los Cerebros Láser,los Avidos de Poder,Torceros" />
+  </object>
+  <object Name="Hydraulic Turbine" Load="Merge">
+    <part Name="Render" DisplayName="{{B|hidráulico}} turbina" />
+    <part Name="Description" Short="Rotores de cromo perfectamente tallados se apilan a lo largo del eje de un generador, y amplias palas de fin se aferran al empuje fluido y tejen hilos eléctricos." />
+    <tag Name="HeroNameTitleDescriptor" Value="Acuoso,Lavanda,Nurturante,Abundante,Reponedor" />
+    <tag Name="HeroNameTitleClientele" Value="redes de energía,pompas" />
+  </object>
+  <object Name="Hydraulic Press" Load="Merge">
+    <part Name="Render" DisplayName="prensa hidráulica" />
+    <part Name="Description" Short="Por un haz transversal de metal cortado en placas empuja un pistón hidráulico. Su base plana está rayada con surcos por trozos de basura." />
+    <tag Name="HeroNameTitleDescriptor" Value="Compresor,Aplastador,Planchador,Sigilador,Pisoteador" />
+    <tag Name="HeroNameTitleClientele" Value="reparadores,exploradores de desechos,destruidores" />
+    <tag Name="QuestableVerb" Value="entrar" />
+  </object>
+  <object Name="Force Projector" Load="Merge">
+    <part Name="Render" DisplayName="proyector de fuerza" />
+    <part Name="Description" Short="Dentro del chasis de vidrio y acero, un mar de fluido de fuerza se agita en turbulencia. Luego es pulverizado en materia sólida por el dinamo y proyectado al espacio como un campo." />
+  </object>
+  <object Name="Fluxthing" Load="Merge">
+    <part Name="Render" DisplayName="medidor de flujo" />
+    <part Name="Description" Short="Cuatro acoplamientos con flanges forman una cruz con una lectura de ondagrama en el centro. Mientras los líquidos y gases fluyen a través, las lecturas de flujo aparecen en hilos neónicos." />
+    <part Name="ChargeSink" NameForStatus="FluxCapacitor" />
+  </object>
+  <object Name="Electrothing" Load="Merge">
+    <part Name="Render" DisplayName="electrodicus" />
+    <part Name="Description" Short="Dos bulbos de cobre forman un hueco de chispa que facilita la corriente a lo largo de un camino de gas ionizado. La cosa le chispea y le da descargas." />
+    <part Name="ChargeSink" NameForStatus="ArcGenerator" />
+  </object>
+  <object Name="Unicomputer" Load="Merge">
+    <part Name="Render" DisplayName="unicomputer" />
+    <part Name="Description" Short="Dentro de un armazón metálico, glifos ámbar cabalgan por las escaneaciones pintadas por un haz catódico. Las teclas del frustum están dispuestas en filas silenciosas." />
+    <part Name="ChargeSink" NameForStatus="Procesador" />
+  </object>
+  <object Name="Liquid-Cooled Unicomputer" Load="Merge">
+    <part Name="Render" DisplayName="unicomputadora enfriada con líquido" />
+  </object>
+  <object Name="Loudspeaker" Load="Merge">
+    <part Name="Render" DisplayName="altavoz" />
+    <part Name="Description" Short="Los intestinos magnetizados digieren señales eléctricas y eructan la onda, mientras una membrana sopla polvo sobre una rejilla de bronce." />
+    <part Name="ChargeSink" NameForStatus="Altavoz" />
+  </object>
+  <object Name="Glass Furnace" Load="Merge">
+    <part Name="Render" DisplayName="horno de vidrio" />
+    <part Name="Description" Short="La sosa cáustica y la piedra caliza fluyen por una serie de crisoles y canales calientes hacia el tejido de la mezcla, donde luego se recoge y refina el vidrio." />
+    <part Name="ChargeSink" NameForStatus="Fundición" />
+  </object>
+  <object Name="Wire Extruder" Load="Merge">
+    <part Name="Render" DisplayName="extrusora de alambre" />
+    <part Name="Description" Short="Un afilado spindle de acero está enrollado con surcos para despojar el alambre de nuggets y lingotes en bruto." />
+    <part Name="ItemConvertor" NameForStatus="Extrusión" />
+  </object>
+  <object Name="Broadcast Power Station" Load="Merge">
+    <part Name="Render" DisplayName="estación emisora de energía" />
+    <part Name="Description" Short="El metal fue trenzado en una estructura electromagnética, y a través de ella el modulador moldea la arcilla de la banda base y revela la forma de la nueva señal." />
+    <tag Name="HeroNameTitleDescriptor" Value="Todo-Soportivo,Generoso,Lavallero,Abundante,Potente,Prodigo,Frecuencia-Radiada,Renovador,Transmisor,Sin-Cable" />
+    <tag Name="HeroNameTitleClientele" Value="Electrodomésticos,los Enrollados,los Agotados,los Devoradores-de-Energía,los Receptivos,Torceros" />
+  </object>
+  <object Name="Fusion Power Station" Load="Merge">
+    <part Name="Render" DisplayName="{{C|fusión}} estación de energía" />
+    <part Name="Description" Short="Fragmentos de materia diminuta son aplastados detrás del lúnula de un cilindro cromado, y el calor se usa para bombear electricidad hacia la red." />
+    <tag Name="HeroNameTitleDescriptor" Value="Todo-Soportivo,Corazón-de-Fuego,Generoso,Lavallero,Microestrella,Abundante,Potente,Prodigo,Renovador" />
+    <tag Name="HeroNameTitleClientele" Value="Electrodomésticos, Celdas de Energía, Redes Eléctricas, los Agotados, los Enchufados, los Obsesionados con la Energía, Tallereros" />
+  </object>
+  <object Name="Fusion Pumping Station" Load="Merge">
+    <part Name="Render" DisplayName="{{C|fusión}} estación de bombeo" />
+    <part Name="Description" Short="Fragmentos de materia diminuta son triturados entre sí detrás del lúnula de un cilindro de vidrio, y el calor se emplea para bombear agua hacia tuberías destinadas a su dispersión." />
+    <tag Name="HeroNameTitleDescriptor" Value="Linfático,Fluyente,Recuperador,Microestrella,Fusor" />
+    <tag Name="HeroNameTitleClientele" Value="hidráulica, flujo, fluido, artesanos" />
+  </object>
+  <object Name="Industrial Fan" Load="Merge">
+    <part Name="Render" DisplayName="ventilador industrial" />
+    <part Name="Description" Short="Cuchillas cíclopes talladas según el perfil de un ala son alojadas dentro de un anillo metálico marcado por las cicatrices del tiempo. En una lejana antigüedad, alguien guió el curso del aire a grandes escalas." />
+  </object>
+  <object Name="Glass Printer" Load="Merge">
+    <part Name="Render" DisplayName="impresora de vidrio" />
+    <part Name="Description" Short="Detrás de la placa de un marco bronceado se hallan los instrumentos programables de fabricación de vidrio: horno y soplador para trabajos calientes, engrase y rueda para labores frías." />
+    <part Name="ChargeSink" NameForStatus="FabricaciónDeVidrio" />
+  </object>
+  <object Name="Regen Tank" Load="Merge">
+    <part Name="Render" DisplayName="tanque de regeneración" />
+    <part Name="Description" Short="Paredes de tetraxenonoglass y gel convalescente recrean las condiciones del amnios donde los embriones de reptiles, aves y mamíferos son nutridos hasta alcanzar la vida plena." />
+    <part Name="Enclosing" NameForStatus="CirculaciónDeFluidos" />
+    <part Name="RegenTank" NameForStatus="Sistemas de Regeneración" />
+    <part Name="TemperatureAdjuster" NameForStatus="Control de Temperatura" />
+    <tag Name="HeroNameTitleDescriptor" Value="Terapéutico, Sanador, Restaurador, Milagroso" />
+    <tag Name="HeroNameTitleClientele" Value="los Cansados, los Agotados, los Heridos" />
+    <tag Name="QuestableVerb" Value="entrar" />
+  </object>
+  <object Name="Psiamp Sarcophagus" Load="Merge">
+    <part Name="Render" DisplayName="sarcófago psiónico" />
+    <part Name="Description" Short="Se ha tallado con una piedra limerosa de otro mundo. La piedra fue extraída de un mundo errante que giraba alrededor de una estrella oscura cuya débil luminosidad no logró blanquear la sustancia del vacío de la roca coralina. Ahora aisla a su durmiente de los rayos de la materialidad y los conduce hacia el éter psíquico." />
+    <part Name="Enclosing" NameForStatus="Amplificador Psiónico" />
+    <tag Name="QuestableVerb" Value="entrar" />
+  </object>
+  <object Name="Base Ring Gate" Load="Merge">
+    <part Name="Render" DisplayName="puerta" />
+    <part Name="Description" Short="Riachuelos de agua escalan columnas de mármol descolorido en alto relieve. Suben por el arquivoltado y se enroscan entre anillos helicoidales antes de tomar una brusca dirección hacia arriba sobre la clave de la puerta. Aquí se convierte en allá." />
+    <xtagGrammar iArticle="la" />
+  </object>
+  <object Name="Ruined Ring Gate" Load="Merge">
+    <part Name="Render" DisplayName="puerta ruina" />
+    <part Name="Description" Short="Cascadas de agua, en alto relieve, se desmoronan del mármol roto. Fragmentos del arco que un día encerró el avance de los viajeros ahora yacen sobre espaldas suaves en otro lugar." />
+  </object>
+  <object Name="CyberneticsTerminal2" Load="Merge">
+    <part Name="Render" DisplayName="se convierte en rincón" />
+    <part Name="Description" Short="Un rectángulo de neutroespuma imprimido con la forma humana cuelga bajo un arco de vidrio. A través de la espuma, a nivel de los ojos, glifos se retuercen sobre una pantalla elíptica. Maquinaria quirúrgica, oculta tras una luz cegadora, emerge desde la parte inferior de un domo que lo abarca todo." />
+  </object>
+  <object Name="ConveyorDrive" Load="Merge">
+    <part Name="Render" DisplayName="unidad motriz de transportador" />
+    <part Name="Description" Short="Grasa gotea de un motor de brillo cromado y mancha los rodamientos. Ruedas de polea están dispuestas en ángulos extraños para hacer girar cintas de goma plana a través del espacio." />
+  </object>
+  <object Name="ConveyorPad" Load="Merge">
+    <part Name="Render" DisplayName="cinta transportadora" />
+    <part Name="Description" Short="Un residuo putrefacto se adhiere a las ranuras de la di-goma negra plana." />
+  </object>
+  <object Name="CrematoryConveyorPad" Load="Merge">
+    <part Name="Description" Short="Ceniza de color hueso adherida a las ranuras de la di-goma negra plana." />
+  </object>
+  <object Name="BeltCurtains" Load="Merge">
+    <part Name="Render" DisplayName="cortinas de goma" />
+    <part Name="Description" Short="Bajo un marco metálico empañado cuelga una lámina de goma negra cortada en tiras flexibles que forman cortinas." />
+    <xtagGrammar massNoun="verdadero" />
+  </object>
+  <object Name="Catchbasin" Load="Merge">
+    <part Name="Render" DisplayName="pozo colector" />
+    <part Name="Description" Short="La cerámica atrapa el mínimo rastro de humedad que cede el aire seco como hueso." />
+  </object>
+  <object Name="Air Well" Load="Merge">
+    <part Name="Render" DisplayName="pozo de aire" />
+    <part Name="Description" Short="La piedra fue tallada y moldeada en una doma irregular, con ventanas cuadradas y espaciadas uniformemente para permitir que el aire fluyera. La pequeña diferencia de temperatura dentro de la doma hace que la niebla se condense del aire y se acumule en un pozo colector situado debajo." />
+    <tag Name="HeroNameTitleDescriptor" Value="Acuoso, Condensador, Húmedo, Hidratador, Regador, Mojado" />
+    <tag Name="HeroNameTitleClientele" Value="El Desecado, El Seco, El Salino, El Ansioso de Agua" />
+  </object>
+  <object Name="Solar Still" Load="Merge">
+    <part Name="Render" DisplayName="destilador solar" />
+    <part Name="Description" Short="El calor del sol salino evapora el agua amarga. Cuando el agua vuelve a condensarse, se separa en sus elementos puros e impuros: la sal se adhiere al destilador, mientras que el agua dulce se recoge en el pozo." />
+    <tag Name="HeroNameTitleDescriptor" Value="Acuoso, Condensador, Húmedo, Hidratador, Regador, Mojado" />
+    <tag Name="HeroNameTitleClientele" Value="El Desecado, El Seco, El Salino, El Ansioso de Agua" />
+  </object>
+  <object Name="Solar Condenser" Load="Merge">
+    <part Name="Render" DisplayName="condensador solar" />
+    <part Name="Description" Short="Las bridas cromadas maximizan el área superficial para que el aire evaporado pueda reasentarse como rocío destilado." />
+    <part Name="TemperatureAdjuster" NameForStatus="Sistema de enfriamiento" />
+    <part Name="LiquidProducer" NameForStatus="Sistema de recolección" />
+    <tag Name="HeroNameTitleDescriptor" Value="Acuoso, Condensador, Húmedo, Hidratador, Regador, Mojado" />
+    <tag Name="HeroNameTitleClientele" Value="El Desecado, El Seco, El Salino, El Ansioso de Agua" />
+  </object>
+  <object Name="GritGateChromeBeacon" Load="Merge">
+    <part Name="Render" DisplayName="relé de señal de cromelio" />
+    <part Name="Description" Short="Olas senoidales se estrellan contra la luna de cristal, codificando las primitivas conductuales de los hijos mecánicos del enclave. El campo electrónico las succiona a través de la antena y hacia el éter." />
+    <part Name="ZoneAdjust" NoAdjustSpecFailureDescription="Plantilla de señal necesaria" NameForStatus="Generador de señales" />
+  </object>
+  <object Name="Reclamation Cist" Load="Merge">
+    <part Name="Render" DisplayName="{{r|cisterna de reclamación}}" />
+    <part Name="Description" Short="Una caja de acero, bronce y tubo catódico encierra un conjunto de instrumentos precisos utilizados para succionar materia orgánica de los muertos y devolverla a parientes y allegados." />
+    <tag Name="HeroNameTitleDescriptor" Value="Biocíclico, Carmesí, Cubista, Ecológico, Sangriento" />
+    <tag Name="HeroNameTitleClientele" Value="Arco-lógicas, Proteína, Recicladores, Sostenibilidad, los Hambrientos, la Verdadera Estirpe" />
+  </object>
+  <object Name="FactoryArm" Load="Merge">
+    <part Name="Render" DisplayName="brazo mecánico rotativo" />
+    <part Name="Description" Short="La espuma metálica se empaqueta y placa en un simulacro colosal del brazo biológico, donde las cabezas de los bíceps y tríceps braquiales resplandecen. Grandes articulaciones chirrían ante el esfuerzo de la rotación." />
+  </object>
+  <object Name="GrabberArm" Load="Merge">
+    <part Name="Render" DisplayName="brazo mecánico bloqueante" />
+    <part Name="Description" Short="La espuma metálica se empaqueta y placa en un simulacro colosal del brazo biológico, donde las cabezas de los bíceps y tríceps braquiales resplandecen. Pinzas de bronce atrapan la cinética de su objetivo con un chasquido." />
+  </object>
+  <object Name="Exit Teleporter" Load="Merge">
+    <part Name="Render" DisplayName="teletransportador de escalera" />
+    <part Name="Description" Short="Un borde de bronce rodea una almohadilla de espuma de desvío, y el trabajo artístico encima de la cabeza se entrelaza en los símbolos familiares antaño conocidos del significado de salida." />
+  </object>
+  <object Name="Quantum Rippler" Load="Merge">
+    <part Name="Render" DisplayName="ripplador cuántico" />
+    <part Name="Description" Short="De una caja dorada platinada surgen teselas y tonos kaleidoscópicos que armonizan sobre varias dimensiones." />
+  </object>
+  <object Name="NormCore" Load="Merge">
+    <part Name="Render" DisplayName="núcleo normativo" />
+    <part Name="Description" Short="Tuberías de diamante presurizan el cuarzo hasta su forma Ω, cristalizando el espacio-tiempo a lo largo de las líneas de fuerza en la región local. Gotas de normalidad condensadas en la chimenea refractan la luz hacia una dimensión interior." />
+    <part Name="DeploymentMaintainer" NameForStatus="Proyector de Campo" />
+  </object>
+  <object Name="NormCore1" Load="Merge">
+    <part Name="Render" DisplayName="núcleo estándar modelo I" />
+  </object>
+  <object Name="NormCore2" Load="Merge">
+    <part Name="Render" DisplayName="núcleo estándar modelo II" />
+  </object>
+  <object Name="NormCore3" Load="Merge">
+    <part Name="Render" DisplayName="recomponedor a escala completa" />
+  </object>
+  <object Name="Full-Scale Recompositer" Load="Merge">
+    <part Name="Render" DisplayName="Un hemisferio de fullerita rodea una plataforma de espuma para aterrizaje, y el decorado que se eleva por encima de la cabeza está entrelazado con los símbolos familiares de recomposición y retorno." />
+    <part Name="Description" Short="plataforma de espuma invadida por la vegetación" />
+  </object>
+  <object Name="Melted Pad" Load="Merge">
+    <part Name="Render" DisplayName="El trazo en el hemisferio de fullerita se ha derretido brillantemente blanco y gotea sobre la plataforma de espuma agrietada. Brotes de lirio proliferan en las grietas y empujan hacia adelante; la vida avanza hacia fuera." />
+    <part Name="Description" Short="rincón de reconfiguración" />
+  </object>
+  <object Name="Reshaping Nook" Load="Merge">
+    <part Name="Render" DisplayName="El arco característico de vidrio marca el recinto como un rincón de transformación vaciado y desprovisto de cables para un nuevo uso. Una garra se extiende para soldar y moldear, y en el subdrum, una rueda gira barro húmedo fresco y listo para la fermentación bajo el sol." />
+    <part Name="Description" Short="translations" />
+    <property Name="VehicleTerm" Value="golem" />
+  </object>
+  <object Name="Reshaping Pad" Load="Merge">
+    <part Name="Render" DisplayName="piedra de moldeado" />
+    <part Name="Description" Short="Una gruesa corona de piedra rodea una plataforma de espuma para aterrizaje, y el trabajo artístico sobre la cabeza está trenzado con los nuevos símbolos de transformación y retorno." />
+  </object>
+  <object Name="BaseBookshelf" Load="Merge">
+    <part Name="Render" DisplayName="estantería de madera" />
+    <part Name="Description" Short="Tablas de madera están clavadas en ángulos ortogonales, y el polvo duerme sobre las cubiertas de papel." />
+    <part Name="Container" Preposition="en" />
+  </object>
+  <object Name="Joppa Bookshelf" Load="Merge">
+    <part Name="Render" DisplayName="estantería de madera" />
+  </object>
+  <object Name="NuntuBookshelf" Load="Merge">
+    <part Name="Render" DisplayName="estantería de madera" />
+  </object>
+  <object Name="NuntuBookshelf2" Load="Merge">
+    <part Name="Render" DisplayName="estantería de madera" />
+  </object>
+  <object Name="Village Bookshelf" Load="Merge">
+    <part Name="Render" DisplayName="estantería de madera" />
+  </object>
+  <object Name="UndergroundBookshelf" Load="Merge">
+    <part Name="Render" DisplayName="estantería de madera" />
+  </object>
+  <object Name="UndergroundMerchantBookshelf" Load="Merge">
+    <part Name="Render" DisplayName="estantería de madera" />
+  </object>
+  <object Name="HydroponBookshelf" Load="Merge">
+    <part Name="Render" DisplayName="estantería de madera" />
+  </object>
+  <object Name="Redrock Bookshelf" Load="Merge">
+    <part Name="Render" DisplayName="estantería de madera" />
+  </object>
+  <object Name="BaseBed" Load="Merge">
+    <tag Name="HeroNameTitleDescriptor" Value="Descanso, Suave, Acuchillado, Firme, Lujoso, Cómodo, Corto-Enrollado, No Acolchado" />
+    <tag Name="HeroNameTitleClientele" Value="los Agotados, los Cansados" />
+    <xtagTextFragments Skin="sábanas" PoeticFeatures="postura recostada, superficies suaves, atractiva planitud" />
+    <tag Name="QuestableVerb" Value="dormir en" />
+  </object>
+  <object Name="Bed" Load="Merge">
+    <part Name="Render" DisplayName="cama" />
+    <part Name="Description" Short="Los tejidos estaban rellenos de paja de watervine y colocados sobre tablas de madera en el estilo de los gentes de las colinas." />
+  </object>
+  <object Name="Bedroll" Load="Merge">
+    <part Name="Render" DisplayName="rollo de cama" />
+    <part Name="Description" Short="Una cama de lana de cabra atada con cuerdas de lienzo." />
+  </object>
+  <object Name="Crib" Load="Merge">
+    <part Name="Render" DisplayName="cuna" />
+    <part Name="Description" Short="Las tablas de madera son megalitos para un niño. Los cojines de plumas son frías praderas. Aquí se encuentran los límites de su mundo crepuscular." />
+    <tag Name="HeroNameTitleDescriptor" Value="Nurturing,Restful,Comfortable,Protector,Snug" />
+  </object>
+  <object Name="Folding Cot" Load="Merge">
+    <part Name="Render" DisplayName="cama plegable" />
+    <part Name="Description" Short="El lienzo de watervine está estirado y doblado sobre patas de madera." />
+    <tag Name="QuestableVerb" Value="dormir en" />
+  </object>
+  <object Name="Hammock" Load="Merge">
+    <part Name="Render" DisplayName="hammock" />
+    <part Name="Description" Short="El brinestraw fue trenzado en una red de cuerdas para colgar entre dos antiguos robles y tomar siesta. Las fibras del punto más bajo están especialmente desgastadas por el peso central de un trasero recostado." />
+  </object>
+  <object Name="Four-Poster Bed" Load="Merge">
+    <part Name="Render" DisplayName="cama con cuatro columnas" />
+    <part Name="Description" Short="La madera fue meticulosamente tallada en columnas y adornada con delicadeza. Los rellenos acolchados fueron adquiridos mediante trueque con las costureras junto al río Svy, apilados como un pastel y cubiertos con cojines. Aquí el durmiente acomodado encuentra una entrada preferida al valle del sueño." />
+    <tag Name="HeroNameTitleDescriptor" Value="Reposante,Suave,Acuclillado,Firme,Lujoso,Espantoso,Sueñoso" />
+  </object>
+  <object Name="Medical Bed" Load="Merge">
+    <part Name="Render" DisplayName="cama peptica" />
+    <part Name="Description" Short="Un plástico blanco como la lejía de sal fue moldeado para un sueño pacífico, la convalecencia y el realineamiento de los humores." />
+    <tag Name="HeroNameTitleDescriptor" Value="Firme,Cuidador,Ajustable,Samaritano,Peptico,Terapeutico,Restaurador" />
+  </object>
+  <object Name="Waterbed" Load="Merge">
+    <part Name="Render" DisplayName="cama de agua" />
+    <part Name="Description" Short="Tablas de madera fueron colocadas en ángulos rectos al estilo de los montañeses. En lugar de un colchón de paja, sin embargo, yace una cama de plástico llenada con agua grasa, una alternativa preferida por los flotadores que anhelan las olas del lago." />
+    <tag Name="HeroNameTitleDescriptor" Value="Hidráulico, Húmedo, Ondulado, Repleto de Ebb y Flujo" />
+    <tag Name="HeroNameTitleClientele" Value="los Cansados, los Agotados, el Ebb y Flujo, los Navegantes" />
+  </object>
+  <object Name="Bedger" Load="Merge">
+    <part Name="Render" DisplayName="bedger" />
+    <part Name="Description" Short="Los historiadores ociosos dividen todas las eras en tres edades: el período antes de que los animales ursinos evolucionen o que las civilizaciones alcancen la capacidad de admirarlos, el período entre la prominencia ursina y la capacidad de una civilización para forjar divanes a su semejanza, y luego el período hasta el colapso de dicha civilización." />
+    <part Name="Bed" NameForStatus="Adaptaciones Ortopédicas" />
+    <tag Name="HeroNameTitleDescriptor" Value="Suave, Agradable, Peludo, Caliente, Afectuoso" />
+  </object>
+  <object Name="Hyperbiotic Bed" Load="Merge">
+    <part Name="Render" DisplayName="cama hiperbiótica" />
+    <part Name="Description" Short="Microreactores ocultos chocan partículas, generan calor y alimentan el aparato biótico que rejuvenece al cansado dormitante." />
+    <part Name="Bed" NameForStatus="Sistemas Hiperbióticos" />
+    <tag Name="HeroNameTitleDescriptor" Value="Terapéutico, Sanador, Restaurador, Milagroso" />
+    <tag Name="HeroNameTitleClientele" Value="los Cansados, los Agotados, los Heridos" />
+  </object>
+  <object Name="BaseChair" Load="Merge">
+    <tag Name="HeroNameTitleDescriptor" Value="Acomodado, de piernas cortas, espalda recta, robusto, de tres patas" />
+    <tag Name="HeroNameTitleClientele" Value="Espaldas, lumbares, las agotadas" />
+    <tag Name="QuestableVerb" Value="sentarse sobre" />
+  </object>
+  <object Name="Chair" Load="Merge">
+    <part Name="Render" DisplayName="silla" />
+    <part Name="Description" Short="Tablas de madera clavadas entre sí en ángulo recto, imitando el estilo de los habitantes de los pantanos." />
+  </object>
+  <object Name="Floor Cushion" Load="Merge">
+    <part Name="Render" DisplayName="almohadón del suelo" />
+    <part Name="Description" Short="Relleno con paja de watervine y plumas de glowcrow, este cojín cerrado permite a la gente descansar con las piernas cruzadas." />
+    <tag Name="HeroNameTitleDescriptor" Value="Acomodado, recostado, sibarita, suave, voluptuoso, epicurista" />
+  </object>
+  <object Name="Kline" Load="Merge">
+    <part Name="Render" DisplayName="kline" />
+    <part Name="Description" Short="Las convivias en el limen, el umbral entre los soleados Moghra'yi y la sombra de la Aguja, incluyen la preparación de sidra, holografía y la colocación de klinai en ángulo recto." />
+    <tag Name="QuestableVerb" Value="sentar sobre,dormir en" />
+  </object>
+  <object Name="Bench" Load="Merge">
+    <part Name="Render" DisplayName="banco" />
+    <part Name="Description" Short="Tablas de madera se clavan simplemente para formar el austero asiento." />
+  </object>
+  <object Name="Stool" Load="Merge">
+    <part Name="Render" DisplayName="silla" />
+    <part Name="Description" Short="Nada está in situ, todo está en movimiento, y el sentado debe prepararse para el siguiente momento donde la memoria del ocio es quemada en efígie neurotica. La silla abraza estas verdades." />
+  </object>
+  <object Name="Canvas Folding Chair" Load="Merge">
+    <part Name="Render" DisplayName="silla plegable de tela" />
+    <part Name="Description" Short="Madera articulada y watervine tejida forman un muelle móvil para el trasero." />
+  </object>
+  <object Name="Throne" Load="Merge">
+    <part Name="Render" DisplayName="trono" />
+    <part Name="Description" Short="La ornamentación de metal tallado y piedras preciosas designa el eje del mundo." />
+    <tag Name="HeroNameTitleDescriptor" Value="Real, Imperial, Magnífico, Generoso, Pomposo, Ceremonioso, Impresionante, Majestuoso, Solemne, Grande, Grandilocuente, Espléndido, Elevado" />
+  </object>
+  <object Name="Armchair" Load="Merge">
+    <part Name="Render" DisplayName="sillón" />
+    <part Name="Description" Short="Apretado bajo el sol salino por un artesano de cuero y relleno con plumas de glowcrow para el descanso de su dueño." />
+    <tag Name="HeroNameTitleDescriptor" Value="Lujoso, Decadente, Cómodo, Recostado, Perezoso, Sibarita, Suave, Voluptuoso, Epicúreo" />
+  </object>
+  <object Name="Medical Chair" Load="Merge">
+    <part Name="Render" DisplayName="silla digestiva" />
+    <part Name="Description" Short="Blanco como la lejía salina, plástico moldeado para una perfecta digestión y armonía de los humores." />
+    <tag Name="HeroNameTitleDescriptor" Value="Cuidador, Ajustable, Salvavidas, Samaritano, Ortótico, Higiénico, Antiséptico, Terapéutico" />
+  </object>
+  <object Name="Massage Chair" Load="Merge">
+    <part Name="Render" DisplayName="amasador de cadáveres" />
+    <part Name="Description" Short="Viene equipado con un volante que hace girar una hoja elástica surcada y amasa los nudos de las partes traseras de quien se sienta en ella." />
+    <tag Name="HeroNameTitleDescriptor" Value="Lujoso, Decadente, Sibarita, Suave, Voluptuoso, Epicúreo, Amasador" />
+  </object>
+  <object Name="Work Chair" Load="Merge">
+    <part Name="Render" DisplayName="silla rodante" />
+    <part Name="Description" Short="Una tela negra ajustada endereza la columna vertebral. Ruedas descienden desde los rodillos y se mueven." />
+    <tag Name="HeroNameTitleDescriptor" Value="Diligente, Ergonómica, Productiva, de Rodadura Suave, Recta en la Postura, Cómoda" />
+  </object>
+  <object Name="Ergomax Chair" Load="Merge">
+    <part Name="Render" DisplayName="silla ergonómica" />
+    <part Name="Description" Short="Un plástico blanco como el blanqueador de sal fue moldeado a la postura para una rumiación ideal." />
+    <part Name="Chair" NameForStatus="Sistemas Ergonómicos" />
+    <tag Name="HeroNameTitleDescriptor" Value="Diligente, Ergonómica, Productiva, de Rodadura Suave, Recta en la Postura, Cómoda, Flexible, Responziva" />
+  </object>
+  <object Name="Chairbear" Load="Merge">
+    <part Name="Render" DisplayName="portesilla" />
+    <part Name="Description" Short="Los historiadores ociosos dividen todas las eras en tres edades: el período antes de que los animales ursinos evolucionen o que las civilizaciones alcancen la capacidad de admirarlos, el período entre la prominencia ursina y la capacidad de una civilización para forjar divanes a su semejanza, y luego el período hasta el colapso de dicha civilización." />
+    <part Name="Chair" NameForStatus="Adaptaciones Ergonómicas" />
+    <tag Name="HeroNameTitleDescriptor" Value="Lujoso, Decadente, Cómodo, Recostado, Perezoso, Sibarita, Suave, Voluptuoso, Epicúreo" />
+  </object>
+  <object Name="Torture Chair" Load="Merge">
+    <part Name="Render" DisplayName="silla de tortura" />
+    <part Name="Description" Short="En su nuevo contexto, la silla peptica amenaza. Sangre seca pinta el asiento plástico, y sus catéteres se deshilachan como un nudo de gusanos." />
+    <part Name="Chair" NameForStatus="Sistemas de Interrogación Mejorados" />
+    <tag Name="HeroNameTitleDescriptor" Value="Agonizador, Atroz, Derramador de Sangre, Carnefice, Cruel, Destruyente, Exsanguiñador, Clavador, Perforador" />
+    <tag Name="HeroNameTitleClientele" Value="Inquisidores, Interrogadores, Sádicos, los Crueles, los Penitentes, Torturadores" />
+  </object>
+  <object Name="Hyperbiotic Chair" Load="Merge">
+    <part Name="Render" DisplayName="silla hiperbiótica" />
+    <part Name="Description" Short="Microreactores ocultos chocan partículas, generan calor y alimentan el aparato biótico que restaura la vida al reclinador herido." />
+    <part Name="Chair" NameForStatus="Sistemas Hiperbióticos" />
+    <tag Name="HeroNameTitleDescriptor" Value="Cuidador, Ajustable, Ortótico, Terapéutico, Sanador, Restaurador" />
+  </object>
+  <object Name="Gravchair" Load="Merge">
+    <part Name="Render" DisplayName="{{K|grav}} silla" />
+    <part Name="Description" Short="Plástico pulido en una lathe de calor fue amasado en un diseño que evoca la intuición de un Devorador sobre cómo una esfera perfecta distorsiona el espacio-tiempo alrededor de sí misma." />
+    <part Name="Chair" NameForStatus="Sistemas Contragrav" />
+    <tag Name="HeroNameTitleDescriptor" Value="Lujurioso,Decadente,Confortable,Perezoso,Sibarita,Tendero,Voluptuoso,Epicúreo,Cinético" />
+  </object>
+  <object Name="Ornate Chair" Load="Merge">
+    <part Name="Render" DisplayName="silla ornamentada" />
+    <part Name="Description" Short="La plenitud de la almohada está ajustada con precisión al pensador sentado; los arcos en forma de lanceta se presionan contra el respaldo juguetón, y las patas con garras y bolas sugieren una vida oculta dentro de la pieza misma. Esta es una silla cargada de significado." />
+    <tag Name="HeroNameTitleDescriptor" Value="Confortable,Debilmente relajado,Epicúreo,Perezoso,Lujurioso,Acostado,Tendero,Sibarita,Voluptuoso" />
+  </object>
+  <object Name="Ornate Bench" Load="Merge">
+    <part Name="Render" DisplayName="banco ornamentado" />
+    <part Name="Description" Short="Los artesanos de muebles de la gremio, conspirando en un alegre taller bajo el sol de los Devoradores, extendieron una almohada al tamaño preciso de dos amantes fervientes y colocaron un agradable diamante de arnés en su ángulo derecho. Las patas con garras y bolas sugieren movimiento." />
+  </object>
+  <object Name="Scrapasan" Load="Merge">
+    <part Name="Render" DisplayName="silla scrapasan" />
+    <part Name="Description" Short="Este recipiente en forma de cuenco, tejido con telas y relleno reciclados, suspira con la promesa de un abrazo humilde y cómodo seguido por una escape laboriosa." />
+    <tag Name="HeroNameTitleDescriptor" Value="Confortable,Facilón,Humilde,Curioso,Torcido,Pulverizado,Azulejo,Suave,Raro" />
+  </object>
+  <object Name="Starmchair" Load="Merge">
+    <part Name="Render" DisplayName="silla starmchair" />
+    <part Name="Description" Short="Los brazos de estrella de mar están rellenos de materia vegetal, endurecidos y fijados alrededor de un disco cóncavo en la perfecta forma de un cojín para bipedestes. El brazo axial mantiene el cuello erguido y recto, mientras que un prado de espinas inferiores administra una suave perforación terapéutica." />
+    <part Name="Chair" NameForStatus="Adaptaciones Ergonómicas" />
+    <tag Name="HeroNameTitleDescriptor" Value="Lujoso, Decadente, Cómodo, Recostado, Perezoso, Sibarita, Suave, Voluptuoso, Epicúreo" />
+  </object>
+  <object Name="Sofa" Load="Merge">
+    <part Name="Render" DisplayName="sofá" />
+    <part Name="Description" Short="Ramas ricas en verde están tejidas a una densa y suave red, rellenas con paja de watervine y plumas de glowcrow, y luego colgadas en un armazón de madera inclinado." />
+  </object>
+  <object Name="Sofa L" Load="Merge">
+    <part Name="Render" DisplayName="sofá" />
+  </object>
+  <object Name="Sofa C" Load="Merge">
+    <part Name="Render" DisplayName="sofá" />
+  </object>
+  <object Name="Sofa R" Load="Merge">
+    <part Name="Render" DisplayName="sofá" />
+  </object>
+  <object Name="Chest" Load="Merge">
+    <part Name="Render" DisplayName="caja" />
+    <part Name="Description" Short="Una caja de madera con tapa articulada y cerradura. Las marcas talladas en la superficie sugieren la totalidad del arreglo de probabilidad del lenguaje, así como su ausencia." />
+  </object>
+  <object Name="ChestIsner" Load="Merge">
+    <part Name="Description" Short="Una caja de madera con tapa articulada y cerradura. Las marcas talladas en la superficie sugieren la totalidad del arreglo de probabilidad del lenguaje, así como su ausencia. Una gota de agua derramada está grabada en una cerradura abierta." />
+    <part Name="Render" DisplayName="caja" />
+  </object>
+  <object Name="Metal Chest1" Load="Merge">
+    <part Name="Description" Short="Superficies de acero opaco están recorridas por bronce y manchadas con el uso de los dedos. La tapa está asegurada con candado." />
+  </object>
+  <object Name="Metal Chest2" Load="Merge">
+    <part Name="Description" Short="Superficies de acero opaco están recorridas por bronce y manchadas con el uso de los dedos. La tapa está asegurada con candado." />
+  </object>
+  <object Name="Metal Chest3" Load="Merge">
+    <part Name="Description" Short="Superficies de acero opaco están recorridas por bronce y manchadas con el uso de los dedos. La tapa está asegurada con candado." />
+  </object>
+  <object Name="Metal Chest4" Load="Merge">
+    <part Name="Description" Short="Superficies de acero opaco están recorridas por bronce y manchadas con el uso de los dedos. La tapa está asegurada con candado." />
+  </object>
+  <object Name="Metal Chest5" Load="Merge">
+    <part Name="Description" Short="Superficies de acero opaco están recorridas por bronce y manchadas con el uso de los dedos. La tapa está asegurada con candado." />
+  </object>
+  <object Name="Metal Chest6" Load="Merge">
+    <part Name="Description" Short="Superficies de acero opaco están recorridas por bronce y manchadas con el uso de los dedos. La tapa está asegurada con candado." />
+  </object>
+  <object Name="Metal Chest7" Load="Merge">
+    <part Name="Description" Short="Superficies de acero opaco están recorridas por bronce y manchadas con el uso de los dedos. La tapa está asegurada con candado." />
+  </object>
+  <object Name="Metal Chest8" Load="Merge">
+    <part Name="Description" Short="Superficies de acero opaco están recorridas por bronce y manchadas con el uso de los dedos. La tapa está asegurada con candado." />
+  </object>
+  <object Name="FossilizedRemains" Load="Merge">
+    <part Name="Render" DisplayName="restos fosilizados" />
+    <part Name="Description" Short="Dientes, conchas y huesos fueron ennegrecidos hasta la estasis por el barro terroso." />
+  </object>
+  <object Name="RustLocker" Load="Merge">
+    <part Name="Render" DisplayName="{r|oxidación}-mordida caja de almacenamiento" />
+    <part Name="Description" Short="Bandas de bronce enmarcan una antigua caja de hierro devorada por el rojo del aire y la lluvia." />
+  </object>
+  <object Name="MedLocker" Load="Merge">
+    <part Name="Render" DisplayName="locker" />
+    <part Name="Description" Short="Superficies de acero opaco están manchadas con el uso de dedos. La tapa está pintada con una cruz roja y cerrada con candado." />
+  </object>
+  <object Name="Locker" Load="Merge">
+    <part Name="Render" DisplayName="locker" />
+    <part Name="Description" Short="Un locker metálico que parece desgastado por la edad." />
+  </object>
+  <object Name="Scrapable Deposit Box 6" Load="Merge">
+    <part Name="Render" DisplayName="caja de depósito raspable" />
+    <part Name="Description" Short="Láminas de metal dividen el cartón cromático en rectángulos dorados. Dentro, artefactos esperan su abrasión planeada y su regreso a forma mineral." />
+  </object>
+  <object Name="Weapon Rack" Load="Merge">
+    <part Name="Render" DisplayName="estantería de armas" />
+    <part Name="Description" Short="Pólos de madera y cromo permiten que las armas descansen en paz." />
+    <part Name="Container" Preposition="en" />
+  </object>
+  <object Name="Gun Rack" Load="Merge">
+    <part Name="Render" DisplayName="estante para pistolas" />
+    <part Name="Description" Short="Pilares de madera y cromo permiten que las armas descansen en paz." />
+  </object>
+  <object Name="Armor Rack" Load="Merge">
+    <part Name="Render" DisplayName="estantería para armaduras" />
+    <part Name="Description" Short="Pilares de madera y cromo permiten que la armadura descansé en paz." />
+  </object>
+  <object Name="CyberneticsRack" Load="Merge">
+    <part Name="Render" DisplayName="estantería para cibernéticos" />
+    <part Name="Description" Short="Clavos de cromo forman una trama donde los módulos biónicos esperan su acoplamiento." />
+    <part Name="Container" Preposition="en" />
+  </object>
+  <object Name="CyberneticsStationRack" Load="Merge">
+    <part Name="Render" DisplayName="estantería para cibernéticos" />
+    <part Name="Description" Short="Clavos de cromo forman una trama donde los módulos esperan su acoplamiento." />
+    <part Name="Container" Preposition="en" />
+  </object>
+  <object Name="BaseWedgeChest" Load="Merge">
+    <part Name="Render" DisplayName="caja fuerte para créditos" />
+    <part Name="Description" Short="Una caja lacrada de metal pulido y inmune al paso del tiempo está incisada con rectángulos numerados." />
+  </object>
+  <object Name="Reliquary" Load="Merge">
+    <part Name="Render" DisplayName="reliquiario" />
+    <part Name="Description" Short="En una esquina polvorienta del pasado, obreros anónimos vitrieron mármol estratificado e insertaron en él oro para albergar las reliquias y ofrendas funerarias de un Devorador encorvado." />
+  </object>
+  <object Name="SultanReliquaryW" Load="Merge">
+    <part Name="Render" DisplayName="reliquiario" />
+    <part Name="Description" Short="Losas de mármol ciclopas encierran un prisma de interdicción para tesoros imperiales, incluyendo la Face criatura y soberana. En sus vastas superficies, el trabajo en oro traza las secuencias geométricas de la vida y sus límites; el agua se desliza por los cuerpos de caryatides mundanas y vuelve a elevarse hacia el cielo." />
+  </object>
+  <object Name="SultanReliquaryE" Load="Merge">
+    <part Name="Render" DisplayName="reliquiario" />
+    <part Name="Description" Short="Losas de mármol ciclopas encierran un prisma de interdicción para tesoros imperiales, incluyendo la Face criatura y soberana. En sus vastas superficies, el trabajo en oro traza las secuencias geométricas de la vida y sus límites; el agua se desliza por los cuerpos de caryatides mundanas y vuelve a elevarse hacia el cielo." />
+  </object>
+  <object Name="Recoming Reliquary" Load="Merge">
+    <part Name="Render" DisplayName="reliquiario recobrado" />
+    <part Name="Description" Short="En una esquina polvorienta del pasado, trabajadores anónimos vitrificaron mármol estratificado e incrustaron ametrino para albergar la maquinaria terrenal de un Alto Devorador regresado." />
+  </object>
+  <object Name="Melted Reliquary" Load="Merge">
+    <part Name="Render" DisplayName="reliquiario fundido" />
+    <part Name="Description" Short="Las estrías del mármol se difuminan en escombros rocosos rosados fundidos; la caja eterna yace abierta." />
+  </object>
+  <object Name="Woven Basket" Load="Merge">
+    <part Name="Render" DisplayName="cesta tejida" />
+    <part Name="Description" Short="La caña de marisma fue entrelazada manualmente por urdor y trama para formar un recipiente destinado a granos y otros productos secos." />
+    <tag Name="QuestableVerb" Value="pon algo dentro" />
+  </object>
+  <object Name="Multicabinet" Load="Merge">
+    <part Name="Render" DisplayName="armario con cajones deslizables" />
+    <part Name="Description" Short="Cajones de metal galvanizado se disponen en un armario como rectángulos de dimensiones variadas. El almacenamiento es fractal." />
+  </object>
+  <object Name="Brazier" Load="Merge">
+    <part Name="Render" DisplayName="bronce de brasa" />
+    <part Name="Description" Short="El bronce pulido es consumido por carbón ardiente para la luz en ceremonia." />
+  </object>
+  <object Name="Tall Brazier" Load="Merge">
+    <part Name="Render" DisplayName="bronce de brasa" />
+    <part Name="Description" Short="El bronce pulido es consumido por carbón ardiente para la luz en ceremonia." />
+  </object>
+  <object Name="Sconce" Load="Merge">
+    <part Name="Render" DisplayName="soporte para antorcha" />
+    <part Name="Description" Short="Una llama brillante cuelga sobre madera e hierro, como una mano encendida." />
+  </object>
+  <object Name="Torchpost" Load="Merge">
+    <part Name="Render" DisplayName="soporte para antorcha" />
+    <part Name="Description" Short="Una llama brillante cuelga sobre madera e hierro, como una mano encendida." />
+  </object>
+  <object Name="Unlit Torchpost" Load="Merge">
+    <part Name="Render" DisplayName="soporte para antorcha" />
+    <part Name="Description" Short="Un soporte de madera y hierro cuelga sin luz." />
+  </object>
+  <object Name="Techlight1" Load="Merge">
+    <part Name="Render" DisplayName="soporte arco" />
+    <part Name="Description" Short="Puntos afilados de cromo son los vértices de este útil accesorio lumínico. La luminosidad estalla desde sus bordes e ilumina el mundo." />
+  </object>
+  <object Name="Techlight2" Load="Merge">
+    <part Name="Render" DisplayName="soporte arco" />
+    <part Name="Description" Short="Puntos afilados de cromo son los vértices de este útil accesorio lumínico. La luminosidad estalla desde sus bordes e ilumina el mundo." />
+  </object>
+  <object Name="Techlight3" Load="Merge">
+    <part Name="Render" DisplayName="soporte arco" />
+    <part Name="Description" Short="Puntos afilados de cromo son los vértices de este útil accesorio lumínico. La luminosidad estalla desde sus bordes e ilumina el mundo." />
+  </object>
+  <object Name="Full-Spectrum Techlight" Load="Merge">
+    <part Name="Render" DisplayName="soporte brillante de espectro completo" />
+    <part Name="Description" Short="Puntos afilados de cromo son los vértices de este útil accesorio lumínico. Una luminosidad de espectro completo estalla desde sus bordes e ilumina el mundo." />
+  </object>
+  <object Name="Half Candelabra" Load="Merge">
+    <part Name="Render" DisplayName="candelabro" />
+    <part Name="Description" Short="La cera llora de las velas obstinadas, cae sobre los cuadrantes y forma una cascada de cera a través de las escaleras de bronce." />
+  </object>
+  <object Name="Candelabra" Load="Merge">
+    <part Name="Render" DisplayName="candelabro" />
+    <part Name="Description" Short="La cera llora de las velas obstinadas, cae sobre los cuadrantes y forma una cascada de cera a través de las escaleras de bronce." />
+  </object>
+  <object Name="Tomb Techlight1" Load="Merge">
+    <part Name="Render" DisplayName="soporte arco" />
+    <part Name="Description" Short="Puntas afiladas de cromo son los vértices de este soporte ornamental de luz. La luminosidad estalla desde sus bordes e incendia el mundo." />
+  </object>
+  <object Name="Vessel" Load="Merge">
+    <tag Name="QuestableVerb" Value="beber de" />
+  </object>
+  <object Name="Vase" Load="Merge">
+    <part Name="Render" DisplayName="vase" />
+    <part Name="Description" Short="Un gran recipiente de almacenamiento con una decoración de barro. El estilo sugiere que fue cocido en el horno doméstico de un habitante de las gargantas." />
+  </object>
+  <object Name="Vase Unhandled" Load="Merge">
+    <part Name="Render" DisplayName="vase" />
+  </object>
+  <object Name="Cider Vase" Load="Merge">
+    <part Name="Render" DisplayName="vase" />
+  </object>
+  <object Name="Honey Vase" Load="Merge">
+    <part Name="Render" DisplayName="vase" />
+  </object>
+  <object Name="Wine Vase" Load="Merge">
+    <part Name="Render" DisplayName="vase" />
+  </object>
+  <object Name="Oil Vase" Load="Merge">
+    <part Name="Render" DisplayName="vase" />
+  </object>
+  <object Name="Bottle" Load="Merge">
+    <part Name="Render" DisplayName="botella de vidrio" />
+    <part Name="Description" Short="Un recipiente de vidrio libremente soplado se curva según el arco lunar. El estilo sugiere que proviene de la costa del Mar del Dios Fumador, en el lado opuesto de Moghra'yi, y que probablemente fue exportado por los dromadas." />
+  </object>
+  <object Name="Wide Bottle" Load="Merge">
+    <part Name="Render" DisplayName="botella de vidrio ancha" />
+    <part Name="Description" Short="El vidrio fue soplado a un cuenco ancho y a un cuello delgado según la tradición del lagunos de las montañas cubiertas de alfombras de arboles. ¿Trabajaron los primeros artesanos de este estilo en el aire denso y maduro de la selva musa? ¿Brilló la Aguja con polvo sobre sus barrenas y tubos?" />
+  </object>
+  <object Name="Pitcher" Load="Merge">
+    <part Name="Render" DisplayName="jarra de arcilla" />
+    <part Name="Description" Short="Una nave que dejaba rastro fue primero arrojada sobre el torno del alfarero en la suave calidez de la mañana. Un canyoneador modeló con cuidado especial el borde para preservar los preciados líquidos de la vida." />
+  </object>
+  <object Name="Ewer" Load="Merge">
+    <part Name="Render" DisplayName="ewer" />
+    <part Name="Description" Short="El bronce fue fundido y enfriado, moldeado y grabado, para entregar el agua de la vida." />
+  </object>
+  <object Name="Jug" Load="Merge">
+    <part Name="Render" DisplayName="vasija de barro" />
+    <part Name="Description" Short="El barro fue redondeado y cocido en el horno para almacenar aceites y vino." />
+  </object>
+  <object Name="Jug Eastern Style" Load="Merge">
+    <part Name="Render" DisplayName="vasija de barro" />
+    <part Name="Description" Short="El barro fue redondeado y cocido en el horno para almacenar aceites y vino." />
+  </object>
+  <object Name="Jug Wide Eastern Style" Load="Merge">
+    <part Name="Render" DisplayName="vasija de barro" />
+    <part Name="Description" Short="El barro fue redondeado y cocido en el horno para almacenar aceites y vino." />
+  </object>
+  <object Name="Long Jug" Load="Merge">
+    <part Name="Render" DisplayName="vessel" />
+    <part Name="Description" Short="El barro fue girado sobre el torno del alfarero y moldeado en ondas, horneado y engobado hasta convertirse en un recipiente tradicional." />
+  </object>
+  <object Name="Recoming Water Jug" Load="Merge">
+    <part Name="Render" DisplayName="vasija de la Primera Bebida" />
+    <part Name="Description" Short="El barro fue girado sobre el torno del alfarero y moldeado en ondas, horneado y engobado hasta convertirse en un recipiente ceremonial. Dos pictogramas están dispuestos uno al lado del otro: 'vida' y 'beber'." />
+  </object>
+  <object Name="Melted Jug" Load="Merge">
+    <part Name="Render" DisplayName="vasija decorativa con grietas" />
+    <part Name="Description" Short="Arcilla vidriada y supercalentada yace agrietada. Dos pictogramas han sido hechos ilegibles." />
+  </object>
+  <object Name="Cider Pitcher" Load="Merge">
+    <part Name="Render" DisplayName="jarra de arcilla" />
+  </object>
+  <object Name="Honey Pitcher" Load="Merge">
+    <part Name="Render" DisplayName="jarra de arcilla" />
+  </object>
+  <object Name="Wine Pitcher" Load="Merge">
+    <part Name="Render" DisplayName="jarra de arcilla" />
+  </object>
+  <object Name="Oil Pitcher" Load="Merge">
+    <part Name="Render" DisplayName="jarra de arcilla" />
+  </object>
+  <object Name="Grit Gate Honey Vase" Load="Merge">
+    <part Name="Render" DisplayName="vase" />
+    <part Name="Description" Short="Crenaciones pintadas envuelven el ecuador de este recipiente metálico." />
+  </object>
+  <object Name="Campfire" Load="Merge">
+    <part Name="Render" DisplayName="Fogata" />
+    <part Name="Description" Short="El fosfato cálido de la tierra primitiva está ordenadamente enrejado por bloques de madera, y ahora funciona como una estrella microscópica." />
+  </object>
+  <object Name="Campfire Remains" Load="Merge">
+    <part Name="Render" DisplayName="Fogata restante" />
+    <part Name="Description" Short="Un núcleo de madera carbonizado está envuelto en ceniza marcada con huellas." />
+  </object>
+  <object Name="Oven" Load="Merge">
+    <part Name="Render" DisplayName="Horno de arcilla" />
+    <part Name="Description" Short="El calor irradia desde la fogata crepitante del horno de arcilla gruesa, y junto con él viene el olor a comida exquisita." />
+    <tag Name="QuestableVerb" Value="Cocinar en" />
+  </object>
+  <object Name="ChefOven" Load="Merge">
+    <part Name="Render" DisplayName="Horno de arcilla" />
+    <part Name="Description" Short="El calor irradia desde la fogata crepitante del horno de arcilla gruesa, y junto con él viene el olor a comida exquisita." />
+  </object>
+  <object Name="JoppaOven" Load="Merge">
+    <part Name="Render" DisplayName="Horno de arcilla" />
+    <tag Name="PresetMealMessage" Value="Come pan de manzana fresco." />
+    <part Name="Description" Short="La calidez irradia desde el fuego chisporroteante del horno de arcilla gruesa, y junto con ella llega el aroma de la mermelada de starapple caliente y las matz tostadas." />
+  </object>
+  <object Name="KyakukyaOven" Load="Merge">
+    <part Name="Render" DisplayName="horno de barro" />
+    <tag Name="PresetMealMessage" Value="Bebe sidra de hongos calentada con especias." />
+    <part Name="Description" Short="La calidez irradia desde el fuego chisporroteante del horno redondo de barro, y junto con ella llega el aroma de la sidra calentada y los hongos salados." />
+  </object>
+  <object Name="EzraOven" Load="Merge">
+    <part Name="Render" DisplayName="Horno de arcilla" />
+    <tag Name="PresetMealMessage" Value="Come cabra en hoja dulce." />
+    <part Name="Description" Short="La calidez irradia desde el fuego chisporroteante del horno redondo de arcilla, y junto con ella llega el aroma de la cabra vaporizada y bananas dulces." />
+  </object>
+  <object Name="YdFreeholdOven" Load="Merge">
+    <part Name="Render" DisplayName="Horno de arcilla" />
+    <tag Name="PresetMealMessage" Value="Come algo de Lengua y Rostro." />
+    <part Name="Description" Short="La calidez irradia desde el fuego chisporroteante del horno redondo de arcilla, y junto con ella llega el aroma de lengua fermentada y amor solidificado." />
+  </object>
+  <object Name="MopangoOven" Load="Merge">
+    <part Name="Render" DisplayName="horno óseo" />
+    <tag Name="PresetMealMessage" Value="Come babka de hueso." />
+    <part Name="Description" Short="El calor emana de la llameante hoguera del horno de hueso redondo, y junto con él llega el aroma de panes fermentados, plátanos dulces y skulk cálido." />
+  </object>
+  <object Name="StiltOven" Load="Merge">
+    <part Name="Render" DisplayName="horno de piedra" />
+    <tag Name="PresetMealMessage" Value="Come algo caliente y espinoso." />
+    <part Name="Description" Short="El calor emana de la llameante hoguera del horno de piedra resplandeciente, y junto con él llega el aroma de mermelada de fruta de espina caliente y cola asada." />
+  </object>
+  <object Name="BeyLahOven" Load="Merge">
+    <part Name="Render" DisplayName="Horno de arcilla" />
+    <tag Name="PresetMealMessage" Value="Come mi caldo de lah." />
+    <part Name="Description" Short="El calor emana de la llameante hoguera del horno de arcilla gruesa, y junto con él llega el aroma de caldo de lah y matz al vapor." />
+  </object>
+  <object Name="GritGateOven" Load="Merge">
+    <part Name="Render" DisplayName="horno eléctrico" />
+    <tag Name="PresetMealMessage" Value="Come el porridge." />
+    <part Name="Description" Short="El calor emana de la llameante hoguera del horno eléctrico oscuro, y junto con él llega el aroma de trigo yuckwheat amargo y plasma hervido." />
+  </object>
+  <object Name="ChavvahOven" Load="Merge">
+    <part Name="Render" DisplayName="horno de cristal" />
+    <part Name="Description" Short="Se desprenden calor y aroma de la llama chisporroteante del horno cristalino redondo, y con él llega el olfato de la estática que se enfría. Curiosamente, aquí no hay ingredientes para preparar comida." />
+  </object>
+  <object Name="Table" Load="Merge">
+    <part Name="Render" DisplayName="mesa" />
+    <part Name="Description" Short="Ramas del árbol viviente fueron resorbidas y reformadas en nudos del tronco. Luego, cientos de años después, la sierra engrasada de un artesano de garganta desordenó la geometría del arbolado y lo aplanó para uso civil. Esa historia permanece incrustada en dos dimensiones, polvoriento y rayado con lápiz." />
+    <part Name="Container" Preposition="en" />
+    <tag Name="HeroNameTitleDescriptor" Value="Plano,Pulido,Nivel,L-Formado,Rojo,Firme,Tripode,Cuatro-Patas-Inestable" />
+    <tag Name="HeroNameTitleClientele" Value="Decoradores,la Relajada" />
+    <xtagTextFragments Skin="vidriado" PoeticFeatures="superficies planas,artesanía,serena quietud" />
+    <tag Name="QuestableVerb" Value="colocar algo sobre" />
+  </object>
+  <object Name="Metal Table" Load="Merge">
+    <part Name="Render" DisplayName="mesa de metal" />
+    <tag Name="HeroNameTitleDescriptor" Value="Plano,Nivel,L-Formado,Rojo,Firme,Tripode,Cuatro-Patas-Inestable" />
+    <part Name="Description" Short="El acero fue ungido con cromo líquido, enfriado y golpeado hasta convertirse en una superficie plana y apta para el trabajo." />
+  </object>
+  <object Name="Workbench" Load="Merge">
+    <part Name="Render" DisplayName="trabajo de metal" />
+    <part Name="Description" Short="La madera retorcida de buen contenido hídrico sostiene el peso de la tierra a ángulos rectos. Marcas de quemadura y sal adornan las ranuras." />
+  </object>
+  <object Name="Metal Workbench" Load="Merge">
+    <part Name="Render" DisplayName="mesa de metal" />
+  </object>
+  <object Name="Desk" Load="Merge">
+    <part Name="Render" DisplayName="mesa de escritorio" />
+    <part Name="Description" Short="La madera fue rescatada de humedales, lijada en tablas y llevada a los dominios libres por el Puente de Arcilla. Allí fue recibida por carpinteros que, acostumbrados al aire seco, con entusiasmo tomaron la rica madera para sus propios proyectos." />
+  </object>
+  <object Name="Sleek Table" Load="Merge">
+    <part Name="Render" DisplayName="mesa" />
+    <part Name="Description" Short="Un rectángulo afilado parece haber sido equilibrado sobre un poste metálico sobre otro rectángulo más pequeño, formando una superficie de trabajo estable. No hay cicatrices de soldadura visibles." />
+  </object>
+  <object Name="Low Table" Load="Merge">
+    <part Name="Render" DisplayName="mesa baja" />
+    <part Name="Description" Short="Está rayada en la parte superior donde un mortero partió la madera." />
+    <part Name="Container" Preposition="en" />
+    <tag Name="HeroNameTitleDescriptor" Value="Plano,Pulido,Nivel,L-Formado,Rojo,Firme,Tripode,Cuatro-Patas-Inestable" />
+    <tag Name="QuestableVerb" Value="colocar algo sobre" />
+  </object>
+  <object Name="Octagonal Table" Load="Merge">
+    <part Name="Render" DisplayName="mesa octagonal" />
+    <part Name="Description" Short="Adornada con mandalas pintados y moldeada por la mano geométrica, la mesa honra la simetría y la numerología." />
+    <part Name="Container" Preposition="en" />
+    <tag Name="HeroNameTitleDescriptor" Value="Ocho veces, Plano, Bultoso, Nivelado, En forma de L, Robusto, De tres patas, Inestable" />
+    <tag Name="HeroNameTitleClientele" Value="Decoradores,la Relajada" />
+    <tag Name="QuestableVerb" Value="colocar algo sobre" />
+  </object>
+  <object Name="Dresser" Load="Merge">
+    <part Name="Render" DisplayName="guardarropa" />
+    <part Name="Description" Short="La madera fue cortada con precisión en cajones y colocada sobre raíles de bronce para albergar ropa." />
+    <tag Name="HeroNameTitleDescriptor" Value="Plano,Pulido,Nivel,L-Formado,Rojo,Firme,Tripode,Cuatro-Patas-Inestable" />
+    <tag Name="HeroNameTitleClientele" Value="Ropa, Dandys, los Aparienciados" />
+    <tag Name="QuestableVerb" Value="pon algo dentro" />
+  </object>
+  <object Name="Book Table" Load="Merge">
+    <part Name="Render" DisplayName="mesa de libros" />
+    <part Name="Description" Short="Los habitantes de las grietas terrestres fabrican mesas en el estilo de cajas de acertijos. Sus cajones contienen la imaginación estenográfica." />
+    <part Name="Container" Preposition="en" />
+    <tag Name="HeroNameTitleDescriptor" Value="Plano,Pulido,Nivel,L-Formado,Rojo,Firme,Tripode,Cuatro-Patas-Inestable" />
+    <tag Name="HeroNameTitleClientele" Value="Decoradores, Lectores, los Relajados" />
+    <tag Name="QuestableVerb" Value="colocar algo sobre" />
+  </object>
+  <object Name="Ornate Table" Load="Merge">
+    <part Name="Render" DisplayName="mesa ornamentada" />
+    <part Name="Description" Short="El cromo grabado en sus patas opulentas se estrecha hacia pies en forma de garra y bola, y sobre la superficie de mármol, las imperfecciones geométricas fueron raspadas y arrojadas a un cubo de hierro que quizás aún exista en algún lugar. Aquí hablaron los Devoradores, y planearon." />
+  </object>
+  <object Name="Alchemist Table" Load="Merge">
+    <part Name="Render" DisplayName="mesa de alquimista" />
+    <part Name="Description" Short="Una mesa carbonizada por los patrones radiales del calor químico sostiene un estante para frascos y un alambique." />
+  </object>
+  <object Name="Grit Gate Table" Load="Merge">
+    <part Name="Render" DisplayName="trabajo de metal" />
+  </object>
+  <object Name="Grit Gate Sleek Table" Load="Merge">
+    <part Name="Render" DisplayName="trabajo de metal" />
+  </object>
+  <object Name="Grit Gate Metal Table" Load="Merge">
+    <part Name="Render" DisplayName="mesa de metal" />
+  </object>
+  <object Name="Barathrum Table" Load="Merge">
+    <part Name="Render" DisplayName="trabajo de metal" />
+  </object>
+  <object Name="Klanq Table" Load="Merge">
+    <part Name="Render" DisplayName="trabajo de metal" />
+  </object>
+  <object Name="Globe" Load="Merge">
+    <part Name="Render" DisplayName="globo" />
+    <part Name="Description" Short="En alto relieve, pliegues y nudos de formas teñidas de arena coronan la superficie zafiro del modelo esférico. La confrontación de escalas, la proporción entre mar y tierra, y la sabiduría colectiva que se empleó para diseñar algo así hacen girar tu mente." />
+  </object>
+  <object Name="Orrery" Load="Merge">
+    <part Name="Render" DisplayName="esfera armilar" />
+    <part Name="Description" Short="Ruedas, bolas y anillos de bronce giran en precisa imitación de mundos y estrellas." />
+  </object>
+  <object Name="Clockthing" Load="Merge">
+    <part Name="Render" DisplayName="reloj de Barathrum" />
+    <part Name="Description" Short="La invención de Barathrum registra el tiempo hasta el tictac momentáneo regulando su avance con una rueda coronada. Al enterarse de su utilidad, los barones del agua encargaron la fabricación de docenas más para tomar medidas precisas de sus reservorios en momentos fijos del día." />
+  </object>
+  <object Name="Bubblething" Load="Merge">
+    <part Name="Render" DisplayName="foaminador de bronce" />
+    <part Name="Description" Short="Durante la empresa de inventar, a veces requieres el uso de una espuma gris sin forma. O, al menos, podrías requerirla un día, y así algún artesano prudente se anticipó al problema e inventó el foaminador de bronce. Grabado en su base: 'Toda la espuma, ninguna de la tristeza de tal vez necesitar espuma un día y no tenerla'." />
+    <part Name="ChargeSink" NameForStatus="FoamSystems" />
+  </object>
+  <object Name="Telescope" Load="Merge">
+    <part Name="Render" DisplayName="telescopio" />
+    <part Name="Description" Short="Las lunas de vidrio refractan la luz y pintan imágenes en tamaño angular ficticio." />
+  </object>
+  <object Name="Bust of K4K5" Load="Merge">
+    <part Name="Render" DisplayName="busto de cromo de K4K5" />
+    <part Name="Description" Short="La faz delícida del Rey del Tungsteno está congelada en cromo, fundido a especificación perfecta." />
+  </object>
+  <object Name="Bust of Mehmet I" Load="Merge">
+    <part Name="Render" DisplayName="busto de cromo de Mehmet I" />
+    <part Name="Description" Short="El cromo duro fue vertido en el molde de mejillas suaves y frente redondeada; el rey patrón de la erudición fue canonizado." />
+  </object>
+  <object Name="Ornate Potted Plant 1" Load="Merge">
+    <part Name="Render" DisplayName="planta en maceta ornamentada" />
+    <part Name="Description" Short="Lobos de planta esmeralda resbaladiza se extienden desde la antigua caldera con incisiones de cromo. Viven y respiran como sus parientes aferrados a la tierra, pero su bio-datos fue injertado con la semilla amarantina. No mueren aunque los Devoradores que les rodean se descompongan." />
+  </object>
+  <object Name="Ornate Potted Plant 2" Load="Merge">
+    <part Name="Render" DisplayName="planta en maceta ornamentada" />
+    <part Name="Description" Short="Lobos de planta esmeralda resbaladiza se extienden desde la antigua caldera con incisiones de cromo. Viven y respiran como sus parientes aferrados a la tierra, pero su bio-datos fue injertado con la semilla amarantina. No mueren aunque los Devoradores que les rodean se descompongan." />
+  </object>
+  <object Name="Ornate Potted Plant 3" Load="Merge">
+    <part Name="Render" DisplayName="planta en maceta ornamentada" />
+    <part Name="Description" Short="Lobos de planta esmeralda resbaladiza se extienden desde la antigua caldera con incisiones de cromo. Viven y respiran como sus parientes aferrados a la tierra, pero su bio-datos fue injertado con la semilla amarantina. No mueren aunque los Devoradores que les rodean se descompongan." />
+  </object>
+  <object Name="Ornate Potted Plant 4" Load="Merge">
+    <part Name="Render" DisplayName="planta en maceta ornamentada" />
+    <part Name="Description" Short="Lobos de planta esmeralda resbaladiza se extienden desde la antigua caldera con incisiones de cromo. Viven y respiran como sus parientes aferrados a la tierra, pero su bio-datos fue injertado con la semilla amarantina. No mueren aunque los Devoradores que les rodean se descompongan." />
+  </object>
+  <object Name="Chalkboard" Load="Merge">
+    <part Name="Render" DisplayName="pizarra" />
+    <part Name="Description" Short="Piedra de yeso cortada es pulverizada con los remanentes nublados del pensamiento externalizado y sostenida en alto por la bestia." />
+    <tag Name="HeroNameTitleDescriptor" Value="Sabio,Sofista,Borrable,Polvoriento" />
+    <tag Name="HeroNameTitleClientele" Value="Sophistas, Artesanos, Eruditos, Discípulos" />
+  </object>
+  <object Name="Display Breadboard" Load="Merge">
+    <part Name="Render" DisplayName="mostrar protoboard" />
+    <part Name="Description" Short="Plástico alojado en madera granulosa está perforado en una cuadrícula de puntos de contacto. Capacitores e inductores están fijados en los ganchos elásticos y conectados mediante un ramo de alambres." />
+  </object>
+  <object Name="Sewing Machine" Load="Merge">
+    <part Name="Render" DisplayName="máquina de coser" />
+    <part Name="Description" Short="Dentro del metal rayado C, una aguja y una bobina se preparan para clavar un par de hilos en un punto de sutura. Iniciales están talladas a lo largo de su pedestal." />
+  </object>
+  <object Name="Mannequin" Load="Merge">
+    <part Name="Render" DisplayName="maniquí" />
+    <part Name="Description" Short="La figura bípeda emerge de una capullosa envoltura de madera y fibra de vidrio." />
+    <tag Name="HeroNameTitleDescriptor" Value="Bien Formado, Bello, Justo, Inmutable, Extraño, Viejamente Viviente" />
+    <tag Name="HeroNameTitleClientele" Value="Escultores, Hacedores de Ropa, Sastres, Armeros" />
+  </object>
+  <object Name="HamilcrabMannequin" Load="Merge">
+    <part Name="Render" DisplayName="maniquí gigantesco" />
+    <part Name="Description" Short="La forma bípeda emerge de una inmensa crisálida de madera y fibra de vidrio." />
+  </object>
+  <object Name="Light Sculpture" Load="Merge">
+    <part Name="Render" DisplayName="escultura de luz" />
+    <part Name="Description" Short="Una luz láser azul estalla del haz de referencia y reimagina una frente de onda tallada en una máquina para lathe de luz. El aire añade una capa de grano." />
+  </object>
+  <object Name="Brain Sculpture" Load="Merge">
+    <part Name="Render" DisplayName="escultura cerebral" />
+    <part Name="Description" Short="El relleno de espuma está dispuesto en giros y surcos para imitar el laberinto del cerebro." />
+  </object>
+  <object Name="Unfinished Sculpture" Load="Merge">
+    <part Name="Render" DisplayName="escultura inacabada" />
+    <part Name="Description" Short="Las pinturas húmedas de la tierra — arcilla, escoria, cromo y tinte — se arrastran sobre una media idea con peso material. La transformación se detiene por indecisión o negligencia." />
+  </object>
+  <object Name="Painted Column L" Load="Merge">
+    <part Name="Render" DisplayName="columna pintada" />
+    <part Name="Description" Short="Sobre ella florecen marfil en espiral como voluta. La columna está salpicada de pintura." />
+  </object>
+  <object Name="Painting" Load="Merge">
+    <part Name="Render" DisplayName="pintura" />
+    <part Name="Description" Short="El aceite nacarado humedece la tela ecru y ha caído sobre el caballete. Desde el plano del lienzo, una imagen es prensada hacia afuera." />
+  </object>
+  <object Name="Mushroom Case" Load="Merge">
+    <part Name="Render" DisplayName="casquete de hongo" />
+    <part Name="Description" Short="La teja de cristal en forma de medio luna cubre el subterraneo y protege a los comidores de cadáveres, quienes han prosperado dentro. Son una arquitectura de branquias." />
+  </object>
+  <object Name="Harp" Load="Merge">
+    <part Name="Render" DisplayName="arpa" />
+    <part Name="Description" Short="Cuerdas de intestino de gnu corren estratos a través del tablero sonoro, y el oro rosa coronan la rodilla y la cabeza de la rica madera. El marco forma la mitad de un corazón; el favorito de los Devoradores permanece." />
+  </object>
+  <object Name="Rectangular Bells" Load="Merge">
+    <part Name="Render" DisplayName="campanas rectangulares" />
+    <part Name="Description" Short="Teclas rectangulares están dispuestas a lo largo de la escalera inclinada para ascender en tono. Colgando del marco está un mazo de nota." />
+  </object>
+  <object Name="Hammered Dulcimer" Load="Merge">
+    <part Name="Render" DisplayName="dulcimer forjado" />
+    <part Name="Description" Short="Cuerdas de intestino de gnu se estiran sobre el trapecio. La cuchara musical cuelga en una vaina de madera." />
+  </object>
+  <object Name="Iron Maiden" Load="Merge">
+    <part Name="Render" DisplayName="doncella de hierro" />
+    <part Name="Description" Short="Espinas cubiertas de óxido recorren el interior de un sarcófago de hierro. Insatisfecho con la calidad de los castigos terrenales, su creador buscó corromper incluso el descanso eterno." />
+    <tag Name="HeroNameTitleDescriptor" Value="Agonizador,Sangriento,Carnicero,Cruel,Exsanguinador,Clavador,Puncionador,Torturador" />
+    <tag Name="HeroNameTitleClientele" Value="Inquisidores,Sádicos,los Cruces,los Penitentes,Tormentadores" />
+    <xtagTextFragments Skin="espigas" PoeticFeatures="estatura colosal,puntas amenazadoras,encierro asfixiante" />
+    <tag Name="QuestableVerb" Value="entrar" />
+  </object>
+  <object Name="Hookah" Load="Merge">
+    <part Name="Render" DisplayName="hukah" />
+    <part Name="Description" Short="Stems fumantes brotan de una pipa de cristal con agua." />
+    <tag Name="QuestableVerb" Value="humo proveniente de" />
+  </object>
+  <object Name="Cage" Load="Merge">
+    <part Name="Render" DisplayName="jaula" />
+    <part Name="Description" Short="La caja está forjada con alambre masticado y hierro abollado." />
+    <tag Name="QuestableVerb" Value="entrar" />
+  </object>
+  <object Name="Forge" Load="Merge">
+    <part Name="Render" DisplayName="forja" />
+    <part Name="Description" Short="Los tallos de brine se astillan y arden dentro de un horno de piedra antigua, encanalado con tuberías." />
+  </object>
+  <object Name="Anvil" Load="Merge">
+    <part Name="Render" DisplayName="yunque de piedra" />
+    <part Name="Description" Short="Un trozo tosco de granito ha sido pulido en la parte superior para el trabajo metálico y redondeado en los lados hasta formar una corneta de modelado." />
+  </object>
+  <object Name="Random Statue" Load="Merge">
+    <part Name="Description" Short="Esta estatua tallada a partir de *material* representa con intrincada exquisitez a un *creature.a**creature*:" />
+  </object>
+  <object Name="Random Stone Statue" Load="Merge">
+    <part Name="Render" DisplayName="estatua de piedra" />
+  </object>
+  <object Name="Random Marble Statue" Load="Merge">
+    <part Name="Render" DisplayName="estatua de mármol" />
+  </object>
+  <object Name="ImplantedEaterStatue" Load="Merge">
+    <part Name="Render" DisplayName="estatua de Eater implantado" />
+    <part Name="Description" Short="La erosión ha suavizado sus rasgos hasta convertirlos en abstracción, pero en otro tiempo fue monumento a la unión entre máquina y pueblo." />
+  </object>
+  <object Name="EaterStatue" Load="Merge">
+    <part Name="Render" DisplayName="estatua de Eater" />
+    <part Name="Description" Short="Rasgan en una tela de piedra, las características se desgarran en la figura de un tiempo profundo y remoto. Cabello, piel, ceño, muslo: los detalles germinan dentro de ti una nueva emoción, el sentido del extraño-familiar. Mientras te mueves alrededor de esta imagen petrificada, te maravillas de cómo este Devorador logró incisarse en tu trenza espacio-temporal." />
+  </object>
+  <object Name="Oboroqoru Statue" Load="Merge">
+    <part Name="Render" DisplayName="estatua de Oboroqoru" />
+    <part Name="Description" Short="Esta estatua de piedra de Oboroqoru se eleva veinte spans. Su anónimo escultor eligió representar al dios simio sentado cruzando las piernas, con cada una de sus tres pares de brazos colosales abrazándose mutuamente. La estatua está envuelta en lianas, cuyos cuidadores han cedido ante la naturaleza salvo donde la vegetación ha amenazado con ocultar el amable rostro de Oboroqoru. Guirnaldas de flores de cada tonalidad que el bosque produce —azul, chartreuse, índigo, carmesí— cubren la base del santuario, ofrendas insignificantes a lo que parece ser un dios indiferente." />
+    <tag Name="WorshippedAs" Value="Oboroqoru" />
+  </object>
+  <object Name="Keresh Statue" Load="Merge">
+    <part Name="Render" DisplayName="estatua de un ciervo" />
+    <part Name="Description" Short="Abandonada en una cabaña oculta en los confines de Bey Lah, esta enorme estatua de cuernos de hierro languidece bajo una capa de vegetación marchita. Representa a un majestuoso ciervo con un casco levantado del suelo, sus ojos humanoides juzgando su entorno y encontrándolo insuficiente. La placa metálica en la base de la estatua no ha resistido bien los siglos, y los únicos glifos que puedes distinguir son 'K', 'R', 'S' y 'H'." />
+    <tag Name="WorshippedAs" Value="Keresh" />
+  </object>
+  <object Name="statue of mason" Load="Merge">
+    <part Name="Render" DisplayName="estatua de Nisroch" />
+    <part Name="Description" Short="Aquí se representa a Nisroch, el albañil estelar, atravesando la tierra con sus poderosas piernas. Lleva su cinturón favorito, cuyos pliegues están exquisitamente trabajados en oro." />
+    <tag Name="WorshippedAs" Value="Nisroch" />
+  </object>
+  <object Name="statue of knight" Load="Merge">
+    <part Name="Render" DisplayName="estatua de Bel" />
+    <part Name="Description" Short="La estatua de Bel soporta su tremenda carga en mármol pulido. Sostiene su aegis épica, famosa por haber obstaculizado una nube gaseosa remolineante en el amanecer estrellado." />
+    <tag Name="WorshippedAs" Value="Bel" />
+  </object>
+  <object Name="statue of Shekhinah" Load="Merge">
+    <part Name="Render" DisplayName="estatua de Shekhinah" />
+    <part Name="Description" Short="Aquí Shekhinah ha sido tallada para la permanencia con magnífico mármol cerúleo. Su cuerpo está labrado con bendita perfección. Su diadema dorada lo corona Padre entre Padres." />
+    <tag Name="WorshippedAs" Value="Shekhinah" />
+  </object>
+  <object Name="statue of wizard" Load="Merge">
+    <part Name="Render" DisplayName="estatua de Dagon" />
+    <part Name="Description" Short="Dagon, el orador, domina el ápside occidental con su posesión audaz. Su coroneta dorada resplandece magníficamente bajo la luz del fuego." />
+    <tag Name="WorshippedAs" Value="Dagon" />
+  </object>
+  <object Name="statue of athlete" Load="Merge">
+    <part Name="Render" DisplayName="estatua de Carthax" />
+    <part Name="Description" Short="Aquí se representa a Carthax el atleta en medio de su carrera. Su cabello plateado brillante está atado detrás de su cabeza, siguiendo la tradición astral, mientras vuela a través del firmamento." />
+    <tag Name="WorshippedAs" Value="Carthax" />
+  </object>
+  <object Name="statue of scholar" Load="Merge">
+    <part Name="Render" DisplayName="estatua de Resheph" />
+    <part Name="Description" Short="Resheph, quien es llamado 'El Superior', eleva un dedo enigmático para sanar las heridas de los enfermos." />
+    <tag Name="WorshippedAs" Value="Resheph" />
+  </object>
+  <object Name="SultanShrine" Load="Merge">
+    <part Name="Render" DisplayName="santuario" />
+    <part Name="Description" Short="" />
+    <tag Name="QuestableVerb" Value="orar ante, profanar" />
+  </object>
+  <object Name="JoppaSultanShrine" Load="Merge">
+    <part Name="Render" DisplayName="santuario" />
+  </object>
+  <object Name="Period1SultanShrine" Load="Merge">
+    <part Name="Render" DisplayName="santuario" />
+  </object>
+  <object Name="Period2SultanShrine" Load="Merge">
+    <part Name="Render" DisplayName="santuario" />
+  </object>
+  <object Name="Period3SultanShrine" Load="Merge">
+    <part Name="Render" DisplayName="santuario" />
+  </object>
+  <object Name="Period4SultanShrine" Load="Merge">
+    <part Name="Render" DisplayName="santuario" />
+  </object>
+  <object Name="Period5SultanShrine" Load="Merge">
+    <part Name="Render" DisplayName="santuario" />
+  </object>
+  <object Name="Period6SultanShrine" Load="Merge">
+    <part Name="Render" DisplayName="santuario" />
+  </object>
+  <object Name="NephilimShrine" Load="Merge">
+    <part Name="Render" DisplayName="santuario de los nephilim" />
+    <tag Name="QuestableVerb" Value="orar ante, profanar" />
+  </object>
+  <object Name="AgolgotShrine" Load="Merge">
+    <part Name="Render" DisplayName="santuario a Girsh Agolgot" />
+    <part Name="Description" Short="Una cabeza monstruosa se desploma en antiguo piedra, con quistes tallados brotando desde la nuca central para evocar la propagación de la enfermedad desde su fuente semidivina. Generaciones de musgo rodean las piernas verrugosas de la bestia." />
+    <tag Name="WorshippedAs" Value="Agolgot" />
+  </object>
+  <object Name="BethsaidaShrine" Load="Merge">
+    <part Name="Render" DisplayName="santuario de Girsh Bethsaida" />
+    <part Name="Description" Short="Hombros caídos marcan el valle de una espalda rocosa agrietada, y dos pares de brazos apareados se unen en sus cien nudillos en la representación del tallador de piedra del rápido despertar del semidios. Generaciones de musgo acarician las piernas varicosas de la bestia." />
+    <tag Name="WorshippedAs" Value="Bethsaida" />
+  </object>
+  <object Name="RermadonShrine" Load="Merge">
+    <part Name="Render" DisplayName="santuario de Girsh Rermadon" />
+    <part Name="Description" Short="Una monstruosa pez espinosa yace en una piscina de agua tallada en piedra. Debajo se halla su cola aletada, que los poetas han hecho latir espuma salobre por las tuberías hacia Maqqom para formar el lago Hinnom. Generaciones de musgo acarician su subcola aleteante." />
+    <tag Name="WorshippedAs" Value="Rermadon" />
+  </object>
+  <object Name="ShugruithShrine" Load="Merge">
+    <part Name="Render" DisplayName="santuario de Shug'ruith el Excavador" />
+    <part Name="Description" Short="Espinas talladas envuelven al devorador del mundo, quien excavó las cuevas terrestres habitadas por trogloditas en etapa tardía. Los ciento nueve ojos de la leyenda miran a través del tiempo, y generaciones de musgo acarician el vientre bandado de la bestia." />
+    <tag Name="WorshippedAs" Value="Shug'ruith" />
+  </object>
+  <object Name="QasShrine" Load="Merge">
+    <part Name="Render" DisplayName="santuario de Girsh Qas" />
+    <part Name="Description" Short="El mediodios se arrodilla sobre hinds talladas con amplia habilidad en viejo piedra. Polígonos azulejados se derraman desde la base de la estatua para evocar el rectificar de Qas sobre espacio, tiempo, montaña y aldea. Generaciones de musgo rodean las patas del animal, afiladas como tajadores de árboles." />
+    <tag Name="WorshippedAs" Value="Qas" />
+  </object>
+  <object Name="QonShrine" Load="Merge">
+    <part Name="Render" DisplayName="santuario de Girsh Qon" />
+    <part Name="Description" Short="Una godswan se sienta con gracia en piedra, su enorme trenza de cuernos enrollada en un giro deslumbrante. Lleva una expresión vacía e ilegible, para evocar la sensación del escultor ante ella como incubadora de la incertidumbre. Generaciones de musgo rodean las plumas suaves del animal." />
+    <tag Name="WorshippedAs" Value="Qon" />
+  </object>
+  <object Name="RuinedNephilimShrime" Load="Merge">
+    <part Name="Render" DisplayName="santuario en ruinas" />
+  </object>
+  <object Name="JoppaReshephShrine" Load="Merge">
+    <part Name="Render" DisplayName="santuario de Resheph" />
+    <part Name="Epithets" Primary=", el Último Sultán" />
+    <part Name="ZoneLandmarkObject" Preposition="por" />
+    <tag Name="WorshippedAs" Value="Resheph" />
+  </object>
+  <object Name="Eater Hologram" Load="Merge">
+    <part Name="Render" DisplayName="holograma de un Devorador" />
+    <part Name="Description" Short="Una luz carbonizada estalla sobre la placa de cromo y se descompone en una figura del profundo pasado. Pelo, piel, ceño, muslo: estas características germinan dentro de ti una nueva emoción, el sentido del extrañamente familiar. Mientras te mueves, la figura se mueve con paralaje; te maravillas ante la manera en que este Devorador logró incisarse en tu trenza espacio-temporal." />
+  </object>
+  <object Name="hologram of Shekhinah" Load="Merge">
+    <part Name="Render" DisplayName="holograma de Shekhinah" />
+    <part Name="Description" Short="Gloriosa Shekhinah, Adonis Argéntico y Primer Padre, se muestra en mummery resplandeciente. Con la estatura de las estrellas inmortales, fija y perpetua, El examina el templo erigido en Su honor y inclina Su cabeza con aprobación. A propósito de la memoria de Su unión con la Kasaphescencia, El viste Su manifestación con tonos cianes, rechazando los verdes y castaños de las humildes plantas y tierra arcillosa." />
+    <part Name="Chat" Says="[Shekhinah se voltea hacia ti, Sus brazos abiertos.]" />
+    <tag Name="WorshippedAs" Value="Shekhinah" />
+  </object>
+  <object Name="Village Monument" Load="Merge">
+    <part Name="Description" Short="" />
+  </object>
+  <object Name="Village Monument Obelisk" Load="Merge">
+    <part Name="Render" DisplayName="obelisco de piedra" />
+    <part Name="Description" Short="La piedra afirma Su importancia orientándose hacia el firmamento, donde la más antigua sabiduría se remueve." />
+  </object>
+  <object Name="Village Monument Amphora" Load="Merge">
+    <part Name="Render" DisplayName="amfora cerámica" />
+    <part Name="Description" Short="Los vientres de los recipientes son sagrados, pues llevan las aguas de la vida y proyectan el pasado fluido sobre el presente convexo." />
+  </object>
+  <object Name="Village Monument Birdhouse" Load="Merge">
+    <part Name="Render" DisplayName="columbario de piedra" />
+    <part Name="Description" Short="Grabados en esta sala de miel para pequeños amigos alados están historias que ellos no pueden comprender." />
+  </object>
+  <object Name="Village Monument Diptych" Load="Merge">
+    <part Name="Render" DisplayName="diptico tallado" />
+    <part Name="Description" Short="Una narrativa está confinada a los límites grabados de esta piedra, a la dualidad reduccionista de su forma." />
+  </object>
+  <object Name="Village Monument Stele" Load="Merge">
+    <part Name="Render" DisplayName="esteáta de piedra" />
+    <part Name="Description" Short="Los glifos inscritos en la antigua piedra se refractan al presente." />
+  </object>
+  <object Name="Village Monument Monolith" Load="Merge">
+    <part Name="Render" DisplayName="monolito de piedra" />
+    <part Name="Description" Short="La sustancia musgosa se inserta en el mundo narrativo evocado por la roca tallada." />
+  </object>
+  <object Name="Village Monument Sculpture" Load="Merge">
+    <part Name="Render" DisplayName="escultura cromática" />
+    <part Name="Description" Short="De las manos del artesano del metal surgieron varillas y tiras que estallaron y se enfriaron en forma." />
+  </object>
+  <object Name="Village Monument Orb" Load="Merge">
+    <part Name="Render" DisplayName="esfera colosal" />
+    <part Name="Description" Short="Se rendía homenaje a la esfera, pulida hacia la idealidad y elevada sobre patas de bronce." />
+  </object>
+  <object Name="Village Hologram 1" Load="Merge">
+    <part Name="Render" DisplayName="holograma histórico" />
+    <part Name="Description" Short="Patrones intermitentes de interferencia luminosa forman un tableau que cascada en mohair." />
+  </object>
+  <object Name="Village Hologram 2" Load="Merge">
+    <part Name="Render" DisplayName="holograma histórico" />
+    <part Name="Description" Short="Patrones intermitentes de interferencia luminosa forman un tableau que cascada en mohair." />
+  </object>
+  <object Name="Kyakukya Monument 1" Load="Merge">
+    <part Name="RulesDescription" Text="Este objeto es un monumento a una escena de la historia de {{M|Kyakukya}}.&#10;&#10;Bajo la Luna del Escarabajo, gentes se establecieron aquí para reunir bienes de paso destinados al Ape Saad Oboroqoru, y así fue fundada Kyakukya." />
+  </object>
+  <object Name="Kyakukya Monument 2" Load="Merge">
+    <part Name="RulesDescription" Text="Este objeto es un monumento a una escena de la historia de {{M|Kyakukya}}.&#10;&#10;En el año 979, Nuntu, el mono albino legendario, se cansó de aporrear cosas para matarlas y emprendió un viaje hacia un lugar estrangulado por raíces junto al Río Svy. Allí encontró a Kyakukya y sus habitantes. Los aldeanos de Kyakukya le pidieron que empleara sus habilidades magistrales y lidera la aldea." />
+  </object>
+  <object Name="Yd Village Monument 1" Load="Merge">
+    <part Name="RulesDescription" Text="Este objeto es un monumento a una escena de la historia del {{M|Yd Freehold}}.&#10;&#10;Siglos después del apogeo de la Gyre, el svardym Goek, Mak y Geeub se encontraron con el galgal Many Eyes mientras languidecían dentro de una esponja de arrecife. Juntos fundaron el Yd Freehold para pasar el resto de sus vidas." />
+  </object>
+  <object Name="Yd Village Monument 2" Load="Merge">
+    <part Name="RulesDescription" Text="Este objeto es un monumento a una escena de la historia del {{M|Yd Freehold}}.&#10;&#10;En el año 901, los aldeanos del Yd Freehold y sus fundadores abolidieron todas las formas de jerarquía en su asentamiento. Así pues, las dos columnas de la vida cívica en el Freehold se convirtieron en anarquía y autenticidad." />
+  </object>
+  <object Name="Sign" Load="Merge">
+    <part Name="Description" Short="Una placa de arcilla ha sido pintada con óxido de hierro y ocre." />
+    <part Name="Chat" Says="[escribilla indistinta]." />
+  </object>
+  <object Name="AppleSign1" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Manzanas estelares y sidra" />
+  </object>
+  <object Name="AppleSign2" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Sidra especiada" />
+  </object>
+  <object Name="AppleSign3" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Manzanas. ¡Delicioso!" />
+  </object>
+  <object Name="BookSign1" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Libros" />
+  </object>
+  <object Name="BookSign2" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Sabiduría y conocimiento" />
+  </object>
+  <object Name="BookSign3" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Tintas borrosas" />
+  </object>
+  <object Name="BottleSign1" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Miel dulce" />
+  </object>
+  <object Name="BottleSign2" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Jugo de abeja" />
+  </object>
+  <object Name="BottleSign3" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Miel pegajosa" />
+  </object>
+  <object Name="BootSign1" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Botas aquí ¡Vaya!" />
+  </object>
+  <object Name="BootSign2" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Calzado y Zapatos" />
+  </object>
+  <object Name="BootSign3" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Zapatero" />
+  </object>
+  <object Name="HatSign1" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Sombreros y Tocados" />
+  </object>
+  <object Name="HatSign2" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Cubrid con tus Cabezas Frágiles" />
+  </object>
+  <object Name="HatSign3" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Sombreros Estilizados" />
+  </object>
+  <object Name="GloveSign1" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Guantes y Manguitos" />
+  </object>
+  <object Name="GloveSign2" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Bastidores de Dedos" />
+  </object>
+  <object Name="GloveSign3" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Usa Guantes Ahora" />
+  </object>
+  <object Name="CloakSign1" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Capas y Capas" />
+  </object>
+  <object Name="CloakSign2" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Bufandas, Mantos y Más" />
+  </object>
+  <object Name="CloakSign3" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Capas de estilo refinado" />
+  </object>
+  <object Name="ArmorSign1" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Chalecos y armadura ligera" />
+  </object>
+  <object Name="ArmorSign2" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Todo tipo de armaduras" />
+  </object>
+  <object Name="ArmorSign3" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Piezas para el torso" />
+  </object>
+  <object Name="GunSign1" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Armas y munición" />
+  </object>
+  <object Name="GunSign2" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Pistolas, rifles y más aún" />
+  </object>
+  <object Name="GunSign3" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="¡Armas!" />
+  </object>
+  <object Name="DiscSign1" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Discos de datos" />
+  </object>
+  <object Name="DiscSign2" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Esquemas y planos" />
+  </object>
+  <object Name="DiscSign3" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Construye tus propios artefactos" />
+  </object>
+  <object Name="LiquidSign1" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Líquidos Exóticos" />
+  </object>
+  <object Name="LiquidSign2" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Líquidos Exóticos" />
+  </object>
+  <object Name="LiquidSign3" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Líquidos Exóticos" />
+  </object>
+  <object Name="JewelSign1" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Joya y Joyas" />
+  </object>
+  <object Name="JewelSign2" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Mercancías Adornadas de Gemas" />
+  </object>
+  <object Name="JewelSign3" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Piedras Preciosas y Joyas" />
+  </object>
+  <object Name="HookahSign1" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Humo de Menta y Vino" />
+  </object>
+  <object Name="HookahSign2" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Waterpipe y Descanso" />
+  </object>
+  <object Name="HookahSign3" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Salón del Humo" />
+  </object>
+  <object Name="GrenadeSign1" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Explosivos" />
+  </object>
+  <object Name="GrenadeSign2" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Esferas Explosivas" />
+  </object>
+  <object Name="GrenadeSign3" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Granadas y Más" />
+  </object>
+  <object Name="PepperSign1" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Apoquista" />
+  </object>
+  <object Name="PepperSign2" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Hierbas y Potenciones" />
+  </object>
+  <object Name="PepperSign3" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Simples" />
+  </object>
+  <object Name="FoodSign1" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Alimentos" />
+  </object>
+  <object Name="FoodSign2" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Dulces y Salados" />
+  </object>
+  <object Name="FoodSign3" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Comidas Picantes" />
+  </object>
+  <object Name="PreserveSign1" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Comestibles Conservados" />
+  </object>
+  <object Name="PreserveSign2" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Alimentos y Especias" />
+  </object>
+  <object Name="PreserveSign3" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Preparación de Cocina" />
+  </object>
+  <object Name="PigSign" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="[escribilla indistinta]." />
+  </object>
+  <object Name="WineSign1" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Vino" />
+  </object>
+  <object Name="WineSign2" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Bebida de la Vinedora" />
+  </object>
+  <object Name="WineSign3" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Vinetero" />
+  </object>
+  <object Name="ImplantSign1" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Cibernética" />
+  </object>
+  <object Name="ImplantSign2" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Tripas Cromáticas" />
+  </object>
+  <object Name="ImplantSign3" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Órganos para Máquina y Hombre" />
+  </object>
+  <object Name="ArgyveSign" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="¡Vete!" />
+  </object>
+  <object Name="JoppaNorthSign" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Hacia el cementerio y el santuario" />
+  </object>
+  <object Name="EzraSign" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="← A Ezra" />
+  </object>
+  <object Name="TamSign" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Aperitivos Salados" />
+  </object>
+  <object Name="YurlSign" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Finas Mercancías del Consorcio de Phyta" />
+  </object>
+  <object Name="YlaSign" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Reparación de Gadget de Omonporch" />
+  </object>
+  <object Name="SixshrewSign" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Puesto de Comercio del Consorcio" />
+  </object>
+  <object Name="JoppaMillSign" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Molino Común" />
+  </object>
+  <object Name="YdColumbariumSign" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Columbario" />
+  </object>
+  <object Name="YdLivingQuartersSign" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Recintos Habitables" />
+  </object>
+  <object Name="YdMedicalSign" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Convalecencia" />
+  </object>
+  <object Name="YdKitchenSign" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Cocina" />
+  </object>
+  <object Name="YdLibrarySign" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Biblioteca" />
+  </object>
+  <object Name="YdMarketSign" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Mercado" />
+  </object>
+  <object Name="YdWorkshopSign" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Taller" />
+  </object>
+  <object Name="YdManyEyesSign" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Muchas miradas" />
+  </object>
+  <object Name="YdSalonSign" Load="Merge">
+    <part Name="Render" DisplayName="señal" />
+    <part Name="Chat" Says="Salón" />
+  </object>
+  <object Name="CryptPlaqueTutor" Load="Merge">
+    <part Name="Render" DisplayName="puerta de mármol tallada con elegancia y placas grabadas" />
+    <part Name="Description" Short="" />
+  </object>
+  <object Name="Tombstone" Load="Merge">
+    <part Name="Render" DisplayName="lápida" />
+    <part Name="Description" Short="" />
+  </object>
+  <object Name="ReshephsCrypt" Load="Merge">
+    <part Name="Render" DisplayName="cripta" />
+  </object>
+  <object Name="Empty Urn" Load="Merge">
+    <part Name="Render" DisplayName="urna funeraria" />
+    <part Name="Description" Short="Formas geométricas cargadas de significado teselaron las filas anilladas alrededor del recipiente crematorio: estrellas, triquetras, nonágonos y lunas." />
+  </object>
+  <object Name="Urn" Load="Merge">
+    <part Name="Render" DisplayName="urna funeraria" />
+    <part Name="Description" Short="" />
+  </object>
+  <object Name="Sarcophagus" Load="Merge">
+    <part Name="Render" DisplayName="sarcófago" />
+    <part Name="Description" Short="El mármol negro fue extraído de las inmensas extensiones del subterráneo y tallado en una manta de piedra para los muertos." />
+    <tag Name="QuestableVerb" Value="entrar" />
+  </object>
+  <object Name="SultanSarcophagusW" Load="Merge">
+    <part Name="Render" DisplayName="sarcófago imperial" />
+    <part Name="Description" Short="Nubes cirros de neón se agitan dentro de una luna de vidrio y proyectan luz a través de la figura prefigurada del sultán. Una forma vaga así flota boca arriba sobre el inmenso diván de roca negra sin estrellas. El artista pudo haber querido que esto evocara una tormenta eléctrica sobre un llano oscuro o una lila en la ribera de un río: algo para representar la mente brillante y gaseosa que se desplaza sobre el cuerpo inerte." />
+  </object>
+  <object Name="SultanSarcophagusE" Load="Merge">
+    <part Name="Render" DisplayName="sarcófago imperial" />
+    <part Name="Description" Short="Nubes cirros de neón se agitan dentro de una luna de vidrio y proyectan luz a través de la figura prefigurada del sultán. Una forma vaga así flota boca arriba sobre el inmenso diván de roca negra sin estrellas. El artista pudo haber querido que esto evocara una tormenta eléctrica sobre un llano oscuro o una lila en la ribera de un río: algo para representar la mente brillante y gaseosa que se desplaza sobre el cuerpo inerte." />
+  </object>
+  <object Name="SultanSarcophagusWPeriod1" Load="Merge">
+    <part Name="Render" DisplayName="sarcófago imperial de =sultan:1=" />
+  </object>
+  <object Name="SultanSarcophagusWPeriod2" Load="Merge">
+    <part Name="Render" DisplayName="sarcófago imperial de =sultan:2=" />
+  </object>
+  <object Name="SultanSarcophagusWPeriod3" Load="Merge">
+    <part Name="Render" DisplayName="sarcófago imperial de =sultan:3=" />
+  </object>
+  <object Name="SultanSarcophagusWPeriod4" Load="Merge">
+    <part Name="Render" DisplayName="sarcófago imperial de =sultan:4=" />
+  </object>
+  <object Name="SultanSarcophagusWPeriod5" Load="Merge">
+    <part Name="Render" DisplayName="sarcófago imperial de =sultan:5=" />
+  </object>
+  <object Name="SultanSarcophagusEPeriod1" Load="Merge">
+    <part Name="Render" DisplayName="sarcófago imperial de =sultan:1=" />
+  </object>
+  <object Name="SultanSarcophagusEPeriod2" Load="Merge">
+    <part Name="Render" DisplayName="sarcófago imperial de =sultan:2=" />
+  </object>
+  <object Name="SultanSarcophagusEPeriod3" Load="Merge">
+    <part Name="Render" DisplayName="sarcófago imperial de =sultan:3=" />
+  </object>
+  <object Name="SultanSarcophagusEPeriod4" Load="Merge">
+    <part Name="Render" DisplayName="sarcófago imperial de =sultan:4=" />
+  </object>
+  <object Name="SultanSarcophagusEPeriod5" Load="Merge">
+    <part Name="Render" DisplayName="sarcófago imperial de =sultan:5=" />
+  </object>
+  <object Name="Golem Mound" Load="Merge">
+    <part Name="Render" DisplayName="túmulo de chatarra y arcilla" />
+    <part Name="Description" Short="La arcilla húmeda se adhiere a una rueda y a una placa de soldadura. Está adornada con diodos, circuitos, bombas de álabes y imanes." />
+  </object>
+  <object Name="VehicleGolemSupportColumn" Load="Merge">
+    <part Name="Render" DisplayName="viga de soporte" />
+    <part Name="Description" Short="La arcilla fue cocida alrededor del acero y erigida en el arco costal para brindar apoyo estructural." />
+  </object>
+  <object Name="VehicleGolemExit" Load="Merge">
+    <part Name="Render" DisplayName="puerta de salida" />
+    <part Name="Description" Short="Un par de paneles cromados retráctiles están ajustados sobre rieles untados de aceite." />
+    <xtagGrammar iArticle="" />
+  </object>
+  <object Name="VehicleGolemSeat" Load="Merge">
+    <part Name="Render" DisplayName="asiento del piloto" />
+    <part Name="Description" Short="Espuma en tono de esmeralda acolcha el respaldo interior y la profunda cavidad del asiento, mientras que manillas adornan los reposabrazos curvados. La silla entera gira sobre un motor de eyectación." />
+  </object>
+  <object Name="VehicleGolemPassengerSeat" Load="Merge">
+    <part Name="Render" DisplayName="asiento del pasajero" />
+    <part Name="Description" Short="Espuma en tono de esmeralda acolcha el respaldo interior y la profunda cavidad del asiento, mientras que una sola manilla viste el reposabrazo derecho. La silla entera gira sobre un motor de eyectación." />
+  </object>
+  <object Name="VehicleConsole N" Load="Merge">
+    <part Name="Render" DisplayName="consola del piloto" />
+    <part Name="Description" Short="Dentro de un marco metálico humedecido por la rocía de sopa, una luna de vidrio está pintada con los glifos de datos de navegación y alineación de dos cuerpos. Modelos tridimensionales de una criatura grande y otra más pequeña giran sobre sus ejes verticales, mientras que un escaneo psicoeléctrico muestra el estado del entrelazamiento." />
+  </object>
+  <object Name="VehicleConsole S" Load="Merge">
+    <part Name="Render" DisplayName="consola del piloto" />
+  </object>
+  <object Name="MechExitHatch" Load="Merge">
+    <part Name="Render" DisplayName="puerta de salida" />
+  </object>
+  <object Name="MechPilotSeat" Load="Merge">
+    <part Name="Description" Short="Espuma en tono de esmeralda acolcha el respaldo interior y la profunda cavidad del asiento, mientras que manillas adornan los reposabrazos curvados. La silla entera gira sobre un motor de eyectación." />
+  </object>
+</objects>

@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objects Lang="es_ES" Encoding="utf-8">
+  <object Name="Preservable" Load="Merge">
+    <part Name="Description" Short="" />
+    <tag Name="CustomStackerDisplay" Value="{{y|[{{C|=number=}} =number.pluralize:serving=]}}" />
+    <xtagGrammar iArticle="algún" adjunctNoun="fragmento" massNoun="verdadero" />
+  </object>
+  <object Name="Raw Meat" Load="Merge">
+    <part Name="Food" Message="La carne es dura pero la comida satisface." />
+    <xtagGrammar massNoun="verdadero" />
+  </object>
+  <object Name="Raw Bear Meat" Load="Merge">
+    <part Name="Render" DisplayName="{{r|carne de oso cruda}}" />
+    <part Name="Description" Short="La carne de oso cruda está impregnada con su propia sangre derramada." />
+    <part Name="Food" Message="Sabe horrible, pero cumple con las necesidades más elementales." />
+  </object>
+  <object Name="Raw Pig Meat" Load="Merge">
+    <part Name="Render" DisplayName="{{r|carne de cerdo cruda}}" />
+    <part Name="Description" Short="La carne cruda de cerdo está tintada con su propia sangre derramada." />
+    <part Name="Food" Message="Sabría mejor si estuviera salado." />
+  </object>
+  <object Name="Raw Boar Meat" Load="Merge">
+    <part Name="Render" DisplayName="{{r|carne de jabalí cruda}}" />
+    <part Name="Description" Short="La carne cruda de jabalí está tintada con su propia sangre derramada." />
+    <part Name="Food" Message="Sabría mejor si estuviera salado." />
+  </object>
+  <object Name="Raw Barkbiter Meat" Load="Merge">
+    <part Name="Render" DisplayName="{{r|carne de mordedorbosque cruda}}" />
+    <part Name="Description" Short="La carne cruda de mordedorbosque está tintada con su propia sangre derramada." />
+    <part Name="Food" Message="Sabría mejor si estuviera salado." />
+  </object>
+  <object Name="Raw Beetle Meat" Load="Merge">
+    <part Name="Render" DisplayName="{{y|carne de escarabajo cruda}}" />
+    <part Name="Description" Short="El músculo del insecto está amontonado y emplazado sobre su cáscara rota." />
+    <part Name="Food" Message="El sabor es amargo y salado." />
+  </object>
+  <object Name="Raw Goat Meat" Load="Merge">
+    <part Name="Render" DisplayName="{{r|carne de cabra cruda}}" />
+    <part Name="Description" Short="La carne cruda de cabra está tintada con su propia sangre derramada." />
+    <part Name="Food" Message="Las tiras de carne se disuelven en sal y grasa." />
+  </object>
+  <object Name="Raw Scorpiock Meat" Load="Merge">
+    <part Name="Render" DisplayName="{{r|carne cruda de escorpión}}" />
+    <part Name="Description" Short="El músculo de insecto está amontonado y acuchillado sobre hueso exobroto roto." />
+    <part Name="Food" Message="Es agrio." />
+  </object>
+  <object Name="Raw Frog Meat" Load="Merge">
+    <part Name="Render" DisplayName="{{r|carne cruda de rana}}" />
+    <part Name="Description" Short="La pierna de rana está tintada con su propia sangre derramada." />
+  </object>
+  <object Name="Raw Fish Meat" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|carne cruda de pez}}" />
+    <part Name="Description" Short="La carne de mejilla y mandíbula huele a sal." />
+    <part Name="Food" Message="Es escamosa y deliciosa." />
+  </object>
+  <object Name="Raw Worm Meat" Load="Merge">
+    <part Name="Render" DisplayName="{{r|carne de gusano cruda}}" />
+    <part Name="Description" Short="La carne del gusano está tintada con su propia grasa derramada." />
+  </object>
+  <object Name="Dawnglider Tail" Load="Merge">
+    <part Name="Render" DisplayName="{{G|cola de dawnglider}}" />
+    <part Name="Description" Short="Un mosaico de escamas acanaladas se enrosca como una cuerda enrollada. Está cubierto de carbón y huele a humo." />
+    <part Name="Food" Message="Tiene un sabor a carbón especiado con un calor que crece lentamente." />
+  </object>
+  <object Name="Albino Ape Heart" Load="Merge">
+    <part Name="Render" DisplayName="{{r|corazón de mono albino}}" />
+    <part Name="Description" Short="Una placa de cuatro cámaras de tejido húmedo y crudo se desploma bajo su propio peso empapado." />
+    <part Name="Food" Message="Es jugoso y tiene el sabor del hierro caliente." />
+  </object>
+  <object Name="Ogre Ape Heart" Load="Merge">
+    <part Name="Render" DisplayName="{{r|corazón de mono ogre}}" />
+    <part Name="Description" Short="Una placa de cuatro cámaras de tejido húmedo y crudo se desploma bajo su propio peso empapado." />
+    <part Name="Food" Message="Es jugoso y tiene el sabor del hierro caliente." />
+  </object>
+  <object Name="Black Puma Haunch" Load="Merge">
+    <part Name="Render" DisplayName="{{K|puma negro}} muslo" />
+    <part Name="Description" Short="Pinceladas de pelaje negro opalescente se adhieren a la carne húmeda de la pierna." />
+    <part Name="Food" Message="Ahumado y delicioso." />
+  </object>
+  <object Name="Tongue Twist" Load="Merge">
+    <part Name="Render" DisplayName="{{r|twist de lengua}}" />
+    <part Name="Description" Short="Una tríada de lenguas está entrelazada en un torcido nudo fibroso. Resplandecen con una capa de saliva." />
+    <part Name="Food" Message="El sabor es conocido en tu lengua." />
+  </object>
+  <object Name="Eyeless Crab Legs" Load="Merge">
+    <part Name="Render" DisplayName="piernas de cangrejo sin ojos" />
+    <part Name="Description" Short="Piernas articuladas y provistas de espinas están dispuestas en una charca de gelatina ósea." />
+  </object>
+  <object Name="Eyeless King Crab Legs" Load="Merge">
+    <part Name="Render" DisplayName="piernas de cangrejo rey sin ojos" />
+    <part Name="Description" Short="Enormes piernas articuladas y provistas de espinas están dispuestas en una charca de gelatina ósea." />
+  </object>
+  <object Name="Fire Ant Gaster" Load="Merge">
+    <part Name="Render" DisplayName="{{R|gaster de hormiga llameante}}" />
+    <part Name="Description" Short="Un halo de humo se eleva del orbe calcificado." />
+    <part Name="Food" Message="Es un bocado tostado con picante rojizo y ardiente." />
+  </object>
+  <object Name="Spark Tick Scutum" Load="Merge">
+    <part Name="Render" DisplayName="{{W|spark tick scutum}}" />
+    <part Name="Description" Short="Una taza de hueso tan fina como el papel está tallada con las brillantes y ramificadas marcas de la relámpago." />
+    <part Name="Food" Message="Cracklea en tus papilas gustativas." />
+  </object>
+  <object Name="Voider Gland" Load="Merge">
+    <part Name="Render" DisplayName="{{B|voider gland}}" />
+    <part Name="Food" Message="Se derrite en tu boca." />
+    <part Name="Description" Short="El espacio se divide a través de tres cámaras de desplazamiento para crear presión negativa alrededor del órgano de derivación." />
+  </object>
+  <object Name="Psychal Gland" Load="Merge">
+    <part Name="Render" DisplayName="{{m|psychal gland}}" />
+    <part Name="Description" Short="Un laberinto de nervios perfora su envoltura de tejido límpido." />
+    <part Name="Food" Message="La glándula estalla con un chasquido y llena tu boca con un fluido frío. Memorias ajenas se filtran en las tuyas." />
+  </object>
+  <object Name="Compacted Bone Matter" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|materia ósea compactada}}" />
+    <part Name="Description" Short="Huesos inmunes al paso del tiempo fueron pulverizados y comprimidos dentro del intestino cicatrizado de una lombriz ósea." />
+    <part Name="Food" Message="Hay un crujido satisfactorio." />
+    <xtagGrammar iArticle="algún" adjunctNoun="pedazo" massNoun="verdadero" />
+  </object>
+  <object Name="BaseBreatherGland" Load="Merge">
+    <part Name="Food" Message="La glándula estalla con un chasquido y llena tu boca con su fluido repugnante." />
+  </object>
+  <object Name="FireBreatherGland" Load="Merge">
+    <part Name="Render" DisplayName="{{r|glándula barba de llama}}" />
+    <part Name="Description" Short="Una rocío aromático humedece las membranas desinfladas y quema el aire circundante." />
+  </object>
+  <object Name="ElderFireBreatherGland" Load="Merge">
+    <part Name="Render" DisplayName="{{R|glándula de barba de llama antigua}}" />
+    <part Name="Description" Short="Una rocío aromático humedece las membranas desinfladas y quema el aire circundante." />
+  </object>
+  <object Name="IceBreatherGland" Load="Merge">
+    <part Name="Render" DisplayName="{{c|glándula de barba de nieve}}" />
+    <part Name="Description" Short="Una fragante rociada humedece los flaps de tejido desinflados y congela el aire circundante." />
+  </object>
+  <object Name="ElderIceBreatherGland" Load="Merge">
+    <part Name="Render" DisplayName="{{c|glándula de barba sleetbeard antigua}}" />
+    <part Name="Description" Short="Una fragante rociada humedece los flaps de tejido desinflados y congela el aire circundante." />
+  </object>
+  <object Name="CorrosiveBreatherGland" Load="Merge">
+    <part Name="Render" DisplayName="{{g|glándula de barba tartbeard}}" />
+    <part Name="Description" Short="Una fragante rociada humedece los flaps de tejido desinflados y pica el aire circundante." />
+  </object>
+  <object Name="ElderCorrosiveBreatherGland" Load="Merge">
+    <part Name="Render" DisplayName="{{G|glándula de barba tartbeard antigua}}" />
+    <part Name="Description" Short="Una fragante rociada humedece los flaps de tejido desinflados y pica el aire circundante." />
+  </object>
+  <object Name="NormalityBreatherGland" Load="Merge">
+    <part Name="Render" DisplayName="{{y|glándula de barba nullbeard}}" />
+    <part Name="Description" Short="Una fragante rociada humedece los flaps de tejido desinflados y polariza el aire circundante." />
+  </object>
+  <object Name="ElderNormalityBreatherGland" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|glándula de barba nullbeard antigua}}" />
+    <part Name="Description" Short="Una fragante rociada humedece los flaps de tejido desinflados y polariza el aire circundante." />
+  </object>
+  <object Name="PoisonBreatherGland" Load="Merge">
+    <part Name="Render" DisplayName="{{g|glándula de barba gallbeard}}" />
+    <part Name="Description" Short="Una fragante rociada humedece los flaps de tejido desinflados y pica el aire circundante." />
+  </object>
+  <object Name="ElderPoisonBreatherGland" Load="Merge">
+    <part Name="Render" DisplayName="{{G|glándula de barba gallbeard antigua}}" />
+    <part Name="Description" Short="Una fragante rociada humedece los flaps de tejido desinflados y pica el aire circundante." />
+  </object>
+  <object Name="SleepBreatherGland" Load="Merge">
+    <part Name="Render" DisplayName="{{w|glándula de barba soñadora}}" />
+    <part Name="Description" Short="La rociosa bruma aromática humedece los flápidos pliegues de tejido y hace húmedo el aire circundante." />
+  </object>
+  <object Name="ElderSleepBreatherGland" Load="Merge">
+    <part Name="Render" DisplayName="{{W|glándula de barba soñadora mayor}}" />
+    <part Name="Description" Short="La rociosa bruma aromática humedece los flápidos pliegues de tejido y hace húmedo el aire circundante." />
+  </object>
+  <object Name="StunBreatherGland" Load="Merge">
+    <part Name="Render" DisplayName="{{c|glándula de barba inmóvil}}" />
+    <part Name="Description" Short="La rociosa bruma aromática humedece los flápidos pliegues de tejido y detiene el aire circundante." />
+  </object>
+  <object Name="ElderStunBreatherGland" Load="Merge">
+    <part Name="Render" DisplayName="{{C|glándula de barba inmóvil mayor}}" />
+    <part Name="Description" Short="La rociosa bruma aromática humedece los flápidos pliegues de tejido y detiene el aire circundante." />
+  </object>
+  <object Name="ConfusionBreatherGland" Load="Merge">
+    <part Name="Render" DisplayName="{{b|glándula de barba laberíntica}}" />
+    <part Name="Description" Short="La rociosa bruma aromática humedece los flápidos pliegues de tejido y empaña el aire circundante." />
+  </object>
+  <object Name="ElderConfusionBreatherGland" Load="Merge">
+    <part Name="Render" DisplayName="{{B|glándula de barba laberíntica mayor}}" />
+    <part Name="Description" Short="La rociosa bruma aromática humedece los flápidos pliegues de tejido y empaña el aire circundante." />
+  </object>
+  <object Name="Yondercane" Load="Merge">
+    <part Name="Render" DisplayName="{{W|yondercane}}" />
+    <part Name="Description" Short="El tallo entallado de la yonderbrush tachonada se dobla hacia un farpoint fuera de enfoque." />
+    <part Name="Food" Message="Sabe a lejos." />
+  </object>
+  <object Name="Vinewafer" Load="Merge">
+    <part Name="Render" DisplayName="vinewafer" />
+    <part Name="Description" Short="Una pequeña protuberancia de corcho se hincha con humedad. Fue regada durante semanas calurosas por una fronda extendida, vestida de paciencia inhumana, que succionó un solo grano de lluvia del viento de cien millas." />
+  </object>
+  <object Name="Dreadroot Tuber" Load="Merge">
+    <part Name="Render" DisplayName="{{K|tubérculo de dreadroot}}" />
+    <part Name="Description" Short="Las cicatrices terrestres soportan la bulbula de canela, distorsionada por las presiones del suelo y el cromo hasta tomar una forma que codifica un milenio de ruina." />
+  </object>
+  <object Name="Starapple" Load="Merge">
+    <part Name="Render" DisplayName="starapple" />
+    <part Name="Description" Short="El jugo cae de la piel brillante que recubre el núcleo quincunx. A los ojos mojados de hambre, brilla como una gema carmesí en la sal vulcánica." />
+  </object>
+  <object Name="Spine Fruit" Load="Merge">
+    <part Name="Render" DisplayName="fruto de espina" />
+    <part Name="Description" Short="Un costillo de fractus lanza un pera húmedo y afilado desde su vegetación abrumada por el sol." />
+  </object>
+  <object Name="Plump Mushroom" Load="Merge">
+    <part Name="Render" DisplayName="hongo regordajo" />
+    <part Name="Description" Short="Bajo un sombrero de difusas branquias, el tallo se adapta a una cintura rebosante. El hongo es gordo en la muerte de su diminuto pedazo de tierra." />
+  </object>
+  <object Name="Smoldered Mushroom" Load="Merge">
+    <part Name="Render" DisplayName="hongo carbonizado" />
+    <part Name="Description" Short="El trufa está cubierta por un residuo de color vino nacido de gases desconocidos para la superficie del mundo. Profundo, profundo en la tierra y más allá del Mar Pálido, fue carbonizado hasta su jugosidad." />
+  </object>
+  <object Name="Hoarshroom" Load="Merge">
+    <part Name="Render" DisplayName="{{C|luminoso}} hongo helado" />
+    <part Name="Description" Short="El escarcha brillante chispea sobre el sombrero de lámpara que resplandece con bioluminiscencia suave." />
+    <part Name="RulesDescription" Text="Duración: 180-220 rondas&#10;Proyectas luz en un radio de 2.&#10;Durante los primeros 5 rondas después de consumirlo, ganas 0.6 puntos de vida por nivel (mínimo 3) cada ronda.&#10;+20 resistencia al frío&#10;No puedes ser envenenado." />
+  </object>
+  <object Name="Godshroom Cap" Load="Merge">
+    <part Name="Render" DisplayName="{{o|carne de Devorador}}" />
+    <part Name="Description" Short="Las sensaciones visuales se desdibujan sobre las crateras esponjosas de una luna coralina hinchada. ¿Es esta la carne de dioses?" />
+  </object>
+  <object Name="Lah Petals" Load="Merge">
+    <part Name="Render" DisplayName="{{lah|pétalos lah}}" />
+    <part Name="Description" Short="Pétalos de tono ocre y penetrante aroma parecen una hierba aromática, pero su sabor sabroso se asemeja más al caldo que a la infusión." />
+    <part Name="Food" Message="Sabroso, aunque no particularmente satisfactorio." />
+    <xtagGrammar massNoun="verdadero" />
+  </object>
+  <object Name="Clump of Grave Moss" Load="Merge">
+    <part Name="Render" DisplayName="manojo de {{C|musgo sepulcral}}" />
+    <part Name="Description" Short="Un musgo sepulcral blanquecino y cianurado ha crecido en un manojo raro y flexible." />
+    <part Name="Food" Message="Se deshace en fragmentos en tu boca." />
+  </object>
+  <object Name="Banana" Load="Merge">
+    <part Name="Render" DisplayName="{{W|plátano}}" />
+    <part Name="Description" Short="Su tallo está ricamente teñido por la madurez, y destellos de la Aguja adornan su cáscara." />
+  </object>
+  <object Name="Yuckwheat Stem" Load="Merge">
+    <part Name="Render" DisplayName="{{w|tallo de trigo asqueroso}}" />
+    <part Name="Food" Message="Tiene un sabor desagradablemente amargo." />
+    <part Name="Description" Short="Los niños lloran ante el crujiente corte de un tallo de trigo asqueroso, así lo han hecho durante cientos de años. Lloran, se agitan y se retuercen fuera del abrazo de sus madres, sordos a las garantías sobre la potencia médica de la planta. Cortado y machacado, el tallo tiene un sabor ácido en sus lenguas y sus rostros se contorsionan en el dolor infantil. Pero duermen mejor por la noche, dicen sus madres." />
+  </object>
+  <object Name="Lagroot Tuber" Load="Merge">
+    <part Name="Render" DisplayName="tubérculo de raíz lag" />
+    <part Name="Description" Short="Dendríticos de almidón fueron cortados de la tierra y lijados hasta suavizarlos." />
+  </object>
+  <object Name="Vanta Petals" Load="Merge">
+    <part Name="Render" DisplayName="{{K|pétalos vanta}}" />
+    <part Name="Description" Short="La luz cae fuera de los límites de influencia de las lunas y se filtra en el vacío." />
+    <part Name="Food" Message="Están congelados por la ausencia de calor y luz." />
+    <xtagGrammar massNoun="verdadero" />
+  </object>
+  <object Name="Urberry" Load="Merge">
+    <part Name="Render" DisplayName="{{m|urberry}}" />
+    <part Name="Food" Message="Delicioso prototípico." />
+    <part Name="Description" Short="El zumo denso como tierra presiona la piel de la baya hasta formar una esfera perfecta y curva suavemente. Dentro, un huesillo codifica un conjunto de instrucciones mil veces repetido para la forma de las formas." />
+  </object>
+  <object Name="Arsplice Seed" Load="Merge">
+    <part Name="Render" DisplayName="{{C-C-c-m-m-c-C-C secuencia|arsplice}} semilla" />
+    <part Name="Description" Short="Milenios de metrópolis quimificada que ha alimentado al híbrido de coral, hierba y hongos, cuya sombra se bifurca en su interior, son reabsorbidos dentro de la cubierta de una bosta ecológica." />
+    <part Name="Food" Message="Razos de cálido abrazo brotan en tu interior como fractales." />
+  </object>
+  <object Name="Bop Cheek" Load="Merge">
+    <part Name="Render" DisplayName="{{B|bop cheek}}" />
+    <part Name="Description" Short="Es un corte elegante de esponja laminada. Tiembla al tacto." />
+    <part Name="Food" Message="Es más masticable que cualquier cosa que hayas comido antes." />
+    <xtagGrammar massNoun="verdadero" />
+  </object>
+  <object Name="Mirror Shard" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|mirror shard}}" />
+    <part Name="Description" Short="Un fragmento de vidrio brilla en sus afiladas aristas, su patrón de grietas típico de la temple geológica." />
+    <part Name="Food" Message="Está afilado y resplandeciente." />
+  </object>
+  <object Name="Bundle of Noisegrass" Load="Merge">
+    <part Name="Render" DisplayName="Bulto de hierba ruidosa" />
+    <part Name="Description" Short="La hierba estrellada brillante alcanzó un máximo local de significado y luego fue cortada y atados en un paquete." />
+    <part Name="Food" Message="Tiene sabor a pelusa." />
+  </object>
+  <object Name="Qudzu Stem" Load="Merge">
+    <part Name="Render" DisplayName="{{r|qudzu stem}}" />
+    <part Name="Description" Short="Un tallo de apio rojo se halla espolvoreado con el polvo desgastado por siglos." />
+  </object>
+  <object Name="Lover's Blossom" Load="Merge">
+    <part Name="Render" DisplayName="{{R|lover's blossom}}" />
+    <part Name="Description" Short="El corazón del amante abandonado arde bajo pétalos incandescentes, apretados en angustia dentro de anteras citrinas y colocados sobre una cama llorosa de sépalos jade." />
+  </object>
+  <object Name="Humble Pie" Load="Merge">
+    <part Name="Render" DisplayName="humble pie" />
+    <part Name="Description" Short="Sazonando la carne picada atrapada debajo de la masa hay un poco de polvo de yyffur, raspado del tallo del hongo homónimo y finamente molido. El hongo entero es demasiado poderoso para una psique mamífera (consumir uno borraría el ego en pocos momentos), pero un poco de polvo sobre una tarta sabrosa puede recordar a uno su lugar en el cosmos." />
+    <part Name="RulesDescription" Text="-1 Ego permanentemente" />
+    <xtagGrammar massNoun="verdadero" />
+    <part Name="Food" Message="Tiene sabor amargo.&#10;Tu {{Y|Ego}} se reduce en {{C|1}}" />
+  </object>
+  <object Name="Ripe Cucumber" Load="Merge">
+    <part Name="Render" DisplayName="{{G|ripe cucumber}}" />
+    <part Name="Description" Short="Un cuello largo y lleno de verrugas de verde menta fue frutificado en una vid fértil y recogido crujiente." />
+    <part Name="Food" Message="El mordisco es crujiente, y luego estalla en agua." />
+  </object>
+  <object Name="Taco Suprema" Load="Merge">
+    <part Name="Render" DisplayName="{{m|taco suprema}}" />
+    <part Name="Food" Message="Una crispación divina se disuelve en manna salado." />
+    <part Name="Description" Short="Papel delgado y antiguo, un palimpsesto de grasa, envuelve la silla de montar crujiente de una wafer frita. Siete estratos de néctar coagulado llenan el cleft crujiente." />
+  </object>
+  <object Name="Crystal of Eve" Load="Merge">
+    <part Name="Render" DisplayName="{{crystalline|cristal de Eva}}" />
+    <part Name="Description" Short="La energía psíquica flota cerca del punto cero como suave pelusilla, pero alcanza su pico en el hábito tetraédrico. Este cristal fue quebrado de una bouquet raíz antes de que el sistema pudiera desarrollar sentience campana. Vibra con pensamiento y sentimiento nacientes." />
+    <part Name="Food" Message="El cristal se rompe y la sustancia concentrada de pensamientos se hincha en marea y empapa tu mente." />
+  </object>
+  <object Name="Hunk of Cheese" Load="Merge">
+    <part Name="Render" DisplayName="trozo de {{W|queso}}" />
+    <part Name="Description" Short="El lienzo de queso adhiere a las caras grasosas de un cubo pigwrought. Durante dos años, microbios han colonizado sus caras, madurándolo hasta un sabor elevado." />
+  </object>
+  <object Name="Rubber Tree Seed" Load="Merge">
+    <part Name="Render" DisplayName="{{r|semilla del árbol de goma}}" />
+    <part Name="Description" Short="Conchas lisas y estriadas por el sol aíslan la explosiva brotación arbórea que ha de venir." />
+  </object>
+  <object Name="Starapple Preserves" Load="Merge">
+    <part Name="Render" DisplayName="{R|jalea de fruta estrella}" />
+    <part Name="Description" Short="Dulces frutas estrella fueron machacadas, colocadas sobre una llama abierta, dejadas para enfriar y envasadas para uso posterior. Fragmentos de pulpa fibrosa flotaban suspendidos en el éter frutal." />
+  </object>
+  <object Name="Spine Fruit Jam" Load="Merge">
+    <part Name="Render" DisplayName="{M|jalea de fruto espinal}" />
+    <part Name="Description" Short="El fruto espinoso de los fracti fue machacado, colocado sobre una llama abierta, dejado para enfriar y envasado para uso posterior. Fragmentos de pulpa espinosa flotaban suspendidos en el éter frutal." />
+  </object>
+  <object Name="Vinewafer Sheaf" Load="Merge">
+    <part Name="Render" DisplayName="{g|haz de finas rebanadas de vid}" />
+    <part Name="Description" Short="Rebanadas agrupadas recolectadas del frondoso vegetal absorbente de humedad llamado watervine, atadas con cuerda." />
+  </object>
+  <object Name="Pickled Mushrooms" Load="Merge">
+    <part Name="Render" DisplayName="{K|champiñones en vinagre}" />
+    <part Name="Description" Short="Arrancados de la tierra, viven sus nuevas existencias zambulléndose en el brebaje salino." />
+    <xtagGrammar massNoun="verdadero" />
+  </object>
+  <object Name="Freeze-Dried Hoarshrooms" Load="Merge">
+    <part Name="Render" DisplayName="{C|hongos secados al vacío}" />
+    <part Name="Description" Short="Los hongos arrugados fueron enfriados y deshidratados en su propia heladura." />
+    <xtagGrammar massNoun="verdadero" />
+  </object>
+  <object Name="Pickles" Load="Merge">
+    <part Name="Render" DisplayName="{{g|encurtidos}}" />
+    <part Name="Description" Short="Frutos verrudos se disponen como islas en un océano de salmuera y son envasados en un vidrio mundano. Ahora se pudren al ritmo de la sal." />
+    <xtagGrammar massNoun="verdadero" />
+  </object>
+  <object Name="Fire Ant Gaster Paste" Load="Merge">
+    <part Name="Render" DisplayName="{{R|pasta gástrica de hormiga fuego}}" />
+    <part Name="Description" Short="La calefacción fue molida en un mortero, hervida en salmuera y solidificada." />
+  </object>
+  <object Name="Cured Dawnglider Tail" Load="Merge">
+    <part Name="Render" DisplayName="{{W|cola de dawnglider curada}}" />
+    <part Name="Description" Short="La sal ha descolorido el prisma de colores de los trozos de carne enrollada, pero persiste un toque del olor a humo." />
+  </object>
+  <object Name="Salthopper Chip" Load="Merge">
+    <part Name="Render" DisplayName="chips de saltoperro" />
+    <part Name="Description" Short="La quitina fue raspada de la flanquilla exoesquelética de un saltoperro capturado y batida seca hasta alcanzar una consistencia crujiente y elástica." />
+    <xtagGrammar iArticle="a" adjunctNoun="" />
+  </object>
+  <object Name="Phase Silk" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|seda de fase}}" />
+    <part Name="Description" Short="Hilo enrollado cortado del tejido bidimensional de la hoguera-malla de una araña de fase." />
+  </object>
+  <object Name="Fermented Yondercane" Load="Merge">
+    <part Name="Render" DisplayName="{{B|yondercane fermentado}}" />
+    <part Name="Description" Short="Cristales salinos de semanas de antigüedad recorren las valles acanalados de un tallo húmedo." />
+  </object>
+  <object Name="Fermented Yuckwheat Stem" Load="Merge">
+    <part Name="Render" DisplayName="{{w|pasta de glándula de voider}}" />
+    <part Name="Description" Short="Los arcosiformes desviadores de aire fueron molidos en un mortero, cocidos en salmuera y solidificados." />
+  </object>
+  <object Name="Voider Gland Paste" Load="Merge">
+    <part Name="Render" DisplayName="{{W|plasma de piocha chispeante}}" />
+    <part Name="Description" Short="El escudo fue raspado hasta quedar seco, machacado y molido. Se exprimieron fragmentos de la piocha de su sangre magnética y se guardaron en frascos." />
+  </object>
+  <object Name="Spark Tick Plasma" Load="Merge">
+    <part Name="Render" DisplayName="{{W|plasma de piocha chispeante}}" />
+    <part Name="Description" Short="El escudo fue raspado hasta quedar seco, machacado y molido. Se exprimieron fragmentos de la piocha de su sangre magnética y se guardaron en frascos." />
+  </object>
+  <object Name="Dried Lah Petals" Load="Merge">
+    <part Name="Render" DisplayName="secas {{lah|pétalos de lah}}" />
+    <part Name="Description" Short="Secas, estas gruesas pétalos amarillo-castaño se asemejan más a carne seca que la mayoría de otras flores." />
+    <xtagGrammar massNoun="verdadero" />
+  </object>
+  <object Name="Dried Vanta Petals" Load="Merge">
+    <part Name="Render" DisplayName="{{K|pétalos secos de vanta}}" />
+    <part Name="Description" Short="La luz resbala fuera de los límites de influencia de las lunas secas y se filtra en el vacío." />
+    <xtagGrammar massNoun="verdadero" />
+  </object>
+  <object Name="Compacted Bone Meal" Load="Merge">
+    <part Name="Render" DisplayName="{{C|harina de hueso}}" />
+    <part Name="Description" Short="Huesos inmortales fueron pulverizados y compactados dentro del intestino cicatrizado de una lombriz de hueso. Luego se molieron en harina." />
+  </object>
+  <object Name="Crushed Grave Moss" Load="Merge">
+    <part Name="Render" DisplayName="{{C|musgo sepulcral triturado}}" />
+    <part Name="Description" Short="El musgo funerario creció en un raro y flexible montón, el cual luego fue triturado y colocado sobre una bandeja de especias." />
+  </object>
+  <object Name="Mashed Lag" Load="Merge">
+    <part Name="Render" DisplayName="{{W|lag machacado}}" />
+    <part Name="Description" Short="La raíz de lagroot fue pelada, machacada, salada y guardada en frascos." />
+  </object>
+  <object Name="Sun-Dried Banana" Load="Merge">
+    <part Name="Render" DisplayName="{{W|plátano secado al sol}}" />
+    <part Name="Description" Short="La humedad fue horneada fuera de la fruta por el sol salino, pero aún así la luz de la Aguja resplandece sobre el disco-chip." />
+  </object>
+  <object Name="Psychal Gland Paste" Load="Merge">
+    <part Name="Render" DisplayName="{{m|pasta de glándula psíquica}}" />
+    <part Name="Description" Short="Nervios empapados de memoria fueron molidos en un mortero, hervidos en salmuera y coagulados." />
+  </object>
+  <object Name="Mirror Dust" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|polvo de espejo}}" />
+    <part Name="Description" Short="Un artefacto del mundo de los espejos fue roto y molido en polvo fino." />
+  </object>
+  <object Name="Canned Have-It-All" Load="Merge">
+    <part Name="Render" DisplayName="{{w|latas de Have-It-All}}" />
+    <part Name="Description" Short="El estampado de la lata representa un animal con garras, o ¿son cuernos? Las crestas (¿cuernos? ¿cornamentas?) se curvan sobre su nariz y entrecejo. Pelo áspero y enmarañado, o plumas desordenadas, lo protegen del calor (o el frío)." />
+  </object>
+  <object Name="Crusty Loaf" Load="Merge">
+    <part Name="Render" DisplayName="pan crujiente" />
+    <part Name="Description" Short="Cada otoño, muchos habitantes de los cañones caminan hasta las Tierras de los Zapatos para comprar el vino de la Cosecha. Regresan a sus hogares, remojan harina de trigo en el vino y fermentan la masa en sus hornos de arcilla. Algunos son más afortunados; los habitantes de las cuevas fúngicas solo necesitan salir para recoger levadura, y sus amigos hongos solo tienen que sacudir sus extremidades cubiertas de levadura." />
+    <xtagGrammar iArticle="" adjunctNoun="" massNoun="falso" />
+  </object>
+  <object Name="Ekuemekiyyen Greens" Load="Merge">
+    <part Name="Render" DisplayName="{g|verduras de Ekuemekiyye}" />
+    <part Name="Description" Short="Hojas de malacita y pistachos están atados con hilo estelar. Las verduras se hinchan gallardamente ante la ausencia de toxinas en el aire." />
+    <xtagGrammar massNoun="verdadero" />
+  </object>
+  <object Name="Food Cube" Load="Merge">
+    <part Name="Render" DisplayName="cubo de comida" />
+    <part Name="Description" Short="Sustancia alimenticia esponjosa moldeada en un cubo de tonalidad pizarra, cuyas proporciones son perfectas. ¿Qué fuerzas unieron la desordenada naturaleza de comer con la precisión de los cubos?" />
+  </object>
+  <object Name="Fermented Tongue" Load="Merge">
+    <part Name="Render" DisplayName="{r|lengua fermentada}" />
+    <part Name="Description" Short="Una lengua cortada fue amargada en su propia saliva y enrollada alrededor de un palo." />
+  </object>
+  <object Name="Sliced Bop Cheek" Load="Merge">
+    <part Name="Render" DisplayName="{{B|bocado rebanado de mejilla bop}}" />
+    <part Name="Description" Short="Un corte elegante de espuma laminada fue tallado en porciones para servir. Ellas tiemblan al ser tocadas." />
+  </object>
+  <object Name="Wild Rice" Load="Merge">
+    <part Name="Render" DisplayName="{{m-M-m-M secuencia|arroz silvestre}}" />
+    <part Name="Description" Short="Las cáscaras de arroz de tono púrpura-blanco chisporrotean al tacto y sus espigas gemeban un sonido errático y lírico." />
+  </object>
+  <object Name="Dream Smoke" Load="Merge">
+    <part Name="Render" DisplayName="{{dreamsmoke|humo onírico}}" />
+    <part Name="Description" Short="La sustancia onírica fue acelerada en memoria y botellada antes de que se evaporara en humedad emocional." />
+  </object>
+  <object Name="Barkbiter Jerky" Load="Merge">
+    <part Name="Render" DisplayName="{{W|mordedora de corteza}}" />
+    <part Name="Description" Short="La carne de oso fue cortada en tiras limpias, salada y ahumada." />
+  </object>
+  <object Name="Bear Jerky" Load="Merge">
+    <part Name="Render" DisplayName="{{w|jerky de oso}}" />
+    <part Name="Description" Short="La carne de oso fue cortada en tiras limpias, salada y ahumada." />
+  </object>
+  <object Name="Boar Jerky" Load="Merge">
+    <part Name="Render" DisplayName="jerky de cerdo" />
+    <part Name="Description" Short="La carne de cerdo fue cortada en tiras limpias, salada y ahumada." />
+  </object>
+  <object Name="Beetle Jerky" Load="Merge">
+    <part Name="Render" DisplayName="{{K|jerky de escarabajo}}" />
+    <part Name="Description" Short="La carne machacada de escarabajo fue cortada en tiras limpias, salada y ahumada." />
+  </object>
+  <object Name="Croc Jerky" Load="Merge">
+    <part Name="Render" DisplayName="{{g|croc jerky}}" />
+    <part Name="Description" Short="La carne de croc fue cortada en delgadas tiras, salada y ahumada." />
+  </object>
+  <object Name="Crab Jerky" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|crab jerky}}" />
+    <part Name="Description" Short="Las patas de cangrejo fueron cortadas en delgadas tiras, saladas y ahumadas." />
+  </object>
+  <object Name="Frog Jerky" Load="Merge">
+    <part Name="Render" DisplayName="{{w|frog jerky}}" />
+    <part Name="Description" Short="La carne de rana fue cortada en delgadas tiras, salada y ahumada." />
+  </object>
+  <object Name="Goat Jerky" Load="Merge">
+    <part Name="Render" DisplayName="{{w|goat jerky}}" />
+    <part Name="Description" Short="La carne de cabra fue cortada en delgadas tiras, salada y ahumada." />
+  </object>
+  <object Name="Worm Jerky" Load="Merge">
+    <part Name="Render" DisplayName="worm jerky" />
+    <part Name="Description" Short="La carne de gusano fue cortada en delgadas tiras, salada y ahumada." />
+  </object>
+  <object Name="Scorpiock Jerky" Load="Merge">
+    <part Name="Render" DisplayName="{{W|jerky de escorpioc}}" />
+    <part Name="Description" Short="La carne de escorpioc fue cortada en tiras limpias, salada y ahumada." />
+  </object>
+  <object Name="Fish Jerky" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|jerky de pescado}}" />
+    <part Name="Description" Short="La carne de pescado fue cortada en tiras limpias, salada y ahumada." />
+  </object>
+  <object Name="BaseBreatherGlandPaste" Load="Merge">
+    <part Name="Description" Short="Tejidos húmedos por la niebla fueron molidos en un mortero, cocidos lentamente en salmuera y solidificados." />
+  </object>
+  <object Name="FireBreatherGlandPaste" Load="Merge">
+    <part Name="Render" DisplayName="{{r|pasta de glándula de barba llameante}}" />
+    <part Name="Description" Short="Tissue carbonizado fue molido en un mortero, cocido lentamente en salmuera y solidificado." />
+  </object>
+  <object Name="ElderFireBreatherGlandPaste" Load="Merge">
+    <part Name="Render" DisplayName="{{R|pasta concentrada de glándula de barba llameante}}" />
+    <part Name="Description" Short="Tissue carbonizado fue molido en un mortero, cocido lentamente en salmuera y solidificado." />
+  </object>
+  <object Name="IceBreatherGlandPaste" Load="Merge">
+    <part Name="Render" DisplayName="{{c|pasta de glándula de barba helada}}" />
+    <part Name="Description" Short="Tejidos congelados fueron molidos en un mortero, cocidos lentamente en salmuera y solidificados." />
+  </object>
+  <object Name="ElderIceBreatherGlandPaste" Load="Merge">
+    <part Name="Render" DisplayName="{{c|pasta concentrada de glándula de barba helada}}" />
+    <part Name="Description" Short="Tejidos congelados fueron molidos en un mortero, cocidos lentamente en salmuera y solidificados." />
+  </object>
+  <object Name="CorrosiveBreatherGlandPaste" Load="Merge">
+    <part Name="Render" DisplayName="{{g|pasta de glándula de barba ácida}}" />
+    <part Name="Description" Short="Tisú ácido fue molido en un mortero, cocido en salmuera y solidificado." />
+  </object>
+  <object Name="ElderCorrosiveBreatherGlandPaste" Load="Merge">
+    <part Name="Render" DisplayName="{{G|pasta concentrada de glándula de barba ácida}}" />
+    <part Name="Description" Short="Tisú ácido fue molido en un mortero, cocido en salmuera y solidificado." />
+  </object>
+  <object Name="NormalityBreatherGlandPaste" Load="Merge">
+    <part Name="Render" DisplayName="{{y|pasta de glándula de barba nula}}" />
+    <part Name="Description" Short="Tisú hexagonal fue molido en un mortero, cocido en salmuera y solidificado." />
+  </object>
+  <object Name="ElderNormalityBreatherGlandPaste" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|pasta concentrada de glándula de barba nula}}" />
+    <part Name="Description" Short="Tisú hexagonal fue molido en un mortero, cocido en salmuera y solidificado." />
+  </object>
+  <object Name="PoisonBreatherGlandPaste" Load="Merge">
+    <part Name="Render" DisplayName="{{g|pasta de glándula de barba amarga}}" />
+    <part Name="Description" Short="Tisú tóxico fue molido en un mortero, cocido en salmuera y solidificado." />
+  </object>
+  <object Name="ElderPoisonBreatherGlandPaste" Load="Merge">
+    <part Name="Render" DisplayName="{{G|pasta concentrada de glándula de barba amarga}}" />
+    <part Name="Description" Short="Tisú tóxico fue molido en un mortero, cocido en salmuera y solidificado." />
+  </object>
+  <object Name="SleepBreatherGlandPaste" Load="Merge">
+    <part Name="Render" DisplayName="{{w|pasta de glándula de barba soñadora}}" />
+    <part Name="Description" Short="Tisú deflado fue molido en un mortero, cocido en salmuera y solidificado." />
+  </object>
+  <object Name="ElderSleepBreatherGlandPaste" Load="Merge">
+    <part Name="Render" DisplayName="{{W|pasta concentrada de glándula de barba soñadora}}" />
+    <part Name="Description" Short="Tisú deflado fue molido en un mortero, cocido en salmuera y solidificado." />
+  </object>
+  <object Name="StunBreatherGlandPaste" Load="Merge">
+    <part Name="Render" DisplayName="{{c|pasta de glándula de barba inmóvil}}" />
+    <part Name="Description" Short="Tisú inmóvil fue molido en un mortero, cocido en salmuera y solidificado." />
+  </object>
+  <object Name="ElderStunBreatherGlandPaste" Load="Merge">
+    <part Name="Render" DisplayName="{{C|pasta concentrada de glándula de barba inmóvil}}" />
+    <part Name="Description" Short="Tisú inmóvil fue molido en un mortero, cocido en salmuera y solidificado." />
+  </object>
+  <object Name="ConfusionBreatherGlandPaste" Load="Merge">
+    <part Name="Render" DisplayName="{{b|pasta de glándula de barba laberíntica}}" />
+    <part Name="Description" Short="Tisú extraño fue molido en un mortero, cocido en salmuera y solidificado." />
+  </object>
+  <object Name="ElderConfusionBreatherGlandPaste" Load="Merge">
+    <part Name="Render" DisplayName="{{B|pasta concentrada de glándula de barba laberíntica}}" />
+    <part Name="Description" Short="Tisú extraño fue molido en un mortero, cocido en salmuera y solidificado." />
+  </object>
+  <object Name="Starch" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|almidón}}" />
+    <part Name="Description" Short="" />
+  </object>
+  <object Name="Lignin" Load="Merge">
+    <part Name="Render" DisplayName="{{G|lignina}}" />
+    <part Name="Description" Short="" />
+  </object>
+  <object Name="Congealed Shade Oil" Load="Merge">
+    <part Name="Render" DisplayName="congejado {{shade|aceite de sombra}}" />
+    <part Name="Description" Short="El aceite de sombra fue extraído de su inyectador, engrosado en el aire amargo, y botellado para uso culinario." />
+  </object>
+  <object Name="Congealed Blaze" Load="Merge">
+    <part Name="Render" DisplayName="congejado {{Y|llama}}" />
+    <part Name="Description" Short="La llama fue extraída de su inyectador, engrosada en el aire amargo, y botellada para uso culinario." />
+  </object>
+  <object Name="Congealed Salve" Load="Merge">
+    <part Name="Render" DisplayName="congejado {{Y|ungüento}}" />
+    <part Name="Description" Short="El ungüento fue extraído de su inyectador, engrosado en el aire amargo, y botellado para uso culinario." />
+  </object>
+  <object Name="Soul Curd" Load="Merge">
+    <part Name="Render" DisplayName="{{soul|curd de alma}}" />
+    <part Name="Description" Short="Ubernostrum fue extraído de su inyectador, engrosado en el aire amargo, y botellado para uso culinario." />
+  </object>
+  <object Name="Drop of Nectar" Load="Merge">
+    <part Name="Render" DisplayName="gota de {{nectar|néctar}}" />
+    <part Name="Description" Short="El néctar de los Devoradores fue extraído de su inyector, espesado en el aire ácido, y embotellado para uso culinario." />
+    <tag Name="ServingType" Value="gota" />
+    <tag Name="ServingName" Value="{{nectar|néctar}}" />
+  </object>
+  <object Name="Congealed Hulk Honey" Load="Merge">
+    <part Name="Render" DisplayName="congelado {{G|hulk}} {{w|miel}}" />
+    <part Name="Description" Short="La miel de hulk fue extraída de su inyector, espesada en el aire ácido, y embotellada para uso culinario." />
+  </object>
+  <object Name="Congealed Skulk" Load="Merge">
+    <part Name="Render" DisplayName="congelado {{skulk|skulk}}" />
+    <part Name="Description" Short="El skulk fue extraído de su inyector, espesado en el aire ácido, y embotellado para uso culinario." />
+  </object>
+  <object Name="Congealed Love" Load="Merge">
+    <part Name="Render" DisplayName="congelado {{love|amor}}" />
+    <part Name="Description" Short="El amor fue extraído de su inyector, espesado en el aire ácido, y embotellado para uso culinario." />
+  </object>
+  <object Name="Congealed Rubbergum" Load="Merge">
+    <part Name="Render" DisplayName="congelado {{rubbergum|goma de caucho}}" />
+    <part Name="Description" Short="Se extrajo el rubbergum de su inyector, se espesó en el aire acre y se botelló para uso culinario." />
+  </object>
+</objects>

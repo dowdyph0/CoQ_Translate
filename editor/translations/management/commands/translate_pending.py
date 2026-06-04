@@ -21,13 +21,15 @@ Run after `scan_xml` and `import_memory` to finish off whatever the JSON
 cache did not cover.
 """
 
+import json
 import time
+import traceback
 
 from django.conf import settings
 from django.core.management.base import BaseCommand, CommandError
 
 from translations.models import Language, TranslationEntry
-from translations.pipeline import call_llm, protect, restore, _parse_batch_response
+from translations.pipeline import call_llm, protect, restore, _parse_batch_response, _est_output_tokens, _CHARS_PER_TOKEN, _EXPANSION, _JSON_OVERHEAD
 
 
 class Command(BaseCommand):
@@ -60,74 +62,100 @@ class Command(BaseCommand):
     def _translate_language(self, lang, batch_size, dry_run):
         qs = (
             TranslationEntry.objects
-            .filter(language=lang, status=TranslationEntry.STATUS_PENDING)
+            .filter(language=lang, status__in=[
+                TranslationEntry.STATUS_PENDING,
+                TranslationEntry.STATUS_FAILED,
+            ])
             .select_related("source_file")
             .order_by("source_file__name", "id")
         )
         total = qs.count()
         if total == 0:
-            self.stdout.write(f"{lang}: nothing pending.")
+            self.stdout.write(f"{lang}: nothing pending or failed.")
             return
 
         self.stdout.write(
-            f"{lang}: {total} pending entries "
+            f"{lang}: {total} entries to translate (pending+failed) "
             f"(batch_size={batch_size}"
             + (" DRY RUN" if dry_run else "") + ")"
         )
 
         done = 0
         failed = 0
-        entries = list(qs)
+        processed = 0
 
-        # Process in batches
-        for start in range(0, len(entries), batch_size):
-            batch = entries[start: start + batch_size]
-            sources = [e.source for e in batch]
+        token_budget = int(settings.MAX_TOKENS * 0.85)
+
+        # ── Stream entries in chunks, build and process batches on the fly ───
+        # Never materialises more than `chunk_size` DB rows at once.
+        def _iter_batches():
+            current: list[tuple] = []
+            current_est = _JSON_OVERHEAD
+            for e in qs.iterator(chunk_size=200):
+                p, m = protect(e.source)
+                item_tok = int(len(p) / _CHARS_PER_TOKEN * _EXPANSION)
+                flush = current and (
+                    len(current) >= batch_size
+                    or current_est + item_tok > token_budget
+                )
+                if flush:
+                    yield current
+                    current = []
+                    current_est = _JSON_OVERHEAD
+                current.append((e, p, m))
+                current_est += item_tok
+            if current:
+                yield current
+
+        for batch in _iter_batches():
 
             if dry_run:
-                for e in batch:
+                for e, p, m in batch:
                     snippet = e.source[:60] + ("..." if len(e.source) > 60 else "")
                     self.stdout.write(f"  [DRY] {e.source_file.name} | {e.scope} | {snippet!r}")
                 done += len(batch)
+                processed += len(batch)
                 continue
 
             if len(batch) == 1:
                 # Single — high-quality individual prompt
-                e = batch[0]
-                protected, mapping = protect(e.source)
+                e, protected, mapping = batch[0]
+                est = int(len(protected) / _CHARS_PER_TOKEN * _EXPANSION)
+                max_tok = min(settings.MAX_TOKENS, int(est * 1.2) + 32)
+                self.stdout.write(f"  [SOLO est={est} max_tok={max_tok}]")
                 try:
-                    tr_protected = call_llm(protected, batch=False)
+                    tr_protected = call_llm(protected, batch=False, max_tokens_override=max_tok)
                     final = restore(tr_protected, mapping)
                     self._save(e, final, TranslationEntry.STATUS_AUTO)
                     done += 1
-                except Exception as exc:
+                except Exception:
                     self.stderr.write(
-                        f"  [FAIL] {e.source_file.name} | {e.scope} | {exc}"
+                        f"  [FAIL] {e.source_file.name} | {e.scope}\n"
+                        + traceback.format_exc()
                     )
                     self._save(e, "", TranslationEntry.STATUS_FAILED)
                     failed += 1
             else:
-                # Batch — numbered prompt
-                protected_list = []
-                mappings = []
-                for e in batch:
-                    p, m = protect(e.source)
-                    protected_list.append(p)
-                    mappings.append(m)
+                # Batch — JSON array input, structured output
+                protected_list = [t[1] for t in batch]
+                mappings       = [t[2] for t in batch]
+                entries_batch  = [t[0] for t in batch]
 
-                numbered = "\n".join(
-                    f"{n + 1}. {p}" for n, p in enumerate(protected_list)
-                )
+                est = _est_output_tokens(protected_list)
+                max_tok = min(settings.MAX_TOKENS, int(est * 1.2) + 32)
+                self.stdout.write(f"  [BATCH/{len(batch)} est={est} max_tok={max_tok}]")
+
+                user_input = json.dumps(protected_list, ensure_ascii=False)
                 try:
-                    response = call_llm(numbered, batch=True)
+                    response = call_llm(user_input, batch=True, n_items=len(batch), max_tokens_override=max_tok)
                     parsed = _parse_batch_response(response, len(batch))
-                except Exception as exc:
-                    self.stderr.write(f"  [ERROR] Batch call failed: {exc}")
+                except Exception:
+                    self.stderr.write(f"  [ERROR] Batch call failed:\n" + traceback.format_exc())
                     parsed = None
 
                 if parsed is not None:
                     to_save = []
-                    for n, e in enumerate(batch):
+                    for n, e in enumerate(entries_batch):
                         final = restore(parsed[n].strip(), mappings[n])
                         e.translation = final
                         e.status = TranslationEntry.STATUS_AUTO
@@ -141,28 +169,31 @@ class Command(BaseCommand):
                     self.stderr.write(
                         f"  [WARN] Batch response malformed — falling back to individual calls."
                     )
-                    for e, p, m in zip(batch, protected_list, mappings):
+                    for e, p, m in batch:
+                        est_s = int(len(p) / _CHARS_PER_TOKEN * _EXPANSION)
+                        max_tok_s = min(settings.MAX_TOKENS, int(est_s * 1.2) + 32)
                         try:
-                            tr_protected = call_llm(p, batch=False)
+                            tr_protected = call_llm(p, batch=False, max_tokens_override=max_tok_s)
                             final = restore(tr_protected, m)
                             self._save(e, final, TranslationEntry.STATUS_AUTO)
                             done += 1
-                        except Exception as exc:
+                        except Exception:
                             self.stderr.write(
-                                f"  [FAIL] {e.source_file.name} | {e.scope} | {exc}"
+                                f"  [FAIL] {e.source_file.name} | {e.scope}\n"
+                                + traceback.format_exc()
                             )
                             self._save(e, "", TranslationEntry.STATUS_FAILED)
                             failed += 1
 
+            processed += len(batch)
             if settings.REQUEST_DELAY:
                 time.sleep(settings.REQUEST_DELAY)
 
             # Progress every 500 entries
-            processed = min(start + batch_size, len(entries))
-            if processed % 500 < batch_size or processed == len(entries):
-                pct = processed / len(entries) * 100
+            if processed % 500 < len(batch) or processed == total:
+                pct = processed / total * 100
                 self.stdout.write(
-                    f"  {processed}/{len(entries)} ({pct:.0f}%) — "
+                    f"  {processed}/{total} ({pct:.0f}%) — "
                     f"done={done} failed={failed}"
                 )
 
@@ -189,4 +220,18 @@ class Command(BaseCommand):
             if not qs.exists():
                 raise CommandError(f"No language with id={options['language_id']}.")
             return qs
-        return Language.objects.all()
+        # Default: use (or create) the language defined in settings
+        lang, created = Language.objects.get_or_create(
+            name=settings.TARGET_LANGUAGE,
+            defaults={
+                "lang_code": settings.LANG_CODE,
+                "mod_name":  settings.MOD_NAME,
+            },
+        )
+        if created:
+            self.stdout.write(
+                self.style.WARNING(
+                    f"Created Language '{lang}' from settings."
+                )
+            )
+        return Language.objects.filter(pk=lang.pk)

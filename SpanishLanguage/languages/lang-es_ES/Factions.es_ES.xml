@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<factions Lang="es_ES" Encoding="utf-8">
+  <faction Name="Prey" DisplayName="hedonistas pastores" />
+  <faction Name="Joppa" DisplayName="villanos de Joppa" FormatWithArticle="true" />
+  <faction Name="Kyakukya" DisplayName="los villanos de Kyakukya" FormatWithArticle="true" />
+  <faction Name="Ezra" DisplayName="los villanos de Ezra" FormatWithArticle="true" />
+  <faction Name="Snapjaws" DisplayName="mordedores rápidos" />
+  <faction Name="Baboons" DisplayName="babuinos" />
+  <faction Name="Apes" DisplayName="simios" />
+  <faction Name="Crabs" DisplayName="cangrejos" />
+  <faction Name="Bears" DisplayName="osos" />
+  <faction Name="Winged Mammals" DisplayName="mamíferos alados" />
+  <faction Name="Birds" DisplayName="aves" />
+  <faction Name="Fish" DisplayName="peces">
+    <interests>
+      <interest Tags="opalduskwaters,riveryonth,riversvy,mountainstream,riveropal" MatchAny="true" Description="lugares acuáticos" />
+    </interests>
+  </faction>
+  <faction Name="Insects" DisplayName="insectos" />
+  <faction Name="Swine" DisplayName="cerdos" />
+  <faction Name="Unshelled Reptiles" DisplayName="reptiles sin concha" />
+  <faction Name="Cannibals" DisplayName="caníbales" />
+  <faction Name="Arachnids" DisplayName="arácnidos" />
+  <faction Name="Cats" DisplayName="gatos" />
+  <faction Name="Dogs" DisplayName="perros" />
+  <faction Name="Cragmensch" DisplayName="cragmensch" />
+  <faction Name="Mollusks" DisplayName="moluscos" />
+  <faction Name="Tortoises" DisplayName="tortugas" />
+  <faction Name="Robots" DisplayName="robots" />
+  <faction Name="Baetyls" DisplayName="baetilos" />
+  <faction Name="Dromad" DisplayName="mercaderes dromada" />
+  <faction Name="Entropic" DisplayName="seres altamente entropicos" />
+  <faction Name="Antelopes" DisplayName="ciervos" />
+  <faction Name="Worms" DisplayName="gusanos" />
+  <faction Name="Oozes" DisplayName="resinas" />
+  <faction Name="Equines" DisplayName="equinos" />
+  <faction Name="Newly Sentient Beings" DisplayName="seres recientemente sentientes">
+    <interests Blurb="no saben nada" />
+  </faction>
+  <faction Name="Goatfolk" DisplayName="gentes de cabras" />
+  <faction Name="Hermits" DisplayName="ermitaños" />
+  <faction Name="Frogs" DisplayName="ranas" />
+  <faction Name="Svardym" DisplayName="svardym">
+    <interests>
+      <interest Tags="gyreplagues" WillBuy="false" WillSell="true" Description="las plagas del Gyre" />
+    </interests>
+  </faction>
+  <faction Name="Naphtaali" DisplayName="tribu de Naphtaali" FormatWithArticle="true" Plural="false" />
+  <faction Name="Trolls" DisplayName="trols" />
+  <faction Name="Issachari" DisplayName="tribu de Issachari" FormatWithArticle="true" Plural="false" />
+  <faction Name="Strangers" DisplayName="extraños misteriosos" />
+  <faction Name="Pariahs" DisplayName="parias" />
+  <faction Name="Hindren" DisplayName="hindren de Bey Lah" FormatWithArticle="true" />
+  <faction Name="Mopango" DisplayName="mopango" FormatWithArticle="true" />
+  <faction Name="Girsh" DisplayName="Girsh" FormatWithArticle="true" />
+  <faction Name="Barathrumites" DisplayName="barathrumitas" FormatWithArticle="true">
+    <ranks>
+      <rank Name="apprentice" DisplayName="aprendiz" />
+      <rank Name="journeyfriend" DisplayName="compañero de viaje" />
+      <rank Name="disciple" DisplayName="discípulo" />
+      <rank Name="meyvn" DisplayName="meyvn" />
+    </ranks>
+  </faction>
+  <faction Name="Consortium" DisplayName="Consorcio de Phyta" FormatWithArticle="true" Plural="false" />
+  <faction Name="Templar" DisplayName="Templario de Putus" FormatWithArticle="true">
+    <interests>
+      <interest Tags="ruins,tech,historic,sultan,cybernetics,rebekah,sultanTombPropaganda" WillBuy="true" WillSell="false" MatchAny="true" Inverse="true" Description="el mundo moderno" />
+    </interests>
+  </faction>
+  <faction Name="Mechanimists" DisplayName="Mecanimitas" FormatWithArticle="true" />
+  <faction Name="Gyre Wights" DisplayName="espíritus del Giro" FormatWithArticle="true" />
+  <faction Name="Mamon" DisplayName="Hijos de Mamon" FormatWithArticle="true" />
+  <faction Name="Seekers" DisplayName="Buscadores del Camino Ciego" FormatWithArticle="true" />
+  <faction Name="Wardens" DisplayName="Fraternidad de los Guardianes" FormatWithArticle="true" Plural="false" />
+  <faction Name="Water" DisplayName="barones del agua" />
+  <faction Name="Flowers" DisplayName="flores" />
+  <faction Name="Roots" DisplayName="raíces" />
+  <faction Name="Fungi" DisplayName="hongos" />
+  <faction Name="Vines" DisplayName="lianas" />
+  <faction Name="Urchins" DisplayName="críos desagarrados" />
+  <faction Name="Succulents" DisplayName="suculentas" />
+  <faction Name="Trees" DisplayName="árboles" />
+  <faction Name="Merchants" DisplayName="Gremio de Mercaderes" FormatWithArticle="true" Plural="false" />
+  <faction Name="Farmers" DisplayName="Gremio de Agricultores" FormatWithArticle="true" Plural="false" />
+  <faction Name="Resheph" DisplayName="Culto del Cordero Enrollado" FormatWithArticle="true" Plural="false" />
+  <faction Name="Daughters" DisplayName="Hijas del Exilio" FormatWithArticle="true" Plural="true" />
+  <faction Name="YdFreehold" DisplayName="habitantes de la Librea Yd" FormatWithArticle="true" />
+  <faction Name="Chavvah" DisplayName="Chavvah, el Árbol de la Vida" FormatWithArticle="false" Plural="false" />
+</factions>

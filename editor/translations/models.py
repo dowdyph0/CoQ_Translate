@@ -9,12 +9,9 @@ def _source_hash(source: str) -> str:
 
 
 class Language(models.Model):
-    name = models.CharField(max_length=100)          # "Spanish"
-    lang_code = models.CharField(max_length=10)       # "es"
-    mod_name = models.CharField(max_length=100)       # "SpanishLanguage"
-    # Absolute or relative path (relative = relative to project root)
-    memory_path = models.CharField(max_length=500)    # path to translation_memory.json
-    failures_path = models.CharField(max_length=500, blank=True)  # path to translation_failures.json
+    name = models.CharField(max_length=100)   # "Spanish"
+    lang_code = models.CharField(max_length=10)  # "es"
+    mod_name = models.CharField(max_length=100)  # "SpanishLanguage"
 
     class Meta:
         verbose_name = "Language"
@@ -25,11 +22,10 @@ class Language(models.Model):
 
 
 class SourceFile(models.Model):
-    language = models.ForeignKey(Language, on_delete=models.CASCADE, related_name="source_files")
-    name = models.CharField(max_length=200)  # "ActivatedAbilities.example.xml"
+    name = models.CharField(max_length=200, unique=True)  # "ActivatedAbilities.example.xml"
+    xml_content = models.TextField(blank=True, default="")  # raw XML of the source file
 
     class Meta:
-        unique_together = ("language", "name")
         ordering = ["name"]
 
     def __str__(self):
@@ -51,7 +47,7 @@ class TranslationEntry(models.Model):
 
     language = models.ForeignKey(Language, on_delete=models.CASCADE, related_name="entries")
     source_file = models.ForeignKey(SourceFile, on_delete=models.CASCADE, related_name="entries")
-    scope = models.CharField(max_length=500)
+    scope = models.CharField(max_length=2000)
     source = models.TextField()
     source_hash = models.CharField(max_length=32, blank=True)  # full MD5 of source — part of unique key
     translation = models.TextField(blank=True)

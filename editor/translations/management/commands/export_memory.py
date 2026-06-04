@@ -10,19 +10,11 @@ The output format matches exactly what translate.py expects.
 """
 
 import json
-from pathlib import Path
 
-from django.conf import settings
 from django.core.management.base import BaseCommand, CommandError
 
 from translations.models import Language, TranslationEntry
-
-
-def resolve_path(raw: str) -> Path:
-    p = Path(raw)
-    if p.is_absolute():
-        return p
-    return (Path(settings.BASE_DIR) / raw).resolve()
+from translations.pipeline import _memory_path
 
 
 class Command(BaseCommand):
@@ -38,7 +30,7 @@ class Command(BaseCommand):
 
         for lang in languages:
             self.stdout.write(f"Exporting memory for: {lang}")
-            path = resolve_path(lang.memory_path)
+            path = _memory_path(lang)
 
             entries = (
                 TranslationEntry.objects.filter(language=lang)

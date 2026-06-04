@@ -5,6 +5,7 @@ Shared by the management commands scan_xml, translate_pending, export_xml.
 Config is read from django.conf.settings (populated via .env / Docker env_file).
 """
 
+import json
 import re
 import time
 
@@ -23,6 +24,37 @@ _BLOCK_PH_RE    = re.compile(r"(\[\[P\d+\]\])")
 _INLINE_SPLIT   = re.compile(r"\[\[P(\d+)\]\]")
 _RE_GAME_VAR    = re.compile(r"=[^=\n<>]{1,80}=")
 _RE_XML_ENT     = re.compile(r"&#x?[0-9A-Fa-f]+;|&(?:amp|lt|gt|quot|apos);")
+
+# ── Token estimation (dynamic batching) ───────────────────────────────────────
+# Adjust _EXPANSION for non-Latin targets: ~0.8 for Japanese/Chinese, ~1.5 for Arabic.
+_CHARS_PER_TOKEN = 3.5   # average English source chars per token
+_EXPANSION       = 1.3   # expected output/input token ratio (Latin/Germanic targets)
+_JSON_OVERHEAD   = 60    # structural JSON tokens per batch response
+
+
+def _est_output_tokens(items: list) -> int:
+    """Estimate the number of output tokens for a batch of (protected) strings."""
+    chars = sum(len(s) for s in items)
+    return int(chars / _CHARS_PER_TOKEN * _EXPANSION) + _JSON_OVERHEAD
+
+
+# ── Memory / Failures path helpers ────────────────────────────────────────────
+
+def _memory_path(lang) -> "Path":
+    """
+    Return the Path to translation_memory.json for this language.
+    Derived from lang.mod_name so no DB field is needed.
+    """
+    from pathlib import Path
+    from django.conf import settings as _s
+    return Path(_s.BASE_DIR).parent / lang.mod_name / "translation_memory.json"
+
+
+def _failures_path(lang) -> "Path":
+    """Return the Path to translation_failures.json for this language."""
+    from pathlib import Path
+    from django.conf import settings as _s
+    return Path(_s.BASE_DIR).parent / lang.mod_name / "translation_failures.json"
 
 
 # ── Variable / Entity Protection ──────────────────────────────────────────────
@@ -51,12 +83,49 @@ def restore(text: str, mapping: dict) -> str:
 
 # ── LLM Client ────────────────────────────────────────────────────────────────
 
-def call_llm(text: str, *, batch: bool = False) -> str:
-    """Call the LLM endpoint. Reads all config from django.conf.settings."""
+def _batch_schema(n: int) -> dict:
+    """JSON schema for a batch response: exactly n translation strings."""
+    return {
+        "type": "object",
+        "properties": {
+            "translations": {
+                "type": "array",
+                "items": {"type": "string"},
+                "minItems": n,
+                "maxItems": n,
+            }
+        },
+        "required": ["translations"],
+        "additionalProperties": False,
+    }
+
+
+def call_llm(
+    text: str,
+    *,
+    batch: bool = False,
+    n_items: int = 0,
+    max_tokens_override: int | None = None,
+) -> str | list:
+    """
+    Call the LLM endpoint. Reads all config from django.conf.settings.
+
+    When batch=True and n_items > 0, uses JSON structured output (constrained
+    decoding) and returns a list of strings directly.
+    When batch=False, returns the translated string.
+
+    max_tokens_override: if given, caps the call at this value instead of
+    settings.MAX_TOKENS.  settings.MAX_TOKENS is always the absolute ceiling.
+    """
     from django.conf import settings
 
-    system = (settings.LLM_SYS_BATCH if batch else settings.LLM_SYS_SINGLE).format(
-        lang=settings.TARGET_LANGUAGE
+    system = (settings.LLM_SYS_BATCH if batch else settings.LLM_SYS_SINGLE).replace(
+        "{lang}", settings.TARGET_LANGUAGE
+    )
+    max_tok = (
+        min(max_tokens_override, settings.MAX_TOKENS)
+        if max_tokens_override is not None
+        else settings.MAX_TOKENS
     )
     payload = {
         "model":       settings.LLM_MODEL,
@@ -65,12 +134,22 @@ def call_llm(text: str, *, batch: bool = False) -> str:
             {"role": "user",   "content": text},
         ],
         "temperature": settings.TEMPERATURE,
-        "max_tokens":  settings.MAX_TOKENS,
+        "max_tokens":  max_tok,
     }
     for attr in ("TOP_K", "TOP_P", "MIN_P", "REPEAT_PENALTY"):
         val = getattr(settings, attr)
         if val is not None:
             payload[attr.lower()] = val
+
+    if batch and n_items > 0:
+        payload["response_format"] = {
+            "type": "json_schema",
+            "json_schema": {
+                "name": "batch_translations",
+                "strict": True,
+                "schema": _batch_schema(n_items),
+            },
+        }
 
     for attempt in range(settings.MAX_RETRIES):
         try:
@@ -80,7 +159,10 @@ def call_llm(text: str, *, batch: bool = False) -> str:
                 timeout=settings.REQUEST_TIMEOUT,
             )
             resp.raise_for_status()
-            return resp.json()["choices"][0]["message"]["content"].strip()
+            content = resp.json()["choices"][0]["message"]["content"].strip()
+            if batch and n_items > 0:
+                return json.loads(content)["translations"]
+            return content
         except Exception as exc:
             if attempt < settings.MAX_RETRIES - 1:
                 print(f"    [retry {attempt + 1}/{settings.MAX_RETRIES}] {exc}")
@@ -89,11 +171,16 @@ def call_llm(text: str, *, batch: bool = False) -> str:
                 raise
 
 
-def _parse_batch_response(response: str, expected: int):
+def _parse_batch_response(response: str | list, expected: int):
     """
-    Parse '1. text\\n2. text\\n...' into a list of strings.
-    Returns None if the count does not match expected.
+    Accept either:
+    - a list (already parsed from JSON structured output), or
+    - a string in '1. text\\n2. text\\n...' format (legacy fallback).
+    Returns the list if count matches expected, else None.
     """
+    if isinstance(response, list):
+        return response if len(response) == expected else None
+    # Legacy numbered-list parsing (fallback path)
     lines = []
     for line in response.splitlines():
         stripped = line.strip()

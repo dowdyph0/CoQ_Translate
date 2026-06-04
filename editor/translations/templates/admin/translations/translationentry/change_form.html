@@ -2,49 +2,274 @@
 
 {% block extrahead %}
 {{ block.super }}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/xml.min.js"></script>
 <style>
+/* ── XML context block ───────────────────────────────────────────────────── */
+
+.field-xml_file_display .help {
+    display: none;
+}
+
+/* Override hljs container to use JetBrains Mono and fill width */
+.te-xml-wrapper {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    overflow: hidden;
+    border: 1px solid #333;
+}
+
+.te-xml-wrapper pre {
+    margin: 0 !important;
+    border-radius: 0 !important;
+    max-height: 420px;
+    overflow-y: auto !important;
+    overflow-x: auto !important;
+}
+
+.te-xml-wrapper pre code.hljs {
+    font-family: 'JetBrains Mono', monospace !important;
+    font-size: 12px !important;
+    line-height: 1.5 !important;
+    white-space: pre !important;
+}
+
 /* ── Side-by-side source / translation layout ───────────────────────────── */
 
-/* The fieldset row that contains both columns */
-.form-row:has(.field-source_display) {
+.te-cols {
     display: flex;
+    flex-direction: row;
     gap: 1.5em;
     align-items: flex-start;
+    width: 100%;
+    box-sizing: border-box;
 }
 
-.field-source_display,
-.field-translation {
-    flex: 1 1 0;
+.te-col {
+    flex: 1 1 0%;
     min-width: 0;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 }
 
-/* Source read-only block — styled to match a textarea visually */
-.te-source-readonly {
-    display: block;
-    white-space: pre-wrap;
-    word-break: break-word;
-    font-size: 13px;
-    line-height: 1.6;
-    background: #f8f9fa;
-    color: #333;
-    padding: 8px 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    min-height: 200px;
-    overflow-y: auto;
+.te-col-label {
+    font-weight: 600;
+    margin: 0 0 6px 0;
+    padding: 0;
+    line-height: 1.4;
 }
 
-/* Make the translation textarea fill the same height */
-.field-translation textarea {
-    min-height: 200px;
+.te-col label,
+.te-col .aligned label,
+.aligned .te-col label {
+    display: block !important;
+    float: none !important;
+    width: auto !important;
+    font-weight: 600;
+    margin-bottom: 6px;
+    margin-right: 0 !important;
+    padding: 0;
+}
+
+.te-col .readonly,
+.te-col textarea,
+.aligned .te-col .readonly,
+.aligned .te-col textarea {
+    margin-left: 0 !important;
+    width: 100% !important;
     box-sizing: border-box;
 }
 
-/* Column labels */
-.field-source_display label,
-.field-translation label {
+/* Source read-only block */
+.te-source-readonly {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    line-height: 1.6;
+    white-space: pre-wrap;
+    word-break: break-word;
+    background: #282c34;
+    color: #abb2bf;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    min-height: 360px;
+    flex: 1;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+
+mark.te-xml-highlight {
+    background: #e5c07b;
+    color: #282c34;
+    border-radius: 2px;
+    padding: 0 2px;
     font-weight: 600;
 }
+
+/* Translation textarea */
+.field-translation textarea {
+    font-family: 'JetBrains Mono', monospace !important;
+    font-size: 13px !important;
+    line-height: 1.6 !important;
+    min-height: 360px;
+    flex: 1;
+    box-sizing: border-box;
+    resize: vertical;
+    width: 100% !important;
+    background: #f5f5f5;
+    color: #1a1a1a;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px 12px;
+}
 </style>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    // ── XML syntax highlight ─────────────────────────────────────────────
+    document.querySelectorAll('pre.te-xml-content').forEach(function (pre) {
+        var code = document.createElement('code');
+        code.className = 'language-xml';
+        code.textContent = pre.textContent;
+        var wrapper = document.createElement('div');
+        wrapper.className = 'te-xml-wrapper';
+        var newPre = document.createElement('pre');
+        newPre.appendChild(code);
+        wrapper.appendChild(newPre);
+        pre.replaceWith(wrapper);
+        hljs.highlightElement(code);
+
+        // ── Highlight source text inside the XML and scroll to it ────────
+        var sourceDiv = document.querySelector('.te-source-readonly');
+        if (sourceDiv) {
+            var src = '\u25b6' + sourceDiv.textContent.trim();
+            if (src) {
+                var escaped = src
+                    .replace(/&/g, '&amp;')
+                    .replace(/</g, '&lt;')
+                    .replace(/>/g, '&gt;');
+                var original = code.innerHTML;
+                var marked = original.replace(
+                    escaped,
+                    '<mark class="te-xml-highlight">' + escaped + '</mark>'
+                );
+                if (marked !== original) {
+                    code.innerHTML = marked;
+                    var markEl = code.querySelector('.te-xml-highlight');
+                    if (markEl) {
+                        // Use getBoundingClientRect to get position relative to the pre
+                        var preRect = newPre.getBoundingClientRect();
+                        var markRect = markEl.getBoundingClientRect();
+                        var relativeTop = markRect.top - preRect.top + newPre.scrollTop;
+                        newPre.scrollTop = relativeTop - newPre.clientHeight / 2 + markRect.height / 2;
+                    }
+                }
+            }
+        }
+
+    });
+
+    // ── Source / Translation 50/50 columns ──────────────────────────────
+    // Find the Translation fieldset by its h2 text
+    var fieldsets = document.querySelectorAll('fieldset');
+    var translationFs = null;
+    fieldsets.forEach(function (fs) {
+        var h2 = fs.querySelector('h2');
+        if (h2 && h2.textContent.trim() === 'Translation') {
+            translationFs = fs;
+        }
+    });
+    if (!translationFs) return;
+
+    // Grab the two fieldBox divs (source_display and translation)
+    var boxes = translationFs.querySelectorAll('.fieldBox');
+    if (boxes.length < 2) return;
+
+    // Build a flex row container and move both boxes into it
+    var row = document.createElement('div');
+    row.className = 'te-cols';
+
+    boxes.forEach(function (box) {
+        // Extract label text and the actual widget element
+        var labelEl = box.querySelector('label');
+        var labelText = labelEl ? labelEl.textContent.trim() : '';
+        var widget = box.querySelector('.readonly, textarea');
+
+        // Build a clean column from scratch
+        var col = document.createElement('div');
+        col.className = 'te-col';
+
+        var newLabel = document.createElement('div');
+        newLabel.className = 'te-col-label';
+        newLabel.textContent = labelText;
+        col.appendChild(newLabel);
+
+        if (widget) {
+            widget.style.marginLeft = '0';
+            widget.style.marginTop = '0';
+            widget.style.width = '100%';
+            widget.style.boxSizing = 'border-box';
+            widget.style.display = 'block';
+            if (widget.tagName === 'TEXTAREA') {
+                widget.style.background = '#282c34';
+                widget.style.color = '#abb2bf';
+                widget.style.border = '1px solid #3e4451';
+                widget.style.borderRadius = '4px';
+                widget.style.padding = '10px 12px';
+                widget.style.fontFamily = "'JetBrains Mono', monospace";
+                widget.style.fontSize = '13px';
+                widget.style.lineHeight = '1.6';
+                widget.style.minHeight = '360px';
+                widget.style.resize = 'vertical';
+            }
+            col.appendChild(widget);
+        }
+
+        row.appendChild(col);
+    });
+
+    // Replace whatever form-row held them with our new container
+    var formRow = translationFs.querySelector('.form-row');
+    if (formRow) {
+        formRow.parentNode.replaceChild(row, formRow);
+    }
+});
+</script>
+{% endblock %}
+
+{% block submit_buttons_bottom %}
+{{ block.super }}
+{% if prev_url or next_url %}
+<div id="te-nav-staging" style="display:none">
+    {% if prev_url %}
+        <a class="te-nav-btn" href="{{ prev_url }}">&#8592; Prev</a>
+    {% else %}
+        <span class="te-nav-btn te-nav-btn--disabled">&#8592; Prev</span>
+    {% endif %}
+    {% if nav_position %}
+        <span class="te-nav-position">{{ nav_position }}</span>
+    {% endif %}
+    {% if next_url %}
+        <a class="te-nav-btn" href="{{ next_url }}">Next &#8594;</a>
+    {% else %}
+        <span class="te-nav-btn te-nav-btn--disabled">Next &#8594;</span>
+    {% endif %}
+</div>
+<script>
+(function () {
+    var staging = document.getElementById('te-nav-staging');
+    if (!staging) return;
+    var submitRow = document.querySelector('.submit-row');
+    if (!submitRow) return;
+    var nodes = Array.from(staging.childNodes);
+    nodes.forEach(function (n) { submitRow.appendChild(n); });
+    staging.remove();
+})();
+</script>
+{% endif %}
 {% endblock %}

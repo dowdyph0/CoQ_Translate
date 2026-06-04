@@ -1,21 +1,48 @@
 services:
+  db:
+    image: postgres:16-alpine
+    container_name: coq-db
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      - POSTGRES_DB=${DB_NAME:-coq_translate}
+      - POSTGRES_USER=${DB_USER:-coq}
+      - POSTGRES_PASSWORD=${DB_PASSWORD:-coq}
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    # Minimal RAM footprint: ~80-120 MB total
+    command: >
+      postgres
+      -c shared_buffers=32MB
+      -c work_mem=4MB
+      -c maintenance_work_mem=32MB
+      -c max_connections=20
+      -c wal_buffers=4MB
+      -c checkpoint_completion_target=0.9
+      -c effective_cache_size=128MB
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USER:-coq} -d ${DB_NAME:-coq_translate}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+
   translation-editor:
     image: python:3.12-slim
     container_name: translation-editor
     restart: unless-stopped
     working_dir: /app/editor
     env_file: .env
+    depends_on:
+      db:
+        condition: service_healthy
     volumes:
       - .:/app
       - "${STREAMING_ASSETS_DIR}/Base/ExampleLanguage:/example-language:ro"
     ports:
-      - "8000:8000"
-    environment:
-      - DJANGO_SETTINGS_MODULE=editor_project.settings
-      - PYTHONPATH=/app/editor
-      - EXAMPLE_LANGUAGE_DIR=/example-language
+      - "3003:8000"
     command: >
-      sh -c "pip install django --quiet &&
+      sh -c "pip install -r requirements.txt --quiet &&
              python manage.py migrate --run-syncdb &&
              python manage.py runserver 0.0.0.0:8000"
 
@@ -53,7 +80,7 @@ services:
       --min-p 0
       --repeat-penalty 1.1
       -np 4
-      --metrics
+      --no-warmup
 
     deploy:
       resources:
@@ -69,3 +96,6 @@ services:
       timeout: 5s
       retries: 5
       start_period: 60s
+
+volumes:
+  db_data:

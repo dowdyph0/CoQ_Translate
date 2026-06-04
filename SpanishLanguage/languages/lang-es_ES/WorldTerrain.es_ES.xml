@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objects Lang="es_ES" Encoding="utf-8">
+  <object Name="Terrain" Load="Merge">
+    <xtagGrammar massNoun="verdadero" />
+  </object>
+  <object Name="TerrainDesertCanyon" Load="Merge">
+    <part Name="Render" DisplayName="cañones desérticos" />
+    <part Name="Description" Short="Hace mucho tiempo, los ríos mismos eran voraces y se deleitaban con la arcilla y el yeso antes de tomar un descanso hinchado en el Gran Mar Salado. Ahora, las heridas de grietas se han podrido hasta convertirse en rojo y sal." />
+  </object>
+  <object Name="TerrainDesertCanyon2" Load="Merge">
+    <part Name="Render" DisplayName="cañones desérticos" />
+    <part Name="Description" Short="Hace mucho tiempo, los ríos mismos eran voraces y se deleitaban con la arcilla y el yeso antes de tomar un descanso hinchado en el Gran Mar Salado. Ahora, las heridas de grietas se han podrido hasta convertirse en rojo y sal." />
+  </object>
+  <object Name="TerrainDesertCanyon3" Load="Merge">
+    <part Name="Render" DisplayName="cañones desérticos" />
+    <part Name="Description" Short="Hace mucho tiempo, los ríos mismos eran voraces y se deleitaban con la arcilla y el yeso antes de tomar un descanso hinchado en el Gran Mar Salado. Ahora, las heridas de grietas se han podrido hasta convertirse en rojo y sal." />
+  </object>
+  <object Name="TerrainDesertCanyon4" Load="Merge">
+    <part Name="Render" DisplayName="cañones desérticos" />
+    <part Name="Description" Short="Hace mucho tiempo, los ríos mismos eran voraces y se deleitaban con la arcilla y el yeso antes de tomar un descanso hinchado en el Gran Mar Salado. Ahora, las heridas de grietas se han podrido hasta convertirse en rojo y sal." />
+  </object>
+  <object Name="TerrainSaltmarsh" Load="Merge">
+    <part Name="Render" DisplayName="marjal salino" />
+    <part Name="Description" Short="En charcos estancados, las lirios luminosos compiten con la cinta de estrellas del cielo nocturno. Bajo el sol salino, sin embargo, se encogen a la sombra de la hierba salina." />
+  </object>
+  <object Name="TerrainSaltmarsh2" Load="Merge">
+    <part Name="Render" DisplayName="marjal salino" />
+    <part Name="Description" Short="En charcos estancados, las lirios luminosos compiten con la cinta de estrellas del cielo nocturno. Bajo el sol salino, sin embargo, se encogen a la sombra de la hierba salina." />
+  </object>
+  <object Name="TerrainWatervine" Load="Merge">
+    <part Name="Render" DisplayName="marjal salino" />
+    <part Name="Description" Short="En charcos estancados, las lirios luminosos compiten con la cinta de estrellas del cielo nocturno. Bajo el sol salino, sin embargo, se encogen a la sombra de la hierba salina." />
+  </object>
+  <object Name="TerrainSaltdunes" Load="Merge">
+    <part Name="Render" DisplayName="dunas salinas" />
+    <part Name="Description" Short="Las dunas del mar de marfil son como olas congeladas en su lugar. Hay grietas en la sal donde la tierra, hinchada por el sol engarzado, contrajo y se rompió. El horizonte funde el cielo junto con la vasta llanura de Moghra'yi, el Gran Desierto Salino." />
+  </object>
+  <object Name="TerrainSaltdunes2" Load="Merge">
+    <part Name="Render" DisplayName="dunas salinas" />
+    <part Name="Description" Short="Las dunas del mar de marfil son como olas congeladas en su lugar. Hay grietas en la sal donde la tierra, hinchada por el sol engarzado, contrajo y se rompió. El horizonte funde el cielo junto con la vasta llanura de Moghra'yi, el Gran Desierto Salino." />
+  </object>
+  <object Name="TerrainTremblezone" Load="Merge">
+    <part Name="Render" DisplayName="dunas salinas" />
+    <part Name="Description" Short="Las dunas del mar de marfil son como olas congeladas en su lugar. Hay grietas en la sal donde la tierra, hinchada por el sol engarzado, contrajo y se rompió. El horizonte funde el cielo junto con la vasta llanura de Moghra'yi, el Gran Desierto Salino." />
+  </object>
+  <object Name="TerrainFlowerfields" Load="Merge">
+    <part Name="Render" DisplayName="campos florales" />
+    <part Name="Description" Short="Un filamento prismático coloniza las grietas entre la podredumbre salada. Aquí hay praderas, dice ella." />
+  </object>
+  <object Name="TerrainJungle" Load="Merge">
+    <part Name="Render" DisplayName="jungla" />
+    <part Name="Description" Short="Enredados de raíces y cintas de frondas dimensionalizan la tierra plana. Algo tiene por hogar una hoja descartada." />
+  </object>
+  <object Name="TerrainDeepJungle" Load="Merge">
+    <part Name="Render" DisplayName="selva profunda" />
+    <part Name="Description" Short="Florae prósperas llenan la tierra con raíces densas como laberintos, y un dosel alto y enredado corta los últimos rayos de luz." />
+  </object>
+  <object Name="TerrainFungalBase" Load="Merge">
+    <part Name="Render" DisplayName="Bosque Arcoíris" />
+    <part Name="Description" Short="Esporas bailan en remolinos a través de sombreros fúngicos caleidoscópicos. Ríos de sopa primordial, iluminados por la luz del lava, murmuran una melodía aceleradora." />
+    <tag Name="IndefiniteArticle" Value="la" />
+    <tag Name="DefiniteArticle" Value="la" />
+    <xtagGrammar Proper="verdadera" massNoun="falso" />
+  </object>
+  <object Name="TerrainMoonStair" Load="Merge">
+    <part Name="Render" DisplayName="Escalera de la Luna" />
+    <part Name="Description" Short="Prismas hexagonales emergen de lechos de mármol negro, y sus bordes se descoheran como rocío estático cálido. La Escalera ronronea a baja frecuencia." />
+    <tag Name="IndefiniteArticle" Value="la" />
+    <tag Name="DefiniteArticle" Value="la" />
+    <xtagGrammar Proper="verdadera" massNoun="falso" />
+  </object>
+  <object Name="TerrainCraters" Load="Merge">
+    <part Name="Render" DisplayName="cráteres" />
+    <part Name="Description" Short="" />
+  </object>
+  <object Name="RandomCrater" Load="Merge">
+    <part Name="Render" DisplayName="cráteres" />
+    <part Name="Description" Short="" />
+  </object>
+  <object Name="TerrainHills" Load="Merge">
+    <part Name="Render" DisplayName="colinas" />
+    <part Name="Description" Short="Pulsos en el gráfico ondulatorio de la piedra a lo largo del tiempo." />
+  </object>
+  <object Name="TerrainMountains" Load="Merge">
+    <part Name="Render" DisplayName="montañas" />
+    <part Name="Description" Short="En el gráfico ondulatorio de la piedra a lo largo del tiempo, donde una vez las placas del mundo se enfadaron entre sí hasta la guerra, ahora ha descendido un tranquilo paz." />
+  </object>
+  <object Name="TerrainBananaGrove" Load="Merge">
+    <part Name="Render" DisplayName="plantación de plátanos" />
+    <part Name="Description" Short="Las millonarias y enredadas manos de la plantación ondean con suave opulencia. Las frondas verdes acunan la base de la Aguja desde su recodo montañoso." />
+    <xtagGrammar massNoun="falso" />
+  </object>
+  <object Name="TerrainWater" Load="Merge">
+    <part Name="Render" DisplayName="agua" />
+    <part Name="Description" Short="Agua" />
+  </object>
+  <object Name="TerrainRiverSvy" Load="Merge">
+    <part Name="Render" DisplayName="Río Svy" />
+    <xtagGrammar Proper="verdadera" massNoun="falso" />
+    <part Name="Description" Short="Svy se desborda sobre las cumbres saladas y se derrama en la tierra entrelazada de vid. Sus orillas están sombreadas por los cadáveres cromados de gigantes." />
+    <tag Name="IndefiniteArticle" Value="la" />
+    <tag Name="DefiniteArticle" Value="la" />
+  </object>
+  <object Name="TerrainRiverOpal" Load="Merge">
+    <part Name="Render" DisplayName="Río Opal" />
+    <xtagGrammar Proper="verdadera" massNoun="falso" />
+    <part Name="Description" Short="La Aguja centellea en efímera imagen sobre su superficie. Ella transporta granito aplastado a través de un paso montañoso y hacia su ensenada foliada." />
+    <tag Name="IndefiniteArticle" Value="la" />
+    <tag Name="DefiniteArticle" Value="la" />
+  </object>
+  <object Name="TerrainOpalDuskwaters" Load="Merge">
+    <part Name="Render" DisplayName="Aguas Crepusculares de Opal" />
+    <xtagGrammar Proper="verdadera" />
+    <part Name="Description" Short="La sombra de las ramas arranca el calor de las aguas de Opal, dejando atrás una piscina oscura." />
+  </object>
+  <object Name="TerrainRiverYonth" Load="Merge">
+    <part Name="Render" DisplayName="Río Yonth" />
+    <xtagGrammar Proper="verdadera" massNoun="falso" />
+    <tag Name="IndefiniteArticle" Value="la" />
+    <tag Name="DefiniteArticle" Value="la" />
+    <part Name="Description" Short="Yonth rompe la masa a lo extraño Este y lleva sus aguas sin nombre hacia Qud. Criaturas-pescado se alimentan de sus fragmentos basálticos." />
+  </object>
+  <object Name="TerrainMountainStream" Load="Merge">
+    <part Name="Render" DisplayName="arroyo montañoso" />
+    <part Name="Description" Short="Antiguos alpes, abiertos en el pasado sin fin, se llenan de una salmuera fresca." />
+    <xtagGrammar massNoun="falso" />
+  </object>
+  <object Name="TerrainLakeHinnom" Load="Merge">
+    <part Name="Render" DisplayName="Lago Hinom" />
+    <part Name="Description" Short="Dedos de coral emergen del lecho de esponjas y perforan la floración algosa, donde cientos de esh blancos se congregan." />
+    <xtagGrammar Proper="verdadera" massNoun="falso" />
+  </object>
+  <object Name="TerrainPalladiumReef" Load="Merge">
+    <part Name="Render" DisplayName="Arrecife de Paladio" />
+    <part Name="Description" Short="Un arco de polipos brillantes abarca el entramado soldado de lo antiguo, y una rica diversidad de vida lo habita." />
+    <tag Name="IndefiniteArticle" Value="la" />
+    <tag Name="DefiniteArticle" Value="la" />
+    <xtagGrammar Proper="verdadera" massNoun="falso" />
+  </object>
+  <object Name="TerrainRuins" Load="Merge">
+    <part Name="Render" DisplayName="ruinas" />
+    <part Name="Description" Short="Aquí se derrumban las obras enredadas de los Devoradores, talladas en la lathe cíclopep en un pasado sin fin. Las agujas de cromo y parapetos que sobresalen entre los abrazos del esquisto sugieren los laberintos que hay debajo." />
+  </object>
+  <object Name="TerrainBaroqueRuins" Load="Merge">
+    <part Name="Render" DisplayName="ruinas barrocas" />
+    <part Name="Description" Short="Una cubierta de verde rampante enmarca una explosión estelar de las obras más ricas de los Devoradores. La jungla está desgarrada en sus bordes, donde balaustradas de crysteel y lanzas de flores estelares asoman." />
+  </object>
+  <object Name="TerrainJoppa" Load="Merge">
+    <part Name="Render" DisplayName="Joppa" />
+    <part Name="Description" Short="Hormigas en la chufa viridiana, los agricultores exprimen las últimas gotas de humedad pura de la tierra salpicada de sal." />
+    <xtagGrammar Proper="verdadera" massNoun="falso" />
+  </object>
+  <object Name="TerrainJoppaRuins" Load="Merge">
+    <part Name="Render" DisplayName="marjal salino" />
+    <part Name="Description" Short="En charcos estancados, las lirios luminosos compiten con la cinta de estrellas del cielo nocturno. Bajo el sol salino, sin embargo, se encogen a la sombra de la hierba salina." />
+  </object>
+  <object Name="TerrainTheSpindle" Load="Merge">
+    <part Name="Render" DisplayName="Aguja" />
+    <part Name="Description" Short="Aquí yace la tierra sagrada donde la Aguja, una aguja sin longitud de azul maya, rompe la tierra vestida de tumbas y perfora el firmamento." />
+    <xtagGrammar Proper="verdadera" massNoun="falso" />
+    <tag Name="IndefiniteArticle" Value="la" />
+    <tag Name="DefiniteArticle" Value="la" />
+  </object>
+  <object Name="TerrainOmonporch" Load="Merge">
+    <part Name="Render" DisplayName="Omonporch" />
+    <part Name="Description" Short="A través del umbrío de árboles asfixiantes vuelan las cien arcos y contrafuertes de monumentos funerarios. Asoman sobre arcadas de mármol que cubren las catacumbas de los Devoradores de la tierra." />
+    <xtagGrammar Proper="verdadera" massNoun="falso" />
+  </object>
+  <object Name="TerrainKyakukya" Load="Merge">
+    <part Name="Render" DisplayName="Kyakukya" />
+    <part Name="Description" Short="Aquí se encuentra el pueblo selvático de adoradores del dios simio y sus grandes moradas fúngicas." />
+    <xtagGrammar Proper="verdadera" massNoun="falso" />
+  </object>
+  <object Name="TerrainRedRock" Load="Merge">
+    <part Name="Render" DisplayName="Piedra Roja" />
+    <part Name="Description" Short="Una saliente natural de piedra, enrojecida por la naturaleza, sobresale de la roca salada." />
+    <xtagGrammar Proper="verdadera" massNoun="falso" />
+  </object>
+  <object Name="TerrainJoppaRedrockChannel" Load="Merge">
+    <part Name="Render" DisplayName="marjal salino" />
+    <part Name="Description" Short="En charcos estancados, las lirios luminosos compiten con la cinta de estrellas del cielo nocturno. Bajo el sol salino, sin embargo, se encogen a la sombra de la hierba salina." />
+  </object>
+  <object Name="TerrainSixDayStilt" Load="Merge">
+    <part Name="Render" DisplayName="El Stilt de Seis Días" />
+    <part Name="Description" Short="El Stilt de Seis Días emerge de las dunas cual el cadáver petrificado de un kraken, ejerciendo su peso sobre las llanuras vacías." />
+    <tag Name="IndefiniteArticle" Value="la" />
+    <tag Name="DefiniteArticle" Value="la" />
+    <xtagGrammar Proper="verdadera" massNoun="falso" />
+  </object>
+  <object Name="TerrainEynRogel" Load="Merge">
+    <part Name="Render" DisplayName="Eyn Rogel" />
+    <part Name="Description" Short="Eyn Rogel" />
+    <xtagGrammar Proper="verdadera" massNoun="falso" />
+  </object>
+  <object Name="TerrainGritGate" Load="Merge">
+    <part Name="Render" DisplayName="Puerta de la Arena" />
+    <part Name="Description" Short="Aún erguida se halla la mitad superior de la inmensa puerta tallada con runas de cien lenguas indescifrables. Bajo sus barandillas de cromo, una amplia vía se abre hacia la tierra fértil del bosque." />
+    <xtagGrammar Proper="verdadera" massNoun="falso" />
+  </object>
+  <object Name="TerrainRustWell" Load="Merge">
+    <part Name="Render" DisplayName="pozos oxidados" />
+    <part Name="Description" Short="Vides rojas de qudzu toman como soporte los pozos de cromo perforados en la tierra." />
+    <xtagGrammar iArticle="la" />
+  </object>
+  <object Name="TerrainGolgotha" Load="Merge">
+    <part Name="Render" DisplayName="Golgota" />
+    <part Name="Description" Short="A cubierta por la jungla en putrefacción se hallan las bocas de las cuevas del óxido de Golgotha, el cementerio del cromo." />
+    <xtagGrammar Proper="verdadera" massNoun="falso" />
+  </object>
+  <object Name="TerrainBethesdaSusa" Load="Merge">
+    <part Name="Render" DisplayName="Bethesda Susa" />
+    <part Name="Description" Short="Piedra desplazada por eones abraza la arquitectura sin ángulos de la morada de Bethsaida." />
+    <xtagGrammar Proper="verdadera" massNoun="falso" />
+  </object>
+  <object Name="TerrainAsphaltMines" Load="Merge">
+    <part Name="Render" DisplayName="minas de asfalto" />
+    <part Name="Description" Short="Escombros envuelven esta mina abandonada donde antiguos pueblos siphonaron la sangre negra para sus propios propósitos inscrutables." />
+    <xtagGrammar iArticle="la" />
+  </object>
+  <object Name="TerrainRustedArchway" Load="Merge">
+    <part Name="Render" DisplayName="arco oxidado" />
+    <part Name="Description" Short="Un arco de óxido pinta el cielo y rodea el camino una vez transitado por los gargantuans del cromo." />
+    <xtagGrammar massNoun="falso" />
+  </object>
+  <object Name="TerrainEynRoj" Load="Merge">
+    <part Name="Render" DisplayName="Eyn Roj" />
+    <part Name="Description" Short="Agujereada en un glade de mármol se encuentra la tronca clavada de Chavvah, el Árbol de la Vida. Sus hojas caídas yacen como una alfombra espejada, y los tórtolas soñadores chirrían un canto psíquico." />
+    <xtagGrammar Proper="verdadera" massNoun="falso" />
+    <tag Name="IndefiniteArticle" Value="*delete" />
+    <tag Name="DefiniteArticle" Value="*delete" />
+  </object>
+  <object Name="TerrainPalladiumReef 3l" Load="Merge">
+    <part Name="Render" DisplayName="Yd Freehold" />
+    <part Name="Description" Short="La topología de tuberías teñidas montada en la cama de esponja es un faro para la comunidad lírica." />
+    <tag Name="IndefiniteArticle" Value="la" />
+    <tag Name="DefiniteArticle" Value="la" />
+    <xtagGrammar Proper="verdadera" massNoun="falso" />
+  </object>
+  <object Name="TerrainBrightsheol" Load="Merge">
+    <part Name="Render" DisplayName="Brightsheol" />
+  </object>
+  <object Name="TerrainTzimtzlum" Load="Merge">
+    <part Name="Render" DisplayName="Tzimtzlum" />
+  </object>
+</objects>

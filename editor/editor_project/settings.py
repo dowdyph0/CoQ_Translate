@@ -52,8 +52,12 @@ WSGI_APPLICATION = "editor_project.wsgi.application"
 
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
+        "ENGINE":   "django.db.backends.postgresql",
+        "NAME":     os.environ.get("DB_NAME",     "coq_translate"),
+        "USER":     os.environ.get("DB_USER",     "coq"),
+        "PASSWORD": os.environ.get("DB_PASSWORD", "coq"),
+        "HOST":     os.environ.get("DB_HOST",     "db"),
+        "PORT":     os.environ.get("DB_PORT",     "5432"),
     }
 }
 

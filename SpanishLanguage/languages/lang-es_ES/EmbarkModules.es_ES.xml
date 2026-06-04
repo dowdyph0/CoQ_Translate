@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<embarkmodules Lang="es_ES" Encoding="utf-8">
+  <module Class="XRL.CharacterBuilds.Qud.QudGamemodeModule">
+    <window ID="Chargen/Modes">
+      <title>:elige modo de juego:</title>
+      <name>Modos de Juego</name>
+    </window>
+    <modes>
+      <mode ID="Tutorial" Title="Tutorial">
+        <description>Aprende las bases de Caves of Qud.</description>
+      </mode>
+      <mode ID="Classic" Title="Clásico">
+        <description>La muerte permanente: pierdes a tu personaje cuando mueres.</description>
+      </mode>
+      <mode ID="Roleplay" Title="Roleplay">
+        <description>Puntos de verificación en asentamientos.</description>
+      </mode>
+      <mode ID="Wander" Title="Vagar">
+        <description>{{c|∙}} La mayoría de las criaturas comienzan neutrales contigo.
+          {{c|∙}} No se otorga experiencia por matar.
+          {{c|∙}} Se otorga más experiencia por descubrimientos y al realizar el ritual del agua.
+          {{c|∙}} Puntos de verificación en asentamientos.</description>
+      </mode>
+      <mode ID="Daily" Title="Diario">
+        <description>{{c|∙}} Una sola oportunidad con un personaje fijo y una semilla fija del mundo.
+          {{c|∙}} Actualmente en el día {{W|=now.dayOfYear=}} de {{W|=now.year=}}.</description>
+      </mode>
+    </modes>
+  </module>
+  <module Class="XRL.CharacterBuilds.Qud.QudChartypeModule">
+    <window ID="Chargen/CharType">
+      <name>CharTypes</name>
+      <title>:elige tipo de personaje:</title>
+    </window>
+    <types>
+      <type ID="Pregen" Title="Preajustes">
+        <description>Elige entre varios personajes preestablecidos. Una vez que te sientas cómodo, podrás personalizarlos.</description>
+      </type>
+      <type ID="New" Title="Nuevo">
+        <description>Crea un nuevo personaje.</description>
+      </type>
+      <type ID="Random" Title="Aleatorio">
+        <description>Genera un personaje al azar.</description>
+      </type>
+      <type ID="Library" Title="Biblioteca">
+        <description>Elige un personaje de tu biblioteca de construcciones.</description>
+      </type>
+      <type ID="Last" Title="Último">
+        <description>Rejuega al último personaje que jugaste.</description>
+      </type>
+    </types>
+  </module>
+  <module Class="XRL.CharacterBuilds.Qud.QudBuildLibraryModule">
+    <window ID="Chargen/BuildLibrary">
+      <name>Construir Biblioteca</name>
+      <title>:construir biblioteca:</title>
+    </window>
+  </module>
+  <module Class="XRL.CharacterBuilds.Qud.QudGenotypeModule">
+    <window ID="Chargen/ChooseGenotypes">
+      <name>Genotipos</name>
+      <title>:elegir genotipo:</title>
+    </window>
+  </module>
+  <module Class="XRL.CharacterBuilds.Qud.QudPregenModule">
+    <window ID="Chargen/Pregens">
+      <name>Pregenerados</name>
+      <title>:elegir preajuste:</title>
+    </window>
+    <pregens>
+      <pregen ID="Praetorian Prime" Name="Pretoriano Primero">
+        <description>{{c|∙}} Luchador de cerca basado en carga
+{{c|∙}} Comienza con visión nocturna
+{{c|∙}} {{W|La más viable}} configuración inicial</description>
+      </pregen>
+      <pregen ID="First Gardener" Name="Primer Jardinero">
+        <description>{{c|∙}} Luchador híbrido a corta y larga distancia
+{{c|∙}} Comienza con cocina y recolección
+{{c|∙}} {{W|Muy viable}} configuración inicial</description>
+      </pregen>
+      <pregen ID="First Child of the Hearth" Name="Primogénito de la Chimenea">
+        <description>{{c|∙}} Luchador de cerca y bruto extremo
+{{c|∙}} Comienza con huesos de mano de carburo
+{{c|∙}} {{W|Muy viable}} configuración inicial</description>
+      </pregen>
+      <pregen ID="Marsh Taur" Name="Toro del Pantano">
+        <description>{{c|∙}} Luchador cuerpo a cuerpo basado en carga
+{{c|∙}} Capacidad para congelar a los enemigos
+{{c|∙}} Muy maniobrable
+{{c|∙}} {{W|La más sobrevivable}} configuración inicial</description>
+      </pregen>
+      <pregen ID="Dream Tortoise" Name="Tortuga Soñadora">
+        <description>{{c|∙}} Luchador cuerpo a cuerpo
+{{c|∙}} Extremadamente armado
+{{c|∙}} Emite gas dormitorio para incapacitar a los enemigos
+{{c|∙}} {{W|Altamente sobrevivable}} configuración inicial</description>
+      </pregen>
+      <pregen ID="Gunwing" Name="Ala de Bala">
+        <description>{{c|∙}} Combatiente principalmente a distancia
+{{c|∙}} Rápido y maniobrable
+{{c|∙}} Vuela
+{{c|∙}} {{W|Altamente sobrevivable}} configuración inicial</description>
+      </pregen>
+      <pregen ID="Star-Eye Esper" Name="Espero Ojo Estelar">
+        <description>{{c|∙}} Combatiente a distancia basado en mentalidad
+{{c|∙}} Control eficaz de multitudes y visión del mapa
+{{c|∙}} {{W|Medianamente sobrevivable}} configuración inicial</description>
+      </pregen>
+      <pregen ID="Firefrond" Name="Llamafronda">
+        <description>{{c|∙}} Luchador cuerpo a cuerpo híbrido y lanzador mental
+{{c|∙}} Capacidad para incendiar a los enemigos
+{{c|∙}} Provoca el crecimiento de plantas cosechables cerca
+{{c|∙}} {{W|Desafiante}} configuración inicial</description>
+      </pregen>
+      <pregen ID="bzzzt" Name="bzzzt">
+        <description>{{c|∙}} Luchador cuerpo a cuerpo híbrido y atacante eléctrico
+{{c|∙}} Excavador y colocador de trampas
+{{c|∙}} Comienza con visión nocturna
+{{c|∙}} {{W|Desafiante}} configuración inicial</description>
+      </pregen>
+    </pregens>
+  </module>
+  <module Class="XRL.CharacterBuilds.Qud.QudSubtypeModule">
+    <window ID="Chargen/ChooseSubtypes">
+      <name>Subtipos</name>
+      <title>:elige subtipo:</title>
+    </window>
+    <window ID="Chargen/ChooseSubtypesCategory">
+      <name>Subtipos con Categoría</name>
+      <title>:elige subtipo:</title>
+    </window>
+  </module>
+  <module Class="XRL.CharacterBuilds.Qud.QudMutationsModule">
+    <window ID="Chargen/Mutations">
+      <name>Mutaciones</name>
+      <title>:elige mutaciones:</title>
+    </window>
+  </module>
+  <module Class="XRL.CharacterBuilds.Qud.QudAttributesModule">
+    <window ID="Chargen/PickAttributes">
+      <title>:elige atributos:</title>
+      <name>Atributos</name>
+    </window>
+  </module>
+  <module Class="XRL.CharacterBuilds.Qud.QudCyberneticsModule">
+    <window ID="Chargen/Cybernetic">
+      <name>Cibernéticos</name>
+      <title>:elige implante cibernético:</title>
+    </window>
+  </module>
+  <module Class="XRL.CharacterBuilds.Qud.QudBuildSummaryModule">
+    <window ID="Chargen/BuildSummary">
+      <name>Resumen</name>
+      <title>:construye resumen:</title>
+    </window>
+  </module>
+  <module Class="XRL.CharacterBuilds.Qud.QudCustomizeCharacterModule">
+    <window ID="Chargen/Customize">
+      <name>Personaliza</name>
+      <title>:personaliza personaje:</title>
+    </window>
+  </module>
+  <module Class="XRL.CharacterBuilds.Qud.QudChooseStartingLocationModule">
+    <window ID="Chargen/ChooseStartingLocation">
+      <name>Lugar de inicio</name>
+      <title>:elige lugar de inicio:</title>
+    </window>
+    <locations>
+      <location ID="Joppa" Name="{{Y|Joppa}}">
+        <description>Recomendado para jugadores nuevos.</description>
+      </location>
+      <location ID="SaltMarshVillage" Name="{{G|marcha salina}}&#10;villa">
+        <description>{{c|∙}} Aldea aleatoria en las marismas salinas.
+          {{c|∙}} La aldea enseña la Hacienda.
+          {{c|∙}} +50 reputación con insectos y peces.
+          {{c|∙}} Comienza con un par de {{g|crocc{{G|a}}sins}}.</description>
+      </location>
+      <location ID="SaltDuneVillage" Name="{{Y|dunas salinas}}&#10;villa">
+        <description>{{c|∙}} Aldea aleatoria en las dunas salinas.
+          {{c|∙}} La aldea enseña la Vía del Ayuno.
+          {{c|∙}} +100 reputación con reptiles.
+          {{c|∙}} Comienza con un {{Y|Issach{{r|a}}ri}} banner.</description>
+      </location>
+      <location ID="DesertCanyonsVillage" Name="{{W|cañón del desierto}}&#10;villa">
+        <description>{{c|∙}} Aldea aleatoria en las canyones del desierto.
+          {{c|∙}} La aldea enseña la Navegación.
+          {{c|∙}} +50 reputación con equinos, tortugas y lianas.</description>
+      </location>
+      <location ID="HillsVillage" Name="{{Y|colina}}&#10;villa">
+        <description>{{c|∙}} Aldea aleatoria en las colinas.
+          {{c|∙}} La aldea enseña el Carneado.
+          {{c|∙}} +100 reputación con ermitaños.
+          {{c|∙}} Comienza con un {{r|manchado de sangre}} collar para el cuello</description>
+      </location>
+      <location ID="JoppaTutorial" Name="un caravanserail hundido">
+        <description>Llegas a las afueras de Qud.</description>
+      </location>
+    </locations>
+  </module>
+</embarkmodules>

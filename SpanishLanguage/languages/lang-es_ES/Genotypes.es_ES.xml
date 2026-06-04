@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<genotypes Lang="es_ES" Encoding="utf-8">
+  <genotype Name="Mutated Human" DisplayName="Humano Mutado">
+    <stat Name="Strength" ChargenDescription="Tu puntuación de {{W|Fuerza}} determina con qué eficacia penetras la armadura de tus oponentes mediante ataques cuerpo a cuerpo, cuánto daño causan tus ataques cuerpo a cuerpo, tu capacidad para resistir movimientos forzados y tu capacidad para cargar objetos." />
+    <stat Name="Agility" ChargenDescription="Tu puntuación de {{W|Agilidad}} determina tu precisión tanto con armas cuerpo a cuerpo como a distancia, así como tu habilidad para esquivar ataques." />
+    <stat Name="Toughness" ChargenDescription="Tu puntuación de {{W|Toughness}} determina el número de puntos de vida que posees, tu tasa natural de curación y tu capacidad para resistir venenos y enfermedades." />
+    <stat Name="Intelligence" ChargenDescription="Tu puntuación de {{W|Intelligence}} determina el número de puntos de habilidad que posees y tu capacidad para examinar artefactos." />
+    <stat Name="Willpower" ChargenDescription="Tu puntuación de {{W|Willpower}} modifica los tiempos de enfriamiento de tus habilidades activadas, determina tu capacidad para resistir ataques mentales y modifica tu tasa natural de curación." />
+    <stat Name="Ego" ChargenDescription="Tu puntuación de {{W|Ego}} determina la potencia de tus mutaciones mentales, tu capacidad para regatear con mercaderes y tu capacidad para dominar las voluntades de otras criaturas vivas." />
+  </genotype>
+  <genotype Name="True Kin" DisplayName="Verdadera Estirpe">
+    <stat Name="Strength" ChargenDescription="Tu puntuación de {{W|Fuerza}} determina con qué eficacia penetras la armadura de tus oponentes mediante ataques cuerpo a cuerpo, cuánto daño causan tus ataques cuerpo a cuerpo, tu capacidad para resistir movimientos forzados y tu capacidad para cargar objetos." />
+    <stat Name="Agility" ChargenDescription="Tu puntuación de {{W|Agilidad}} determina tu precisión tanto con armas cuerpo a cuerpo como a distancia, así como tu habilidad para esquivar ataques." />
+    <stat Name="Toughness" ChargenDescription="Tu puntuación de {{W|Toughness}} determina el número de puntos de vida que posees, tu tasa natural de curación y tu capacidad para resistir venenos y enfermedades." />
+    <stat Name="Intelligence" ChargenDescription="Tu puntuación de {{W|Intelligence}} determina el número de puntos de habilidad que posees y tu capacidad para examinar artefactos." />
+    <stat Name="Willpower" ChargenDescription="Tu puntuación de {{W|Willpower}} modifica los tiempos de enfriamiento de tus habilidades activadas, determina tu capacidad para resistir ataques mentales y modifica tu tasa natural de curación." />
+    <stat Name="Ego" ChargenDescription="Tu puntuación de {{W|Ego}} determina la potencia de tu capacidad para regatear con mercaderes y tu capacidad para dominar las voluntades de otras criaturas vivas." />
+  </genotype>
+</genotypes>

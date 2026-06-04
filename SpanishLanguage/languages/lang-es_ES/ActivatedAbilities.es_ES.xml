@@ -1,0 +1,1323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<activatedabilities Lang="es_ES" Encoding="utf-8">
+  <ability Command="CommandAmputateLimb">
+    <description>Amputas uno de tus propios miembros o el miembro de un compañero infectado.</description>
+  </ability>
+  <ability Command="CommandFlyToggle">
+    <description><p>Te desplazas por terreno terrestre y no puedes ser atacado por criaturas terrestres en combate cuerpo a cuerpo.</p>
+        <br />
+        <p>Cada ronda, existe un <stat Name="CrashChance" />% de probabilidad de que te estrellas al suelo.</p>
+        <br />
+        <p>Solo puedes volar sobre el terreno.</p>
+      </description>
+  </ability>
+  <ability Command="CommandSwoopAttack">
+    <description><p>Te lanzas hacia abajo para atacar un objetivo en el suelo, empleando un turno para atacar y otro para regresar al aire.</p>
+        <br />
+        <p>Hay un <stat Name="SwoopCrashChance" />% de probabilidad de que te estrellas contra el suelo (duplicado si tu ataque es bloqueado por un escudo).</p>
+      </description>
+  </ability>
+  <ability Command="CommandEndBurrowing">
+    <description>Sales de tu madriguera.</description>
+  </ability>
+  <ability Command="CommandEndDomination">
+    <description>Dejas de dominar a esta criatura.</description>
+  </ability>
+  <ability Command="ShadeOilPhase">
+    <description><p>Puedes atravesar objetos sólidos durante breves periodos de tiempo.</p>
+        <br />
+        <statline Name="Duration" DisplayName="Duración" />
+      </description>
+  </ability>
+  <ability Command="CommandEndSubmerged">
+    <description>Emerges de tu lugar de escondite.</description>
+  </ability>
+  <ability Command="ActivateFabricateFromSelf">
+    <description><switch Name="BatchSize">
+          <case Value="1"><p><gametext>You =fabricateVerb= =sample.a.name:single:asIfKnown= from =fabricateSource=.</gametext></p></case>
+          <default><p><gametext>You =fabricateVerb= =sample.name:single:asIfKnown|pluralize= from =fabricateSource=.</gametext></p></default>
+        </switch>
+        <br />
+        <statline Name="BatchSize" DisplayName="Tamaño de lote" />
+        <statline Name="HitpointsPer" DisplayName="Puntos de vida por lote" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandPlaceMine">
+    <description><p>Colocas <stat Name="MineAn" /> mina de <stat Name="MineDisplayName" />.</p>
+        <br />
+        <statline Name="MineTimer" DisplayName="Cronómetro" Unit="Ronda" HideValue="-1" />
+        <statline Name="Cooldown" Unit="Ronda" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandRunOver">
+    <description><p>Te lanzas en línea y abates a las criaturas que se encuentran en tu camino.</p>
+        <br />
+        <statline Name="Damage" DisplayName="Daño" />
+        <statline Name="Range" DisplayName="Alcance" />
+        <statline Name="Knockdown" DisplayName="Salvación contra derribo" />
+        <statline Name="Daze" DisplayName="Ahorro de aturdimiento" />
+      </description>
+  </ability>
+  <ability Command="CommandClone">
+    <description>Clonas una criatura orgánica.</description>
+  </ability>
+  <ability Command="CommandTinkerTurret">
+    <description><p>Tosemas con <stat Name="An" /> <stat Name="TurretName" /> en un espacio adyacente.</p>
+        <br />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandEngulf">
+    <description>Engulles a una criatura adyacente, consumiéndola con vida y posiblemente más.</description>
+  </ability>
+  <ability Command="CommandToggleAnchorSpikes">
+    <description>No puedes ser forzado a moverte por medios físicos.</description>
+  </ability>
+  <ability Command="CommandToggleAnomalyFumigator">
+    <description>Emites nubes de gas de normalidad en cada turno.</description>
+  </ability>
+  <ability Command="CommandCathedraBlackOpal">
+    <description><p>Rompes el tejido del espaciotiempo, teletransportándote a una ubicación aleatoria en Qud.</p>
+        <br />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandCathedraRuby">
+    <description><p>Generas un campo de pirokinesis alrededor de ti mismo, causando daño y poniendo cosas en llamas durante 3 rondas.</p>
+        <br />
+        <statline Name="Area" DisplayName="Área" />
+        <statline Name="DamageRound1" DisplayName="Daño de la ronda 1" />
+        <statline Name="DamageRound2" DisplayName="Daño de la ronda 2" />
+        <statline Name="DamageRound3" DisplayName="Daño de la ronda 3" />
+        <statline Name="Cooldown" Unit="Ronda" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandCathedraSapphire">
+    <description><p>Invocas una fuerza concusiva alrededor de ti. Las criaturas son empujadas hacia afuera del centro de la explosión, quedan estupefactas y reciben daño aplastante en hasta tres incrementos.</p>
+        <br />
+        <statline Name="Area" DisplayName="Área" />
+        <statline Name="DamageIncrement" DisplayName="Incremento de daño" />
+        <statline Name="Cooldown" Unit="Ronda" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandCathedraWhiteOpal">
+    <description><p>Liberas una explosión de brillo efímero a tu alrededor.</p>
+        <br />
+        <statline Name="Duration" Unit="giro" DisplayName="Duración" />
+        <statline Name="Cooldown" Unit="Ronda" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandToggleFireSuppressionSystem">
+    <description>Descarga automáticamente gel retardante de fuego cada ronda en que estés ardiendo.</description>
+  </ability>
+  <ability Command="CommandRecomposite">
+    <description><p>Te teleportas a cualquier espacio explorado en el mapa.</p>
+        <br />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandInflateAxons">
+    <description><p>Ganas +<stat Name="QuicknessBonus" /> Velocidad por <stat Name="QuicknessDuration" /> rondas, tras lo cual te vuelves lento por 10 rondas.</p>
+        <br />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandEmergencyRecomposite">
+    <description><p>Te teleportas a un espacio aleatorio y explorado en el mapa.</p>
+        <br />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandToggleMedassistModule">
+    <description><p>Aplica automáticamente hasta 8 inyectores cargados cuando sea adecuado.</p>
+        <br />
+        <statline Name="Loadout" DisplayName="Configuración" />
+      </description>
+  </ability>
+  <ability Command="CommandToggleCyberNightVision">
+    <description>Ves en la oscuridad.</description>
+  </ability>
+  <ability Command="CommandToggleNocturnalApex">
+    <description><p>Obtienes +<stat Name="AgilityBonus" /> Agilidad y +<stat Name="MovespeedBonus" /> velocidad de movimiento por <stat Name="Duration" /> rondas.</p>
+        <br />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandActivateOnboardRecoilerImprinting">
+    <description><p>Grava en la recoiler a bordo una ubicación hacia la cual retroceder.</p>
+        <br />
+        <statline Name="Location" DisplayName="Ubicación actual" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandActivateOnboardRecoilerTeleporter">
+    <description><p>Te teleportas de regreso a la ubicación programada.</p>
+        <br />
+        <statline Name="Location" DisplayName="Ubicación actual" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandTogglePenetratingRadar">
+    <description><p>Ganas visibilidad total en un radio de <stat Name="Radius" /> alrededor tuyo, bloqueada solamente por campos de fuerza y anomalías del espacio-tiempo.</p>
+        <br />
+      </description>
+  </ability>
+  <ability Command="CommandTogglePhaseHarmonicModulator">
+    <description>Puedes interactuar con objetos y criaturas tanto en fase como fuera de fase.</description>
+  </ability>
+  <ability Command="AlterHolographicVisage">
+    <description>Alteras tu apariencia y ganas +200 reputación con la facción elegida.</description>
+  </ability>
+  <ability Command="CommandStasisEntangler">
+    <description><p>Eleges una sola criatura dentro de tu línea de visión. Todas las demás criaturas quedan en campos de estasis durante <stat Name="Duration" />.</p>
+        <br />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandTogglePhaseAdaptiveScope">
+    <description>Cuando disparas un arma de proyectiles o lanzas algo, tu proyectil cambia de fase para atravesar obstáculos y alcanzar a tu objetivo.</description>
+  </ability>
+  <ability Command="CommandFabricateForceKnife">
+    <description>Fabricas un cuchillo de fuerza que inflige 1d8 puntos de daño, tiene un valor de penetración igual al valor de armadura de su objetivo y posee un rango adicional de +6 para lanzamientos.</description>
+  </ability>
+  <ability Command="ProjectStasisField">
+    <description><p>Crea hasta <stat Name="Coverage" /> cuadrados de campo de estasis que duran <stat Name="Duration" />.</p>
+        <br />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandActivateTetheredRecoilerTeleporter">
+    <description><p>Te teletransportas a la ubicación vinculada.</p>
+        <br />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+        <statline Name="Destination" DisplayName="Destino" />
+        <statline Name="TetherStatus" DisplayName="Estado del anclaje" />
+      </description>
+  </ability>
+  <ability Command="ActivateAjiConch">
+    <description><p>Soplas en el conchero y produces un cono de gas aleatorio.</p>
+        <br />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandRecoil">
+    <description>Te teletransportas de regreso a una ubicación programada.</description>
+  </ability>
+  <ability Command="ToggleHologramEmitter">
+    <description><p>Generas <gametext>=maxDecoys.a.or.x.things:holographic decoy=</gametext> de ti mismo.</p>
+        <br />
+        <p>Los falsos se mueven reflejando tus acciones y atraen agresión.</p>
+        <statline Name="Range" DisplayName="Alcance" />
+        <p><stat Name="ChargeDraw" /> carga consumida por ronda.</p>
+      </description>
+  </ability>
+  <ability Command="ToggleForceEmitter">
+    <description><p>Generas un campo de fuerza alrededor de ti mismo.</p>
+        <br />
+        <p>Crea un campo de fuerza de 3x3 centrado en ti mismo.</p>
+        <p>Puedes disparar armas de proyectiles a través del campo de fuerza.</p>
+        <p>Alta carga consumida por ronda.</p>
+      </description>
+  </ability>
+  <ability Command="CommandQuickenMind">
+    <description><p>Te aceleras con energía creativa.</p>
+        <br />
+        <p><stat Name="RefreshDescription" /></p>
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="ActivateTeleprojector">
+    <description><p>Proyectas tu mente en un robot adyacente y controlas sus acciones mientras tu propio cuerpo permanece inactivo.</p>
+        <br />
+        <p>Ataque tecnológico contra un robot.</p>
+        <p>Tirada de ataque: <stat Name="Attack" /> vs. MA del defensor + nivel</p>
+        <p>Alta carga consumida al activar.</p>
+        <p>Baja carga consumida por ronda.</p>
+        <statline Name="Duration" DisplayName="Duración" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="ConfigureTemperatureController">
+    <description><p>Estableces una temperatura objetivo y te calientas o enfriás cada ronda hasta alcanzarla.</p>
+        <br />
+        <statline Name="TemperatureChange" DisplayName="Cambio de temperatura por ronda" />
+        <statline Name="ChargeUse" DisplayName="Uso de carga por ronda" />
+      </description>
+  </ability>
+  <ability Command="ActivatePaxInfection">
+    <description><p>Expulsas espora y difundes Klanq.</p>
+        <br />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="ActivateSkyshroud">
+    <description><p>Comienzas a correr en una columna de fuego y humo.</p>
+        <br />
+        <p>Mientras corres, siempre que te muevas en una dirección, correrás hacia el enemigo o obstáculo más cercano y realizarás un ataque.</p>
+        <br />
+        <p>Por cada tres espacios que corras, obtienes un +2 bonificador para acertar y un +2 bonificador de penetración en tu ataque de carrera.</p>
+        <br />
+        <p>Si no encuentras a un enemigo u obstáculo después de veinte espacios, dejarás de moverte.</p>
+        <br />
+        <statline Name="Duration" DisplayName="Duración" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="ActivateStopsvalinn">
+    <description><p>Generas una pared de fuerza que impide el movimiento de los robots.</p>
+        <br />
+        <p>Crea tres espacios contiguos de campo de fuerza móvil.</p>
+        <p>Salvación contra el movimiento de robots: Voluntad 18</p>
+        <p>Alto consumo de carga por ronda.</p>
+      </description>
+  </ability>
+  <ability Command="CommandChangeGrip">
+    <description><p>Cambias el estilo de agarre en tu arma y la empleas como otro tipo de arma.</p>
+      </description>
+  </ability>
+  <ability Command="CommandBeguileCreature">
+    <description><p>Seduces a una criatura adyacente para que te sirva lealmente.</p>
+        <br />
+        <p>Ataque mental contra una criatura con mente.</p>
+        <p>Tirada de ataque: <stat Name="Attack" /> vs. MA del defensor + nivel</p>
+        <p>Las criaturas seducidas reciben un bono de <stat Name="BonusHP" /> puntos de vida.</p>
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandBurgeoning">
+    <description><p>Haces crecer espontáneamente plantas en un área cercana, obstaculizando a tus enemigos.</p>
+        <br />
+        <p>Las plantas varían según el rango de mutación.</p>
+        <statline Name="Area" DisplayName="Área" />
+        <statline Name="Range" DisplayName="Alcance" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandClairvoyance">
+    <description><p>Obtienes brevemente visión de una zona cercana.</p>
+        <br />
+        <statline Name="VisionRadius" DisplayName="Radio de visión" />
+        <statline Name="VisionDuration" DisplayName="Duración de la visión" Unit="ronda" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandConfuse">
+    <description><p>Confundes a los enemigos cercanos.</p>
+        <br />
+        <p>Los criaturas afectadas actúan semialeatoriamente y reciben un <stat Name="Penalty" /> penalización en sus habilidades mentales.</p>
+        <statline Name="ConeAngle" DisplayName="Ángulo del cono" />
+        <statline Name="ConeLength" DisplayName="Longitud del cono" />
+        <statline Name="Duration" DisplayName="Duración" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandCryokinesis">
+    <description><p>Enfrias con tu mente una zona cercana, infligiendo daño y congelando cosas durante 3 rondas.</p>
+        <br />
+        <statline Name="Range" DisplayName="Alcance" />
+        <statline Name="Area" DisplayName="Área" />
+        <statline Name="DamageRound1" DisplayName="Daño de la ronda 1" />
+        <statline Name="DamageRound2" DisplayName="Daño de la ronda 2" />
+        <statline Name="DamageRound3" DisplayName="Daño de la ronda 3" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandDisintegration">
+    <description><p>Desintegras la materia cercana.</p>
+        <br />
+        <statline Name="Area" DisplayName="Área" />
+        <statline Name="DamageNonStructural" DisplayName="Daño a objetos no estructurales" />
+        <statline Name="DamageStructural" DisplayName="Daño a objetos estructurales" />
+        <p>Te sientes exhausto durante 3 rondas después de usar este poder.</p>
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandDominateCreature">
+    <description><p>Ahorcas mentalmente a una criatura adyacente y controlas sus acciones mientras tu propio cuerpo permanece inactivo.</p>
+        <br />
+        <p>Ataque mental contra una criatura con mente.</p>
+        <p>Tirada de ataque: <stat Name="Attack" /> vs. MA del defensor + nivel</p>
+        <statline Name="Duration" DisplayName="Duración" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandForceBubble">
+    <description><p>Generas un campo de fuerza alrededor de ti mismo.</p>
+        <br />
+        <p>Crea un campo de fuerza de 3x3 centrado en ti.</p>
+        <p>Puedes disparar armas de proyectiles a través del campo de fuerza.</p>
+        <statline Name="Duration" DisplayName="Duración" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandForceWall">
+    <description><p>Generas una barrera de fuerza que te protege contra tus enemigos.</p>
+        <br />
+        <p>Crea 9 cuadrados contiguos de campo de fuerza inmóvil.</p>
+        <p>Puedes disparar armas de proyectiles a través del campo de fuerza.</p>
+        <statline Name="Duration" DisplayName="Duración" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandKindle">
+    <description><p>Enciendes una pequeña llama con tu mente.</p>
+        <br />
+        <statline Name="Range" DisplayName="Alcance" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandLeyShift">
+    <description><p>Alteras el espacio-tiempo en la región local.</p>
+        <br />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandLifeDrain">
+    <description><p>Te unes a una criatura orgánica cercana y extraes su fuerza vital.</p>
+        <br />
+        <p>Ataque mental contra una criatura con mente.</p>
+        <p>Drena <stat Name="HP" /> por ronda.</p>
+        <p>El objetivo obtiene un salvamento mental para resistir el daño cada ronda.</p>
+        <br />
+        <statline Name="Duration" DisplayName="Duración" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandLase">
+    <description><p>Concentras tu luz ambiental en un haz láser.</p>
+        <p>Temporalmente reduce el radio de tu luz ambiental en 1.</p>
+        <br />
+        <statline Name="LaserDamageInc" DisplayName="Aumento del daño láser" />
+        <statline Name="LaserPen" DisplayName="Penetración del láser" />
+      </description>
+  </ability>
+  <ability Command="CommandAmbientLight">
+    <description><p>Producen luz ambiental dentro de un radio de <stat Name="Radius" />.</p>
+        <p>Puedes concentrar la luz en un haz láser, reduciendo temporalmente su radio en 1.</p>
+        <br />
+        <p>Tasa de recarga de luz ambiental: 1 por <stat Name="AmbientRegrowthDuration" Unit="giro" /></p>
+      </description>
+  </ability>
+  <ability Command="CommandMassMind">
+    <description><p>Refresca todas las mutaciones mentales.</p>
+        <p>Cada uso atrae ligeramente más atención de intrusos psíquicos.</p>
+        <br />
+        <statline Name="CooldownNoWillpower" DisplayName="Refrigero" />
+        <p>El tiempo de enfriamiento no se ve afectado por la Voluntad.</p>
+      </description>
+  </ability>
+  <ability Command="CommandMentalMirror">
+    <description><p>Cuando sufres un ataque mental mientras Mental Mirror no está en enfriamiento, ganas +<stat Name="BonusMA" /> de MA. Si el ataque luego falla para penetrar tu MA, es reflejado hacia tu atacante.</p>
+        <br />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandPrecognition">
+    <description><p>Te adentras en tu futuro cercano.</p>
+        <br />
+        <p>Puedes activar este poder y luego revertirte al punto en el tiempo cuando lo activaste.</p>
+        <br />
+        <statline Name="Duration" DisplayName="Duración entre el uso y la revervión" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandPrecognitionRevert">
+    <description><p>Revierte una visión precognitiva activa al punto en el tiempo cuando la visión comenzó.</p>
+      </description>
+  </ability>
+  <ability Command="CommandPsychometryMenu">
+    <description><p>Lees la historia de los artefactos tocándolos, aprendiendo qué hacen y cómo fueron creados.</p>
+        <br />
+        <p>Identifica con certeza artefactos hasta el nivel de complejidad <stat Name="IdentifyComplexity" />.</p>
+        <p>Aprende cómo construir artefactos identificados hasta el nivel de complejidad <stat Name="ConstructComplexity" />.</p>
+        <br />
+        <p>Para usar la psicometría, interactúa con un artefacto y luego elige 'leer historia con psicometría'.</p>
+      </description>
+  </ability>
+  <ability Command="CommandPyrokinesis">
+    <description><p>Calientas una zona cercana con tu mente, infligiendo daño y poniendo cosas en llamas durante 3 rondas.</p>
+        <br />
+        <statline Name="Range" DisplayName="Alcance" />
+        <statline Name="Area" DisplayName="Área" />
+        <statline Name="DamageRound1" DisplayName="Daño de la ronda 1" />
+        <statline Name="DamageRound2" DisplayName="Daño de la ronda 2" />
+        <statline Name="DamageRound3" DisplayName="Daño de la ronda 3" />
+        <statline Name="Cooldown" Unit="Ronda" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandSpaceTimeVortex">
+    <description><p>Rajas el espacio-tiempo, enviando cosas cercanas desviándose a través de una brecha en la tela cósmica.</p>
+        <br />
+        <p>Invoca un remolino que traga todo lo que se encuentra en su camino.</p>
+        <p>Puedes entrar al remolino para teletransportarte a una ubicación aleatoria en Qud.</p>
+        <switch Name="BonusDuration">
+          <case Value="0" />
+          <default><br /><statline Name="BonusDuration" DisplayName="Duración adicional" Unit="giro" /></default>
+        </switch>
+        <br />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandStunningForce">
+    <description><p>Invocas una fuerza concusiva en una zona cercana. Los criaturas son empujadas hacia afuera desde el centro de la explosión, se quedan aturdidas y reciben daño aplastante en hasta 3 incrementos.</p>
+        <br />
+        <statline Name="Range" DisplayName="Alcance" />
+        <statline Name="Area" DisplayName="Área" />
+        <statline Name="DamageIncrement" DisplayName="Incremento de daño" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandSunderMind">
+    <description><p>Rajas la mente de un enemigo, dejándolo tambaleándose en dolor.</p>
+        <br />
+        <p>Durante hasta 10 rondas, te enfrentas a un oponente en combate psíquico, infligiendo daño cada ronda.</p>
+        <p>Tomar cualquier acción distinta de pasar el turno romperá la conexión.</p>
+        <p>Cada ronda realizas un ataque mental contra MA.</p>
+        <p>Después de la décima ronda, infliges daño adicional igual a la cantidad total de daño que hayas causado hasta ese momento.</p>
+        <br />
+        <statline Name="DamageIncrement" DisplayName="Incremento de daño" />
+        <statline Name="Range" DisplayName="Alcance" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandTelepathy">
+    <description><p>Puedes comunicarte con otros a través del éter psíquico.</p>
+        <br />
+        <p>Charla con cualquiera en tu campo de visión.</p>
+        <p>Te toma mucho menos tiempo dar órdenes a tus compañeros.</p>
+      </description>
+  </ability>
+  <ability Command="CommandTeleport">
+    <description><p>Teletransportas a una ubicación cercana.</p>
+        <br />
+        <p>Teletransporta a una ubicación aleatoria dentro de un área designada.</p>
+        <statline Name="UncertaintyRadius" DisplayName="Radio de incertidumbre" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandLeaderTeleport">
+    <description><p>Teletransportas a una ubicación cercana cerca de tu líder.</p>
+        <br />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandTeleportOther">
+    <description><p>Teletransportas una criatura adyacente a una ubicación aleatoria cercana.</p>
+        <br />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandTemporalFugue">
+    <description><p>Pasas rápidamente de un momento a otro, trascendiendo el tiempo y generando múltiples copias de tu ser.</p>
+        <br />
+        <statline Name="Copies" DisplayName="Copias" />
+        <statline Name="Duration" DisplayName="Duración" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandQuantumFugue">
+    <description><p>Pasas rápidamente de un momento a otro, trascendiendo el tiempo y generando múltiples copias de tu ser.</p>
+        <br />
+        <p>Cuando el efecto cese, habita el cuerpo de la copia más saludable.</p>
+        <statline Name="Copies" DisplayName="Copias" />
+        <statline Name="Duration" DisplayName="Duración" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandTimeDilation">
+    <description><p>Distorsionas el tiempo a tu alrededor con el propósito de atenuar la velocidad de tus enemigos.</p>
+        <br />
+        <p>Las criaturas dentro de <stat Name="Range" /> espacios son lentificadas según su proximidad a ti.</p>
+        <p>Distancia 1: las criaturas reciben una penalización del <stat Name="QuicknessPenalty1" />% en su Rapidez</p>
+        <p>Distancia 4: las criaturas reciben una penalización del <stat Name="QuicknessPenalty4" />% en su Rapidez</p>
+        <p>Distancia 7: las criaturas reciben una penalización del <stat Name="QuicknessPenalty7" />% en su Rapidez</p>
+        <statline Name="Duration" DisplayName="Duración" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandWillForceStrength">
+    <description><p>Por el puro peso de tu voluntad, realizas hazañas físicas sobrenaturales.</p>
+        <br />
+        <p>Aumenta tu atributo Fuerza en una cantidad igual al doble de tu bonificación de Ego.</p>
+        <br />
+        <statline Name="Bonus" DisplayName="Bonificación de fuerza" />
+        <statline Name="Duration" DisplayName="Duración" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandWillForceAgility">
+    <description><p>Por el puro peso de tu voluntad, realizas hazañas físicas sobrenaturales.</p>
+        <br />
+        <p>Aumenta tu atributo Agilidad en una cantidad igual al doble de tu bonificación de Ego.</p>
+        <br />
+        <statline Name="Bonus" DisplayName="Bonificación de agilidad" />
+        <statline Name="Duration" DisplayName="Duración" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandWillForceToughness">
+    <description><p>Por el puro peso de tu voluntad, realizas hazañas físicas sobrenaturales.</p>
+        <br />
+        <p>Aumenta tu atributo Resistencia en una cantidad igual al doble de tu bonificación de Ego.</p>
+        <br />
+        <statline Name="Bonus" DisplayName="Bonificación de resistencia" />
+        <statline Name="Duration" DisplayName="Duración" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandSpitAcid">
+    <description><p>Espetas una charca de ácido corrosivo.</p>
+        <br />
+        <p>Cubre el área con una sustancia viscosa y ácida.</p>
+        <statline Name="Area" DisplayName="Área" />
+        <statline Name="Range" DisplayName="Alcance" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandBelchUrchins">
+    <description><p>Eructas varios criados en un área cercana.</p>
+        <br />
+        <statline Name="Amount" DisplayName="Número de criados" />
+        <statline Name="Range" DisplayName="Alcance" />
+        <statline Name="Radius" DisplayName="Radio" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandBurrow">
+    <description><p>Puedes viajar subterráneamente excavando túneles.</p>
+        <br />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandDecarbonizer">
+    <description><p>Extraes carbono de materia viva.</p>
+        <br />
+        <p>Después de un calentamiento de tres rondas, dispara un haz que secciona los miembros de sus objetivos.</p>
+        <br />
+        <statline Name="BeamDistance" DisplayName="Distancia del rayo" Unit="espacio" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandScintillate">
+    <description><p>Confundes a criaturas hostiles cercanas según el rango de confusión <stat Name="ConfusionRank" />.</p>
+        <br />
+        <p>No puedes actuar mientras estás scintillando.</p>
+        <br />
+        <statline Name="ConfusionRank" DisplayName="Rango de confusión" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandFearAura">
+    <description><p>Aterras a las criaturas que te rodean.</p>
+        <br />
+        <p>Haces huir en terror a las criaturas adyacentes.</p>
+        <br />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandStoneGaze">
+    <description><p>Con tu mirada conviertes cosas en piedra.</p>
+        <br />
+        <p>Disparas un haz después de un calentamiento de tres rondas que transforma a tu objetivo en piedra.</p>
+        <br />
+        <statline Name="Range" DisplayName="Alcance" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandCrungleGaze">
+    <description><p>Provocas sueños despiertos con tu mirada.</p>
+        <br />
+        <p>Disparas un haz después de un calentamiento de tres rondas que envía a tu objetivo a un sueño despierto.</p>
+        <br />
+        <statline Name="Range" DisplayName="Alcance" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandIrisdualBeam">
+    <description><p>Proyectas haces de poder a lo largo del espectro de la luz y la materia.</p>
+        <br />
+        <p>Disparas <stat Name="Beams" /> haces a enemigos aleatorios cada ronda durante <stat Name="Duration" />.</p>
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandInfiltrate">
+    <description><p>Teletransportas a una ubicación cercana, llevando consigo a todos dentro del radio <stat Name="TeleportRadius" />.</p>
+        <br />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandMagneticPulse">
+    <description><p>Después de un calentamiento de una ronda, emites un pulso con radio <stat Name="Radius" /> que intenta atrair objetos metálicos hacia ti, incluyendo el equipo equipado por criaturas.</p>
+        <br />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandMassiveCharge">
+    <description><p>Después de un calentamiento de una ronda, te lanzas en una carga destructiva, destruyendo paredes y empujando a las criaturas en tu camino.</p>
+        <br />
+        <statline Name="Distance" DisplayName="Distancia de carga" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandSlog">
+    <description><p>Proyectas una piscina de líquido desde tu espacio hacia un área cercana.</p>
+        <br />
+        <statline Name="Range" DisplayName="Alcance" />
+        <statline Name="Area" DisplayName="Área" />
+        <statline Name="KnockdownChance" DisplayName="Probabilidad de derribar a los oponentes" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandSpinWeb">
+    <description><p>Te enrollas en telas pegajosas de seda.</p>
+        <br />
+        <p>Mientras te enrollas, dejas telas detrás de ti al moverte.</p>
+        <br />
+        <statline Name="SpinDuration" Unit="acción de mover" DisplayName="Duración de giro" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandSpinSimpleWeb">
+    <description><p>Te enrollas en telas pegajosas de seda.</p>
+        <br />
+        <p>Mientras te enrollas, dejas telas detrás de ti al moverte.</p>
+        <br />
+        <statline Name="SpinDuration" Unit="acción de mover" DisplayName="Duración de giro" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandStickyTongue">
+    <description><p>Después de un calentamiento de una ronda, atraes hacia ti con tu lengua al criatura más cercana.</p>
+        <br />
+        <statline Name="Range" DisplayName="Alcance" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandWaveformWorm">
+    <description><p>Te apresuras en una dirección, infligiendo daño a las criaturas que atraviesas.</p>
+        <br />
+        <statline Name="Range" DisplayName="Alcance" />
+        <statline Name="Damage" DisplayName="Daño" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandBreathe_ConfusionBreather">
+    <description><p>Respiras gas de confusión.</p>
+        <br />
+        <statline Name="ConeLength" DisplayName="Longitud del cono" Unit="teja" />
+        <statline Name="ConeAngle" DisplayName="Ángulo del cono" Unit="grado" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandBreathe_CorrosiveBreather">
+    <description><p>Respiras gas corrosivo.</p>
+        <br />
+        <statline Name="ConeLength" DisplayName="Longitud del cono" Unit="teja" />
+        <statline Name="ConeAngle" DisplayName="Ángulo del cono" Unit="grado" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandBreathe_FireBreather">
+    <description><p>Respiras fuego.</p>
+        <br />
+        <statline Name="Damage" DisplayName="Daño" />
+        <statline Name="ConeLength" DisplayName="Longitud del cono" Unit="teja" />
+        <statline Name="ConeAngle" DisplayName="Ángulo del cono" Unit="grado" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandBreathe_IceBreather">
+    <description><p>Respiras hielo.</p>
+        <br />
+        <statline Name="Damage" DisplayName="Daño" />
+        <statline Name="ConeLength" DisplayName="Longitud del cono" Unit="teja" />
+        <statline Name="ConeAngle" DisplayName="Ángulo del cono" Unit="grado" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandBreathe_NormalityBreather">
+    <description><p>Respiras gas de normalidad.</p>
+        <br />
+        <statline Name="ConeLength" DisplayName="Longitud del cono" Unit="teja" />
+        <statline Name="ConeAngle" DisplayName="Ángulo del cono" Unit="grado" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandBreathe_PoisonBreather">
+    <description><p>Respiras gas venenoso.</p>
+        <br />
+        <statline Name="ConeLength" DisplayName="Longitud del cono" Unit="teja" />
+        <statline Name="ConeAngle" DisplayName="Ángulo del cono" Unit="grado" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandBreathe_ShameBreather">
+    <description><p>Respiras gas de vergüenza.</p>
+        <br />
+        <statline Name="ConeLength" DisplayName="Longitud del cono" Unit="teja" />
+        <statline Name="ConeAngle" DisplayName="Ángulo del cono" Unit="grado" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandBreathe_SleepBreather">
+    <description><p>Respiras gas de sueño.</p>
+        <br />
+        <statline Name="ConeLength" DisplayName="Longitud del cono" Unit="teja" />
+        <statline Name="ConeAngle" DisplayName="Ángulo del cono" Unit="grado" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandBreathe_StunBreather">
+    <description><p>Respiras gas de aturdimiento.</p>
+        <br />
+        <statline Name="ConeLength" DisplayName="Longitud del cono" Unit="teja" />
+        <statline Name="ConeAngle" DisplayName="Ángulo del cono" Unit="grado" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandReleaseAdrenaline">
+    <description><p>Aumentas el flujo de adrenalina en tu cuerpo por <stat Name="Duration" />.</p>
+        <p>Mientras fluye, adquieres +<stat Name="QuicknessBonus" /> agilidad y otras mutaciones físicas obtienen +<stat Name="MutationBonus" /> rango.</p>
+        <br />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandDigUp">
+    <description>Excavas un pasaje hacia arriba.</description>
+  </ability>
+  <ability Command="CommandDigDown">
+    <description>Excavas un pasaje hacia abajo.</description>
+  </ability>
+  <ability Command="CommandToggleBurrowingClaws">
+    <description><p>Portas garras afiladas como pala que pueden excavar a través de la tierra.</p>
+        <br />
+        <statline Name="WallPenetration" DisplayName="Penetración con garras contra paredes" />
+        <p>Las garras destruyen muros tras 4 impactos penetrantes.</p>
+      </description>
+  </ability>
+  <ability Command="CommandTightenCarapace">
+    <description>You can tighten your<stat Name="CarapaceName" /> to double its AV bonus at a -2 DV penalty as long as you remain still.</description>
+  </ability>
+  <ability Command="CommandDischarge">
+    <description><p>Descargas toda carga eléctrica acumulada causando 1d4 puntos de daño por cada <stat Name="DischargeChunk" /> carga.</p>
+        <p>La descarga puede saltar a objetivos adyacentes, infligiendo daño reducido, hasta 1 objetivo por cada <stat Name="DischargeChunk" /> carga.</p>
+        <p>Debes tener al menos <stat Name="DischargeChunk" /> carga para activarlo.</p>
+        <statline Name="CurrentCharge" DisplayName="Carga actual" />
+      </description>
+  </ability>
+  <ability Command="CommandToggleProvideCharge">
+    <description>Pones en funcionamiento dispositivos equipados con sistemas de energía integrados.</description>
+  </ability>
+  <ability Command="CommandElectromagneticPulse">
+    <description><p>Generas una pulsación electromagnética que deshabilita artefactos y máquinas cercanos.</p>
+        <br />
+        <statline Name="Area" Unit="centrado en ti mismo" DisplayName="Área" />
+        <statline Name="Duration" DisplayName="Duración deshabilitada" Unit="turnos" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandFlamingRay">
+    <description><p><stat Name="EmitText" /></p>
+        <br />
+        <p>Emite un rayo de llamas de <stat Name="Range" /> cuadrados en la dirección de tu elección.</p>
+        <statline Name="Damage" DisplayName="Daño" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandFrostWebs">
+    <description><p>Llenas un área cercana con telarañas heladas.</p>
+        <br />
+        <statline Name="Range" DisplayName="Alcance" />
+        <statline Name="Area" DisplayName="Área" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="GasGenerationCommandSleepGas">
+    <description><p>Liberas una explosión de gas somnífero a tu alrededor.</p>
+        <br />
+        <p>Libera gas somnífero por <stat Name="Duration" />.</p>
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="GasGenerationCommandNormalityGas">
+    <description><p>Liberas una explosión de gas de normalidad a tu alrededor.</p>
+        <br />
+        <p>Libera gas de normalidad por <stat Name="Duration" />.</p>
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="GasGenerationCommandAcidGas">
+    <description><p>Liberas una explosión de gas corrosivo a tu alrededor.</p>
+        <br />
+        <p>Libera gas corrosivo por <stat Name="Duration" />.</p>
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="GasGenerationCommandPlasma">
+    <description><p>Liberas una explosión de plasma a tu alrededor</p>
+        <br />
+        <p>Libera plasma para <stat Name="Duration" />.</p>
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="GasGenerationCommandDefoliantGas">
+    <description><p>Liberas una explosión de defoliante a tu alrededor</p>
+        <br />
+        <p>Libera defoliante para <stat Name="Duration" />.</p>
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="GasGenerationCommandPoisonGas">
+    <description><p>Liberas una explosión de gas venenoso a tu alrededor</p>
+        <br />
+        <p>Libera gas venenoso para <stat Name="Duration" />.</p>
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="GasGenerationCommandFungicideGas">
+    <description><p>Liberas una explosión de fungicida a tu alrededor</p>
+        <br />
+        <p>Libera fungicida para <stat Name="Duration" />.</p>
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="GasGenerationCommandConfusionGas">
+    <description><p>Liberas una explosión de gas confusor a tu alrededor</p>
+        <br />
+        <p>Libera gas confusor para <stat Name="Duration" />.</p>
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="GasGenerationCommandGlitterGas">
+    <description><p>Liberas una explosión de brillo y esplendor a tu alrededor</p>
+        <br />
+        <p>Libera brillo para <stat Name="Duration" />.</p>
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandSpitLiquid">
+    <description><p>Escupes una charca de <stat Name="Liquid" />.</p>
+        <br />
+        <statline Name="Range" DisplayName="Alcance" />
+        <statline Name="Area" DisplayName="Área" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandMetamorphosis">
+    <description><p>Adquieres la forma de cualquier criatura que toques.</p>
+        <br />
+        <p>Puedes asumir únicamente la forma de criaturas de nivel <stat Name="MaxLevel" /> o inferior.</p>
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandEndMetamorphosis">
+    <description>Dejas de asumir la forma de esta criatura.</description>
+  </ability>
+  <ability Command="CommandTogglePhase">
+    <description><p>Puedes atravesar objetos sólidos durante breves periodos de tiempo.</p>
+        <br />
+        <statline Name="Duration" DisplayName="Duración" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandBask">
+    <description><p>Te deleitas en la luz del sol y absorbes sus nutritivas radiaciones en lugar de consumir un alimento.</p>
+        <br />
+        <p>Adquieres un efecto metabólico especial para <stat Name="DurationDay" Unit="día" />.</p>
+        <br />
+        <statline Name="BonusRegen" DisplayName="Bonificación a la tasa de curación natural" />
+        <statline Name="BonusQuickness" DisplayName="Bonificación de agilidad" />
+      </description>
+  </ability>
+  <ability Command="CommandQuillFling">
+    <description><p>Expulsas el 10% de tu <stat Name="Quills" /> en una explosión a tu alrededor.</p>
+        <p>Regeneras <stat Name="Quills" /> aproximadamente a una tasa de <stat Name="RegenRate" /> por ronda.</p>
+        <p>Si caes por debajo de la mitad de tu <stat Name="Quills" />, pierdes <stat Name="AVPenalty" /> puntos de AV.</p>
+        <br />
+        <p><gametext>=quill|capitalize= penetration:</gametext> <stat Name="QuillPen" /></p>
+        <p><gametext>=quill|capitalize= damage:</gametext> <stat Name="QuillDamage" /></p>
+      </description>
+  </ability>
+  <ability Command="CommandSpitSlime">
+    <description><p>Producen una viscosa sustancia que puedes escupir contra cosas.</p>
+        <br />
+        <p>Cubre un área con slime.</p>
+        <statline Name="Range" DisplayName="Alcance" />
+        <statline Name="Area" DisplayName="Área" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandSting">
+    <description><p>Golpeas con tu aguijón, acertando automáticamente, penetrando y aplicando tu veneno <stat Name="VenomType" />.</p>
+        <br />
+        <statline Name="StingerPen" DisplayName="Penetración de picadura" />
+        <statline Name="StingerDamage" DisplayName="Daño de picadura" />
+        <p><switch Name="VenomType">
+          
+          <case Value="paralyzing">El veneno paraliza a los oponentes durante <stat Name="Duration" />.</case>
+          <case Value="confusing">El veneno confunde a los oponentes durante <stat Name="Duration" />.</case>
+          <case Value="poisonous">El veneno envenena a los oponentes durante <stat Name="Duration" />.</case>
+        </switch></p>
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandRepellingForce">
+    <description><p>Invocas una fuerza repulsiva en el área circundante, lanzando a los enemigos hacia atrás.</p>
+        <br />
+        <p>Las criaturas son empujadas alejándose del centro de la explosión.</p>
+        <statline Name="Area" DisplayName="Área" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandFreezingRay">
+    <description><p><stat Name="EmitText" /></p>
+        <br />
+        <p>Emite un rayo de hielo de <stat Name="Range" /> cuadrados en la dirección que elijas.</p>
+        <statline Name="Damage" DisplayName="Daño" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandPowerSwitch">
+    <description><stat Name="ItemDescription" />
+    </description>
+  </ability>
+  <ability Command="CommandFreezeBreath">
+    <description><p><stat Name="EmitText" /></p>
+        <br />
+        <p>Emite un rayo de hielo de <stat Name="Range" /> cuadrados en la dirección que elijas.</p>
+        <statline Name="Damage" DisplayName="Daño" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandDig">
+    <description>Excava automáticamente desde tu ubicación hasta una ubicación objetivo.</description>
+  </ability>
+  <ability Command="CommandToggleRunning">
+    <description><p>Te mueves rápidamente <switch Name="PowerSkate"><case Value="true">y dejas atrás un exhausto llameante</case><default>durante un breve periodo</default></switch>.</p>
+        <br />
+        <p><switch Name="Multipler"><case Value="100">Doble</case><case Value="200">Triple</case><default>+<stat Name="Multiplier" />%</default></switch> tu velocidad de movimiento durante <switch Name="PowerSkate"><case Value="true">hasta que te agotes de combustible</case><default><stat Name="Duration" /></default></switch>.</p>
+        <switch Name="DV"><case Value="0" /><default><p><stat Name="DV" /> DV</p></default></switch>
+        <p>-10 a golpear en combate cuerpo a cuerpo.</p>
+        <switch Name="MissileAccuracy">
+          <case Value="Pistol"><p>Reduced accuracy with missile weapons, except pistols.</p></case>
+          <case Value=""><p>Reduced accuracy with missile weapons.</p></case>
+        </switch>
+        <p>La carrera termina temprano si realizas una acción física distinta a moverte o pasar.</p>
+        <br />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandToggleTrashRifling">
+    <description><p>Revisas el basurero, dotado de un <switch Name="RiflingSkills">
+          <case Value="TrashDivining"><stat Name="Chance" />% de posibilidad para entrever pistas y aprender un secreto al azar</case>
+          <case Value="Scavenger">posibilidad de recoger chatarra del montón</case>
+          <case Value="Scavenger,TrashDivining">posibilidad de recoger chatarra del montón y un <stat Name="Chance" />% de posibilidades de reunir pistas y aprender un secreto al azar</case>
+          </switch>.</p>
+      </description>
+  </ability>
+  <ability Command="CommandAcrobaticsJump">
+    <description><p><switch Name="IsRangeIncreased"><case Value="true">Te <switch Name="Rocket"><case Value="true">cohete</case></switch>lanzas en un espacio vacío dentro del alcance <stat Name="MinimumRange" />-<stat Name="Range" />.</case>
+        <default>Te <switch Name="Rocket"><case Value="true">cohete</case></switch>lanzas en un espacio vacío a <stat Name="Range" /> espacios de distancia.</default></switch></p>
+        <switch Name="CanJumpOverCreatures">
+          <case Value="true"><p>You can jump over creatures.</p></case>
+          <default><p>You cannot jump over creatures.</p></default>
+        </switch>
+        <br />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandAxeBerserk">
+    <description><p>Ingresa en una frenesí sanguinaria, y durante <stat Name="Duration" /> tus probabilidades de desmembrar con ataques de hacha serán del 100%.</p>
+        <p>No puedes usarlo si Desmembrar está en enfriamiento, y el uso de Frenético pone a Desmembrar en enfriamiento.</p>
+        <p>Debes estar sosteniendo un hacha para activarlo.</p>
+        <br />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandToggleDecapitate">
+    <description><p>Las cabezas se añaden a la lista de posibles extremidades que puedes desmembrar.</p>
+        <p>Cortar la única cabeza de una criatura la mata al instante.</p>
+        <p>Si la criatura tiene múltiples cabezas, comienzan a sangrar abundantemente (2-3 puntos de daño por turno; salvación con Resistencia 35).</p>
+      </description>
+  </ability>
+  <ability Command="CommandDismember">
+    <description><p>Haces un ataque con hacha contra un enemigo. Si aciertas y penetras, desmembras uno de sus miembros al azar y comienza a sangrar.</p>
+        <br />
+        <statline Name="BleedDamage" DisplayName="Daño de sangrado" Unit="por ronda" /> 
+        <p>Ahorro de sangrado: <gametext>=statistic[Toughness].name=</gametext> <stat Name="BleedSave" /></p>
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandAxeHookAndDrag">
+    <description><p>Agarras un miembro de un enemigo con la parte posterior de tu hacha.</p>
+        <p>Si tienes éxito, cada vez que te muevas, arrastras a tu oponente contigo y realizas un ataque gratuito con tu hacha.</p>
+        <p>Tu oponente tiene una oportunidad para resistir el movimiento y otra para liberarse al comienzo de su turno.</p>
+        <br />
+        <p>Duración: 9 rondas o hasta que el enemigo sea desmembrado</p>
+        <statline Name="ResistSave" DisplayName="Resistencia al movimiento / salvación para liberarse" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandButcherToggle">
+    <description>Desmembras los cadáveres que atraviesas.</description>
+  </ability>
+  <ability Command="CommandHarvestToggle">
+    <description>Recolectas las plantas que atraviesas.</description>
+  </ability>
+  <ability Command="CommandFloorSmash">
+    <description><p>Después de un calentamiento de 3 rondas, lanzas una losa de fulcreto contra el suelo, causando daño y creando un hoyo en el cuadrante objetivo, con posibilidad de crear otros hoyos en casillas adyacentes.</p>
+        <br />
+        <statline Name="Range" DisplayName="Alcance" />
+        <statline Name="Damage" DisplayName="Daño" />
+        <statline Name="AdditionalDirectHitDamage" DisplayName="Daño adicional por impacto directo" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandSnapjawHowl">
+    <description><p>Aullas y envías a los snapjaws cercanos a la locura.</p>
+        <br />
+        <statline Name="Radius" DisplayName="Radio del efecto" />
+        <statline Name="Duration" DisplayName="Duración" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandSubmerge">
+    <description>Te sumerges en un cuerpo de agua.</description>
+  </ability>
+  <ability Command="CommandConk">
+    <description><p>Haces un ataque con una porra contra un oponente adyacente. Si aciertas, automáticamente lo desorientas durante 3-4 rondas.</p>
+        <p>Desorientar a un oponente ya desorientado lo deja estupefacto.</p>
+        <p>Golpear a uno estupefacto en cambio lo deja inconsciente durante 30-40 rondas (los oponentes inconscientes se levantan desorientados cuando reciben daño).</p>
+        <br />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandCudgelSlam">
+    <description><p>Haces un ataque con una porra contra un oponente adyacente, con +1 a tu tirada de penetración.</p>
+        <p>Si aciertas, empujas a tu oponente hacia atrás hasta <stat Name="Distance" /> espacios, empujando a otras criaturas y atravesando paredes si sus AV son menores de cinco veces tu modificador de fuerza.</p>
+        <p>Los oponentes que son empujados quedan estupefactos durante 1 ronda más una ronda adicional por cada espacio empujado.</p>
+        <p>Los oponentes que son empujados a través o contra paredes reciben daño adicional de arma por cada pared.</p>
+        <p>Los oponentes gigantes no son empujados, pero aún quedan estupefactos durante 1 ronda.</p>
+        <p>Destruye una pared o puerta si su AV es inferior a cinco veces tu modificador de fuerza.</p>
+        <br />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandSmashUp">
+    <description><p>Durante <stat Name="Duration" />, tu chance de desorientar con ataques de porra es del 100% y Slam no tiene enfriamiento.</p>
+        <p>No puedes usarlo si Slam está en enfriamiento, y el uso de Demolish pone a Slam en enfriamiento.</p>
+        <p>Debes estar sosteniendo una porra para activarlo.</p>
+        <br />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandFlurry">
+    <description><p>Haces un ataque con cada miembro que porta armas, incluyendo miembros adicionales concedidos por mutación o tecnología.</p>
+        <br />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandSingleWeaponFighting">
+    <description>No se lanzan ataques improvisados en intercambio de maestría con una sola arma.</description>
+  </ability>
+  <ability Command="CommandHeavyWeaponsSweep">
+    <description><p>Disparas <stat Name="Shots" /> tiros con tu arma pesada, cubriendo un cono de <stat Name="ConeWidth" /> grados. Tu arma pesada se recarga antes de cada disparo.</p>
+        <br />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandAggressiveStance">
+    <description><p>Mientras portas una hoja larga en tu mano principal, obtienes +<stat Name="PenBonus" /> a tus tiradas de penetración pero -<stat Name="HitPenalty" /> para acertar.</p>
+        <br />
+        <p>Las posturas también pueden afectar otras habilidades.</p>
+      </description>
+  </ability>
+  <ability Command="CommandDefensiveStance">
+    <description><p>Mientras sostienes una larga arma en tu mano principal, ganas +<stat Name="DVBonus" /> de defensa.</p>
+        <br />
+        <p>Las posturas también pueden afectar otras habilidades.</p>
+      </description>
+  </ability>
+  <ability Command="CommandDeathblow">
+    <description><p>Durante los próximos <stat Name="Duration" />, Lunge y Swipe no tienen cooldown.</p>
+        <br />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandDuelingStance">
+    <description><p>Mientras sostienes una larga arma en tu mano principal, ganas +<stat Name="HitBonus" /> a la probabilidad de acertar.</p>
+        <br />
+        <p>Las posturas también pueden afectar otras habilidades.</p>
+      </description>
+  </ability>
+  <ability Command="CommandLunge">
+    <description><p>{{W|Postura agresiva}}: Se lanza a través de un espacio vacío hacia un oponente y ataca con +2 en tu tirada de penetración. Debes lanzarte a través del espacio vacío.</p>
+        <br />
+        <p>{{W|Postura defensiva}}: Ataca a un oponente y luego retrocede 2 espacios.</p>
+        <br />
+        <p>{{W|Postura de duelo}}: Ataca a un oponente con +1 en tu tirada de penetración. El ataque garantiza al menos un acierto y una penetración.</p>
+        <br />
+        <p>Debes sostener una larga arma en tu mano principal para usar Lunge.</p>
+        <br />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandSwipe">
+    <description><p>{{W|Postura agresiva}}: Hace un ataque contra todos los oponentes adyacentes.</p>
+        <br />
+        <p>{{W|Postura defensiva}}: Empuja a todas las criaturas adyacentes 1 espacio hacia atrás y trata de derribar a los oponentes. (Salvación de Fuerza / Agilidad; dificultad 30)</p>
+        <br />
+        <p>{{W|Postura de duelo}}: Ataca a un oponente y trata de desarmarlo (salvación de Fuerza; dificultad 25 + modificador de Agilidad). El ataque garantiza al menos un acierto y una penetración.</p>
+        <br />
+        <p>Debes sostener una larga arma en tu mano principal para usar Lunge.</p>
+        <br />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandPersuasionBerate">
+    <description><p>Haces sentir vergüenza a una criatura cercana, otorgándole -4 a defensa, probabilidad de acertar, Ego y Voluntad, y -10% a su Rapidez.</p>
+        <br />
+        <statline Name="Duration" DisplayName="Duración" />
+        <statline Name="Range" DisplayName="Alcance" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandIntimidate">
+    <description><p>Aterras a las criaturas hostiles adyacentes, obligándolas a huir de ti durante <stat Name="Duration" />.</p>
+        <br />
+        <p>Ataque mental contra criaturas con mente.</p>
+        <br />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandPersuasionMenacingStare">
+    <description><p>Miras fijamente a un oponente y lo haces huir en terror.</p>
+        <br />
+        <p>Ataque mental contra criaturas con mente.</p>
+        <br />
+        <statline Name="Range" DisplayName="Alcance" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandProselytize">
+    <description><p>Persuades a una criatura inteligente para que te siga.</p>
+        <br />
+        <p>Ataque basado en Ego contra MA + nivel de personaje</p>
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandRebukeRobot">
+    <description><p>Reprendes a un robot para que se aleje o te acompañe.</p>
+        <br />
+        <p>Ataque basado en Ego contra un robot.</p>
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandToggleAkimbo">
+    <description>Cada vez que efectúas un ataque a distancia mientras portas múltiples armas, disparas un proyectil con cada una de ellas.</description>
+  </ability>
+  <ability Command="CommandPistolEmptyTheClips">
+    <description><p>Disparar con una pistola solo requiere la mitad de un turno en lugar de todo un turno completo.</p>
+        <br />
+        <statline Name="Duration" DisplayName="Duración" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandMarkTarget">
+    <description><p>Gastas un turno para apuntar a un objetivo y marcarlo.</p>
+        <br />
+        <p>Cada vez que disparas contra un objetivo marcado con arco o rifle, tu agilidad se considerará como si fuera 2 puntos más alta para el propósito de determinar tu precisión.</p>
+        <br />
+        <p>Solo puedes marcar un único objetivo a la vez.</p>
+        <br />
+        <p>Los objetivos se desmarcan si pierdes su visión.</p>
+      </description>
+  </ability>
+  <ability Command="CommandDisciplineMeditate">
+    <description><p>Mientras meditas, regeneras tres veces más rápido y los efectos negativos se desvanecen tres veces más rápido.</p>
+        <br />
+        <p>La única acción que puedes tomar mientras meditas es Esperar.</p>
+        <br />
+        <p>Dejas de meditar si recibes daño en un solo turno que excede <stat Name="DamageThreshold" />.</p>
+        <br />
+        <p>Si descansas durante 10 o más turnos, comenzarás automáticamente a meditar.</p>
+        <br />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandShieldWall">
+    <description><p>Durante los próximos tres turnos, bloquearás automáticamente todos los ataques cuerpo a cuerpo que lleguen hacia ti.</p>
+        <br />
+        <p>No puede usarse junto con escudos de protección.</p>
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandShieldSlam">
+    <description><p>Derribas a un oponente con tu escudo y le infliges daño.</p>
+        <br />
+        <p>Cada vez que cargas contra un oponente equipado con un escudo, obtienes un ataque gratuito de Golpe de Escudo contra ellos.</p>
+        <br />
+        <statline Name="Damage" DisplayName="Daño" />
+        <statline Name="KnockdownSave" DisplayName="Salvación contra derribo" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandHobble">
+    <description><p>Haces un ataque con una arma corta en tu mano principal, buscando un punto débil en la armadura de tu oponente. Si aciertas, penetras exactamente una vez y lo cojeas.</p>
+        <br />
+        <statline Name="HobbleEffect" DisplayName="Efecto cojera" />
+        <statline Name="HobbleDuration" DisplayName="Duración del cojear" Unit="ronda" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandToggleRejoinder">
+    <description>Una vez por ronda, cuando un oponente te falla con un ataque cuerpo a cuerpo, existe un 40% de probabilidad de que realices un ataque gratuito con la daga corta que portas.</description>
+  </ability>
+  <ability Command="CommandShank">
+    <description><p>Haces un ataque cuerpo a cuerpo con una arma corta en tu mano principal (preferida) o en la mano secundaria. Si aciertas, el ataque obtiene +2 en los lanzamientos de penetración por cada efecto negativo que sufra tu oponente.</p>
+        <br />
+        <statline Name="PrimaryHandCooldown" DisplayName="Enfriamiento de la mano principal" Unit="ronda" />
+        <statline Name="OffhandCooldown" DisplayName="Enfriamiento de la mano secundaria" Unit="ronda" />
+      </description>
+  </ability>
+  <ability Command="CommandSurvivalCamp">
+    <description><p>Enciendes un fuego para cocinar comidas y preservar alimentos.</p>
+        <br />
+        <p>No puedes establecer campamento mientras estás en combate.</p>
+      </description>
+  </ability>
+  <ability Command="CommandMeleeCharge">
+    <description><p>Te lanzas hacia adelante y haces un ataque cuerpo a cuerpo con +1 en tu lanzamiento de penetración.</p>
+        <br />
+        <statline Name="Range" Unit="espacios" DisplayName="Alcance" />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandTacticsJuke">
+    <description><p>Te mueves un espacio sin costo de acción, intercambiando espacios si hay una criatura en el espacio objetivo.</p>
+        <br />
+        <p>Puedes intercambiar espacios con criaturas hostiles.</p>
+        <br />
+        <statline Name="Cooldown" DisplayName="Refrigeración" />
+      </description>
+  </ability>
+  <ability Command="CommandDeployTurret">
+    <description>Despliegas una arma de proyectiles como torreta estática y le suministras municiones.</description>
+  </ability>
+  <ability Command="CommandLayMine">
+    <description>Despliegas una granada como mina.</description>
+  </ability>
+  <ability Command="CommandLayMineTimed">
+    <description>Despliegas una granada como bomba cronometrada.</description>
+  </ability>
+  <ability Command="CommandRechargeObject">
+    <description>Recargas una celda de energía o un condensador con piezas de ajuste.</description>
+  </ability>
+  <ability Command="CommandReleaseVehicle">
+    <description>Sales del asiento del piloto del vehículo en el que estás.</description>
+  </ability>
+  <ability Command="CommandSeatEject">
+    <description>Tú y tus acompañantes sentados son expulsados violentamente del vehículo en el que estáis.</description>
+  </ability>
+</activatedabilities>

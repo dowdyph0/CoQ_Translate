@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<subtypes Lang="es_ES" Encoding="utf-8">
+  <class ID="Castes" ChargenTitle="elige casta" SingularTitle="casta">
+    <category Name="Ekuemekiyye" DisplayName="{G|Los Arboreta Tóxicos de Ekuemekiyye, la Santa Ciudad}">
+      <subtype Name="Horticulturist" DisplayName="Horticultor" />
+      <subtype Name="Priest of All Suns" DisplayName="Sacerdote de Todos los Soles" />
+      <subtype Name="Priest of All Moons" DisplayName="Sacerdote de Todas las Lunas" />
+      <subtype Name="Syzygyrior" DisplayName="Sizigior" />
+    </category>
+    <category Name="Ibul" DisplayName="{C|La Arcología Cubierta de Hielo de Ibul}">
+      <subtype Name="Artifex" DisplayName="Artefactor" />
+      <subtype Name="Consul" DisplayName="Consul" />
+      <subtype Name="Praetorian" DisplayName="Pretorio" />
+      <subtype Name="Eunuch" DisplayName="Eunuco" />
+    </category>
+    <category Name="Yawningmoon" DisplayName="{{R|Las Mortajas Crustales de Yawningmoon}}">
+      <subtype Name="Child of the Hearth" DisplayName="Hijo de la Hoguera" />
+      <subtype Name="Child of the Wheel" DisplayName="Hijo de la Rueda" />
+      <subtype Name="Child of the Deep" DisplayName="Hijo de lo Profundo" />
+      <subtype Name="Fuming God-Child" DisplayName="Dios-Hijo Enfadado" />
+    </category>
+  </class>
+  <class ID="Callings" ChargenTitle="elige tu vocación" SingularTitle="vocación">
+    <subtype Name="Apostle" DisplayName="Apostolado" />
+    <subtype Name="Arconaut" DisplayName="Arconauta">
+      
+    </subtype>
+    <subtype Name="Greybeard" DisplayName="Barba Gris" />
+    <subtype Name="Gunslinger" DisplayName="Hacedor de Balas" />
+    <subtype Name="Marauder" DisplayName="Asaltante" />
+    <subtype Name="Pilgrim" DisplayName="Peregrino" />
+    <subtype Name="Nomad" DisplayName="Nómada">
+      
+    </subtype>
+    <subtype Name="Scholar" DisplayName="Erudito" />
+    <subtype Name="Tinker" DisplayName="Artesano">
+      
+    </subtype>
+    <subtype Name="Warden" DisplayName="Guardián" />
+    <subtype Name="Water Merchant" DisplayName="Mercader del Agua">
+      
+      
+    </subtype>
+    <subtype Name="Watervine Farmer" DisplayName="Campesino de la Vid del Agua">
+      
+    </subtype>
+  </class>
+</subtypes>

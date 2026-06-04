@@ -39,8 +39,13 @@ Key variables:
 | `MOD_NAME` | Output folder and mod name (e.g. `SpanishLanguage`) |
 | `MOD_DISPLAY_NAME` | Language name shown in the in-game picker |
 | `LLM_ENDPOINT` | llama.cpp or compatible OpenAI endpoint |
-| `BATCH_SIZE` | Strings per LLM call |
-| `WORKERS` | Parallel threads — match llama.cpp `-np` |
+| `BATCH_SIZE` | Max strings per LLM call |
+| `MAX_TOKENS` | Max output tokens per LLM call |
+| `DB_NAME` | PostgreSQL database name (default: `coq_translate`) |
+| `DB_USER` | PostgreSQL user (default: `coq`) |
+| `DB_PASSWORD` | PostgreSQL password |
+| `DB_HOST` | PostgreSQL host (default: `db` inside Docker) |
+| `DB_PORT` | PostgreSQL port (default: `5432`) |
 
 ### 2. Start services
 
@@ -49,7 +54,8 @@ docker compose up
 ```
 
 This starts:
-- `translation-editor` — Django web editor at <http://localhost:8000>
+- `db` — PostgreSQL 16 (Alpine, low-RAM tuned) — internal only
+- `translation-editor` — Django web editor at <http://localhost:3003>
 - `llama-server` — llama.cpp inference server at <http://localhost:9090>
 
 Default credentials: **admin / admin** — change after first login.
@@ -66,7 +72,6 @@ CoQ_Translate/
 │   ├── sys_single.txt                  ← single-string system prompt
 │   └── sys_batch.txt                   ← batch system prompt
 ├── editor/
-│   ├── db.sqlite3                      ← translation database
 │   └── translations/
 │       └── pipeline.py                 ← shared XML/LLM helpers
 └── SpanishLanguage/                    ← generated mod (auto-created)
@@ -141,7 +146,7 @@ The Django editor at <http://localhost:8000> lets you review, search, and edit t
 
 **Variable protection**: game variables and XML entities are replaced with `[[P0]]`, `[[P1]]`, … before the LLM call and restored afterwards.
 
-> **Backup**: `editor/db.sqlite3` contains all your translations. Back it up before bulk operations.
+> **Backup**: translations live in PostgreSQL (`db_data` Docker volume). Back it up with `docker compose exec db pg_dump -U coq coq_translate > backup.sql` before bulk operations.
 
 ---
 

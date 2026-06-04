@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<relics Lang="es_ES" Encoding="utf-8">
+  <relictypemappings>
+    <relictypemapping Name="hacha" Type="Axe" />
+    <relictypemapping Name="daga" Type="ShortBlade" />
+    <relictypemapping Name="cuchillo de cazar" Type="ShortBlade" />
+    <relictypemapping Name="espada" Type="LongBlade" />
+    <relictypemapping Name="martillo" Type="Cudgel" />
+    <relictypemapping Name="mazo" Type="Cudgel" />
+    <relictypemapping Name="martillos" Type="Cudgel" />
+    <relictypemapping Name="golpear con fuerza" Type="Cudgel" />
+    <relictypemapping Name="yelmo" Type="Head" />
+    <relictypemapping Name="casco" Type="Head" />
+    <relictypemapping Name="armadura" Type="Body" />
+    <relictypemapping Name="chaqueta protectora" Type="Body" />
+    <relictypemapping Name="cotas de malla" Type="Body" />
+    <relictypemapping Name="máscara" Type="Face" />
+    <relictypemapping Name="brazalete" Type="Arm" />
+    <relictypemapping Name="par de botas" Type="Feet" />
+    <relictypemapping Name="bota" Type="Feet" />
+    <relictypemapping Name="botas" Type="Feet" />
+    <relictypemapping Name="guante de hierro" Type="Hands" />
+    <relictypemapping Name="par de guantes" Type="Hands" />
+    <relictypemapping Name="guante" Type="Hands" />
+    <relictypemapping Name="guantes" Type="Hands" />
+    <relictypemapping Name="guantelete" Type="Hands" />
+    <relictypemapping Name="guanteletes" Type="Hands" />
+    <relictypemapping Name="esfera flotante" Type="Floating" />
+    <relictypemapping Name="artefacto" Type="Artifact" />
+    <relictypemapping Name="herramienta estelar" Type="Artifact" />
+    <relictypemapping Name="rifle" Type="Rifle" />
+    <relictypemapping Name="brazo largo" Type="Rifle" />
+    <relictypemapping Name="pistola" Type="Pistol" />
+    <relictypemapping Name="arma de fuego" Type="Pistol" />
+    <relictypemapping Name="brazo corto" Type="Pistol" />
+    <relictypemapping Name="tratado" Type="Book" />
+    <relictypemapping Name="cronología" Type="Book" />
+    <relictypemapping Name="filosofía" Type="Book" />
+    <relictypemapping Name="hipótesis" Type="Book" />
+    <relictypemapping Name="relato" Type="Book" />
+    <relictypemapping Name="lectura de horóscopo" Type="Book" />
+    <relictypemapping Name="alegoría" Type="Book" />
+    <relictypemapping Name="verdad invernal" Type="Book" />
+    <relictypemapping Name="comida" Type="Food" />
+    <relictypemapping Name="banquete" Type="Food" />
+    <relictypemapping Name="cráneo" Type="Curio" />
+    <relictypemapping Name="dado de un lado" Type="Curio" />
+    <relictypemapping Name="dado de dos lados" Type="Curio" />
+    <relictypemapping Name="dado de tres lados" Type="Curio" />
+    <relictypemapping Name="dado de cuatro lados" Type="Curio" />
+    <relictypemapping Name="dado de cinco lados" Type="Curio" />
+    <relictypemapping Name="dado de seis lados" Type="Curio" />
+    <relictypemapping Name="dado de siete lados" Type="Curio" />
+    <relictypemapping Name="dado de ocho lados" Type="Curio" />
+    <relictypemapping Name="dado de nueve lados" Type="Curio" />
+    <relictypemapping Name="dado de diez lados" Type="Curio" />
+    <relictypemapping Name="dado de doce lados" Type="Curio" />
+    <relictypemapping Name="dado de veinte lados" Type="Curio" />
+    <relictypemapping Name="moneda" Type="Curio" />
+    <relictypemapping Name="escudo" Type="Shield" />
+  </relictypemappings>
+</relics>
