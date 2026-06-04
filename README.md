@@ -1,6 +1,6 @@
 # Caves of Qud — Translation Pipeline
 
-![Spanish language preview](SpanishLanguage/preview.png)
+![Spanish language preview](logo.png)
 
 Automated XML translation pipeline for [Caves of Qud](https://www.cavesofqud.com/) using a local LLM via [llama.cpp](https://github.com/ggerganov/llama.cpp). Translates every `▶`-marked string in `ExampleLanguage/*.example.xml` and writes the results as a ready-to-install language mod.
 
